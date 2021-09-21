@@ -1,0 +1,50 @@
+.margen{
+	width:800px;
+	margin:0 auto;
+	position:relative;
+}
+
+header nav#principal {
+    margin: 31px 150px 0px 0px;
+}
+
+header nav#menuMexico {
+	position:absolute;
+	right:260px;
+	top:81px;
+}
+header nav#menuExplora {
+	position:absolute;
+	right:168px;
+	top:81px;
+}
+
+header nav#menuMateriales {
+	position:absolute;
+	right:123px;
+	top:81px;
+}
+
+footer strong{
+	position: absolute;
+	top: 7px;
+	right: 35px;
+	color: #FFF;
+	width: 384px;
+	font-size: 16px;
+}
+
+footer p{
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	color: #fff;
+	font-size: 11px;
+	width: 400px!important;
+}
+
+.barraExtra {
+    bottom: -10px;
+	z-index: 8000;
+}
+

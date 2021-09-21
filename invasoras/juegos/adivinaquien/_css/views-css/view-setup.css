@@ -1,0 +1,196 @@
+/* ================================================================ */
+/* SETUP VIEW */
+/* ---------------------------------------------------------------- */
+
+/*  */
+.view-setup {
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    /*background-color: #fff;*/
+    /*background-image: url(../../_imgs/views-imgs/view-setup/children.jpg);*/
+    background-size: cover;
+    background-position: center;
+}
+
+.setup-board {
+    background-color: rgba(255,255,255,0.5);
+    width: 825px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 24px #aaa;
+}
+.setup-board .view-title {
+    font-size: 48px;
+    text-transform: none;
+    color: #634531;
+    margin: 10px auto 24px auto;
+}
+.view-setup .main-description {
+    width: 400px;
+    float: right;
+    font-size: 24px;
+    color: #634531;
+    /* background-color: orange; */
+    padding: 16px 16px 16px 0;
+    margin: 54px 0;
+}
+
+.setup-board .option-block {
+    margin: 8px 0;
+    padding: 8px;
+    transition: background-color 0.35s ease-in-out;
+}
+.setup-board .option-block:hover {
+ /*   background-color: rgba(136,238,136,0.25);
+    background-color: #FDF7EB;*/
+}
+.setup-board .option-block h2 {
+    font-family: 'McLaren', cursive;
+    font-weight: normal;
+    color: #634531;
+    font-size: 30px;
+    margin: 0;
+}
+.setup-board .option-block h3 {
+    font-family: 'McLaren', cursive;
+    font-weight: normal;
+    color: #CC9D4B;
+    font-size: 30px;
+    margin: 0;
+}
+
+.setup-board .option-block * {
+    /*cursor: pointer;*/
+}
+
+.setup-board .option-block.block-image {
+    width: 200px;
+    /*background-color: teal;*/
+    padding: 0;
+}
+.setup-board .option-block.block-image img {
+    width: 100%;
+    height: auto;
+}
+.setup-board .option-block.block-image img.luna {
+    margin: 0 0 0 100px;
+}
+.setup-board .option-block.block-image img.robby {
+    margin: 0 0px 0 -100px;
+}
+.setup-board .option-block.block-left {
+    float: left;
+}
+.setup-board .option-block.block-right {
+    float: right;    
+}
+.setup-board .option-block.option-rules {
+    width: 600px;
+}
+.setup-board .option-block.option-levels {
+    width: 400px;
+    margin: 0 0 0 200px;
+}
+
+.setup-board label {
+    font-size: 28px;
+    color: #634531;
+    cursor: pointer;
+    /*text-transform: uppercase;*/
+}
+
+.setup-board .option-description {
+    display: block;
+    margin: 0 auto auto auto;
+    font-size: 16px;
+}
+
+.setup-board input[type="radio"] {
+    padding: 8px;
+    background-color: orange;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+.setup-board .input {
+    /*
+    position: absolute;
+    left: 222px;
+    bottom: 65px;
+    */
+    display: block;
+    width: 408px;
+    padding: 8px;
+    margin: 12px auto 0px auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    background-color: #BCA495;
+    border: 1px solid #BCA495;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 24px;
+    color: #BCA495;
+    color: #fff;
+    transition: background-color 0.35s ease-in-out;
+}
+.setup-board .input::-webkit-input-placeholder { 
+    color: white;
+}
+.setup-board .input:focus {
+    outline: none;
+    background-color: #F0D9A5;
+    color: #634531;
+}
+.setup-board .input:focus::-webkit-input-placeholder {
+    color: #634531;    
+}
+
+.setup-board .btn-next {
+    text-transform: uppercase;
+    padding: 8px;
+    border: 1px solid #BCA495;
+    background-color: #BCA495;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    bottom: 16px;
+    left: 273px;
+    width: 384px;
+    border-radius: 24px;
+    font-size: 1.1em;
+    text-align: center;
+    transition: background-color 0.35s ease-in-out;
+    margin: 0 auto;
+}
+
+.setup-board .btn-next:hover {
+    background-color: #fc6;
+    background-color: #66f;
+    background-color: #F0D9A5;
+    color: white;
+}
+
+.setup-board .btn-ok {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px 0;
+    margin: 4px auto;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #CC9D4B;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 0.9em;
+    /* border: #e5e5e5 1px solid; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color 0.35s ease-in-out 0s;
+}

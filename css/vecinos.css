@@ -1,0 +1,579 @@
+section {
+	width: 100%;
+	height: 600px;
+}
+
+.fondovv {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+h2 {
+	background-image: url("../assets/img/conoce/vecinosverde/banderavv.png");
+	font-family: mclaren-regular;
+	position: absolute;
+	width: 170px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 50px;
+	line-height: 44px;
+	font-size: 19px;
+	padding-left: 30px;
+	color: #FFF;
+	font-weight: 100;
+	left: -160px;
+	top: 15%;
+}
+
+#mexico {
+	background-image: url(../assets/img/conoce/vecinosverde/mexico_bn.jpg);
+	margin-top: 81px;
+	overflow: hidden;
+}
+
+#mexico h2 {
+	top: 44%;
+}
+
+.verdesText {
+	position: relative;
+	text-align: center;
+	font-size: 17px;
+	font-size: 1.5vw;
+	padding-top: 13%;
+	color: #021B12;
+}
+.botonesvv {
+	width: 20%;
+	height: 24%;
+	background-image: url("../assets/img/conoce/vecinosverde/botonesvv.png");
+	margin-top: 1%;
+	position: absolute;
+	background-size: 100% auto;
+	left: 54%;
+	margin-left: -9.5%;
+	background-repeat: no-repeat
+}
+.overlink {
+	width: 25%;
+	height: 100%;
+	display: inline-block;
+}
+.greentext {
+	color: #006441;
+	font-size: 18px;
+}
+
+#nube1 {
+	background-image: url("../assets/img/conoce/vecinosverde/nube1.png");
+	width: 28%;
+	height: 10%;
+	position: absolute;
+	top: 2%;
+	left: 21%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+#nube2 {
+	background-image: url("../assets/img/conoce/vecinosverde/nube2.png");
+	width: 25%;
+	height: 22%;
+	position: absolute;
+	top: 9%;
+	left: 71%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+#nube3 {
+	background-image: url("../assets/img/conoce/vecinosverde/nube3.png");
+	width: 25%;
+	height: 13%;
+	position: absolute;
+	top: 19%;
+	left: 15%;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+#africa {
+	background-image: url(../assets/img/conoce/vecinosverde/africa_bn.jpg);
+	margin-top: -9.6%;
+}
+
+#asia {
+	background-image: url(../assets/img/conoce/vecinosverde/asia_bn.jpg);
+}
+
+#australia {
+	background-image: url(../assets/img/conoce/vecinosverde/australia_bn.jpg);
+	margin-top: -8.7%;
+}
+
+#europa {
+	background-image: url(../assets/img/conoce/vecinosverde/europa_bn.jpg);
+	margin-top: -1%;
+}
+
+#norteamerica {
+	background-image: url(../assets/img/conoce/vecinosverde/norteamerica_bn.jpg);
+	margin-top: -14.6%;
+}
+
+#sudamerica {
+	background-image: url(../assets/img/conoce/vecinosverde/sudamerica_bn.jpg);
+	margin-top: -1%;
+}
+.dayimg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.logoverdes {
+	width: 23%;
+	height: 11%;
+	background-image: url("../assets/img/conoce/vecinosverde/logovv.png");
+	margin-top: 3%;
+	position: absolute;
+	background-size: 100%;
+	left: 50%;
+	margin-left: -12.5%;
+}
+
+.arboles {
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.mask {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 500;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+#modal {
+	display: none;
+	width: 700px;
+	height: 430px;
+	top: 25%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 600;
+	position: fixed;
+}
+
+.imgArbol {
+	width: 282px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	display: inline-block;
+}
+
+.descArbol {
+	display: inline-block;
+	width: 357px;
+	color: rgb(255, 255, 255);
+	vertical-align: top;
+	margin-left: 35px;
+	margin-top: 29px;
+	font-size: 16px;
+}
+
+.descArbol i{
+	display: block;
+	font-size: 20px;
+	
+}
+
+.descArbol b {
+	font-size: 20px;
+}
+
+#btnCerrar {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-image: url('../assets/img/iconoscerrar.png');
+  background-size: auto 100%;
+  right: -17px;
+  top: -18px;
+}
+/* México */
+
+#ahuehuete {
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	width: 29%;
+	height: 28%;
+}
+
+#cedro {
+	position: absolute;
+	top: 53%;
+	right: 76%;
+	width: 19%;
+	height: 30%;
+}
+
+#colorin {
+	position: absolute;
+	top: 58%;
+	left: 48%;
+	width: 23.5%;
+	height: 24%;
+}
+
+#fresno {
+	position: absolute;
+	top: 41%;
+	right: 20.7%;
+	width: 16%;
+	height: 22%;
+}
+
+#guajeb {
+	position: absolute;
+	top: 44%;
+	right: 47%;
+	width: 13.5%;
+	height: 25%;
+}
+
+#izote {
+	position: absolute;
+	top: 62%;
+	right: 56%;
+	width: 9%;
+	height: 19%;
+}
+
+#palmam {
+	position: absolute;
+	top: 52%;
+	right: 1%;
+	width: 17%;
+	height: 44%;
+}
+
+#tepozan {
+	position: absolute;
+	top: 70%;
+	right: 12%;
+	width: 20%;
+	height: 19%;
+}
+
+
+/* África */
+
+#arafrica {
+	margin-top: 72px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+}
+
+#alamo {
+	position: absolute;
+	width: 16%;
+	height: 50%;
+	top: 6%;
+	left: 48%;
+}
+
+#ficuslira {
+	position: absolute;
+	top: 59%;
+	right: 19%;
+	width: 17%;
+	height: 37%;
+}
+
+#ahortensiaslamo {
+	position: absolute;
+	top: 47%;
+	right: 65%;
+	width: 11%;
+	height: 16%;
+}
+
+#palmeracanaria {
+	position: absolute;
+	top: 16%;
+	right: 70%;
+	width: 17%;
+	height: 70%;
+}
+
+#platanofalso {
+	position: absolute;
+	top: 9%;
+	right: 60%;
+	width: 15%;
+	height: 38%;
+}
+
+#tulipan {
+	position: absolute;
+	top: 48%;
+	right: 32%;
+	width: 29%;
+	height: 48%;
+}
+
+
+/* Asia */
+
+#hule {
+	position: absolute;
+	top: 0%;
+	right: 75%;
+	width: 17%;
+	height: 57%;
+}
+
+#laurel {
+	position: absolute;
+	top: 0%;
+	right: 8%;
+	width: 27%;
+	height: 54%;
+}
+
+#nispero {
+	position: absolute;
+	top: 11%;
+	right: 29%;
+	width: 15%;
+	height: 45%;
+}
+
+#patadevaca {
+	position: absolute;
+	top: 61%;
+	right: 14%;
+	width: 17%;
+	height: 37%;
+}
+
+#sauce {
+	position: absolute;
+	top: 11%;
+	right: 57%;
+	width: 17%;
+	height: 40%;
+}
+
+#trueno {
+	position: absolute;
+	top: 65%;
+	right: 70%;
+	width: 17%;
+	height: 33%;
+}
+
+
+/* Australia */
+
+#araustralia {
+	margin-top: 72px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+}
+
+#araucaria {
+	position: absolute;
+	top: 24%;
+	right: 71%;
+	width: 17%;
+	height: 68%;
+}
+
+#casuarina {
+	position: absolute;
+	top: 44%;
+	right: 55%;
+	width: 21%;
+	height: 48%;
+}
+
+#eucalipto {
+	position: absolute;
+	top: 0%;
+	right: 35%;
+	width: 35%;
+	height: 55%;
+}
+
+#roblea {
+	position: absolute;
+	top: 40%;
+	right: 18%;
+	width: 15%;
+	height: 52%;
+}
+
+
+/* Europa */
+
+#areuropa {
+	margin-top: 72px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+}
+
+#castano {
+	position: absolute;
+	top: 0%;
+	right: 41%;
+	width: 23%;
+	height: 83%;
+}
+
+#sicomoro {
+	position: absolute;
+	top: 15%;
+	right: 5%;
+	width: 17%;
+	height: 68%;
+}
+
+
+/* Norteamerica */
+
+#liquidambar {
+	position: absolute;
+	top: 0%;
+	right: 20%;
+	width: 22%;
+	height: 90%;
+}
+
+#magnolia {
+	position: absolute;
+	top: 19%;
+	right: 64%;
+	width: 20%;
+	height: 73%;
+}
+
+
+/* Sudamérica */
+
+#arsudamerica {
+	margin-top: 72px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+}
+
+#jacaranda {
+  position: absolute;
+  top: 40%;
+  right: 33%;
+  width: 35%;
+  height: 52%;
+}
+
+#ombu {
+	position: absolute;
+	top: 19%;
+	right: 12%;
+	width: 32%;
+	height: 52%;
+}
+
+#pimentero {
+	position: absolute;
+	top: 0%;
+	right: 32%;
+	width: 34%;
+	height: 39%;
+}
+
+#pirul {
+	position: absolute;
+	top: 25%;
+	right: 54%;
+	width: 36%;
+	height: 45%;
+}
+
+@media all and (min-width: 960px) {
+  .verdesText {
+		font-size: 17px;
+	}
+	
+	.botonesvv {
+	width: 12%;
+	height: 18%;
+	}
+	.logoverdes {
+	width: 20%;
+	height: 9%;
+	left: 52%;
+	}
+	#nube2 {
+	top: 9%;
+	left: 71%;
+	}
+}
+
+.banderav {
+	height: 41px;
+	width: 87px;
+	position: fixed;
+	right: 0px;
+	background-image: url("../assets/img/conoce/vecinosverde/banderasvecinos.png");
+	background-size: 95px auto;
+	background-repeat: no-repeat;
+	z-index: 500;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	display: none;
+}
+
+.banderav a {
+	display: block;
+	height: 41px;
+	width: 87px;
+}
+
+#fotos {
+	top: 220px;
+	background-position: 25px -2px;
+}
+
+#juego {
+	top: 262px;
+	background-position: 25px -49px;
+}
+
+#mapa {
+	top: 305px;
+	background-position: 25px -97px;
+}
+
+#fotos:hover{
+	background-position: 0px -2px;
+}
+
+#juego:hover{
+	background-position: 0px -49px;
+}
+
+#mapa:hover{
+	background-position: 0px -97px;
+}

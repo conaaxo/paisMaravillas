@@ -1,0 +1,331 @@
+section {
+
+  overflow:hidden;
+
+  width: 100%;
+
+  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
+
+  height: 100%;
+
+}
+
+
+
+.margen{
+
+  z-index: 2;
+
+}
+
+
+
+#dow1 {
+
+  background-color: #225e5d;
+
+  color: #FFF;
+
+  position:relative;
+
+  padding-top:81px;
+
+  z-index: 3;
+
+  height: 324px;
+
+}
+
+#dow1 .margen {
+
+  height: 100%;
+
+}
+
+#dow1 p {
+
+  width: 412px;
+
+  text-align: center;
+
+  top: 73px;
+
+  left: 160px;
+
+  position: absolute;
+
+}
+
+#dow1 #titoLibro {
+
+  height: 100%;
+
+  width: 237px;
+
+  background-image: url("../assets/img/materiales/descargables/descargables.png");
+
+  background-size: 100% auto;
+
+  background-repeat: no-repeat;
+
+  position: absolute;
+
+  bottom: -51px;
+
+  right: 37%;
+
+}
+
+#dow2 {
+
+  background-color: rgba(119, 169, 155, 0.89);
+
+  background-image: url("../assets/img/materiales/descargables/patron_descargables.png");
+
+  color: #fff;
+
+  text-align: center;
+
+  position:relative;
+
+  z-index: 3;
+
+}
+
+#dow2 #group1 {
+
+  background-color: #a2a81d;
+
+}
+
+#group1 .logodesc {
+
+  background-position: -23px 0px;
+
+  width: 92px;
+
+}
+
+#dow2 #group2 {
+
+  background-color: #719544;
+
+}
+
+#group2 .logodesc {
+
+  background-position: -133px 0px;
+
+  width: 93px;
+
+}
+
+#dow2 #group3 {
+
+  background-color: #d09c14;
+
+}
+
+#group3 .logodesc {
+
+  background-position: -255px 0px;
+
+  width: 132px;
+
+}
+
+#dow2 #group4 {
+
+  background-color: #cd7f12;
+
+}
+
+#group4 .logodesc {
+
+  background-position: -416px 0px;
+
+  width: 74px;
+
+}
+
+#dow2 #group5 {
+
+  background-color: #34748d;
+
+}
+
+#group5 .logodesc {
+
+  background-position: -10px -176px;
+
+  width: 116px;
+
+}
+
+#dow2 #group6 {
+
+  background-color: #4eb287;
+
+}
+
+#group6 .logodesc {
+
+  background-position: -166px -176px;
+
+  width: 125px;
+
+}
+
+#dow2 #group7 {
+
+  background-color: #7d5e34;
+
+}
+
+#group7 .logodesc {
+
+  background-position: -331px -176px;
+
+  width: 103px;
+
+}
+
+#dow2 #group8 {
+
+  background-color: #85827a;
+
+}
+
+#group8 .logodesc {
+
+  background-position: -475px -176px;
+
+  width: 40px;
+
+}
+
+
+
+#dow2 .squarecolor{
+
+  display: inline-block;
+
+  width: 235px;
+
+  height: 320px;
+
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  vertical-align: top;
+
+}
+
+#dow2 .squarecolor .logodesc {
+
+  height: 170px;
+
+  background-image: url("../assets/img/imprimir_ico_cap.png");
+
+  margin: 10px auto 0px;
+
+  background-size: auto 360px;
+
+}
+
+#dow2 ul{
+
+  text-align: left;
+
+  list-style: none;
+
+  margin: 0px;
+
+  padding: 0;
+
+}
+
+#dow2 ul li {
+
+  padding-left: 25px;
+
+}
+
+#dow2 ul li:hover {
+
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+#dow2 ul li a{
+
+  background: url("../assets/img/imprimir_ico_cap") no-repeat left 50%;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  display: block;
+
+  padding-left: 33px;
+
+  background-size: 20px;
+
+}
+
+#dow2 ul li a img:first-child{
+
+}
+
+#dow2 ul li a img:last-child{
+
+}
+
+#lastlink {
+
+  display: block;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  color: #081611;
+
+}
+
+.bandTitle {
+
+  width: 300px;
+
+  height: 76px;
+
+  background-image: url("../assets/img/imprimir_ico_cap.png");
+
+  background-size: 300px auto;
+
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+
+}
+
+.bandTitle p {
+
+  margin: 0 auto;
+
+  width: 210px;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  padding-top: 15px;
+
+}
+
+.colecciones {
+
+  background-image: url("../assets/img/materiales/descargables/bandera_descargables.png");
+
+}

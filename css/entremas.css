@@ -1,0 +1,265 @@
+body{
+
+	background-color: rgb(146, 174, 162);
+
+}
+
+section {
+
+	width: 960px;
+
+	left: 0;
+
+	right: 0;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+}
+
+section p{
+
+	font-size: 100%;
+
+	width: 92%;
+
+	margin: 0 auto;
+
+  color: #304244;
+
+}
+
+section h2 {
+
+	display: none;
+
+}
+
+section h3{
+
+	width: 700px;
+
+	margin: 0 auto;
+
+    color: #304244;
+
+	padding: 10px;
+
+	display: none;
+
+}
+
+.contenedor{
+
+	padding-top: 20px;
+
+	width: 100%;
+
+	height: 35%;
+
+	margin: 0 auto;
+
+}
+
+.iconos{
+
+	background-color: #ADCCBF;
+
+	padding: 2%;
+
+	margin-top: 3%;
+
+	height: 75%;
+
+}
+
+.iconos2{
+
+	margin-top: 14px;
+
+	background-color: #ADCCBF;
+
+	height: 155px;
+
+	padding: 10px;
+
+}
+
+.iconos img{
+
+	width: auto;
+
+	height: 100%;
+
+	max-width: 100%;
+
+}
+
+.artGrand{
+
+	vertical-align: top;
+
+}
+
+article{
+
+	padding: 10px;
+
+	width: 30%;
+
+	height: 90%;
+
+	margin: 0 auto;
+
+	display:inline-block;
+
+	vertical-align: top;
+
+	background-color: #85A599;
+
+}
+
+h3 {
+
+	font-size: 70%;
+
+}
+
+h4{
+
+	font-size: 68%;
+
+	margin: 0 auto;
+
+	color: #304244;
+
+	display: block;
+
+}
+
+article img{
+
+	width: 75%;
+
+	height: auto;
+
+}
+
+#barraUp1{
+
+	background-color:#924809;
+
+	height: 90px;
+
+}
+
+#barraUp{
+
+	height: 90px;
+
+}
+
+.mapa{
+
+	height: 45%;
+
+	width: auto;
+
+  margin: 0 auto;
+
+  margin-top: 0px;
+
+	position: relative;
+
+	z-index: 5000;
+
+	text-align: center;
+
+}
+
+.mapa img {
+
+	height: 100%;
+
+}
+
+#mapaFondo{
+
+	z-index: 100;
+
+	position: relative;
+
+	height: 45%;
+
+	width: 960px
+
+}
+
+#mapa2 mapa3 mapa4 mapa5 mapa6{
+
+	z-index: 1000;
+
+}
+
+#mapaFondo img {
+
+	height: 100%;
+
+}
+
+/*#puntos{
+
+	display:none;
+
+}*/
+
+
+
+.hideSect {
+
+	visibility: hidden;
+
+}
+
+
+
+.showSect {
+
+	visibility: visible;
+
+}
+
+#mapa1{
+
+	margin-top: 15%;
+
+	z-index: 5000!important;
+
+}
+
+#p1{
+
+	width: 560px!important;
+
+	font-size: 20px;
+
+}
+
+#seccion0 {
+
+	position: fixed;
+
+	width: 100%;
+
+	height: 100%;
+
+	left: 0;
+
+	right: 0;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+}

@@ -1,0 +1,67 @@
+
+
+section{
+
+	overflow: hidden;
+
+}
+
+#c1 {
+
+	color: #321450;
+
+	background-color: #777e9a;
+
+ 	position:relative;
+
+ 	padding-top:30px;
+
+	min-height: 1100px;
+
+}
+
+#c1 h2{
+
+	padding: 20px;
+
+}
+
+p{
+
+	margin: 0 auto;
+
+	width: 90%;
+
+}
+
+.fondoimg img{
+
+	width: 100%;
+
+	height: auto;
+
+	margin: -9px 50px -6px 0px;
+
+}
+
+.fondoimg img{
+
+	width: 100%;
+
+	height: auto;
+
+}
+
+section img{
+
+	bottom: 0px;
+
+	margin: 0 auto;
+
+	width:100%;
+
+	height: auto;
+
+	position: absolute;
+
+}

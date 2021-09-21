@@ -1,0 +1,1005 @@
+
+
+section {
+
+	overflow:hidden;
+
+}
+
+
+
+p {
+
+	width: 650px;
+
+}
+
+
+
+.margen{
+
+	z-index: 2;
+
+}
+
+
+
+
+
+#circulo {
+
+	background-color: #EDD46F;
+
+	margin: 0px auto;
+
+	top: -750px;
+
+	z-index: 1;
+
+	position: relative;
+
+}
+
+
+
+
+
+
+
+#m1 {
+
+ 	background-color: #F1D983;
+
+ 	color: #31317B;
+
+ 	position:relative;
+
+ 	padding-top:81px;
+
+ 	z-index: 3;
+
+	min-height: 1000px;
+
+}
+
+
+
+.na {
+
+	color: #D4842D;
+
+}
+
+
+
+#m1 h2 {
+
+	margin: 60px 0px 2% 156px;
+
+}
+
+
+
+#m1 h2 strong{
+
+	color:#c86f1a;
+
+	font-size: 50px;
+
+}
+
+/*
+
+#audio_m1, #audio_m2, #audio_m2b, #audio_m3, #audio_m4, #audio_m5, #audio_m6, #audio_m7, #audio_m8 {
+
+	background-image: url(../assets/img/iconovoz.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 4px 0px;
+
+	width: 48px;
+
+	height: 51px;
+
+	margin: -62px 0px 0px 653px;
+
+	position: absolute; 	
+
+}
+
+
+
+#audio_m1:hover, #audio_m2:hover, #audio_m2b:hover, #audio_m3:hover, #audio_m4:hover, #audio_m5:hover, #audio_m6:hover, #audio_m7:hover, #audio_m8:hover {
+
+	background-position: -45px 0px;
+
+}*/
+
+
+
+#m1 p {
+
+	margin: 0px auto;
+
+}
+
+
+
+#m1 p strong{
+
+	color: #C86F1A;
+
+}
+
+
+
+#ima1_m1 img {
+
+	width: 44%;
+
+	position: absolute;
+
+	margin: 105px 99px 0px;
+
+}
+
+
+
+#ima2_m1 img {
+
+	width: 40%;
+
+	position: absolute;
+
+	margin: -51px 0px 0px 625px;
+
+}
+
+
+
+
+
+
+
+
+
+#m2 {
+
+ 	background-color: #EACF5C;
+
+ 	color: #C86509;
+
+ 	text-align: center;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+ 	min-height: 1000px;
+
+ }
+
+
+
+.az {
+
+	color: #31317B;
+
+}
+
+
+
+/*#audio_m2 {
+
+	margin: 420px 0px 0px 673px;
+
+}
+
+
+
+#audio_m2b {
+
+	margin: -84px 0px 0px 633px;
+
+}*/
+
+
+
+#m2 p {
+
+	margin: 0px auto;
+
+	margin-top: 70px;
+
+	margin-bottom: 50px;
+
+	text-align: left;
+
+}
+
+
+
+#m2 p.timportante {
+
+	width: 100%;
+
+	height: 80px;
+
+	text-align: center;
+
+	margin-bottom: 0px;
+
+}
+
+
+
+#m2 table {
+
+	margin: 0px auto;
+
+	font-size: 14px;
+
+	border-spacing: 10px 5px;
+
+	border-collapse: collapse;
+
+	background-color: #FABA66;
+
+	color: #31317B;
+
+	cursor: auto;
+
+	border-radius:  0px 0px 20px 20px;
+
+	-o-border-radius: 0px 0px 20px 20px;
+
+	-ms-border-radius: 0px 0px 20px 20px;
+
+	-moz-border-radius: 0px 0px 20px 20px;
+
+	-khtml-border-radius: 0px 0px 20px 20px;
+
+	-webkit-border-radius: 0px 0px 20px 20px;
+
+}
+
+
+
+#m2 table tr:last-child td:first-child {
+
+	border-radius: 0px 0px 0px 20px;
+
+	-o-border-radius: 0px 0px 0px 20px;
+
+	-ms-border-radius: 0px 0px 0px 20px;
+
+	-moz-border-radius: 0px 0px 0px 20px;
+
+	-khtml-border-radius: 0px 0px 0px 20px;
+
+	-webkit-border-radius: 0px 0px 0px 20px;
+
+}
+
+
+
+#m2 table tr:last-child td:last-child {
+
+	border-radius: 0px 0px 20px 0px;
+
+	-o-border-radius: 0px 0px 20px 0px;
+
+	-ms-border-radius: 0px 0px 20px 0px;
+
+	-moz-border-radius: 0px 0px 20px 0px;
+
+	-khtml-border-radius: 0px 0px 20px 0px;
+
+	-webkit-border-radius: 0px 0px 20px 0px;
+
+}
+
+
+
+#m2 table tr th {
+
+	padding: 10px;
+
+}
+
+
+
+#m2 table tr td {
+
+	padding: 10px;
+
+}
+
+
+
+#m2 table tr:nth-child(odd) {
+
+ background-color: #FAE084;
+
+}
+
+
+
+#m2 table tr:hover {
+
+	background-color: #8CB5AB;
+
+	color: #1C594B;
+
+}
+
+
+
+#m2 table tr:first-child {
+
+	background-color: #DA812D;
+
+	color: white;
+
+	padding: 15px;
+
+}
+
+
+
+#m2 h2 {
+
+	margin: 35px 50px 0px -52px;
+
+}
+
+
+
+#m2 img {
+
+	width: 34%;
+
+}
+
+
+
+
+
+
+
+#m3 {
+
+ 	background-color: #8FC5AE;
+
+ 	background-image: url(../assets/img/mexico/mexico/m_desierto_iglu.png);
+
+ 	background-size: cover;
+
+ 	-o-background-size: cover;
+
+ 	-moz-background-size: cover;
+
+ 	-webkit-background-size: cover;
+
+ 	background-position: top;
+
+ 	-o-background-position: top;
+
+ 	-moz-background-position: top;
+
+ 	-webkit-background-position: top;
+
+ 	background-repeat: no-repeat;
+
+ 	color: #17784F;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+	min-height: 1000px;
+
+}
+
+
+
+#m3 h2 {
+
+	display: none;
+
+}
+
+
+
+#m3 .nbig {
+
+	float: left;
+
+	margin-top: 5%;
+
+	margin-left: 120px;
+
+	margin-bottom: 5%;
+
+}
+
+
+
+#m3 p {
+
+	float: right;
+
+	margin-top: 3%;
+
+	margin-right: 133px;
+
+}
+
+
+
+/*#audio_m3 {
+
+	background-image: url(../assets/img/iconovoz.png);
+
+	margin: 89px 0px 0px 807px;
+
+}*/
+
+
+
+#ima1_m3 img {
+
+	width: 37%;
+
+	position: absolute;
+
+	margin: 201px 0px 0px 258px;
+
+}
+
+
+
+
+
+
+
+
+
+#m4 {
+
+ 	background-color: #695E30;
+
+ 	background-image: url(../assets/img/mexico/mexico/m_montanas.jpg);
+
+ 	background-size: cover;
+
+ 	-o-background-size: cover;
+
+ 	-moz-background-size: cover;
+
+ 	-webkit-background-size: cover;
+
+ 	background-position: top;
+
+ 	-o-background-position: top;
+
+ 	-moz-background-position: top;
+
+ 	-webkit-background-position: top;
+
+ 	background-repeat: no-repeat;
+
+ 	color: #E3C676;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+	min-height: 1000px;
+
+}
+
+
+
+/*#audio_m4 {
+
+	background-image: url(../assets/img/iconovoz_1.png);
+
+	margin: 93px 0px 0px 864px;
+
+}*/
+
+
+
+#m4 h2 {
+
+	display: none;
+
+}
+
+
+
+#m4 .nbig {
+
+	float: left;
+
+	margin-top: 4%;
+
+	margin-left: 120px;
+
+	margin-bottom: 5%;
+
+}
+
+
+
+#m4 p {
+
+	float: right;
+
+	margin-top: 3%;
+
+	margin-right: 109px;
+
+}
+
+
+
+#ima1_m4 img {
+
+	width: 100%;
+
+	bottom: 0%;
+
+	position: relative;
+
+}
+
+
+
+
+
+
+
+#m5 {
+
+ 	background-color: #374C51;
+
+ 	background-repeat: no-repeat;
+
+ 	background-image: url(../assets/img/mexico/mexico/m_mar.jpg);
+
+ 	background-size: cover;
+
+ 	-o-background-size: cover;
+
+ 	-moz-background-size: cover;
+
+ 	-webkit-background-size: cover;
+
+ 	background-position: top;
+
+ 	-o-background-position: top;
+
+ 	-moz-background-position: top;
+
+ 	-webkit-background-position: top;
+
+ 	background-repeat: no-repeat;
+
+ 	color: #E4DF50;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+	min-height: 1000px;
+
+}
+
+
+
+/*#audio_m5 {
+
+	background-image: url(../assets/img/iconovoz_2.png);
+
+	margin: 95px 0px 0px 862px;
+
+}*/
+
+
+
+#m5 h2 {
+
+	display: none;
+
+}
+
+
+
+#m5 .nbig {
+
+	float: left;
+
+	margin-top: 5%;
+
+	margin-left: 120px;
+
+	margin-bottom: 4%;
+
+}
+
+
+
+#m5 p {
+
+	float: right;
+
+	margin-top: 4%;
+
+	margin-right: 109px;
+
+}
+
+
+
+#ima1_m5 img {
+
+	width: 20%;
+
+	position: absolute;
+
+	margin: 354px 0px 0px 576px;
+
+	z-index: 4;
+
+}
+
+
+
+#ima2_m5 img {
+
+	width: 100%;
+
+	bottom: 0%;
+
+	position: relative;
+
+}
+
+
+
+
+
+
+
+#m6 {
+
+ 	background-color: #EBD186;
+
+ 	color: #15774E;;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+	min-height: 1000px;
+
+}
+
+
+
+/*#audio_m6 {
+
+	margin: 43px 0px -3px 862px;
+
+}*/
+
+
+
+#m6 h2 {
+
+	display: none;
+
+}
+
+
+
+#m6 .nbig {
+
+	float: left;
+
+	margin-top: 8px;
+
+	margin-left: 120px;
+
+}
+
+
+
+#m6 p {
+
+	float: right;
+
+	margin-top: 2%;
+
+	margin-right: 109px;
+
+}
+
+
+
+#m6 p strong{
+
+	color: #1B484B;
+
+}
+
+
+
+#ima1_m6 img {
+
+	width: 45%;
+
+	position: absolute;
+
+	margin: 516px 0px 0px -203px;
+
+}
+
+
+
+#ima2_m6 img {
+
+	width: 37%;
+
+	position: absolute;
+
+	margin: 310px 0px 0px 524px;
+
+}
+
+
+
+#ima3_m6 img {
+
+	width: 50%;
+
+	position: absolute;
+
+	margin: 172px 0px 0px 49px;
+
+}
+
+
+
+
+
+
+
+#m7 {
+
+ 	background-color: #BCE5B9;
+
+ 	color: #3D6268;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+ 	min-height: 1000px;
+
+	
+
+}
+
+
+
+/*#audio_m7 {
+
+	background-image: url(../assets/img/iconovoz.png);
+
+	margin: 41px 0px 0px 872px;
+
+}*/
+
+
+
+#m7 h2 {
+
+	display: none;
+
+}
+
+
+
+#m7 .nbig {
+
+	float: left;
+
+	margin-top: 0px;
+
+	margin-left: 120px;
+
+}
+
+
+
+#m7 p {
+
+	float: right;
+
+	margin-top: 75px;
+
+	margin-right: 109px;
+
+}
+
+
+
+#m7 p strong{
+
+	color: #113337;
+
+}
+
+
+
+#m7 img {
+
+	width: 50%;
+
+	height: auto;
+
+	margin-top: 110px;
+
+}
+
+#grafica{
+
+	width: 80% !important;
+
+	height: auto;
+
+	margin-left: 10%;
+
+}
+
+
+
+#audio_m7{
+
+	position: absolute;
+
+	margin-left: 195px !important;
+
+}
+
+
+
+#chartdiv {
+
+	width: 80%;
+
+	height: 300px;
+
+	font-size: 30px;
+
+	margin: 0px auto;
+
+}			
+
+
+
+
+
+
+
+#m8 {
+
+ 	background-color: #EBD186;
+
+ 	background-image: url(../assets/img/mexico/mexico/m_productos.jpg);
+
+ 	background-size: cover;
+
+ 	-o-background-size: cover;
+
+ 	-moz-background-size: cover;
+
+ 	-webkit-background-size: cover;
+
+ 	background-position: top;
+
+ 	-o-background-position: top;
+
+ 	-moz-background-position: top;
+
+ 	-webkit-background-position: top;
+
+ 	background-repeat: no-repeat;
+
+ 	color: #371C07;
+
+ 	padding-top:81px;
+
+ 	position:relative;
+
+ 	z-index: 3;
+
+	min-height: 1000px;
+
+}
+
+
+
+/*#audio_m8 {
+
+	margin: 76px 0px 0px 840px;
+
+}*/
+
+
+
+#m8 h2 {
+
+	display: none;
+
+}
+
+
+
+#m8 .nbig {
+
+	float: left;
+
+	margin-top: 1.5%;
+
+	margin-left: 120px;
+
+}
+
+
+
+#m8 p {
+
+	float: right;
+
+	margin-top: 1%;
+
+	margin-right: 109px;
+
+}
+
+
+
+#m8 p strong{
+
+	color: #960;
+
+}
+
+
+
+#ima1_m8 img {
+
+	width: 100%;
+
+	bottom: 0%;
+
+	position: relative;
+
+}

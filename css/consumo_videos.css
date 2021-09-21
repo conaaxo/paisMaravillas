@@ -1,0 +1,125 @@
+body{
+	background-color: #15774E;
+}
+
+section {
+  overflow:hidden;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
+}
+
+.margen{
+  z-index: 4;
+  box-sizing: border-box;
+}
+
+p{
+	color: #983030;
+}
+
+#modal{
+	display: none;
+	width: 900px;
+	height: 430px;
+	top: 30%;
+	left: 15%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 9999;
+	position: fixed;
+
+}
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url("../assets/img/iconoscerrar.png");
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
+
+
+
+#web1 {
+  height: 406px;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-color: #2f7a89;
+  background-image: url('../assets/img/materiales/consumo/titulo.png');
+}
+
+#web2 {
+  height: 1500px;
+  background-color: rgb(225, 174, 105);
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+#web3 {
+  background-color: #d88f2d;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+section ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 150px;
+}
+section ul li {
+  width: 210px;
+  overflow: visible;
+  display: inline-block;
+  margin: 20px 15px;
+  vertical-align: top;
+}
+section ul li a{
+  width: 200px;
+  position: relative;
+}
+section ul li a img:first-child{
+  width: 200px;
+  height: auto;
+}
+.megatitle {
+  height: 100px;
+  width: 400px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% auto;
+}
+#sitiosweb {
+  background-image: url('../assets/img/materiales/consumo/bandera_titulo.png');
+}
+#videos {
+  background-image: url('../assets/img/materiales/enlaces/bandera_videos.png');
+}
+.select {
+  top: -75px;
+  left: -37px;
+  width: 268px;
+  height: 70px;
+  position: absolute;
+  background-image: url('../assets/img/materiales/enlaces/seleccion.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 268px 70px;
+  padding: 12px 0px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #F93;
+  display: none;
+}
+
+#tianguis {
+	color: #174E53;
+    font-size: 28px;
+    text-decoration-line: unset;
+}
+	

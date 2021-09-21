@@ -1,0 +1,916 @@
+body{
+
+	background-color: #000;
+
+	color: rgb(233, 244, 218);
+
+}
+
+
+
+p{
+
+	font-family:"mclaren-regular";
+
+	width: 90%;
+
+	padding: 15px;
+
+	margin-top: -6px;
+
+}
+
+h3{
+
+	padding: 5px;
+
+}
+
+div{
+
+	padding: -20px;
+
+}
+
+div > img{
+
+	width: 100%;
+
+	height: auto;
+
+}
+
+#accordion {
+
+	/*margin-top: 50px;*/
+
+}
+
+footer{
+
+	display: none;
+
+}
+
+#selvahumeda{
+
+	background-color: #162303;
+
+	height: auto;
+
+	padding-top: 40px;
+
+}
+
+
+
+#selvahumeda h2{
+
+	color: #9C3;
+
+	padding-left: 20px;
+
+}
+
+.selvaH{
+
+	background-color: #000;
+
+	
+
+}
+
+/*CONTENIDO*/
+
+.selvaH .ui-widget-content{
+
+	background-color: #162303;
+
+	color: #D0DCA7;
+
+}
+
+/*TITULOS*/
+
+.selvaH .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #446218;
+
+}
+
+.selvaH .ui-state-default:hover{
+
+	color: #9c6;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.selvaH .ui-state-focus{
+
+	background-color: #344816;
+
+	color: #9C6;
+
+}
+
+
+
+#bosquenublado{
+
+	background-color: #7B5555;
+
+	height: auto;
+
+	padding-top: 40px;
+
+}
+
+#bosquenublado h2{
+
+	color: #E9F4DA;
+
+	padding-left: 20px;
+
+}
+
+.bosqueN{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.bosqueN .ui-widget-content{
+
+	background-color: #966;
+
+	color: #D0DCA7;
+
+}
+
+/*TITULOS*/
+
+.bosqueN .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #201827 !important;
+
+	color: #D0DCA7;
+
+}
+
+.bosqueN .ui-state-default:hover{
+
+	color: #966;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.bosqueN .ui-state-focus{
+
+	background-color: #372D3F !important;
+
+	color: #D0DCA7;
+
+}
+
+.bosqueN .ui-widget-header {
+
+	background-color: #201827 !important;
+
+	color: #9C6;
+
+}
+
+
+
+#bosquetemplado{
+
+	background-color: #30503F;
+
+	height: auto;
+
+	padding-top: 40px;
+
+}
+
+#bosquetemplado h2{
+
+	color: #83CE67;
+
+	padding-left: 20px;
+
+}
+
+.bosqueT{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.bosqueT .ui-widget-content{
+
+	background-color: #30503F;
+
+	color: #D0DCA7;
+
+}
+
+/*TITULOS*/
+
+.bosqueT .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #032A26 !important;
+
+	color: #D0DCA7;
+
+}
+
+.bosqueT .ui-state-default:hover{
+
+	color: #096;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.bosqueT .ui-state-focus{
+
+	background-color: #164742 !important;
+
+	color: #D0DCA7;
+
+}
+
+.bosqueT .ui-widget-header {
+
+	background-color: #032A26 !important;
+
+	color: #9C6;
+
+}
+
+
+
+
+
+#rios{
+
+	background-color: #1E6169;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #BBE4DA;
+
+}
+
+#rios h2{
+
+	color: #31B3A0;
+
+	padding-left: 20px;
+
+}
+
+.rios{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.rios .ui-widget-content{
+
+	background-color: #1E6169;
+
+	color: #BBE4DA;
+
+}
+
+/*TITULOS*/
+
+.rios .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #11313E;
+
+	color: #7AB7A8;
+
+}
+
+.rios .ui-state-default:hover{
+
+	color: #31B3A0;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.rios .ui-state-focus{
+
+	background-color: #052021;
+
+}
+
+.rios .ui-widget-header {
+
+	background-color: #11313E;
+
+	color: #7AB7A8;
+
+}
+
+
+
+
+
+#pastizal{
+
+	background-color: #CEA23A;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #532A0C;
+
+}
+
+#pastizal h2{
+
+	color: #B35631;
+
+	padding-left: 20px;
+
+}
+
+.Pastizal{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Pastizal .ui-widget-content{
+
+	background-color: #CEA23A;
+
+	color: #532A0C;
+
+}
+
+/*TITULOS*/
+
+.Pastizal .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Pastizal .ui-state-focus{
+
+	background-color: #752C0F;
+
+}
+
+.Pastizal .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+
+
+#matorral{
+
+	background-color: #813C0A;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #EFDF8C;
+
+}
+
+#matorral h2{
+
+	color: #EDB734;
+
+	padding-left: 20px;
+
+}
+
+.Matorral{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Matorral .ui-widget-content{
+
+	background-color: #CEA23A;
+
+	color: #532A0C;
+
+}
+
+/*TITULOS*/
+
+.Matorral .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #631F10;
+
+	color: #F0EC9F;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Matorral .ui-state-focus{
+
+	background-color: #B06A10;
+
+}
+
+.Matorral .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+#selvaseca{
+
+	background-color: #696F50;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #E6EC90;
+
+}
+
+#selvaseca h2{
+
+	color:  #E6EC90;
+
+	padding-left: 20px;
+
+}
+
+.Selvaseca{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Selvaseca .ui-widget-content{
+
+	background-color: #696F50;
+
+	color: #E6EC90;
+
+}
+
+/*TITULOS*/
+
+.Selvaseca .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #26291D;
+
+	color: #F0EC9F;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Selvaseca .ui-state-focus{
+
+	background-color: #474D36;
+
+}
+
+.Selvaseca .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+#pacifico{
+
+	background-color: #19324E;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #90C2EC;
+
+}
+
+#pacifico h2{
+
+	color:  #3B96C8;
+
+	padding-left: 20px;
+
+}
+
+.Pacifico{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Pacifico .ui-widget-content{
+
+	background-color: #19324E;
+
+	color: #90C2EC;
+
+}
+
+/*TITULOS*/
+
+.Pacifico .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #04182D;
+
+	color: #8EBFE9;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Pacifico .ui-state-focus{
+
+	background-color: #28507A;
+
+}
+
+.Pacifico .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+#golfo{
+
+	background-color: #0A807B;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #FBFBFB;
+
+}
+
+#golfo h2{
+
+	color:  #6CE6B2;
+
+	padding-left: 20px;
+
+}
+
+.Golfo{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Golfo .ui-widget-content{
+
+	background-color: #0A807B;
+
+	color: #FBFBFB;
+
+}
+
+/*TITULOS*/
+
+.Golfo .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #073531;
+
+	color: #90CCB3;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Golfo .ui-state-focus{
+
+	background-color: #28534F;
+
+}
+
+.Golfo .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+#campo{
+
+	background-color: #502F0B;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #EDE4B0;
+
+}
+
+#campo h2{
+
+	color:  #E6D36C;
+
+	padding-left: 20px;
+
+}
+
+.Campo{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Campo .ui-widget-content{
+
+	background-color: #502F0B;
+
+	color: #EDE4B0;
+
+}
+
+/*TITULOS*/
+
+.Campo .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #7B511A;
+
+	color: #C8CC90;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Campo .ui-state-focus{
+
+	background-color: #28534F;
+
+}
+
+.Campo .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+
+
+#ciudad{
+
+	background-color: #3C3A39;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #EDE4B0;
+
+}
+
+#ciudad h2{
+
+	color:  #E6D36C;
+
+	padding-left: 20px;
+
+}
+
+.Ciudad{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.Ciudad .ui-widget-content{
+
+	background-color: #3C3A39;
+
+	color: #EDE4B0;
+
+}
+
+/*TITULOS*/
+
+.Ciudad .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #1E1C1B;
+
+	color: #C8CC90;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.Ciudad .ui-state-focus{
+
+	background-color: #6C6B6A;
+
+	color: #000;
+
+}
+
+.Ciudad .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+
+
+
+
+
+
+
+#vMexico{
+
+	background-color: #813C0A;
+
+	height: auto;
+
+	padding-top: 40px;
+
+	color: #EFDF8C;
+
+}
+
+#vMexico h2{
+
+	color: #EDB734;
+
+	padding-left: 20px;
+
+}
+
+.vMexico{
+
+	background-color: #000;
+
+}
+
+/*CONTENIDO*/
+
+.vMexico .ui-widget-content{
+
+	background-color: #CEA23A;
+
+	color: #532A0C;
+
+}
+
+/*TITULOS*/
+
+.vMexico .ui-state-default{
+
+	font-family:"mclaren-regular";
+
+	font-size: 20px;
+
+	background-color: #631F10;
+
+	color: #F0EC9F;
+
+}
+
+/*cuando estas en la pestaña*/
+
+.vMexico .ui-state-focus{
+
+	background-color: #B06A10;
+
+}
+
+.vMexico .ui-widget-header {
+
+	background-color: #B06A10;
+
+	color: #F0EC9F;
+
+}
+
+
+

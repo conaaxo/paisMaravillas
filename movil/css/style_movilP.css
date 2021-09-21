@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* general */
+@font-face {
+	font-family:"mclaren-regular";
+	src:url("../assets/fonts/mclaren-regular-webfont.ttf") format("truetype"),
+	url("../assets/fonts/mclaren-regular-webfont.eot") format("emmbedded-opentype"),
+	url("../assets/fonts/mclaren-regular-webfont.woff") format("woff"),
+	url("../assets/fonts/mclaren-regular-webfont.svg") format("svg");
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:"mclaren-regular";
+}
+
+.activo{
+	background-color:#da812d;
+}
+/* fin general */
+
+
+/* header */
+header {
+	width:100%;
+	height:50px;
+	background-color:#15774e;
+	box-shadow:0 3px 8px rgba(0,0,0,0.4);
+	position:fixed;
+	top:0;
+	z-index:9999;
+	font-size: 16px;
+}
+/* fin header */
+
+
+/* banderas */
+.banderas{
+	height:41px;
+	width:87px;
+	display:block;
+	position:fixed;
+	right:0;
+	background-image: url('../assets/img/polinizadores/banderas3.png');
+	background-size: 95px auto;
+	background-repeat: no-repeat;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+
+}
+
+.banderas a{
+	display:block;
+	height:41px;
+	width:87px;
+}
+
+#maestro{
+	top:40px;
+	background-position: 25px -2px;
+}
+#vecinos{
+	top:78px;
+	background-position: 25px -49px;
+}
+#contacto{
+	top: 6px;
+	background-position: 25px -97px;
+}
+#maestro:hover{
+	background-position: 0px -2px;
+}
+
+#vecinos:hover{
+	background-position: 0px -49px;
+}
+
+#contacto:hover{
+	background-position: 0px -97px;
+}
+
+/* fin banderas */
+
+
+.margen{
+	width:100%;
+	margin:0 auto;
+	position: absolute;
+}
+
+.timportante {
+	font-family:gregh;
+	font-size:35px;
+}
+
+.nbig {
+	font-family:"mclaren-regular";
+	font-size: 115px;
+}
+h1{
+	display: none;
+}
+h2 {
+	font-family:gregh;
+	font-size:40px;
+	margin: 17px 0px 17px 0px;
+}
+
+h3 {
+	font-family: gregh;
+	font-size:30px;
+}
+
+
+/* navegar */
+nav#puntos {
+	position: fixed;
+	right: 0px;
+	/*padding-right: 20px;*/
+	top: 250px;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	border-radius: 10px 0px 0px 10px;
+	font-size: 18px;
+}
+
+nav#puntos ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+nav#puntos ul li {
+	margin-bottom: 15px;
+}
+/* fin navegar */
+
+#circulo {
+	width: 80%;
+	height: 80%;
+	border-radius: 400px;
+	-o-border-radius: 400px;
+	-ms-border-radius: 400px;
+	-moz-border-radius: 400px;
+	-khtml-border-radius: 400px;
+	-webkit-border-radius: 400px;
+}
+
+.barraExtra {
+	display: none;
+	width: 200px;
+	height: 50px;
+	background-color: #15774E;
+	z-index: 5000;
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.barraExtra a {
+	display: inline-block;
+}
+.btnBar {
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 40px;
+	height: 40px;
+	background-size: 430% auto;
+	background-position: 0 0;
+	background-image: url('../assets/img/iconos_extras.png');
+}
+.btnMapa {
+	background-position: 6px -7px;
+}
+.btnFoto {
+	background-position: -44px -6px;
+}
+.btnCam {
+	background-position: -85px -6px;
+}
+.btnJuego {
+	background-position: -129px -6px;
+}
+.btnCuento {
+	background-position: -10px -44px;
+}
+footer{
+	position:relative;
+	width: 100%;
+	height: 100px;
+	bottom: 0;
+	background-color:#15774e;;
+	left: 0;
+	z-index: 2000;
+}
+
+footer img{
+	margin: 15px 0px 0px 10px;
+}
+
+footer strong{
+	position: absolute;
+	top: 5px;
+	margin-left: 38%;
+	color: #FFF;
+	width: 180px;
+	font-size: 12px;
+}
+
+footer p{
+	position: absolute;
+	top: 59px;
+	right: 28px;
+	color: #9FCA63;
+	font-size: 8px;
+	width: 83% !important;
+}
+#menuCirculo ul li a {
+	color: transparent!important;
+}
+#menuCirculo ul li:nth-child(1) a {
+  background-position: -3px -3px;
+}
+#menuCirculo ul li:nth-child(2) a {
+  background-position: -59px -3px;
+}
+#menuCirculo ul li:nth-child(3) a {
+  background-position: -114px -3px;
+}
+#menuCirculo ul li:nth-child(4) a {
+  background-position: -170px -3px;
+}
+#menuCirculo ul li:nth-child(5) a {
+  background-position: -225px -3px;
+}
+#menuCirculo ul li:nth-child(6) a {
+  background-position: -280px -3px;
+}
+#menuCirculo ul li:nth-child(7) a {
+  background-position: -335px -3px;
+}
+#menuCirculo ul li:nth-child(8) a {
+  background-position: -391px -3px;
+}
+
+#menuCirculo ul li:nth-child(1) a.verde {
+  background-position: -3px -58px;
+}
+#menuCirculo ul li:nth-child(2) a.verde {
+  background-position: -59px -58px;
+}
+#menuCirculo ul li:nth-child(3) a.verde {
+  background-position: -114px -58px;
+}
+#menuCirculo ul li:nth-child(4) a.verde {
+  background-position: -170px -58px;
+}
+#menuCirculo ul li:nth-child(5) a.verde {
+  background-position: -225px -58px;
+}
+#menuCirculo ul li:nth-child(6) a.verde {
+  background-position: -280px -58px;
+}
+#menuCirculo ul li:nth-child(7) a.verde {
+  background-position: -335px -58px;
+}
+#menuCirculo ul li:nth-child(8) a.verde {
+  background-position: -391px -58px;
+}
+#menuCirculo ul li:nth-child(1) a:hover {
+  background-position: -3px -112px;
+}
+#menuCirculo ul li:nth-child(2) a:hover {
+  background-position: -59px -112px;
+}
+#menuCirculo ul li:nth-child(3) a:hover {
+  background-position: -114px -112px;
+}
+#menuCirculo ul li:nth-child(4) a:hover {
+  background-position: -170px -112px;
+}
+#menuCirculo ul li:nth-child(5) a:hover {
+  background-position: -225px -112px;
+}
+#menuCirculo ul li:nth-child(6) a:hover {
+  background-position: -280px -112px;
+}
+#menuCirculo ul li:nth-child(7) a:hover {
+  background-position: -335px -112px;
+}
+#menuCirculo ul li:nth-child(8) a:hover {
+  background-position: -391px -112px;
+}
+
+.locucion {
+	background-image: url("../assets/img/iconovoz_2.png");
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	z-index: 2000;
+	display: inline-block;
+	position: relative;
+	top: 18px;
+	left: 20px;
+	cursor: pointer;
+}
+
+.locucion:hover {
+	background-position: -45px 0px;
+}

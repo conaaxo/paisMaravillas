@@ -1,0 +1,15 @@
+{
+    "description": "Some description",
+    "directory": "gallery-01",
+    "completed": false,
+    "gallery": [
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Pez león",             "image": "3-pterois-volitans-01.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Pleco",                "image": "5-loricariidae-plecos.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Cerdo feral",          "image": "6-sus-scrofa-feral.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Gato",                 "image": "11-felis-catus-01.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Mosquito",             "image": "19-aedes-aegypti.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Tilapia",              "image": "3-tilapia-01.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Barrenador esmeralda", "image": "35-agrilus-planipennis.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Lirio acuático",       "image": "11-eichhornia-crassipes.png" }
+    ]
+}

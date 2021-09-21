@@ -1,0 +1,386 @@
+section {
+  overflow:hidden;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
+}
+p a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  bottom: 0!important;
+}
+.margen{
+  z-index: 4;
+  box-sizing: border-box;
+}
+
+#car1 {
+  height: 405px;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-color: #5f6c25;
+  background-size: 560px;
+  background-image: url('../assets/img/materiales/carteles/personajes.png');
+}
+
+#car2 {
+  background-color: rgba(162, 185, 60, 1);
+  color: #2d3d31;
+  text-align: center;
+  position: relative;
+  background-image: url("../assets/img/materiales/carteles/patronCa.png");
+}
+
+#car2 .twoseries{
+  margin-top: 150px;
+}
+
+#car2 .siblings {
+  width: 460px;
+  height: 200px;
+  display: inline-block;
+}
+
+#bichosl {
+  background-image: url('../assets/img/materiales/carteles/bichos.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+}
+
+#plantasl {
+  background-image: url('../assets/img/materiales/carteles/plantas.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+}
+
+#ecosistemasl {
+  background-image: url('../assets/img/materiales/carteles/ecosistemas.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+  width: 460px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+
+#nmexicanal {
+  background-image: url('../assets/img/materiales/carteles/nmexicana.png');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+  width: 460px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+
+#car2 a{
+  position: relative;
+  bottom: -125px;
+}
+
+#car3 {
+  background-color: #5f6c25;
+  color: #2d3d31;
+  position: relative;
+}
+
+#car3 a{
+	text-decoration:none;
+	color:#fff;
+}
+
+#car3 aside {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#car3 .sidecont {
+  width: 74%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+#car3 aside ul {
+  color: #fefcfe;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#car3 aside li {
+ 	background: url("../assets/img/materiales/carteles/bullet.png") no-repeat scroll left 50% transparent;
+	height: 45px;
+	/*line-height: 55px;*/
+	padding-left: 44px;
+	padding-top: 3px;
+	font-size: 24px;
+}
+
+#car3 .sidecont ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+}
+#car3 .sidecont ul li {
+  width: 203px;
+  overflow: hidden;
+  height: 304px;
+  display: inline-block;
+  margin: 20px 15px;
+}
+#car3 .sidecont ul li a{
+  width: 203px;
+  height: 304px;
+}
+#car3 .sidecont ul li a img:first-child{
+  width: 190px;
+  height: auto;
+}
+#car3 #mariposat {
+  background-image: url("../assets/img/materiales/carteles/mariposa.png");
+}
+
+#car4 {
+  background-color: #b3d59e;
+  color: #2d3d31;
+  position: relative;
+  background-image: url("../assets/img/materiales/carteles/patronCa.png");
+}
+#car4 a{
+	text-decoration:none;
+	color: #2D3D31;
+}
+#car4 #magueyt {
+  background-image: url("../assets/img/materiales/carteles/maguey.png");
+}
+#car4 aside {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#car4 .sidecont {
+  width: 74%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+#car4 aside ul {
+  color: #2D3D31;
+  /*text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);*/
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#car4 aside li {
+    background: url("../assets/img/materiales/carteles/bullet.png") no-repeat scroll left 50% transparent;
+    line-height: 45px;
+    padding-left: 44px;
+    padding-top: 3px;
+    font-size: 24px;
+	
+}
+
+#car4 .sidecont ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+}
+#car4 .sidecont ul li {
+  width: 203px;
+  overflow: hidden;
+  height: 304px;
+  display: inline-block;
+  margin: 20px 15px;
+}
+#car4 .sidecont ul li a{
+  width: 203px;
+  height: 304px;
+}
+#car4 .sidecont ul li a img:first-child{
+  width: 190px;
+  height: auto;
+}
+#car4 .sidecont p {
+  font-size: 16px;
+  text-align: center;
+}
+#car5 {
+  background-color: #5f6c25;
+  color: #cedb86;
+  position: relative;
+  background-image: url("../assets/img/materiales/carteles/delta.png");
+  background-repeat: no-repeat;
+  background-position: -146px -93px;
+  background-size: 37%;
+  padding-bottom: 90px;
+}
+#car5 p{
+  text-align: center;
+  font-size: 17px;
+}
+#car5 ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+}
+#car5 ul li {
+  width: 280px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 20px 15px;
+  vertical-align: top;
+}
+#car5 ul li a{
+  width: 280px;
+}
+#car5 ul li a img:first-child{
+  width: 240px;
+  height: auto;
+}
+
+
+#car6 {
+  background-color: #b3d59e;
+  color: #2d3d31;
+  position: relative;
+  background-image: url("../assets/img/materiales/carteles/patronCa.png");	
+  padding-bottom: 170px;
+}
+#car6 p{
+  text-align: center;
+  font-size: 17px;
+}
+#car6 ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+}
+#car6 ul li {
+  width: 680px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 20px 15px;
+  vertical-align: top;
+}
+#car6 ul li a{
+  width: 280px;
+}
+#car6 ul li a img:first-child{
+  width: 640px;
+  height: auto;
+}
+
+
+.footsec {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.footsec2 {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.footsec2 img {
+  height: 44px;
+  width: 250px;
+  margin-right: 20px;
+}
+.footsec2 img, .footsec2 p {
+  display: inline-block;
+}
+.footsec2 p {
+  color: #2D3D31;
+  font-size: 16px;
+}
+.footsec2 .resalt {
+  color: #3E6926;
+}
+.footsec img {
+  height: 44px;
+  width: 250px;
+  margin-right: 20px;
+}
+.footsec img, .footsec p {
+  display: inline-block;
+}
+.footsec p {
+  color: #afc656;
+  font-size: 16px;
+}
+.footsec .resalt {
+  color: #fff;
+}
+
+.megatitle {
+  width: 90%;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+  margin-top: 120px;
+}
+.megaside {
+  width: 80%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100% auto;
+  margin-top: 102px;
+}
+#bichost {
+  background-image: url("../assets/img/materiales/carteles/bichos_grande.png");
+}
+#plantast {
+  background-image: url("../assets/img/materiales/carteles/plantas_grande.png");
+}
+#ecosistemast {
+  background-image: url("../assets/img/materiales/carteles/ecosistemas_grande.png");
+  background-size: 80%;
+  margin-left: 80px;
+}
+
+#nmexicana {
+  background-image: url("../assets/img/materiales/carteles/nmexicana_grande.png");
+  background-size: 80%;
+  margin-left: 80px;
+}
+
+.bandTitle {
+  width: 300px;
+  height: 76px;
+  background-image: url("../assets/img/materiales/carteles/banderacarteles_ing.png");
+  background-size: 300px auto;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.bandTitle p {
+  margin: 0 auto;
+  width: 210px;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+}
+footer{
+	display: none;
+}

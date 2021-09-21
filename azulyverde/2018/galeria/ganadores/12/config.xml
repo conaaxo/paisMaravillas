@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backgroundColor="rgba(35,56,66,1)"
+	indexPageName="12.html"
+
+>
+  <image imageURL="images/1-12.jpg"
+	thumbURL="thumbs/1-12.jpg"
+	linkURL="images/1-12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Volumes/LaCie 3TB/adoming/Documents/web_conabio2016/azulyverde/galeria/ganadores/12/1-12.jpg">
+    <title><![CDATA[1er LUGAR “Entre nosotros”]]></title>
+    <caption><![CDATA[Ana Lucía Salas Flores - 12 años - Sonora]]></caption>
+  </image>
+  <image imageURL="images/2-12.jpg"
+	thumbURL="thumbs/2-12.jpg"
+	linkURL="images/2-12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Volumes/LaCie 3TB/adoming/Documents/web_conabio2016/azulyverde/galeria/ganadores/12/2-12.jpg">
+    <title><![CDATA[ 2do LUGAR “Gaia”]]></title>
+    <caption><![CDATA[Magdalena Castrejón Ocampo - 12 años - Guerrero]]></caption>
+  </image>
+  <image imageURL="images/3-12.jpg"
+	thumbURL="thumbs/3-12.jpg"
+	linkURL="images/3-12.jpg"
+	linkTarget="_blank"
+	sourcePath="/Volumes/LaCie 3TB/adoming/Documents/web_conabio2016/azulyverde/galeria/ganadores/12/3-12.jpg">
+    <title><![CDATA[3er LUGAR  “Desayunando en casa de la abuela”]]></title>
+    <caption><![CDATA[Gary Vladimir Núñez López - 12 años - Oaxaca]]></caption>
+  </image>
+</juiceboxgallery>

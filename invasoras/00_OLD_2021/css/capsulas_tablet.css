@@ -1,0 +1,25 @@
+#cap2 {
+
+    background-color: #8ED1C9;
+	
+}
+
+#cap1 #titoLibro {
+	display: none;
+}
+
+#titulo img {
+	margin: 50px 0px 0px -161.2px;
+}
+
+#selecciona {
+	text-align: center;
+}
+
+.bigtext {
+
+    font-size: 20px;
+    color: #0A4D43;
+	text-align: center;
+	width: 500px;
+}

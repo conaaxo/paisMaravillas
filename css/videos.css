@@ -1,0 +1,156 @@
+body{
+  background-color: #fff;
+}
+
+#upperMenu {
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 81px;
+  left: 0;
+  background-color: #56636f;
+}
+#content {
+  height: calc(100% - 243px);
+  width: 100%;
+  position: fixed;
+  top: 330px;
+  left: 0;
+}
+#content .margen {
+  height: 100%;
+}
+#especies {
+  height: 80%;
+  margin: 0px auto;
+  width: 600px;
+}
+#especies ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100%;
+}
+#especies ul li{
+  width: 150px;
+  height: 100%;
+  float: left;
+  cursor: pointer;
+}
+#nombreEspecie {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 30%;
+  background-color: #a73a35;
+  line-height: 55px;
+  color: #FFF;
+  font-size: 28px
+}
+.btnVideo {
+  background-image: url("../assets/img/conoce/videos/botonesvideos.png");
+  height: 100px;
+  width: 100px;
+  background-size: auto 100px;
+  margin: 25px auto;
+  background-repeat: no-repeat;
+}
+.btnVertebrado {
+  background-position: 0 0;
+}
+.btnInvertebrado {
+  background-position: -138px 0;
+}
+.btnFlora {
+  background-position: -280px 0;
+}
+.btnFungi {
+  background-position: -418px 0;
+}
+.listaFamilia {
+	height: 66%;
+	overflow: scroll;
+	width: 317px;
+	display: inline-block;
+	padding-left: 40px;
+}
+.listaFamilia ul{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.listaFamilia ul li {
+  background-color: #8D979F;
+  color: #3f4d5a;
+  padding: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.listaVideos {
+  height: 66%;
+  overflow: scroll;
+  width: 283px;
+  display: inline-block;
+  top: 0px;
+  position: absolute;
+}
+.listaVideos ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 27px;
+  margin-top: 10px;
+}
+.listaVideos ul li {
+  cursor: pointer;
+}
+.listaVideos ul li:before {
+  content: '\2022';
+  color: #922a28;
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -15px;
+  top: -16px;
+  font-size: 39px;
+}
+#mainVideo {
+  width: 300px;
+  height: 225px;
+  display: inline-block;
+  position: absolute;
+  right: -27px;
+  border: solid 8px #333333;
+  border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #333333;
+}
+#mainVideo video {
+  width: 300px;
+  height: 225px;
+  border: solid 0px;
+  border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.selected {
+  background-color: #a73a35!important;
+  color: #FFF!important;
+}
+.anSeleccionado{
+  background-color: #364350;
+	margin-left: -10px;
+	padding-left: 3px;
+	color: #fff;
+}
+#maestro {
+  display: none;
+}

@@ -1,0 +1,427 @@
+@charset "iso-8859-1";
+/* CSS Document */
+body {
+	
+}
+title {
+	font-family:mclaren-regular;
+	font-size:9px;
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+section {
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+
+h3{
+	font-family:mclaren-regular;
+}
+
+article{
+	overflow: hidden;
+}
+
+#conabio{
+	width: 100%;
+	height: 0%;
+	overflow:hidden;
+	padding: 0px 0px;
+	z-index: 9999;
+	background-color: #324c59;
+	-webkit-box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
+}
+
+#titocurioso{
+	overflow: hidden;
+	padding: 80px 20px;
+	background-color: #324c59;
+}
+#titocurioso p{
+	width: 700px;
+}
+
+
+
+
+
+
+#novedades{
+	overflow: hidden;
+	padding: 0px;
+	background-color: #f5f0e7;
+	height: 405px;
+ 	background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-color: #5f6c25;
+    background-size: 560px;
+}
+#novedades iframe{
+	position: absolute;
+}
+
+
+#myactividades{
+}
+
+
+
+
+
+
+
+#paramaestros{
+	padding: 80px 20px;
+	background-color: #f5f0e7;
+}
+#paramaestros a:link{
+	text-decoration: none;
+}
+#paramaestros a:hover{
+	text-decoration: underline;
+}
+#iconomaestros{
+	float: right;
+}
+#recursos{
+	display: inline-block;
+}
+#enlaces{
+	display: inline-block;
+}
+#mcontenidos{
+	display: inline-block;
+	background-color: #E3C251;
+	width: 400px;
+	height: 170px;
+}
+#mcontenidos p{
+	font-size: 15px;
+	color: rgb(43, 73, 83);
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	margin: 25px 0px 0px 24px;
+	position: absolute;
+}
+
+#mguia{
+	background-color: #D95D41;
+	width: 400px;
+	height: 170px;
+	display: inline-block;
+}
+#mguia p{
+	font-size: 15px;
+	color: #E0E9E7;
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	margin: 25px 0px 0px 24px;
+	position: absolute;
+}
+#mactividades{
+	background-color: #13786E;
+	width: 400px;
+	height: 170px;
+	display: inline-block;
+}
+#mactividades p{
+	font-size: 15px;
+	color: #E0E9E7;
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	margin: 25px 0px 0px 24px;
+	position: absolute;
+}
+#software{
+	background-color: #9eb65f;
+	width: 400px;
+	height: 170px;
+	display: inline-block;
+}
+#software p{
+	font-size: 15px;
+	color: #5F6C4F;
+	display: inline-block;
+	width: 200px;
+	height: auto;
+	margin: 25px 0px 0px 24px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+#audio_i1 {
+	background-image: url(../assets/img/iconomusica_2.png);
+	position: absolute;
+	z-index: 10000;
+	margin: 21px 0px 0px 360px !important;
+	
+}
+
+#audio_i1:hover{
+	background-position: -45px 0px;
+}
+
+#audio_i1:focus{
+	background-position: -45px 0px;
+}
+
+header h1{
+	display: none;
+}
+
+.fondoimg{
+	width: 100%;
+	margin: 0;
+}
+
+.fondoimg img{
+	width: 100%;
+	height: 50%;
+}
+
+.fa{
+	cursor: pointer;
+}
+
+#logotipo{
+	height: 100%;
+	width: auto;
+	transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-khtml-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	left: 50%;
+	top: 10px;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 10%;
+}
+
+#abajo{
+	transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-khtml-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	left: 50%;
+	top: 870px;
+	position: absolute;
+	z-index: 1000;
+	}
+
+
+#tito{
+    position: absolute;
+	z-index: 1000;
+	left: -9%;
+	top: 53px;
+}
+
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url("../assets/img/iconoscerrar.png");
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
+
+#modalhome{
+	display: none;
+	width: 70%;
+	height: 60%;
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-khtml-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	left: 50%;
+	top: 15%;
+	background-color: #d5ecd2;
+	z-index: 4000;
+	position:fixed;
+	padding: 60px;
+	color: #6C7286;
+	border: 0px solid #000;
+	border-radius: 0px 50px 0px 50px;
+	-o-border-radius: 0px 50px 0px 50px;
+	-ms-border-radius: 0px 50px 0px 50px;
+	-moz-border-radius: 0px 50px 0px 50px;
+	-khtml-border-radius: 0px 50px 0px 50px;
+	-webkit-border-radius: 0px 50px 0px 50px;
+}
+
+#modahome img{
+	align-content: center;
+	margin: 0 auto;
+}
+
+
+#modalcontent {
+	height: 100%;
+	align-content: center;
+	margin: 0 auto;
+	/*overflow: scroll;*/
+}
+
+
+#modalhome h2{
+	color: #545972;
+	margin: 0 auto;
+	width: 700px;
+	padding: 20px;
+}
+
+#modalhome p{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#titologo{
+	position: absolute;
+	top: -20px;
+	left: -80px;
+}
+
+#tito1{
+	position: absolute;
+	right: -130px;
+	bottom: -24px;
+}
+
+#overlay{
+	position:fixed;
+	display:none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 1000;
+}
+.banderas1{
+	height:41px;
+	width:87px;
+	display:block;
+	position:fixed;
+	right:0;
+	background-image: url('../assets/img/bandera_creditos.png');
+	background-size: 95px auto;
+	background-repeat: no-repeat;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+
+}
+
+.banderas1 a{
+	display:block;
+	height:41px;
+	width:87px;
+}
+
+/*#bio{
+	top: 220px;
+	background-position: 25px -5px;
+	background-image: url('../assets/img/bandera_creditos.png');
+}
+#bio:hover{
+	background-position: 0px -5px;
+}*/
+#creditos{
+	top: 258px;
+	background-position: 25px -49px;
+	z-index: 9000;
+}
+#creditos:hover{
+	background-position: 0px -49px !important;
+}
+#nahuatl{
+	top: 298px;
+	background-position: 25px -93px;
+	z-index: 9000;
+}
+#nahuatl:hover{
+	background-position: 0px -93px !important;
+}
+#fondohome{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../assets/img/home/04.jpg) no-repeat center center absolute;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#fondohome img{
+	height: 100%;
+	width: 100%;
+	transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	-khtml-transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	left: 50%;
+	position: absolute;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	background-color:#15774e;
+	left: 0;
+	z-index: 2000;
+}
+
+footer img{
+	margin: 21px 0px 0px 35px;
+}
+
+footer strong{
+	position: absolute;
+	top: 21px;
+	right: 20px;
+	color: #fff;
+	font-size: 18px;
+}
+
+footer p{
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	color: #9fca63;
+	font-size: 11px;
+	width: auto!important;
+}

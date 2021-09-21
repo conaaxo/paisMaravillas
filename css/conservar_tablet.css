@@ -1,0 +1,77 @@
+
+
+
+
+#circulo{
+
+	display: none;
+
+}
+
+
+
+#audioconservar{
+
+	left: 484px;
+
+}
+
+
+
+#audioconservar2{
+
+	left: 650px;
+
+}
+
+
+
+p{
+
+	margin: 0 auto;
+
+	width: 650px;
+
+}
+
+
+
+h2{
+
+	margin-left: 9%;
+
+}
+
+
+
+#audioconservar{
+
+	background-image: url(../assets/img/iconovoz_3.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 4px 0px;
+
+	width: 48px;
+
+	height: 51px;
+
+	position: absolute;
+
+	top: -10px;
+
+	left: 490px;
+
+	z-index: 2000;
+
+	margin: 10px;
+
+}
+
+#audioconservar2{
+
+	left: 576px;
+
+	top: 430px;
+
+}

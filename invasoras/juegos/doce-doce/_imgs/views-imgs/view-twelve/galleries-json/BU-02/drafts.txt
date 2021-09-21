@@ -1,0 +1,171 @@
+// ========================================================================
+// GAME 01
+    1-melaleuca-citrina.png
+    1-cor-capulin.png
+    2-cherax-quadricarinatus.png
+    2-cor-acocil-rojo.png
+    3-linepithema-humile.png
+    3-cor-hormiga-chicatana.png
+    4-achatina-fulica.png
+    4-cor-caracol-de-tierra.png
+    5-hemidactylus-frenatus.png
+    5-cor-basilisco-rayado.png
+    6-xenopus-laevis.png
+    6-cor-sapo-borracho.png
+    7-sus-scrofa.png
+    7-cor-pecari-de-collar.png
+    8-myiopsitta-monachus.png
+    8-cor-cotorra-serrana.png
+    9-melinis-repens.png
+    9-cor-pasto-navajita.png
+    10-carassius-auratus.png
+    10-cor-mexplapique-michoacano.png
+    11-leonotis-nepetifolia.png
+    11-cor-cempasuchil.png
+    12-undaria-pinnatifida.png
+    12-cor-kelp.png
+
+
+
+// ========================================================================
+// GAME 02
+    1-Myocastor-coypu.png
+    2-Charybdis-hellerii.png
+    3-Cyprinus-rubrofuscus.png
+    4-Ricinus-communis.png
+    5-Pterois-volitans.png
+    6-Casuarina-equisetifolia.png
+    7-Streptopelia-decaocto.png
+    8-Kalanchoe-delagoensis.png
+    9-Ficopomatus-enigmaticus.png
+    10-Pueraria-montana.png
+    11-Python-bivittatus.png
+    12-Vespula-germanica.png
+
+
+
+// ========================================================================
+// GAME 03
+    1-cor-eichhornia-crassipes.png
+    1-eichhornia-crassipes.png
+    1-eichhornia-crassipes-copia.png
+
+    2-cor-molothrus-bonariensis.png
+    2-molothrus-bonariensis.png
+    2-molothrus-bonariensis-copia.png
+
+    3-cor-eucalyptus-sp.png
+    3-eucalyptus-sp.png
+    3-eucalyptus-sp-copia.png
+
+    4-cor-pennisetum-setaceum.png
+    4-pennisetum-setaceum.png
+    4-pennisetum-setaceum-copia.png
+
+    5-cor-felis-catus.png
+    5-felis-catus.png
+    5-felis-catus-copia.png
+
+    6-cor-melaleuca-citrina.png
+    6-melaleuca-citrina.png
+    6-melaleuca-citrina-copia.png
+
+    7-cor-bambusa-vulgaris.png
+    7-bambusa-vulgaris.png
+    7-bambusa-vulgaris-copia.png
+
+    8-cor-rattus-rattus.png
+    8-rattus-rattus-.png
+    8-rattus-rattus-copia.png
+
+    9-cor-aptenia-cordifolia.png
+    9-aptenia-cordifolia.png
+    9-aptenia-cordifolia-copia.png
+
+    10-cor-hedera-helix.png
+    10-hedera-helix.png
+    10-hedera-helix-copia.png
+
+    11-cor-phyllorhiza-punctata.png
+    11-phyllorhiza-punctata.png
+    11-phyllorhiza-punctata-copia.png
+
+    12-cor-haemaphysalis-longicornis.png
+    12-haemaphysalis-longicornis.png
+    12-haemaphysalis-longicornis-copia.png
+
+
+
+// ========================================================================
+// GAME 04
+    Abrus-precatorius-1.png
+    Abrus-precatorius.png
+    Aedes-aegypti-1.png
+    Aedes-aegypti.png
+    Bemisia-tabacci-1.png
+    Bemisia-tabacci.png
+    Dreissena-polymorpha-1.png
+    Dreissena-polymorpha.png
+    Hydrilla-verticillata-1.png
+    Hydrilla-verticillata.png
+    Loricaridae-1.png
+    Loricaridae.png
+    Luidia-magnifica-1.png
+    Luidia-magnifica.png
+    Mesembryanthemum-crystallinum-1.png
+    Mesembryanthemum-crystallinum.png
+    Tamarix-ramossisima-1.png
+    Tamarix-ramossisima.png
+    Tilapia-1.png
+    Tilapia.png
+    Trachemys-scripta-1.png
+    Trachemys-scripta.png
+    Virus-nariz-blanca-1.png
+    Virus-nariz-blanca.png
+
+
+
+// ========================================================================
+// GAME 05
+    1-pistia-stratiotes.png
+    2-cactoblastis-cactorum.png
+    3-arundo-donax.png
+    4-pangasianodon.png
+    5-columba-livia.png
+    6-agrilus-plannipenis.png
+    7-heracleum-mantegazzianum.png
+    8-lycorma-delicatula.png
+    9-jacaranda-mimosiflia.png
+    10-oncorhynchus-mykiss.png
+    11-anolis-sagrei.png
+    12-lithobates-catesbeianus.png
+
+
+
+// ========================================================================
+// GAME 06
+1.png
+1-gray.png
+2.png
+2-gray.png
+3.png
+3-gray.png
+4.png
+4-gray.png
+5.png
+5-gray.png
+6.png
+6-gray.png
+7.png
+7-gray.png
+8.png
+8-gray.png
+9.png
+9-gray.png
+10.png
+10-gray.png
+11.png
+11-gray.png
+12.png
+12-gray.png
+

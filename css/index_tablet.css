@@ -1,0 +1,141 @@
+
+.downloadPC{
+	cursor: pointer;
+	display: none;
+}
+.downloadAndroid{
+	cursor: pointer;
+	display: none;
+}
+.downloadAndroid a {	
+	text-decoration: none;
+	color: #fff;
+}
+#audio_i1 {
+	margin: 0px !important;	
+}
+
+#logotipo{
+	height: 100%;
+	width: auto;
+	transform:translateX(-50%);
+	-o-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	-moz-transform:translateX(-50%);
+	transform:translateX(-50%);
+	-webkit-transform:translateX(-50%);
+	left: 50%;
+	position: absolute;
+	z-index: 1000;
+	margin-top: 15%;
+}
+
+#modalhome{
+	display: none;
+	width: 100%;
+	height: 70%;
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-khtml-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	left: 50%;
+	top: 15%;
+	background-color: #d5ecd2;
+	z-index: 2000;
+	position:fixed;
+	padding: 40px;
+	padding-top: 80px;
+	color: #6C7286;
+	border: 0px solid #000;
+	border-radius: 0px 50px 0px 50px;
+	-o-border-radius: 0px 50px 0px 50px;
+	-ms-border-radius: 0px 50px 0px 50px;
+	-moz-border-radius: 0px 50px 0px 50px;
+	-khtml-border-radius: 0px 50px 0px 50px;
+	-webkit-border-radius: 0px 50px 0px 50px;
+}
+
+#modalcontent {
+	height: 100%;
+	overflow: scroll;
+}
+
+#modalhome h2{
+	color: #545972;
+	margin-left: 60px;
+}
+
+#modalhome p{
+	width: 600px;
+	margin-left: 60px; 
+}
+
+#titologo{
+	transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-khtml-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	left: 45%;
+	top: -110px;
+}
+
+#titologo img{
+ 	width: 200px;
+	height: auto;
+}
+
+#tito1{
+	position: absolute;
+	right: -170px;
+	bottom: -24px;
+}
+
+#tito1 img{
+	width: 200px;
+	height: auto;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	bottom: 0px;
+	background-color:#15774e;
+	left: 0px;
+}
+footer img{
+	margin: 14px 0px 10px -10px;
+	width: 180px;
+}
+footer div{
+	margin: 50px 0px 0px 35px;
+}
+
+/*footer h4{
+	width: 600px;
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	color: #fff;
+}*/
+
+footer p{
+	width: 500px !important;
+	position: absolute;
+	top: 24px;
+	right: 20px;
+	color: #9fca63;
+	font-size: 11px;
+}
+footer strong {
+    position: absolute;
+    top: 11px;
+    right: -192px;
+    color: #fff;
+    font-size: 14px;
+	width: 700px;
+}

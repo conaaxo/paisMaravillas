@@ -1,0 +1,603 @@
+article {
+
+  width: 100%;
+
+}
+
+
+
+h2, h3 {
+
+  margin: 0px 0px 0px 0px;
+
+  color: #DFE47E;
+
+}
+
+
+
+.margen p {
+
+  color: #F0F1D1;
+
+  font-size: 18px;
+
+}
+
+
+
+.na {
+
+  color: #FCCC24;
+
+}
+
+
+
+
+
+#eo1 {
+
+  width: 100%;
+
+  min-height: 570px;
+
+  background-image: url('../assets/img/mexico/obtenemos/00_Obtenemos.jpg');
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+
+  position: relative;
+
+  margin-top: 81px;
+
+}
+
+
+
+.fundidoNegro {
+
+  height: 370px;
+
+  width: 100%;
+
+  background-color: rgba(0,0,0,.8);
+
+  overflow: hidden;
+
+  position: absolute;
+
+  bottom: 0;
+
+}
+
+
+
+.fundidoNegro article {
+
+  width: 670px;
+
+  margin: 0 auto;
+
+  margin-top: 15px;
+
+}
+
+
+
+/*.fundidoNegro article h2{
+
+  text-align: center;
+
+}
+
+*/
+
+#menuCirculo {
+
+  margin-top: 10px;
+
+}
+
+#menuCirculo ul {
+
+  padding: 0;
+
+  margin: 0 auto;
+
+  width: 600px;
+
+}
+
+
+
+#menuCirculo ul li {
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  width: 60px;
+
+  margin: 0px 5px;
+
+}
+
+
+
+#menuCirculo ul li p{
+
+  text-align: center;
+
+  color: #FFF;
+
+  font-size: 14px;
+
+}
+
+
+
+#menuCirculo .circulo {
+
+  display: block;
+
+  width: 50px;
+
+  height: 50px;
+
+  border: none;
+
+  background-image: url(../assets/img/botonescosistemas.png);
+
+  background-color: #404e5b;
+
+  border-radius: 50%;
+
+  line-height: 50px;
+
+  text-align: center;
+
+  font-size: 30px;
+
+  margin: 0 auto;
+
+  text-decoration: none;
+
+  color: #cec4a4;
+
+  background-size: auto 330%;
+
+}
+
+
+
+.selected a{
+
+  background-color: #FFF!important;
+
+  color: #942829!important;
+
+}
+
+
+
+#puntos {
+
+ /* display: none;*/
+
+}
+
+#menuCirculo ul li a {
+
+	color: transparent!important;
+
+}
+
+#menuCirculo ul li:nth-child(1) a {
+
+  background-position: -3px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(2) a {
+
+  background-position: -59px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(3) a {
+
+  background-position: -114px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(4) a {
+
+  background-position: -170px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(5) a {
+
+  background-position: -225px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(6) a {
+
+  background-position: -280px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(7) a {
+
+  background-position: -335px -58px;
+
+}
+
+#menuCirculo ul li:nth-child(8) a {
+
+  background-position: -391px -58px;
+
+}
+
+
+
+
+
+#menuCirculo ul li:nth-child(1) a:hover {
+
+  background-position: -3px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(2) a:hover {
+
+  background-position: -59px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(3) a:hover {
+
+  background-position: -114px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(4) a:hover {
+
+  background-position: -170px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(5) a:hover {
+
+  background-position: -225px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(6) a:hover {
+
+  background-position: -280px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(7) a:hover {
+
+  background-position: -335px -112px;
+
+}
+
+#menuCirculo ul li:nth-child(8) a:hover {
+
+  background-position: -391px -112px;
+
+}
+
+
+
+article.fijo .margen{
+
+  width: 800px;
+
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+
+}
+
+
+
+article.producto {
+
+  height: 300px;
+
+}
+
+
+
+article.producto .margen{
+
+  width: 800px;
+
+  margin: 0px auto;
+
+  /*padding-left: 20%;*/
+
+}
+
+
+
+article.producto img{
+
+  display: inline-block;
+
+  height: 300px;
+
+  width: auto;
+
+}
+
+
+
+article.contenido {
+
+  width: 500px;
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  margin-left: 50px;
+
+  margin-top: 8%;
+
+  color: #F0F1D1;
+
+}
+
+
+
+#eo2 {
+
+  background-color: #828729;
+
+}
+
+
+
+#eo2 .fijo {
+
+  background-color: #71770E;
+
+  z-index: 1;
+
+}
+
+
+
+#eo2 .producto {
+
+  border-bottom-color: #63681C;
+
+}
+
+
+
+#eo3 {
+
+  background-color: #6F996B;
+
+}
+
+
+
+#eo3 .fijo {
+
+  background-color: #507e4d;
+
+  z-index: 1;
+
+}
+
+
+
+#eo3 .producto {
+
+  border-bottom-color: #507e4d;
+
+}
+
+
+
+#eo4 {
+
+  background-color: #BD9638;
+
+}
+
+
+
+#eo4 .fijo {
+
+  background-color: #AD8627;
+
+  z-index: 1;
+
+}
+
+
+
+#eo4 .producto {
+
+  border-bottom-color: #AD8627;
+
+}
+
+
+
+#eo5 {
+
+  background-color: #67553D;
+
+}
+
+
+
+#eo5 .fijo {
+
+  background-color: #4a391d;
+
+  z-index: 1;
+
+}
+
+
+
+#eo5 .producto {
+
+  border-bottom-color: #4a391d;
+
+}
+
+
+
+#eo6 {
+
+  background-color: #374F59;
+
+}
+
+
+
+#eo6 .fijo {
+
+  background-color: #1E3E4B;
+
+  z-index: 1;
+
+}
+
+
+
+#eo6 .producto {
+
+  border-bottom-color: #1E3E4B;
+
+}
+
+
+
+#eo7 {
+
+  background-color: #4E807D;
+
+}
+
+
+
+#eo7 .fijo {
+
+  background-color: #2B6966;
+
+  z-index: 1;
+
+}
+
+
+
+#eo7 .producto {
+
+  border-bottom-color: #2B6966;
+
+}
+
+
+
+#eo8 {
+
+  background-color: #856A50;
+
+}
+
+
+
+#eo8 .fijo {
+
+  background-color: #785B3D;
+
+  z-index: 1;
+
+}
+
+
+
+#eo8 .producto {
+
+  border-bottom-color: #785B3D;
+
+}
+
+
+
+#eo9 {
+
+  background-color: #87847B;
+
+}
+
+
+
+#eo9 .fijo {
+
+  background-color: #64625B;
+
+  z-index: 1;
+
+}
+
+
+
+#eo9 .producto {
+
+  border-bottom-color: #64625B;
+
+}
+
+
+
+.producto {
+
+  border-bottom-style: solid;
+
+  border-bottom-width: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fijo {
+
+  transition:all 0.3s ease-in-out;
+
+  -moz-transition:all 0.3s ease-in-out;
+
+  -ms-transition:all 0.3s ease-in-out;
+
+  -webkit-transition:all 0.3s ease-in-out;
+
+  -o-transition:all 0.3s ease-in-out;
+
+}

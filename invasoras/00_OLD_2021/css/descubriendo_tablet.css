@@ -1,0 +1,138 @@
+
+
+p { 
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+article {
+
+}
+
+#modal p{
+
+	font-size: 20px;
+	width: 430px;
+	margin: -11px 50px 28px;
+}
+
+#modal h2{
+
+	font-size: 35px;
+	margin-top: 20px;
+	margin-left: 50px;
+
+} 
+
+.logo {
+	width: 400px;
+	height: auto;
+	left: -2%;
+	margin-top: -25%;
+}
+
+.verdesText {
+	
+	font-size: 16px;
+	width: 400px;
+	left: -5%;
+	margin-top: -40px;
+}
+
+.modalfoto img {
+
+    margin-left: 72px;
+}
+
+.modalbtn {
+
+    width: 400px;
+    height: 45px;
+    margin-bottom: 27px;
+}
+
+.modalbtn  img{
+	bottom: 20px;
+}
+
+
+.modalVideo video{
+	position: absolute;
+	left: 80px;
+	top: 20px;
+}
+
+#invasoras .margen article {
+    margin: 0px 0px 0px 50px;
+}
+
+#animalesselva{
+	width: 100%;
+	height: auto;
+    left: -5%;
+}
+
+#fondoinvasoras img {
+    width: 100%;
+	height: auto;
+    left: -5%;
+}
+
+
+#layer2selva{
+	display: none;
+}
+
+#layer2_2selva{
+	display: none;
+}
+
+
+#bosquenublado .margen article {
+
+    margin: 0px 0px 0px 200px;
+
+}
+
+
+
+#bosquenublado .margen article img {
+
+    margin-top: 470px;
+
+    margin-left: -330px;
+
+}
+
+
+
+#animalesbosquenublado{
+
+	width: 150%;
+
+    left: -25%;
+
+}
+
+
+
+#fondobosquenublado img {
+
+    width: 150%;
+
+    left: -25%;
+
+}
+
+
+#animalesbosque{
+
+	width: 150%;
+
+    left: -32%;
+
+}
+

@@ -1,0 +1,15 @@
+{
+    "description": "Some description",
+    "directory": "gallery-02",
+    "completed": false,
+    "gallery": [
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Melinis repens",                          "image": "2-melinis-repens.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Perro doméstico",                         "image": "canis-lupus.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Ratones",                                 "image": "32-mus-musculus-01.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Palomillas de nopal",                     "image": "21-cactoblastis-cactorum.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Hidrilla",                                "image": "10-hydrilla-verticillata.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Abrus precatorius",                       "image": "2-abrus-precatorius-chochitos-de-indio-01.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Especies dispersadas por agua de lastre", "image": "especies-en-agua-de-lastre.png" },
+        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Mejillon cebra",                          "image": "9-dreissena-polymorpha.png" }
+    ]
+}

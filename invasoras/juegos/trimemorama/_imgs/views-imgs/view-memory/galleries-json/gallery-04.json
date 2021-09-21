@@ -1,0 +1,17 @@
+{
+    "description": "Some description",
+    "directory": "gallery-04",
+    "completed": false,
+    "gallery": [
+        { "matched": false, "description": "", "title": "Pineapple", "image": "031-pineapple.png" },
+        { "matched": false, "description": "", "title": "Shell", "image": "032-shell.png" },
+        { "matched": false, "description": "", "title": "Watermelon", "image": "033-watermelon.png" },
+        { "matched": false, "description": "", "title": "Ice Cream", "image": "034-ice-cream.png" },
+        { "matched": false, "description": "", "title": "Leaf", "image": "035-leaf.png" },
+        { "matched": false, "description": "", "title": "Toucan", "image": "036-toucan.png" },
+        { "matched": false, "description": "", "title": "Flower", "image": "037-flower.png" },
+        { "matched": false, "description": "", "title": "Popsicle", "image": "038-popsicle.png" },
+        { "matched": false, "description": "", "title": "Flower", "image": "039-flower.png" },
+        { "matched": false, "description": "", "title": "Mango", "image": "040-mango.png" }
+    ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	backgroundColor="rgba(35,56,66,1)"
+	indexPageName="9.html"
+
+>
+  <image imageURL="images/1-9.jpg"
+	thumbURL="thumbs/1-9.jpg"
+	linkURL="images/1-9.jpg"
+	linkTarget="_blank"
+	sourcePath="/Volumes/LaCie 3TB/adoming/Documents/web_conabio2016/azulyverde/galeria/ganadores/9/1-9.jpg">
+    <title><![CDATA[1er LUGAR “Mis amigos Ajolotes”]]></title>
+    <caption><![CDATA[Carlo Villanueva Ruíz - 9 años - Estado de México]]></caption>
+  </image>
+  <image imageURL="images/2-9.jpg"
+	thumbURL="thumbs/2-9.jpg"
+	linkURL="images/2-9.jpg"
+	linkTarget="_blank"
+	sourcePath="/Volumes/LaCie 3TB/adoming/Documents/web_conabio2016/azulyverde/galeria/ganadores/9/2-9.jpg">
+    <title><![CDATA[2do LUGAR “Mi jardín, mi pequeño ecosistema”]]></title>
+    <caption><![CDATA[Iuba Ulani Moreno Ramírez - 9 años - Querétaro]]></caption>
+  </image>
+  <image imageURL="images/3-9.jpg"
+	thumbURL="thumbs/3-9.jpg"
+	linkURL="images/3-9.jpg"
+	linkTarget="_blank"
+	sourcePath="/Volumes/LaCie 3TB/adoming/Documents/web_conabio2016/azulyverde/galeria/ganadores/9/3-9.jpg">
+    <title><![CDATA[3er LUGAR “Mi mariposa"]]></title>
+    <caption><![CDATA[Viviana Mairym Elías Melchor - 9 años - Nayarit]]></caption>
+  </image>
+</juiceboxgallery>

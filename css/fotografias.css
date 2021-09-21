@@ -1,0 +1,217 @@
+body {
+
+  background-color: #404e5b;
+
+  background-image: url(../assets/img/conoce/fotografias/patronF.png);
+
+}
+
+
+
+#galeria {
+
+  width: 700px;
+
+  background-color: #404e5b;
+
+  border-radius: 8px;
+
+  margin: 0 auto;
+
+  margin-top: 190px;
+
+}
+
+
+
+#galeria a {
+
+  width: 150px;
+
+  height: 100px;
+
+  overflow: hidden;
+
+  display: inline-block;
+
+  border: 3px solid #FFF;
+
+  border-radius: 2px;
+
+  margin-left: 15px;
+
+  margin-top: 11px;
+
+  margin-bottom: 5px;
+
+}
+
+
+
+#galeria a div {
+
+  width: 150px;
+
+  height: 100px;
+
+  overflow: hidden;
+
+  background-size: 100% auto;
+
+  position: 0 0;
+
+}
+
+
+
+#galeria a div img {
+
+  width: 150px;
+
+  height: auto;
+
+}
+
+
+
+#menuCirculo {
+
+  margin-top: 10px;
+
+}
+
+#menuCirculo ul {
+
+  padding: 0;
+
+  margin: 0 auto;
+
+  width: 600px;
+
+}
+
+
+
+#menuCirculo ul li {
+
+  display: inline-block;
+
+  vertical-align: top;
+
+  width: 60px;
+
+  margin: 0px 5px;
+
+}
+
+
+
+#menuCirculo ul li p{
+
+  text-align: center;
+
+  color: #FFF;
+
+  font-size: 14px;
+
+}
+
+
+
+#menuCirculo .circulo {
+
+  display: block;
+
+  width: 50px;
+
+  height: 50px;
+
+  border: none;
+
+  background-image: url(../assets/img/botonescosistemas.png);
+
+  background-color: #404e5b;
+
+  border-radius: 50%;
+
+  line-height: 50px;
+
+  text-align: center;
+
+  font-size: 30px;
+
+  margin: 0 auto;
+
+  text-decoration: none;
+
+  color: #cec4a4;
+
+  background-size: auto 330%;
+
+}
+
+
+
+.selected a{
+
+  background-color: #FFF!important;
+
+  color: #942829!important;
+
+}
+
+
+
+#titofotos{
+
+  width: 225px;
+
+  height: 390px;
+
+  background-position: 50% 50%;
+
+  margin: 0 auto;
+
+  background-repeat: no-repeat;
+
+  background-image: url('../assets/img/conoce/fotografias/titofotos.png');
+
+}
+
+#puntos {
+
+  display: none;
+
+}
+
+
+
+.fancybox-next span{
+
+  visibility: visible!important;
+
+  background-image: url("../assets/img/iconosavanzar.png")!important;
+
+  background-repeat: no-repeat;
+
+  background-position: 0% 50% !important;
+
+  background-size: auto 100%!important;
+
+}
+
+
+
+.fancybox-prev span {
+
+  visibility: visible!important;
+
+  background-image: url("../assets/img/iconosregresar.png")!important;
+
+  background-repeat: no-repeat;
+
+  background-position: 0% 50% !important;
+
+  background-size: auto 100%!important;
+
+}

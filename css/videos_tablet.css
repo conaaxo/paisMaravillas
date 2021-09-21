@@ -1,0 +1,23 @@
+#content {
+	top: 308px;
+    left: 60px;
+}
+
+#mainVideo {
+    top: 413px;
+	left: 41px;;
+}
+
+.listaFamilia {
+	overflow: inherit;
+}
+
+.listaVideos {
+    height: 77%;
+    width: 290px;
+    display: inline-block;
+    top: 0px;
+    position: absolute;
+    overflow: scroll;
+    right: 108px;
+}

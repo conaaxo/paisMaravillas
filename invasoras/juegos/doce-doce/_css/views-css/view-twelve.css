@@ -1,0 +1,418 @@
+/* ================================================================ */
+/* TWELVE VIEW */
+/* ---------------------------------------------------------------- */
+
+/* .view-twelve */
+.view-twelve {
+    /*width: inherit;*/
+    position: relative;
+    /*background-color: #fff;*/
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+    /* -------------------------------- */
+    /* .twelve-board */
+    .twelve-info {
+        font-family: 'McLaren', cursive;
+    }
+    .twelve-info .twelve-info-title {
+        float: left;
+        width: 90%;
+        font-size: 24px;
+        margin: 0.25em auto;
+    }
+    .twelve-info .twelve-info-crono {
+        float: right;
+        width: 8%;
+        font-size: 24px;
+        margin: 0.25em auto;
+        text-align: right;
+        display: none;
+    }
+
+    /* -------------------------------- */
+    /* .twelve-board */
+    .twelve-board-title {
+        color: #bca495;
+        font-size: 18px;
+        margin: 0 0 0 124px;
+    }
+
+    /* -------------------------------- */
+    /* .twelve-board */
+    .twelve-board {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        perspective: 2000px;
+        perspective-origin: 50% 50%;
+        padding: 0 0 0 90px;
+    }
+    /* -------------------------------- */
+    /* .twelve-board-drag */
+    .twelve-board.twelve-board-drag {
+        /*background-color: pink;*/
+        /*background-color: rgba(192, 255, 203, 0.5);*/
+        margin: 0 0 16px 0;
+    }
+
+    /* -------------------------------- */
+    /* .twelve-board-drop */
+    .twelve-board.twelve-board-drop {
+        /*background-color: gold;*/
+        /*background-color: rgba(255, 215, 0, 0.15);*/
+        margin: 0 0 0 0;
+    }
+
+    .twelve-board.twelve-board-drop .card {
+        cursor: default;
+    }
+
+    .twelve-board,
+    .twelve-board.twelve-board-drag,
+    .twelve-board.twelve-board-drag *,
+    .twelve-board.twelve-board-drop,
+    .twelve-board.twelve-board-drop * {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+
+
+    .twelve-board span:nth-child( odd ).card {
+        /*
+        background-color: #d0d0d0;
+        background-color: #9cf;
+        background-color: rgba(153,204,255,0.25);
+        */
+    }
+
+    .twelve-board .card {
+        position: relative;
+        width: 140px;
+        height: 200px;
+        width: 160px;
+        height: 140px;
+
+        margin: 8px;
+        display: flex;
+        box-sizing: border-box;
+
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+        cursor: move;
+        cursor: pointer;
+        cursor: default;
+        border-radius: 8px;
+        /*box-shadow: 0px 4px #cfcfcf;*/
+        /*backface-visibility: hidden;*/
+        transform-style: preserve-3d;
+
+        transition: border-radius 0.35s ease-in-out 0s, transform 0.35s ease-in-out 0s;
+    }
+    .twelve-board .card:hover {
+        /*transform: rotateY(180deg);*/
+        /*transform: rotate3d( 0, 1, 0, 180deg);*/
+    }
+
+    .twelve-board .card.show {
+        /*border-radius: 50%;*/
+        /*border: 4px solid crimson;*/
+        /*transform: rotateY(180deg);*/
+        transform: rotate3d( 0, 1, 0, 180deg);
+    }
+    .twelve-board .card.matched {
+        border: 8px solid cornflowerblue;
+        /*transform: rotateY(180deg);*/
+        transform: rotate3d( 0, 1, 0, 180deg);
+    }
+    
+    .twelve-board .card.display-match {
+    }
+    .twelve-board .card.display-match::before {
+        content: attr( data-display );
+        font-size: 24px;
+    }
+
+    .twelve-board .card .card-face {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        background-position: center;
+        background-size: cover;
+        backface-visibility: hidden;
+    }
+
+    .twelve-board .card .card-front {
+        /*background-color: rgba(0, 255, 255, 0.5);*/
+        /*background-color: rgba(255, 153,153,1);*/
+        /*background-color: rgba(255, 153,153,0.25);*/
+        /*transform: rotate3d( 0, 1, 0, 180deg);*/
+        cursor: move;
+        cursor: grab;
+    }
+    .twelve-board .card .card-front:active {
+        cursor: move;
+        cursor: grabbing;
+    }
+    .twelve-board span:nth-child( odd ) .card-front {
+        /*background-color: rgba(153,204,255,0.25);*/
+    }
+
+    .twelve-board .card .card-back {
+        /*background-color: rgba(232, 0, 221, 0.5);*/
+        /*background-color: rgba(153,204,255,1);*/
+        /*background-color: rgba(153,204,255,0.25);*/
+        color: purple;
+        /*background-image: url(../../_imgs/views-imgs/view-twelve/landscape.png);*/
+        transform: translateZ(1px);
+    }
+    .twelve-board span:nth-child( odd ) .card-back {
+        /*background-color: rgba(255, 153,153,0.25);*/
+    }
+
+    .twelve-board.twelve-board-drop .card.paired {
+        -webkit-animation: animationZoomin 0.5s linear 0s;
+        animation: animationZoomin 0.5s linear 0s;
+    }
+    .twelve-board.twelve-board-drop .card.paired .card-front{
+        cursor: default;
+    }
+
+
+    /* -------------------------------- */
+    /* .twelve-list */
+    .twelve-list {
+        position: absolute;
+        margin: 20px 0 0 0;
+        padding: 8px 0;
+        /*width: 640px;*/
+        box-sizing: border-box;
+        left: 10px;
+        bottom: 0px;
+    }
+    .twelve-list .options-list-title {
+        /*position: absolute;*/
+        margin: 20px 0 0 0;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #3399ff;
+    }
+
+    .twelve-list ul,.twelve-list ul li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .twelve-list ul {
+        /*display: flex;*/
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    .twelve-list ul li {
+        list-style: none;
+        /*
+        display: flex;
+        */
+        position: relative;
+        width: 70px;
+        height: 70px;
+        box-sizing: border-box;
+        background-size: contain;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        margin: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 8px solid #165947;
+        background-color: #165947;
+        -webkit-filter: grayscale( 100% ) brightness( 175% );
+        filter: grayscale( 100% ) brightness( 175% );
+        transition: transform 0.35s ease-in-out;
+    }
+
+    .twelve-list ul li::before {
+        position: absolute;
+        top: 8px;
+        left: -50px;
+        width: 130px;
+        padding: 4px;
+        border-radius: 20px;
+
+        /*height: 50px;*/
+        background-color: white;
+        color: #2D7068;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        border: 4px solid #2D7068;
+        content: attr( data-title );
+        opacity: 0;
+        transition: opacity 0.35s ease-in-out 0s, transform 0.35s ease-in-out 0s;
+    }
+    .twelve-list ul li:hover::before {
+        opacity: 1;
+        transform: translate3d(120px,0px,0px);
+    }
+
+
+    .twelve-list ul li.home,
+    .twelve-list ul li.home-margin {
+        -webkit-filter: none;
+        filter: none;
+    }
+    .twelve-list ul li.made {
+        /*
+        -webkit-filter: saturate( 175% );
+        filter: saturate( 175% );
+        */
+        -webkit-filter: hue-rotate( 220deg );
+        filter: hue-rotate( 220deg );
+        cursor: default;
+    }
+    .twelve-list ul li.current,
+    .twelve-list ul li:not( .made ):hover {
+        -webkit-filter: grayscale( 0% ) brightness( 100% );
+        filter: grayscale( 0% ) brightness( 100% );
+        -webkit-animation: animationActiveoption 1s linear 0s infinite alternate;
+        animation: animationActiveoption 1s linear 0s infinite alternate;
+    }
+    .twelve-list ul li.home {
+        margin: 8px 8px 8px 8px;
+    }
+    .twelve-list ul li.home-margin {
+        margin: 32px 8px 8px 8px;
+    }
+
+    .twelve-list ul li span {
+        font-size: 18px;
+    }
+
+    .twelve-board-modal {
+        position: absolute;
+        background-color: rgba(0,100,255,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .twelve-board-modal .twelve-message {
+        position: relative;
+        /*background-color: rgba(255,255,255,0.85);*/
+        box-sizing: border-box;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        width: 547px;
+        height: 606px;
+        border-radius: 8px;
+    }
+    .twelve-board-modal .twelve-message.boardCompleted {
+        background-image: url(../../_imgs/views-imgs/view-twelve/twelve-assets/game-win-blank.png);
+    }
+    .twelve-board-modal .twelve-message.allBoardscompleted {
+        background-image: url(../../_imgs/views-imgs/view-twelve/twelve-assets/game-win-all-blank.png);
+    }
+    .twelve-board-modal .twelve-message h3 {
+        position: absolute;
+        color: #523f33;
+        top: 168px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.6em;
+        color: white;
+        font-family: 'McLaren', cursive;
+    }
+    .twelve-board-modal .twelve-message p {
+        position: absolute;
+        top: 464px;
+        left: 72px;
+        width: 77%;
+        text-align: center;
+        font-size: 1em;
+        font-weight: normal;
+        color: white;
+        font-family: 'McLaren', cursive;
+        /*background-color: crimson;*/
+    }
+    .twelve-board-modal .twelve-message p a {
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .twelve-board-modal .btn-next {
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 8px;
+        margin: 4px auto;
+        border: 1px solid #66f;
+        border-radius: 4px;
+        background-color: transparent;
+        color: #222;
+        display: block;
+        cursor: pointer;
+        transition: background-color 0.35s ease-in-out;
+    }
+
+    .twelve-board-modal .btn-next:hover {
+        background-color: #fc6;
+        background-color: #66f;
+        color: white;
+    }
+
+/* ================================================================ */
+@-webkit-keyframes animationZoomin {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale3d(0.5, 0.5, 0.5);
+        transform: scale3d(0.5, 0.5, 0.5);
+    }
+    50% { opacity: 0; }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+@keyframes animationZoomin {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale3d(0.5, 0.5, 0.5);
+        transform: scale3d(0.5, 0.5, 0.5);
+    }
+    50% { opacity: 0; }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@-webkit-keyframes animationActiveoption {
+    0%   { border-color: #165947; background-color: #165947; }
+    100% { border-color: #B1A298; background-color: #B1A298; }
+}
+@keyframes animationActiveoption {
+    0%   { border-color: #165947; background-color: #165947; }
+    100% { border-color: #B1A298; background-color: #B1A298; }
+}

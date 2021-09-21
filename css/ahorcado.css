@@ -1,0 +1,343 @@
+body {
+  background-color: #D6B656;
+  background-image: url(../assets/img/actividades/memoramas/patronM.png);
+}
+#dataRow {
+  width: 700px;
+  margin: 130px auto 0px;
+  position: relative;
+  height: 30px;
+}
+#dataRow > div {
+  display: inline-block;
+}
+
+#ecosistema {
+  clear: both;
+}
+#espacioTarjetas {
+  width: 700px;
+  height: 500px;
+  background-color: #D6B656;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 55px;
+}
+#ecoName {
+  background-image: url(../assets/img/actividades/memoramas/ecoback.png);
+  background-size: auto 40px;
+  height: 40px;
+  width: 113px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  color: #f5fcf6;
+}
+#showTime {
+  background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
+  background-color: #942824;
+  background-size: auto 40px;
+  height: 40px;
+  width: 113px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  color: #f5fcf6;
+}
+#numbers{
+  background-color: #fcf1c8;
+  color: #404e5b;
+  padding: 3px;
+  line-height: 39px;
+}
+.tarjeton {
+  background-image: url(../assets/img/actividades/memoramas/vuelta.jpg);
+  border: 2px solid #3F4F59;
+  border-radius: 8px;
+  width: 101px;
+  height: 131px;
+  float: left;
+  cursor: pointer;
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#lid {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  display: none;
+}
+
+#felicidades {
+  display: none;
+}
+.titoFeliz {
+	float: left;
+	width: 225px;
+	height: 305px;
+	margin: 90px;
+	background-image: url("../assets/img/actividades/memoramas/titofeliz.png");
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+
+#datosDer {
+  padding-top: 100px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
+  margin-right: 90px;
+}
+
+#titomemoramas {
+  width: 200px;
+  height: 390px;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/actividades/memoramas/titomemorama.png);
+}
+#puntos {
+  display: none;
+}
+
+.selected a{
+  background-color: #942829!important;
+  color: #CEC4A4!important;
+}
+
+.selected p{
+  color: #942829!important;
+}
+#maestro {
+  display: none;
+}
+.letra, .letramala {
+  display: inline-block;
+  width: 50px;
+  font-size: 2em;
+  border-bottom: 1px solid #95252F;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.letra span {
+  visibility: hidden;
+}
+
+#palabra, #errores {
+  text-align: center;
+}
+
+#side_img img {
+  height: auto;
+  width: 230px;
+}
+
+#acertijo {
+  width: 400px;
+  margin-left: 55px;
+  color: #95252F;
+}
+
+#acertijo, #side_img {
+  display: inline-block;
+}
+
+#subterror {
+  text-align: center;
+  color: #95252F;
+  font-size: 12px;
+}
+
+#hangmodal {
+  display: none;
+  position: fixed;
+  top: 180px;
+  width: 700px;
+  height: 502px;
+  border-radius: 15px;
+  left: 50%;
+  margin-left: -350px;
+  background-color: #D6B656;
+}
+
+#hangmodal #boton {
+  position: absolute;
+  bottom: 40px;
+  left: 270px;
+  width: 200px;
+  background-color: #fff;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: #932828;
+  color: #fff;
+  box-shadow: inset 0 0 10px #000000;
+  cursor: pointer;
+}
+
+#infomodal {
+  display: none;
+  position: fixed;
+  top: 180px;
+  width: 700px;
+  height: 502px;
+  border-radius: 15px;
+  background-color: #000;
+  left: 50%;
+  margin-left: -350px;
+}
+
+#errores {
+  margin-top: 100px;
+}
+
+.faltantes {
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  background-color: #414E5A;
+  font-size: 15px;
+  line-height: 30px;
+  position: absolute;
+  left: 0;
+}
+
+#nivel {
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  background-color: #932829;
+  font-size: 15px;
+  line-height: 30px;
+  position: absolute;
+  right: 0;
+}
+
+#intromodal {
+  display: block;
+  position: relative;
+  top: 180px;
+  width: 700px;
+  height: 502px;
+  border-radius: 15px;
+  background-color: #000;
+  left: 50%;
+  margin-left: -350px;
+}
+
+#botonEmpezar {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;;
+  width: 200px;
+  background-color: #fff;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: #932828;
+  color: #fff;
+  box-shadow: inset 0 0 10px #000000;
+  cursor: pointer;
+  margin-left: -100px;
+}
+.presentation {
+  position: relative;
+}
+.presentation p , .winning p {
+  text-align: center;
+  color: #95252F;
+  line-height: 40px;
+}
+
+.winning {
+  display: none;
+  position: relative;
+}
+
+.titointro {
+  width: 281px;
+  height: 217px;
+  margin: 0px auto;
+  background-image: url(../assets/img/conoce/vecinosverde/juego/titoinicio.png);
+  background-size: 100% auto;
+}
+
+.titooutro {
+  width: 150px;
+  height: 217px;
+  margin: 0px auto;
+  background-image: url(../assets/img/conoce/vecinosverde/juego/titoganar.png);
+  background-size: 100% auto;
+}
+
+#certificado {
+  width: 202px;
+  height: 347px;
+  margin: 0px auto;
+  background-image: url(../assets/img/conoce/vecinosverde/juego/certificado.png);
+  background-size: 100% auto;
+  position: absolute;
+  right: -40px;
+  top: -110px;
+}
+
+.retryText {
+  display: none;
+  text-align: center;
+  color: #95252F;
+  margin-top: 120px;
+  line-height: 70px;
+  font-size: 22px;
+}
+#tabinput {
+  opacity:0;
+  filter:alpha(opacity=0);
+  width: 0;
+  overflow: hidden;
+}
+
+#keyboard {
+  display: none;
+  background: #EEE none repeat scroll 0% 0%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 100;
+  width: 100%;
+  position: absolute;
+  height: 217px;
+  bottom: auto;
+  left: 0px;
+  top: 595px;
+  z-index: 9999;
+}
+
+#keyboard .line {
+  text-align: center;
+  margin: 10px;
+}
+
+#keyboard .line div {
+  background: #DDD none repeat scroll 0% 0%;
+  border-radius: 10%;
+  transition: all 0.5s ease 0s;
+  width: 5.81395%;
+  height: 3em;
+  margin: 0px 0.726744% 5px 0px;
+  line-height: 3em;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+}

@@ -1,0 +1,509 @@
+section {
+
+  overflow:hidden;
+
+  width: 100%;
+
+  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.margen{
+
+  z-index: 2;
+
+}
+
+#selecciona {
+
+  color: #982728;
+
+  font-size: 22px;
+
+  margin-bottom: 20px;
+
+}
+
+#cap1 {
+
+  background-color: #952828;
+
+  color: #FFF;
+
+  position:relative;
+
+  padding-top:81px;
+
+  z-index: 3;
+
+  height: 325px;
+
+}
+
+#cap1 .margen {
+
+  height: 100%;
+
+}
+
+#cap1 h3 {
+
+    width: 420px;
+
+    text-align: center;
+
+    top: 7px;
+
+    left: 157px;
+
+    position: relative;
+
+}
+
+#cap1 p {
+
+    width: 500px;
+
+    text-align: center;
+
+    top: 30px;
+
+    left: 122px;
+
+    position: absolute;
+
+	font-size: 16px;
+
+}
+
+#cap1 #titoLibro {
+
+  height: 100%;
+
+  width: 392px;
+
+  background-image: url("../assets/img/materiales/capsulas/titochango.png");
+
+  background-size: 100% auto;
+
+  background-repeat: no-repeat;
+
+  position: absolute;
+
+  bottom: 14px;
+
+  right: -80px;
+
+}
+
+#cap2 {
+
+  background-color: #b3d49d;
+
+  background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
+
+  color: #fff;
+
+  text-align: center;
+
+  position:relative;
+
+  z-index: 3;
+
+}
+
+#cap2 #group1 {
+
+  background-color: #a2a81d;
+
+}
+
+#group1 .logodesc {
+
+  background-position: -23px 0px;
+
+  width: 92px;
+
+}
+
+#cap2 #group2 {
+
+  background-color: #719544;
+
+}
+
+#group2 .logodesc {
+
+  background-position: -133px 0px;
+
+  width: 93px;
+
+}
+
+#cap2 #group3 {
+
+  background-color: #d09c14;
+
+}
+
+#group3 .logodesc {
+
+  background-position: -255px 0px;
+
+  width: 132px;
+
+}
+
+#cap2 #group4 {
+
+  background-color: #cd7f12;
+
+}
+
+#group4 .logodesc {
+
+  background-position: -416px 0px;
+
+  width: 74px;
+
+}
+
+#cap2 #group5 {
+
+  background-color: #34748d;
+
+}
+
+#group5 .logodesc {
+
+  background-position: -10px -176px;
+
+  width: 116px;
+
+}
+
+#cap2 #group6 {
+
+  background-color: #4eb287;
+
+}
+
+#group6 .logodesc {
+
+  background-position: -166px -176px;
+
+  width: 125px;
+
+}
+
+#cap2 #group7 {
+
+  background-color: #7d5e34;
+
+}
+
+#group7 .logodesc {
+
+  background-position: -331px -176px;
+
+  width: 103px;
+
+}
+
+#cap2 #group8 {
+
+  background-color: #85827a;
+
+}
+
+#group8 .logodesc {
+
+  background-position: -475px -176px;
+
+  width: 40px;
+
+}
+
+
+
+#cap2 .squarecolor{
+
+  display: inline-block;
+
+  width: 235px;
+
+  height: 320px;
+
+  font-size: 16px;
+
+  margin-bottom: 20px;
+
+  vertical-align: top;
+
+}
+
+#cap2 .squarecolor .logodesc {
+
+  height: 170px;
+
+  background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
+
+  margin: 10px auto 0px;
+
+  background-size: auto 360px;
+
+}
+
+#cap2 ul{
+
+  text-align: left;
+
+  list-style: none;
+
+  margin: 0px;
+
+  padding: 0;
+
+}
+
+#cap2 ul li {
+
+  padding-left: 25px;
+
+}
+
+#cap2 ul li:hover {
+
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+#cap2 ul li a{
+
+  background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  display: block;
+
+  padding-left: 33px;
+
+  background-size: 20px;
+
+}
+
+#cap2 ul li a img:first-child{
+
+}
+
+#cap2 ul li a img:last-child{
+
+}
+
+#lastlink {
+
+  display: block;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  color: #081611;
+
+}
+
+.bigtext {
+
+  width: 480px;
+
+  font-size: 18px;
+
+  display: inline-block;
+
+  color: #437225;
+
+}
+
+.smalltext {
+
+  width: 480px;
+
+  font-size: 15px;
+
+  display: inline-block;
+
+  color: #4e7c32;
+
+}
+
+.largetext {
+
+  width: 480px;
+
+  font-size: 18px;
+
+  display: inline-block;
+
+  color: #132800;
+
+}
+
+.bandTitle {
+
+  width: 300px;
+
+  height: 76px;
+
+  background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
+
+  background-size: 300px auto;
+
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+
+}
+
+.bandTitle p {
+
+  margin: 0 auto;
+
+  width: 210px;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  padding-top: 15px;
+
+}
+
+.colecciones {
+
+  background-image: url("../assets/img/materiales/capsulas/bandera_capsulas_ing.png");
+
+}
+
+
+
+.mask {
+
+  display: none;
+
+  position: fixed;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.8);
+
+  z-index: 20000;
+
+  display: block;
+
+  left: 0;
+
+  top: 0;
+
+}
+
+
+
+#modalAudio {
+
+  display: none;
+
+  position: fixed;
+
+  width: 350px;
+
+  height: 200px;
+
+  top: 50%;
+
+  left: 50%;
+
+  margin-top: -100px;
+
+  margin-left: -175px;
+
+  background-color: #b3d49d;
+
+  border-radius: 5px;
+
+}
+
+.titulo {
+
+  margin-top: 20px;
+
+  text-align: center;
+
+  font-size: 24px;
+
+  color:#033;
+
+}
+
+.iconote {
+
+  height: 100px;
+
+  width: 100px;
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  margin: 25px 35px;
+
+}
+
+#audioChange {
+
+    background-image: url("../assets/img/iconovoz_cap.png");
+
+	background-repeat:no-repeat;
+
+    background-size: 100px auto;
+
+    background-position: 0px -5px;
+
+}
+
+#downloadChange {
+
+  background-image: url("../assets/img/imprimir_ico_cap.png");
+
+  background-repeat:no-repeat;
+
+  background-size: 95px auto;
+
+  background-position: 0 4px;
+
+}
+
+.closeModal {
+
+  position: absolute;
+
+  width: 35px;
+
+  height: 35px;
+
+  cursor: pointer;
+
+  background-image: url('../assets/img/iconoscerrar.png');
+
+  background-size: auto 100%;
+
+  right: -17px;
+
+  top: -18px;
+
+}

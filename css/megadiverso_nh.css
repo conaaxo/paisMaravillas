@@ -1,0 +1,256 @@
+body{
+	background-color: #52786D;
+}
+.fondos img {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+area {
+  cursor: pointer;
+}
+
+.mask {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+  z-index: 20000;
+}
+
+#modalViaje, #modalVideo {
+  display: none;
+  position: fixed;
+  width: 660px;
+  height: 380px;
+  top: 50%;
+  left: 50%;
+  margin-top: -190px;
+  margin-left: -330px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#modalViaje iframe, #modalVideo iframe {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.fullTrip {
+  position: absolute;
+  z-index: 8888;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 280px;
+  height: 81px;
+  left: 0;
+  top: 200px;
+  background-position: -14px;
+  background-image: url('../assets/img/actividades/mexicomegadiverso/viajecompleto.png');
+}
+.titoNada {
+  position: absolute;
+  width: 140px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_tito.png');
+  background-size: 260px auto;
+  bottom: 40%;
+  left: 10%;
+  cursor: pointer;
+}
+
+.titoDVD{
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_titoDVD.png');
+  background-size: 200px auto;
+  bottom: 60%;
+  left: 80%;
+  cursor: pointer;
+}
+
+.modalImg {
+  display: none;
+  position: absolute;
+  width: 1024px;
+  height: 670px;
+  left: 50%;
+  top: 50%;
+  margin-top: -335px;
+  margin-left: -512px;
+  background-size: 100% auto;
+}
+#modalBosque, #modalBosque .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_bosquecancion_nh.jpg');
+}
+#modalCampo, #modalCampo .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_campocancion_nh.jpg');
+}
+#modalCiudad, #modalCiudad .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_ciudadcancion_nh.jpg');
+}
+#modalGolfo, #modalGolfo .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_golfocancion_nh.jpg');
+}
+#modalMatorral, #modalMatorral .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_martorralcancion_nh.jpg');
+}
+#modalPacifico, #modalPacifico .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_pacificocancion_nh.jpg');
+}
+#modalPastizal, #modalPastizal .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_pastizalcancion_nh.jpg');
+}
+#modalRios, #modalRios .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_rioscancion_nh.jpg');
+}
+#modalSelvahumeda, #modalSelvahumeda .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_selvahumedacancion_nh.jpg');
+}
+#modalSelvaseca, #modalSelvaseca .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_selvasecacancion_nh.jpg');
+}
+#modalTito, #modalTito .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_titocuriosocancion_nh.jpg');
+}
+#modalCreditos, #modalCreditos .justHalf {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_creditoscanciones_nh.jpg');
+}
+.closeModal {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-image: url('../assets/img/iconoscerrar.png');
+  background-size: auto 100%;
+  right: -17px;
+  top: -18px;
+}
+
+.nextModal {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-image: url('../assets/img/iconosavanzar.png');
+  background-size: auto 100%;
+  right: -17px;
+  top: 48px;
+  background-position: -52px 0px;
+}
+
+.lastModal {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-image: url('../assets/img/iconosregresar.png');
+  background-size: auto 100%;
+  left: -17px;
+  top: 48px;
+  background-position: 0px 0px;
+}
+
+.barraExtra {
+  display: block;
+  background-color: #19663d;
+}
+
+.btnBar {
+  background-image: url('../assets/img/actividades/mexicomegadiverso/iconos_menu.png')
+}
+
+.btnA {
+  background-position: 3px -7px;
+}
+
+.btnAudio {
+  background-position: -39px -7px;
+}
+
+.btnLeaf {
+  background-position: -128px -7px;
+}
+
+.btnLeaf {
+  background-position: -128px -7px;
+}
+
+.audioPlay {
+  width: 4%;
+  height: 7%;
+  background-image: url('../assets/img/iconovoz_1.png');
+  position: absolute;
+  top: 25%;
+  background-size: 200%;
+  cursor: pointer;
+}
+
+.audioLeft {
+  left: 2%;
+}
+
+.audioRight {
+  right: 44%;
+}
+#maestro {
+  display: none;
+}
+
+footer {
+  position: fixed;
+}
+
+/*@media only screen and (orientation: portrait)*/
+@media only screen and (max-width: 718px)
+{
+  .modalImg {
+    width: 512px;
+    height: 670px;
+    left: 50%;
+    top: 50%;
+    margin-top: -335px;
+    margin-left: -256px;
+    background-size: 200% auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: none;
+  }
+  .closeModal {
+    top: 0;
+    right: 0;
+  }
+  .nextModal {
+    right: 0;
+  }
+  .lastModal {
+    left: 0;
+  }
+  .justHalf {
+    background-size: auto 100%;
+  }
+  .halfLeft {
+    background-position: 0 0;
+  }
+  .halfRight {
+    background-position: 101% 0;
+  }
+  .audioPlay {
+    width: 8%;
+  }
+  .audioRight {
+    top: 55%;
+    left: 3%;
+    top: 115%;
+  }
+}

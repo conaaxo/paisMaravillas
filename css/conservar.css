@@ -1,0 +1,132 @@
+
+
+body{
+
+	color: #321450;
+
+	background-color: #777e9a;
+
+}
+
+
+
+section{
+
+	overflow: hidden;
+
+}
+
+
+
+/*#audioconservar{
+
+	background-image: url(../assets/img/iconovoz.png);
+
+	background-repeat: no-repeat;
+
+	background-position: 4px 0px;
+
+	width: 48px;
+
+	height: 51px;
+
+	position: absolute;
+
+	top: -10px;
+
+	left: 490px;
+
+	z-index: 2000;
+
+	margin: 10px;
+
+}
+
+
+
+#audioconservar:hover{
+
+	background-position: -45px 0px;
+
+}
+
+*/
+
+#audioconservar2{
+
+	position: absolute;
+
+	top: 398px;
+
+	left: 410px;
+
+	z-index: 2000;
+
+	margin: 10px;
+
+}
+
+
+
+/*#audioconservar2:hover{
+
+	background-position: -45px 0px;
+
+}*/
+
+
+
+#circulo {
+
+	position: absolute;
+
+	z-index: 10;
+
+	background-color: #717895;
+
+	margin: -1523px  0px 0px 401px
+
+}
+
+
+
+#texto{
+
+	margin-top: 150px;
+
+	z-index: 200;
+
+}
+
+
+
+p{
+
+	margin: 0 auto;
+
+	width: 800px;
+
+}
+
+
+
+h2{
+
+	margin-left: 8%;
+
+	width: 500px;
+
+	padding-bottom: 20px;
+
+}
+
+
+
+#fondoconserva{
+
+	margin: 149px 0px 0px 0px;
+
+	background-color: #321450;
+
+}
+

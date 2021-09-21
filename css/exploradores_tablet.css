@@ -1,0 +1,75 @@
+
+
+/*#audio_e1 {
+	margin: -61px 0px 0px 406px;
+}*/
+
+#e1 h2 {
+	margin: 10% 0px 2% 100px;
+}
+#ima1_e1 {
+    text-align: left;
+    position: absolute;
+    width: 1920px;
+    height: 1200px;
+    margin: -40px 0px 0px -568px;
+    padding: 50px;
+}
+#ima1_e1 img {
+	margin: 265px 0px 0px 886px;
+	width: 50%;
+}
+#tito{
+	width: 500px !important;
+}
+
+#ima1_e2 {
+    position: absolute;
+    background-color: #333837;
+    width: 1920px;
+    height: 1450px;
+    margin: 0px 5px 10px -628px;
+    padding: 50px;
+}
+
+#ima1_e3 {
+    position: absolute;
+    background-color: #333837;
+    width: 1920px;
+    height: 1450px;
+    margin: 0px 5px 10px -628px;
+    padding: 50px;
+}
+
+#ima1_e4 {
+    position: absolute;
+    background-color: #333837;
+    width: 1920px;
+    height: 1750px;
+    margin: 0px 5px 10px -628px;
+    padding: 50px;
+}
+
+#ima1_e5 {
+    position: absolute;
+    background-color: #333837;
+    width: 1920px;
+    height: 1450px;
+    margin: 0px 5px 10px -628px;
+    padding: 50px;
+}
+
+#ima1_e6 {
+    position: absolute;
+    background-color: #333837;
+    width: 1920px;
+    height: 3560px;
+    margin: 0px 5px 10px -628px;
+    padding: 50px;
+}
+
+#registro{
+	margin: -20px 0px 0px 570px !important;
+}
+
+

@@ -1,0 +1,571 @@
+@charset "iso-8859-1";
+
+/* CSS Document */
+
+body {
+
+}
+
+title {
+
+	font-family:mclaren-regular;
+
+	font-size:9px;
+
+	padding: 8px;
+
+	position: absolute;
+
+	z-index: 9999;
+
+	max-width: 300px;
+
+	-webkit-box-shadow: 0 0 5px #aaa;
+
+	box-shadow: 0 0 5px #aaa;
+
+}
+
+section {
+
+	position: fixed;
+
+	overflow: hidden;
+
+	height: 100%;
+
+	width: 100%;
+
+	background-color: #000;
+
+}
+
+#premio{
+
+	position: absolute;
+
+	z-index: 3000;
+
+	display: inline-block;
+
+	color: #fff;
+
+	font-size: 12px;
+
+	width: 400px;
+
+	height: auto;
+
+	bottom: 18%;
+
+	left: 10%;
+
+}
+
+#premio span{
+
+	font-size: 18px;
+
+}
+
+#premio img{
+
+	left: -80px;
+
+	position: absolute;
+
+	display: inline-block;
+
+}
+
+#premio a{
+
+	text-decoration: none;
+
+	color: #FFF;
+
+	cursor: pointer;
+
+}
+
+.downloadPC{
+
+	cursor: pointer;
+
+	display: none;
+
+}
+
+.downloadPC a {	
+
+	text-decoration: none;
+
+	color: #fff;
+
+}
+
+.downloadAndroid{
+
+	cursor: pointer;
+
+	display: none;
+
+}
+
+#audio_i1 {
+
+	background-image: url(../assets/img/iconomusica_2.png);
+
+	position: absolute;
+
+	z-index: 10000;
+
+	margin: 21px 0px 0px 360px !important;
+
+	
+
+}
+
+
+
+#audio_i1:hover{
+
+	background-position: -45px 0px;
+
+}
+
+
+
+#audio_i1:focus{
+
+	background-position: -45px 0px;
+
+}
+
+
+
+header h1{
+
+	display: none;
+
+}
+
+
+
+.fondoimg{
+
+	width: 100%;
+
+	margin: 0;
+
+}
+
+
+
+.fondoimg img{
+
+	width: 100%;
+
+	height: auto;
+
+}
+
+
+
+.fa{
+
+	cursor: pointer;
+
+}
+
+
+
+#logotipo{
+
+	height: 100%;
+
+	width: auto;
+
+	transform:translateX(-50%);
+
+	-o-transform:translateX(-50%);
+
+	-ms-transform:translateX(-50%);
+
+	-moz-transform:translateX(-50%);
+
+	-khtml-transform:translateX(-50%);
+
+	-webkit-transform:translateX(-50%);
+
+	left: 50%;
+
+	top: 10px;
+
+	position: absolute;
+
+	z-index: 1000;
+
+	margin-top: 10%;
+
+}
+
+
+
+#tito{
+
+    position: absolute;
+
+	z-index: 1000;
+
+	left: -9%;
+
+	top: 53px;
+
+}
+
+
+
+.back {
+
+	width: 40px;
+
+	height: 40px;
+
+	background-image: url("../assets/img/iconoscerrar.png");
+
+	background-size: auto 100%;
+
+	z-index: 10;
+
+	right: -8px;
+
+	position: absolute;
+
+	top: -9px;
+
+	cursor: pointer;
+
+}
+
+
+
+#modalhome{
+
+	display: none;
+
+	width: 70%;
+
+	height: 70%;
+
+	transform: translateX(-50%);
+
+	-o-transform: translateX(-50%);
+
+	-ms-transform: translateX(-50%);
+
+	-moz-transform: translateX(-50%);
+
+	-khtml-transform: translateX(-50%);
+
+	-webkit-transform: translateX(-50%);
+
+	left: 50%;
+
+	top: 15%;
+
+	background-color: #dddddd;
+
+	z-index: 4000;
+
+	position:fixed;
+
+	padding: 40px;
+
+	color: #6C7286;
+
+	border: 0px solid #000;
+
+	border-radius: 0px 50px 0px 50px;
+
+	-o-border-radius: 0px 50px 0px 50px;
+
+	-ms-border-radius: 0px 50px 0px 50px;
+
+	-moz-border-radius: 0px 50px 0px 50px;
+
+	-khtml-border-radius: 0px 50px 0px 50px;
+
+	-webkit-border-radius: 0px 50px 0px 50px;
+
+}
+
+
+
+#modalcontent {
+
+	height: 100%;
+
+	overflow: scroll;
+
+}
+
+
+
+#modalhome h2{
+
+	color: #545972;
+
+	margin: 0 auto;
+
+	width: 700px;
+
+	padding: 20px;
+
+}
+
+
+
+#modalhome p{
+
+	width: 700px;
+
+	margin: 0 auto;
+
+}
+
+
+
+#titologo{
+
+	position: absolute;
+
+	top: -110px;
+
+	left: -180px;
+
+}
+
+
+
+#tito1{
+
+	position: absolute;
+
+	right: -170px;
+
+	bottom: -24px;
+
+}
+
+
+
+#overlay{
+
+	position:fixed;
+
+	display:none;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+	background-color: rgba(0,0,0,0.7);
+
+	z-index: 1000;
+
+}
+
+.banderas1{
+
+	height:41px;
+
+	width:87px;
+
+	display:block;
+
+	position:fixed;
+
+	right:0;
+
+	background-image: url('../assets/img/bandera_creditos.png');
+
+	background-size: 95px auto;
+
+	background-repeat: no-repeat;
+
+	transition:all 0.3s ease-in-out;
+
+	-moz-transition:all 0.3s ease-in-out;
+
+	-ms-transition:all 0.3s ease-in-out;
+
+	-webkit-transition:all 0.3s ease-in-out;
+
+	-o-transition:all 0.3s ease-in-out;
+
+
+
+}
+
+
+
+.banderas1 a{
+
+	display:block;
+
+	height:41px;
+
+	width:87px;
+
+}
+
+/*#bio{
+
+	top: 220px;
+
+	background-position: 25px -5px;
+
+	background-image: url('../assets/img/bandera_creditos.png');
+
+}
+
+#bio:hover{
+
+	background-position: 0px -5px;
+
+}*/
+
+#creditos{
+
+	top: 258px;
+
+	background-position: 25px -49px;
+
+	z-index: 9000;
+
+}
+
+#creditos:hover{
+
+	background-position: 0px -49px !important;
+
+}
+
+
+
+#fondohome{
+
+	position: fixed;
+
+	margin: 0px;
+
+	padding: 0px;
+
+	height: 100%;
+
+	width: 100%;
+
+	background-image: url(../assets/img/home/04.jpg) no-repeat center center fixed;
+
+	background-size: cover;
+
+	background-position: 50% 50%;
+
+}
+
+
+
+#fondohome img{
+
+	height: 100%;
+
+	width: auto;
+
+	transform:translateX(-50%);
+
+	-o-transform:translateX(-50%);
+
+	-ms-transform:translateX(-50%);
+
+	-moz-transform:translateX(-50%);
+
+	-khtml-transform:translateX(-50%);
+
+	-webkit-transform:translateX(-50%);
+
+	left: 50%;
+
+	position: absolute;
+
+}
+
+
+
+footer{
+
+	position: fixed;
+
+	width: 100%;
+
+	height: 100px;
+
+	bottom: 0;
+
+	background-color: rgba(0,0,0,.5);
+
+	left: 0;
+
+	z-index: 800;
+
+}
+
+
+
+footer div{
+
+	margin: 21px 0px 0px 35px;
+
+}
+
+
+
+footer h4{
+
+	position: absolute;
+
+	top: 0px;
+
+	right: 20px;
+
+	color: #fff;
+
+}
+
+
+
+footer p{
+
+	position: absolute;
+
+	top: 40px;
+
+	right: 20px;
+
+	color: #9fca63;
+
+	font-size: 11px;
+
+}
+
+
+
+footer img {
+
+	margin: 0;
+
+}

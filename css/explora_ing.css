@@ -1,0 +1,2690 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	position: relative;
+}
+
+.margen{
+	position: relative;
+}
+
+.fondoimg{
+	width: 100%;
+	margin: 0;
+}
+
+.fondoimg img{
+	width: 100%;
+	height: auto;
+}
+.timportante{
+	color: #0b253e;
+	width: 400px;
+}
+
+.animales{
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+}
+
+p{
+	color: #FFF;
+	font-size: 18px;
+	width: 400px;
+	display: inline-block;
+}
+.textoecosistemas{
+	width: 500px;
+}
+section{
+	overflow: hidden;
+}
+
+/*MODAL*/
+#modal{
+	display: none;
+	width: 900px;
+	height: 430px;
+	top: 30%;
+	left: 15%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 9999;
+	position: fixed;
+
+}
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url("../assets/img/iconoscerrar.png");
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
+.modalfoto img{
+	width: 400px;
+	height: 392px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+.modalNombre{
+	color:#FFF;
+	display:inline-block;
+	position:relative;
+	float:left;
+	margin-top:33px;
+}
+.modalTexto{
+	color: #FFF;
+	position: relative;
+	display: inline-block;
+	margin-top: 0px;
+}
+.modalVideo{
+	width: 320px;
+	height: 240px;
+	margin: -363px auto;
+	background-color: rgba(0,0,0,0.0);
+	border: 0px solid #000;
+	position: relative;
+	display: none;
+}
+
+.modalVideo video{
+	position: absolute;
+	width: 320px;
+	height: 240px;
+	margin: 0px auto;
+	cursor: move;
+}
+
+.modalbtn{
+	width: 400px;
+	position: absolute;
+	display: block;
+	margin: 0px auto;
+	height: 38px;
+	bottom: 0px;
+	background-color: #15774e;
+	left: 0px;
+	border-top: 5px solid;
+}
+.modalbtn ul {
+	float: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+.modalbtn ul li {
+	background-image: url('../assets/img/iconosmultimedia.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0px;
+	position: absolute;
+	bottom: 2px;
+	width: 40px;
+	height: 39px;
+	left: 10px;
+}
+.modalbtn ul li a{
+ 	 width: 100%;
+ 	 height: 100%;
+ 	 display: block;
+}
+.modalbtn ul li#maudio {
+ 	 background-position: -46px 0px;
+}
+.modalbtn ul li#mvideo {
+ 	background-position: -82px -60px;
+	width: 57px;
+	left: 52px;
+}
+.modalbtn ul li#msonido {
+ 	background-position: -37px -59px;
+	width: 50px;
+	left: 105px;
+}
+.modalbtn ul li#maudio:hover {
+ 	 background-position: 0px 0px;
+}
+.modalbtn ul li#mvideo:hover {
+ 	background-position: -82px 2px;
+	width: 57px;
+	left: 52px;
+}
+.modalbtn ul li#msonido:hover {
+ 	background-position: 10px -59px;
+	width: 57px;
+	left: 105px;
+}
+#overlay{
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 9000;
+}
+
+/*MODAL*/
+/*explora*/
+#explora{
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+#planeta{
+	position: relative;
+	padding: 0;
+	margin: -110px 0px -7px 0px;
+	z-index: 500;
+}
+#explora .layerplaneta{
+	width: 100%;
+	margin: 0 auto;
+	bottom: 0px;
+	display: none;
+}
+#layerSelvah{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerBosquen{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerBosquet{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerRios{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerPastizal{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerMatorral{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerSelvas{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerPacifico{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerGolfo{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerCampo{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#layerCiudad{
+	z-index: 1000;
+	position: absolute;
+	padding: 0;
+	margin: -419px -483px -7px;
+}
+#menuecosistemas{
+	position: absolute;
+	margin: 90px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: rgba(9,60,39,0.5);
+	box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+	border: 5px solid #15774e;
+	border-radius: 0px 0 50px 0;
+	-o-border-radius: 0px 0 50px 0;
+	-ms-border-radius: 0px 0 50px 0;
+	-moz-border-radius: 0px 0 50px 0;
+	-khtml-border-radius: 0px 0 50px 0;
+	-webkit-border-radius: 0px 0 50px 0;
+	color: #f7f7ec;
+	width: 255px;
+	height: 355px;
+	overflow: hidden;
+	z-index: 2000;
+	display: inline-block;
+}
+#menuecosistemas li{
+	list-style: none;
+	text-align: left;
+	line-height: 25px;
+	height: 26px;
+	margin: -18px 0px 20px -40px;
+	padding-left: 16px;
+}
+
+#menuecosistemas ul li:first-child{
+	list-style: none;
+	line-height: 40px;
+	height: 40px;
+	margin: -24px 0px 20px -40px;
+	background-color: #24a067;
+	color: #030;
+}
+#menuecosistemas ul li h4{
+	margin-left: -9px;
+}
+
+#menuecosistemas ul li:hover{
+	background-color: #f1e85f;
+	color: #093a24;
+
+}
+
+#musicaexplora{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	display: inline-block;
+	top: 82px;
+	left: 260px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicaexplora:hover{
+	background-position: -45px 0px;
+}
+#audiobosquen{
+	z-index: 9000;
+}
+/*explora*/
+
+
+
+/*#audioselva{
+	background-image: url(../assets/img/iconovoz.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 200px;
+	z-index: 2000;
+	margin: 10px;
+}*/
+
+/*#audioselva:hover{
+	background-position: -45px 0px;
+}*/
+
+#musicaselva{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicaselva:hover{
+	background-position: -45px 0px;
+}
+
+/*#audiobosque{
+	background-image: url(../assets/img/iconovoz_1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 260px;
+	z-index: 2000;
+	margin: 10px;
+}*/
+
+/*#audiobosque:hover{
+	background-position: -45px 0px;
+}*/
+
+#musicabosque{
+	background-image: url(../assets/img/iconomusica_1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 310px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicabosque:hover{
+	background-position: -45px 0px;
+}
+/*#audiopastizal{
+	background-image: url(../assets/img/iconovoz.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 200px;
+	z-index: 2000;
+	margin: 10px;
+}
+
+#audiopastizal:hover{
+	background-position: -45px 0px;
+}*/
+
+#musicapastizal{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicapastizal:hover{
+	background-position: -45px 0px;
+}
+/*#audiomatorral{
+	background-image: url(../assets/img/iconovoz.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 200px;
+	z-index: 2000;
+	margin: 10px;
+}
+
+#audiomatorral:hover{
+	background-position: -45px 0px;
+}
+*/
+#musicamatorral{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicamatorral:hover{
+	background-position: -45px 0px;
+}
+/*#audiopacifico{
+	background-image: url(../assets/img/iconovoz.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+}
+
+#audiopacifico:hover{
+	background-position: -45px 0px;
+}*/
+
+#musicapacifico{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 300px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicapacifico:hover{
+	background-position: -45px 0px;
+}
+/*#audiogolfo{
+	background-image: url(../assets/img/iconovoz.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+}
+
+#audiogolfo:hover{
+	background-position: -45px 0px;
+}
+*/
+#musicagolfo{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 300px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicagolfo:hover{
+	background-position: -45px 0px;
+}
+/*#audiocampo{
+	background-image: url(../assets/img/iconovoz_1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 200px;
+	z-index: 2000;
+	margin: 10px;
+}
+
+#audiocampo:hover{
+	background-position: -45px 0px;
+}*/
+
+#musicacampo{
+	background-image: url(../assets/img/iconomusica_1.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicacampo:hover{
+	background-position: -45px 0px;
+}
+/*#audiociudad{
+	background-image: url(../assets/img/iconovoz.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 48px;
+	height: 51px;
+	position: absolute;
+	top: -10px;
+	left: 200px;
+	z-index: 2000;
+	margin: 10px;
+}
+
+#audiociudad:hover{
+	background-position: -45px 0px;
+}*/
+
+#musicaciudad{
+	background-image: url(../assets/img/iconomusica.png);
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: -8px;
+	left: 250px;
+	z-index: 2000;
+	margin: 10px;
+
+}
+
+#musicaciudad:hover{
+	background-position: -45px 0px;
+}
+
+/*selvaseca*/
+#selvaseca{
+	margin: 0;
+	padding-top: 400px;
+	background-color: #7688A0;
+	position: relative;
+}
+#animalesselvaseca{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#selvaseca p{
+	color: #020318!important;
+}
+#selvaseca img{
+	width: 100%;
+}
+
+#selvaseca .margen article{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+
+#selvaseca h2{
+	color: #10143C;
+	margin: 0;
+}
+
+#selvaseca .margen article img{
+	display: inline-block;
+	position: absolute;
+	z-index: 100;
+	width: 300px;
+}
+
+#fondoselvaseca img{
+	margin-top: 500px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: relative;
+	z-index: 2000;
+}
+#nubess1{
+	position: absolute;
+	top: 600px;
+	right: 50px;
+	width: 80%;
+	display: block!important;
+	z-index: 5000;
+}
+#apamate{
+	position: absolute;
+	top: 36%;
+    right: 32%;
+    width: 22%;
+    height: 22%;
+}
+#alacran{
+	position: absolute;
+	top: 79%;
+	right: 18%;
+	width: 5%;
+	height: 8%;
+}
+#cigarra{
+	position: absolute;
+	top: 81%;
+	right: 70%;
+	width: 5%;
+	height: 8%;
+}
+#zorrillo{
+	position: absolute;
+	top: 68%;
+	right: 36%;
+	width: 8%;
+	height: 11%;
+}
+#armadillo{
+	position: absolute;
+	top: 81%;
+	right: 44%;
+	width: 6%;
+	height: 9%;
+}
+#cacomixtle{
+	position: absolute;
+	top: 40%;
+	right: 22%;
+	width: 8%;
+	height: 21%;
+}
+#murcielago{
+	position: absolute;
+	top: 29%;
+	right: 56%;
+	width: 14%;
+	height: 11%;
+}
+#bolsero{
+	position: absolute;
+	top: 20%;
+    right: 37%;
+    width: 7%;
+    height: 11%;
+}
+#chachalaca{
+	position: absolute;
+	top: 60%;
+	right: 52%;
+	width: 10%;
+	height: 11%;
+}
+#iguana{
+	position: absolute;
+	top: 48%;
+	right: 67%;
+	width: 13%;
+	height: 17%;
+}
+#bejuquilla{
+	position: absolute;
+	top: 55%;
+	right: 9%;
+	width: 9%;
+	height: 17%;
+}
+#bejuquilla{
+	position: absolute;
+	top: 55%;
+	right: 9%;
+	width: 9%;
+	height: 17%;
+}
+#lagarto{
+	position: absolute;
+	top: 67%;
+	right: 18%;
+	width: 11%;
+	height: 10%;
+}
+#sapo{
+	position: absolute;
+	top: 83%;
+	right: 55%;
+	width: 7%;
+	height: 6%;
+}
+/*selvaseca*/
+
+
+/*selvahumeda*/
+#selvahumeda{
+	margin: 0;
+	padding-top: 300px;
+	background-color: #13552f;
+	position: relative;
+}
+
+#selvahumeda img{
+	width: 100%;
+}
+
+#selvahumeda .margen article{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+
+#selvahumeda h2{
+	color: #78a23c;
+	margin: 0;
+}
+
+#selvahumeda .margen article img{
+	display: inline-block;
+	position: absolute;
+	z-index: 650;
+	width: 400px;
+}
+
+#animalesselva{
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+
+#tapir{
+	position: absolute;
+	top: 72%;
+	right: 50%;
+	width: 6%;
+	height: 8%;
+}
+#saraguato{
+	position: absolute;
+	top: 37%;
+	right: 39%;
+	width: 8%;
+	height: 8%;
+}
+#mono{
+	position: absolute;
+	top: 48%;
+	right: 41%;
+	width: 8%;
+	height: 8%;
+}
+#aguilaa{
+	position:absolute;
+	top: 41%;
+	right: 66%;
+	width: 6%;
+	height: 10%;
+}
+#guacamaya{
+	position: absolute;
+	top: 57%;
+	right: 62%;
+	width: 9%;
+	height: 7%;
+}
+#morfo{
+	position: absolute;
+	top: 74%;
+	right: 60%;
+	width: 5%;
+	height: 8%;
+}
+#cocodrilo{
+	position: absolute;
+	top: 74%;
+	right: 69%;
+	width: 12%;
+	height: 15%;
+}
+#orquidea{
+	position:absolute;
+	top: 82%;
+	right: 52%;
+	width: 6%;
+	height: 7%;
+}
+#boa{
+	position: absolute;
+	top: 57%;
+	right: 34%;
+	width: 6%;
+	height: 7%;
+}
+#lacandonia{
+	position: absolute;
+	top: 83%;
+	right: 39%;
+	width: 6%;
+	height: 4%;
+}
+#rana{
+	position: absolute;
+	top: 77%;
+	right: 23%;
+	width: 8%;
+	height: 14%;
+}
+#pecari{
+	position: absolute;
+	top: 66%;
+	right: 35%;
+	width: 10%;
+	height: 11%;
+}
+#platanillo{
+	position: absolute;
+	top: 44%;
+	right: 62%;
+	width: 3%;
+	height: 9%;
+}
+#bromelia{
+	position: absolute;
+	top: 46%;
+	right: 33%;
+	width: 7%;
+	height: 9%;
+}
+#escarabajo{
+	position: absolute;
+	top: 88%;
+	right: 37%;
+	width: 4%;
+	height: 6%;
+}
+#jaguar{
+	position: absolute;
+	top: 58%;
+	right: 49%;
+	width: 9%;
+	height: 13%;
+}
+#hormigas{
+	position: absolute;
+	top: 88%;
+	right: 44%;
+	width: 10%;
+	height: 5%;
+	transform: rotate(161deg);
+}
+#fondoselvahumeda img{
+	margin-top: 500px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: relative;
+}
+
+#layer0selva{
+	position: absolute;
+	margin-top: 375px;
+	z-index: 500;
+	width: 100%;
+}
+
+#layer2selva{
+	position: absolute;
+	z-index: 660;
+	width: 80%
+}
+
+#layer2selva img{
+	bottom: 0;
+	transform: translateX(-20%);
+	-webkit-transform: translateX(-20%);
+	-o-transform: translateX(-20%);
+	-moz-transform: translateX(-20%);
+	-ms-transform: translateX(-20%);
+	position: absolute;
+	width: 50%;
+}
+
+#layer2_2selva{
+	position: absolute;
+	z-index: 660;
+	width: 80%
+}
+
+#layer2_2selva img{
+	bottom: 0;
+	transform: translateX(160%);
+	-webkit-transform: translateX(160%);
+	-o-transform: translateX(160%);
+	-moz-transform: translateX(160%);
+	-ms-transform: translateX(160%);
+	position: absolute;
+	width: 50%;
+}
+
+/*selvahumeda*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transicionselvahumeda{
+	position: absolute;
+	z-index: 2000;
+	margin-left: 0px;
+	margin-top: -90px;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+/*selvahumeda*/
+
+
+/*bosquenublado*/
+#bosquenublado{
+	margin: 0;
+	padding-top: 400px;
+	background-color: #C29484;
+	position: relative;
+}
+#bosquenublado p{
+	color: #743138!important;
+}
+#bosquenublado img{
+	width: 100%;
+}
+
+#bosquenublado .margen article{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+
+#bosquenublado h2{
+	color: #36180E;
+	margin: 0;
+}
+
+#bosquenublado .margen article img{
+	display: inline-block;
+	position: absolute;
+	z-index: 100;
+	width: 300px;
+}
+#animalesbosquenublado{
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+#fondobosquenublado img{
+	margin-top: 500px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: relative;
+	z-index: 2000;
+}
+#nube22{
+	position: absolute;
+	top: 47px;
+	right: 10%;
+	width: 80%;
+	display: block!important;
+	z-index: 5000;
+}
+#nube2{
+	position: absolute;
+	top: 547px;
+	right: -3%;
+	width: 80%;
+	display: block!important;
+	z-index: 5500;
+}
+#nube3{
+	position: absolute;
+	top: 4099px;
+	right: 50px;
+	width: 80%;
+	display: block!important;
+	z-index: 6500;
+}
+#quetzal{
+	position: absolute;
+	top: 38%;
+	right: 50%;
+	width: 6%;
+	height: 21%;
+}
+#osohormiguero{
+	position: absolute;
+	top: 69%;
+	right: 36%;
+	width: 10%;
+	height: 9%;
+}
+#pavon{
+	position: absolute;
+	top: 21%;
+	right: 26%;
+	width: 12%;
+	height: 22%;
+}
+#aracari{
+	position: absolute;
+    top: 23%;
+	right: 41%;
+	width: 5%;
+	height: 10%;
+}
+#cometa{
+	position: absolute;
+    top: 39%;
+	right: 39%;
+	width: 5%;
+	height: 9%;
+}
+#tigrillo{
+	position: absolute;
+   	top: 69%;
+	right: 22%;
+	width: 10%;
+	height: 21%;
+}
+#magnolia{
+	position: absolute;
+   top: 58%;
+	right: 39%;
+	width: 10%;
+	height: 11%;
+}
+#viejo{
+	position: absolute;
+    top: 85%;
+	right: 41%;
+	width: 11%;
+	height: 9%;
+}
+#tlaconete{
+	position: absolute;
+	top: 77%;
+	right: 61%;
+	width: 11%;
+	height: 8%;
+}
+#nauyaca{
+	position: absolute;
+   top: 60%;
+	right: 55%;
+	width: 11%;
+	height: 10%;
+}
+#bromelian{
+	position: absolute;
+  	top: 36%;
+	right: 64%;
+	width: 9%;
+	height: 22%;
+}
+#helecho{
+	position: absolute;
+    top: 47%;
+	right: 13%;
+	width: 12%;
+	height: 24%;
+}
+/*bosquenublado*/
+
+
+
+/*bosquetemplado*/
+#transicionselva2{
+	position: absolute;
+	z-index: 600;
+	top: -123px;
+	left: 0;
+}
+
+#bosquetemplado{
+	margin: 0;
+	padding-top: 600px;
+	background-color: #0f75bd;
+	position: relative;
+}
+
+#bosquetemplado img{
+	width: 100%;
+}
+
+#bosquetemplado .margen article{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+
+#bosquetemplado h2{
+	color: #fff;
+	margin: 0;
+}
+
+#bosquetemplado .margen article img{
+	display: inline-block;
+	position: absolute;
+	z-index: 650;
+	width: 200px;
+}
+
+#animalesbosque{
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+#cotorraoc{
+	position: absolute;
+	top: 15%;
+	right: 36%;;
+	width: 8%;
+	height: 9%;
+}
+#cotorraor{
+	position: absolute;
+	top: 23%;
+	right: 24%;
+	width: 9%;
+	height: 12%;
+}
+#condor{
+	position: absolute;
+	top: 34%;
+	right: 67%;
+	width: 9%;
+	height: 15%;
+}
+#aguila{
+	position: absolute;
+	top: 36%;
+	right: 53%;
+	width: 6%;
+	height: 10%;
+}
+#pinabete{
+	position: absolute;
+	top: 6%;
+	right: 63%;
+	width: 15%;
+	height: 27%;
+}
+#encino{
+	position: absolute;
+	top: 48%;
+	right: 43%;
+	width: 5%;
+	height: 10%;
+}
+#pino{
+	position: absolute;
+	top: 37%;
+	right: 13%;
+	width: 8%;
+	height: 24%;
+}
+#oso{
+	position: absolute;
+	top: 53%;
+	right: 50%;
+	width: 6%;
+	height: 7%;
+}
+#lobo{
+	position: absolute;
+	top: 62%;
+    right: 54%;
+    width: 9%;
+    height: 14%;
+}
+#venado{
+	position: absolute;
+	top: 65%;
+	right: 36%;
+	width: 11%;
+	height: 20%;
+}
+#gorrion{
+	position: absolute;
+	top: 63%;
+	right: 18%;
+	width: 12%;
+	height: 15%;
+}
+#ardilla{
+	position: absolute;
+	top: 85%;
+	right: 64%;
+	width: 4%;
+	height: 5%;
+}
+#teporingo{
+	position: absolute;
+	top: 83%;
+	right: 52%;
+	width: 4%;
+	height: 6%;
+}
+#monarca{
+	position: absolute;
+	top: 85%;
+	right: 43%;
+	width: 4%;
+	height: 6%;
+}
+#trucha{
+	position: absolute;
+	top: 82%;
+	right: 29%;
+	width: 5%;
+	height: 6%;
+}
+#fondobosquetemplado img{
+	margin-top: 500px;
+	width: 100%;
+	bottom: 0;
+}
+
+#nube1{
+	position: absolute;
+	width: 80%;
+	top: 50px;
+	left: 0px;
+	display: block!important;
+}
+/*
+#nube2{
+	position: absolute;
+	top: 547px;
+	right: -3%;
+	width: 80%;
+	display: block!important;
+}
+*/
+#nube3{
+	position: absolute;
+	top: 1084px;
+	right: 50px;
+	width: 80%;
+	display: block!important;
+}
+
+#nube4{
+	position: absolute;
+	top: 700px;
+	right: -564px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer2bosquetemplado{
+	position: absolute;
+	z-index: 660;;
+	width: 100%;
+}
+
+#layer2bosquetemplado img{
+	bottom: -145px;
+	transform: translateX(145%);
+	-webkit-transform: translateX(145%);
+	-o-transform: translateX(145%);
+	-moz-transform: translateX(145%);
+	-ms-transform: translateX(145%);
+	position: absolute;
+	width: 50%;
+}
+
+
+#layer3bosquetemplado{
+	position: absolute;
+	z-index: 660;
+	width: 100%;
+}
+
+#layer3bosquetemplado img{
+	bottom: -145px;
+	transform: translateX(-30%);
+	-webkit-transform: translateX(-30%);
+	-o-transform: translateX(-30%);
+	-moz-transform: translateX(-30%);
+	-ms-transform: translateX(-30%);
+	position: absolute;
+	width: 50%;
+}
+/*bosquetemplado*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transicionbosquetemplado{
+	position: absolute;
+	z-index: 2000;
+	margin-left: 0px;
+	margin-top: -135px;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+
+
+/*rios*/
+#rios{
+	margin: 0;
+	padding-top: 400px;
+	background-color: #A7DCE4;
+	position: relative;
+}
+#rios p{
+	color: #31666C!important;
+}
+#rios img{
+	width: 100%;
+}
+#titorio{
+	position: absolute;
+	top: 20px;
+	right: -50px;
+	width: 80%;
+	display: block!important;
+}
+#rios .margen article{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+
+#rios h2{
+	color: #08383F;
+	margin: 0;
+}
+
+#rios .margen article img{
+	display: inline-block;
+	position: absolute;
+	z-index: 100;
+	width: 300px;
+}
+#animalesrios{
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+#fondorios img{
+	margin-top: 500px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: relative;
+	z-index: 2000;
+}
+#nuberio{
+	position: absolute;
+	top: 700px;
+	right: -164px;
+	width: 80%;
+	display: block!important;
+	z-index: 5000;
+}
+#ahuejote{
+	position: absolute;
+	top: 39%;
+	right: 35%;
+	width: 14%;
+	height: 24%;
+}
+#ahuehuete{
+	position: absolute;
+	top: 17%;
+	right: -3%;
+	width: 31%;
+	height: 37%;
+}
+#martin{
+	position: absolute;
+	top: 67%;
+	right: 18%;
+	width: 7%;
+	height: 14%;
+}
+#clarin{
+	position: absolute;
+	top: 13%;
+	right: 35%;
+	width: 7%;
+	height: 14%;
+}
+#mirlo{
+	position: absolute;
+	top: 67%;
+	right: 57%;
+	width: 11%;
+	height: 14%;
+}
+#ajolote{
+	position: absolute;
+	top: 78%;
+	right: 18%;
+	width: 8%;
+	height: 11%;
+}
+#ranar{
+	position: absolute;
+	top: 72%;
+	right: 28%;
+	width: 8%;
+	height: 7%;
+}
+#charal{
+	position: absolute;
+	top: 83%;
+	right: 31%;
+	width: 8%;
+	height: 7%;
+}
+#carpa{
+	position: absolute;
+	top: 81%;
+	right: 51%;
+	width: 9%;
+	height: 5%;
+}
+#ninfa{
+	position: absolute;
+	top: 68%;
+	right: 48%;
+	width: 9%;
+	height: 10%;
+}
+#pato{
+	position: absolute;
+	top: 67%;
+	right: 39%;
+	width: 9%;
+	height: 17%;
+}
+#tortugablanca{
+	position: absolute;
+	top: 86%;
+	right: 44%;
+	width: 9%;
+	height: 9%;
+}
+#camaron{
+	position: absolute;
+	top: 87%;
+	right: 39%;
+	width: 4%;
+	height: 5%;
+}
+#ranar{
+	position: absolute;
+	top: 72%;
+	right: 28%;
+	width: 8%;
+	height: 7%;
+}
+#chuspata{
+	position: absolute;
+	top: 60%;
+	right: 65%;
+	width: 8%;
+	height: 37%;
+}
+#castor{
+	position: absolute;
+	top: 56%;
+	right: 26%;
+	width: 6%;
+	height: 9%;
+}
+#ganso{
+	position: absolute;
+	top: 9%;
+	right: 30%;
+	width: 15%;
+	height: 19%;
+}
+/*rios*/
+
+
+
+/*pastizal*/
+#pastizal{
+	margin:0;
+	padding-top:600px;
+	background-color:#f1592a;
+	position:relative;
+}
+
+#pastizal img{
+	width:100%;
+}
+
+#pastizal .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+
+#pastizal h2{
+	color:#fff;
+	margin:0;
+}
+
+#pastizal .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+}
+#animalespastizal{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#aguilar{
+	position:absolute;
+	top: 6%;
+	right: 37%;
+	width: 6%;
+	height: 10%;
+}
+#huizache{
+	position:absolute;
+	top: 4%;
+	right: 46%;
+	width: 38%;
+	height: 26%;
+}
+#bisonte{
+	position:absolute;
+	top: 22%;
+	right: 23%;
+	width: 14%;
+	height: 37%;
+}
+#berrendo{
+	position:absolute;
+	top: 38%;
+	right: 61%;
+	width: 13%;
+	height: 34%;
+}
+#cascabel{
+	position:absolute;
+	top: 53%;
+	right: 41%;
+	width: 4%;
+	height: 9%;
+}
+#huron{
+	position:absolute;
+	top: 66%;
+	right: 36%;
+	width: 8%;
+	height: 8%;
+}
+#tecolote{
+	position:absolute;
+	top: 63%;
+	right: 17%;
+	width: 7%;
+	height: 8%;
+}
+#codorniz{
+	position:absolute;
+	top: 69%;
+	right: 50%;
+	width: 6%;
+	height: 7%;
+}
+#perritollcola{
+	position:absolute;
+	top: 74%;
+	right: 44%;
+	width: 5%;
+	height: 15%;
+}
+#perritomexi{
+	position:absolute;
+	top: 74%;
+	right: 62%;
+	width: 9%;
+	height: 14%;
+}
+#libelula{
+	position:absolute;
+	top: 73%;
+	right: 32%;
+	width: 4%;
+	height: 7%;
+}
+#pasto{
+	position:absolute;
+	top: 63%;
+	right: 23%;
+	width: 9%;
+	height: 19%;
+}
+#fondopastizal img{
+	margin-top:500px;
+	width:100%;
+	bottom:0;
+
+}
+#nube5{
+	position:absolute;
+	top: 420px;
+  	right: -200px;
+	width: 80%;
+	display: block!important;
+}
+
+#nube6{
+	position:absolute;
+	top: 100px;
+	left: -200px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer1pastizal{
+	position:absolute;
+	margin-top: -45%;;
+	z-index:500;
+}
+
+#layer2pastizal{
+	position:absolute;
+	margin-top: -14%;
+	right: 0%;
+	z-index:660;
+}
+
+#layer3pastizal{
+	position:absolute;
+	margin-top: -275px;
+	right: 0%;
+	z-index:960;
+}
+/*pastizal*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transicionpastizal{
+	position:absolute;
+	z-index:2000;
+	margin-left: 0px;
+	margin-top: -100px;
+	display: none;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+/*matorral*/
+#matorral{
+	margin:0;
+	padding-top:340px;
+	background-color:#aedfe4;
+	position:relative;
+}
+#matorral img{
+	width:100%;
+}
+
+#matorral .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+
+#matorral h2{
+	color: #66522d;
+	margin: 0;
+}
+
+#matorral p{
+	color: #3f2e10;
+	margin: 6px;
+}
+
+#matorral .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+	margin:15px;
+}
+#animalesmatorral{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#palofierro{
+	position:absolute;
+	top: 20%;
+	right: 30%;
+	width: 16%;
+	height: 22%;
+}
+#saguaro{
+	position:absolute;
+	top: 18%;
+	right: 70%;
+	width: 4%;
+	height: 46%;
+}
+#carpintero{
+	position:absolute;
+	top: 39%;
+	right: 67%;
+	width: 3%;
+	height: 9%;
+}
+#cascabelm{
+	position:absolute;
+	top: 42%;
+	right: 55%;
+	width: 5%;
+	height: 8%;
+}
+#tortugades{
+	position:absolute;
+	top: 34%;
+	right: 49%;
+	width: 5%;
+	height: 10%;
+}
+#zorrita{
+	position:absolute;
+	top: 47%;
+	right: 44%;
+	width: 11%;
+	height: 17%;
+}
+#cactoestrella{
+	position:absolute;
+	top: 53%;
+	right: 58%;
+	width: 6%;
+	height: 8%;
+}
+#lagartija{
+	position:absolute;
+	top: 53%;
+	right: 30%;
+	width: 5%;
+	height: 10%;
+}
+#cactochaute{
+	position:absolute;
+	top: 65%;
+	right: 70%;
+	width: 6%;
+	height: 10%;
+}
+#cactoviejito{
+	position:absolute;
+	top: 46%;
+	right: 75%;
+	width: 4%;
+	height: 19%;
+
+}
+#cactomagueyito{
+	position:absolute;
+	top: 68%;
+	right: 53%;
+	width: 7%;
+	height: 10%;
+}
+#liebre{
+	position: absolute;
+	top: 77%;
+	right: 60%;
+	width: 9%;
+	height: 8%;
+}
+#tarantula{
+	position:absolute;
+	top: 84%;
+	right: 48%;
+	width: 4%;
+	height: 6%;
+}
+#pataelefante{
+	position:absolute;
+	top: 67%;
+	right: 39%;
+	width: 6%;
+	height: 22%;
+}
+#correcaminos{
+	position:absolute;
+	top: 79%;
+	right: 25%;
+	width: 5%;
+	height: 6%;
+}
+#ratacanguro{
+	position:absolute;
+	top: 73%;
+	right: 28%;
+	width: 2%;
+	height: 6%;
+}
+#cirio{
+	position:absolute;
+	top: 4%;
+	right: 15%;
+	width: 6%;
+	height: 85%;
+}
+#fondomatorral img{
+	margin-top:160px;
+	width:100%;
+	bottom:0;
+}
+
+#nube7{
+	position:absolute;
+	top: 25px;
+	left: 0px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer1matorral{
+	position:absolute;
+	bottom:50px;
+	z-index: 500;
+	right: 12%;
+}
+
+#layer2matorral{
+	position:absolute;
+	z-index:660;
+	width:100%;
+}
+
+#layer2matorral img{
+	bottom:-50px;
+	transform: translateX(-51%);
+	-webkit-transform: translateX(-51%);
+	-o-transform: translateX(-51%);
+	-moz-transform: translateX(-51%);
+	-ms-transform: translateX(-51%);
+	position: absolute;
+	width:50%;
+}
+
+#layer3matorral{
+	position:absolute;
+	margin-top: -275px;
+	right: 0%;
+	z-index:960;
+}
+/*matorral*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transicionmatorral{
+	position:absolute;
+	z-index:2000;
+	margin-left: 0px;
+	margin-top: -50px;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+
+
+
+/*pacifico*/
+#pacifico{
+	margin:0;
+	padding-top:410px;
+	background-color:#f8a21b;
+	position:relative;
+}
+
+#pacifico img{
+	width:100%;
+}
+
+#pacifico .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+
+#pacifico h2{
+	color:#158086;
+	margin:0;
+}
+
+#pacifico .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+	padding:20px;
+}
+#animalespacifico{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#bobo{
+	position:absolute;
+	top: 31%;
+	right: 65%;
+	width: 10%;
+	height: 9%;
+}
+#laud{
+	position:absolute;
+	top: 39%;
+	right: 50%;
+	width: 10%;
+	height: 8%;
+}
+#vaquita{
+	position:absolute;
+ 	top: 38%;
+    right: 25%;
+    width: 16%;
+    height: 9%;
+}
+#carey{
+	position:absolute;
+	top: 48%;
+	right: 68%;
+	width: 9%;
+	height: 8%;
+}
+#ballenaazul{
+	position:absolute;
+	top: 57%;
+    right: 49%;
+    width: 25%;
+    height: 10%;
+}
+#mantarraya{
+	position:absolute;
+	top: 51%;
+	right: 33%;
+	width: 6%;
+	height: 7%;
+}
+#jorobada{
+	position:absolute;
+	top: 71%;
+	right: 39%;
+	width: 30%;
+	height: 11%;
+	transform: rotate(161deg);
+}
+#caguama{
+	position:absolute;
+	top: 63%;
+	right: 25%;
+	width: 9%;
+	height: 10%;
+}
+#coral{
+	position:absolute;
+	position: absolute;
+	top: 74%;
+	right: 70%;
+	width: 16%;
+	height: 10%;
+}
+#cangrejo{
+	position:absolute;
+	top: 85%;
+    right: 75%;
+    width: 6%;
+    height: 4%;
+}
+#estrella{
+	position:absolute;
+	top: 93%;
+	right: 69%;
+	width: 5%;
+	height: 6%;
+}
+#caracol{
+	position:absolute;
+	top: 92%;
+    right: 55%;
+    width: 5%;
+    height: 6%;
+}
+#medusa{
+	position:absolute;
+	top: 83%;
+	right: 56%;
+	width: 4%;
+	height: 6%;
+}
+#erizo{
+	position:absolute;
+	top: 93%;
+	right: 34%;
+	width: 4%;
+	height: 6%;
+}
+#fondopacifico img{
+	margin-top:0px;
+	width:100%;
+	bottom:0;
+
+}
+#nube8{
+	position:absolute;
+	top: -100px;
+  	left: 0px;
+	width: 80%;
+	display: block!important;
+}
+
+#nube9{
+	position:absolute;
+	top: 398px;
+	right: -100px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer1pacifico{
+	position:absolute;
+	z-index:500;
+	width:100%;
+}
+
+#layer1pacifico img{
+	bottom: 0px;
+	transform: translateX(0%);
+	-webkit-transform: translateX(0%);
+	-o-transform: translateX(0%);
+	-moz-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	position: absolute;
+	width:50%;
+}
+
+#layer2pacifico{
+	position:absolute;
+	z-index:660;
+	width:100%;
+}
+
+#layer2pacifico img{
+	bottom: 0px;
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	position: absolute;
+	width:50%;
+}
+#layer3pacifico{
+	position:absolute;
+	bottom:66px;
+	right: -5%;
+	z-index:960;
+	width:80%;
+}
+
+#layer3pacifico img{
+	width:50%;
+}
+
+
+#layer4pacifico{
+	position:absolute;
+	bottom: -200px;
+	left: 40%;
+	z-index:960;
+	width:40%;
+}
+
+#layer4pacifico img{
+	width:50%;
+}
+
+#layer5pacifico{
+	position:absolute;
+	margin-top: -66%;
+	right: 20%;;
+	z-index:960;
+}
+/*pacifico*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transicionpacifico{
+	position:absolute;
+	z-index:2000;
+	margin-left: 0px;
+	margin-top: -20px;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+/*golfo*/
+#golfo{
+	margin:0;
+	padding-top:390px;
+	background-color:#afdfe1;
+	position:relative;
+}
+
+#golfo img{
+	width:100%;
+}
+
+#golfo .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+
+#golfo h2{
+	color:#1e3b43;
+	margin:0;
+}
+
+#golfo p{
+	color:#1e3b43;
+}
+
+#golfo .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+}
+#animalesgolfo{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#fragata{
+	position:absolute;
+	top: 14%;
+	right: 47%;
+	width: 5%;
+	height: 9%;
+}
+#aguilapesca{
+	position:absolute;
+	top: 21%;
+	right: 34%;
+	width: 4%;
+	height: 8%;
+}
+#mangle{
+	position:absolute;
+ 	top: 15%;
+	right: 53%;
+	width: 41%;
+	height: 23%;
+}
+#tortugaverde{
+	position:absolute;
+	top: 37%;
+	right: 32%;
+	width: 9%;
+	height: 6%;
+}
+#cacerola{
+	position:absolute;
+	top: 44%;
+	right: 32%;
+	width: 4%;
+	height: 8%;
+}
+#flamenco{
+	position:absolute;
+	top: 49%;
+	right: 36%;
+	width: 6%;
+	height: 22%;
+}
+#ermitano{
+	position:absolute;
+	top: 59%;
+	right: 52%;
+	width: 5%;
+	height: 7%;
+}
+#mapache{
+	position:absolute;
+	top: 53%;
+	right: 61%;
+	width: 9%;
+	height: 11%;
+}
+#golfina{
+	position:absolute;
+	top: 67%;
+	right: 65%;
+	width: 9%;
+	height: 18%;
+}
+#manati{
+	position:absolute;
+	top: 69%;
+	right: 46%;
+	width: 16%;
+	height: 18%;
+	transform: rotate(161deg);
+}
+#barracuda{
+	position:absolute;
+	top: 86%;
+	right: 65%;
+	width: 8%;
+	height: 6%;;
+}
+#pulpo{
+	position:absolute;
+	top: 88%;
+	right: 48%;
+	width: 5%;
+	height: 6%;
+}
+#coralg{
+	position:absolute;
+	top: 85%;
+	right: 39%;
+	width: 7%;
+	height: 8%;
+}
+#fondogolfo img{
+	margin-top:260px;
+	width:100%;
+	bottom:0;
+
+}
+#nube10{
+	position:absolute;
+	top: -1%;
+  	left: 23%;
+	width: 80%;
+	display: block!important;
+}
+
+#nube11{
+	position:absolute;
+	top: 39%;
+	right: 510px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer1golfo{
+	position:absolute;
+	bottom:0px;
+	left: 30%;;
+	z-index:500;
+}
+
+#layer2golfo{
+	position:absolute;
+	left: -15%;;
+	z-index:660;
+	width:100%;
+}
+
+#layer2golfo img{
+	bottom: 0px;
+	transform: translateX(-6%);
+	-webkit-transform: translateX(-6%);
+	-o-transform: translateX(-6%);
+	-moz-transform: translateX(-6%);
+	-ms-transform: translateX(-6%);
+	position: absolute;
+	width:50%;
+}
+
+#layer3golfo{
+	position:absolute;
+	bottom:0px;
+	right: 32%;
+	z-index:960;
+}
+
+#layer4golfo{
+	position:absolute;
+	bottom:0px;
+	right: 43%;
+	z-index:960;
+}
+
+/*golfo*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transiciongolfo{
+	position:absolute;
+	z-index:2000;
+	margin-left: 0px;
+	margin-top: -30px;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+/*campo*/
+#campo{
+	margin:0;
+	padding-top:400px;
+	background-color:#7cbacf;
+	position:relative;
+}
+
+#campo img{
+	width:100%;
+}
+
+#campo .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+
+#campo h2{
+	color:#6a420e;
+	margin:0;
+}
+
+#campo p{
+	color:#36240e;
+}
+
+#campo .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+}
+#animalescampo{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#buey{
+	position:absolute;
+	top: 44%;
+    right: 43%;
+    width: 8%;
+    height: 9%;
+}
+#borrego{
+	position:absolute;
+	top: 56%;
+	right: 60%;
+	width: 7%;
+	height: 19%;
+}
+#gallo{
+	position:absolute;
+ 	top: 8%;
+	right: 14%;
+	width: 9%;
+	height: 19%;
+}
+#puerco{
+	position:absolute;
+	top: 78%;
+	right: 63%;
+	width: 9%;
+	height: 14%;
+}
+#milpa{
+	position:absolute;
+	top: 49%;
+	right: 45%;
+	width: 8%;
+	height: 49%;
+	transform: rotate(233deg);
+}
+#gallina{
+	position:absolute;
+	top: 60%;
+	right: 53%;
+	width: 6%;
+	height: 12%;
+}
+#fondocampo img{
+	margin-top:120px;
+	width:100%;
+	bottom:0;
+
+}
+
+#nube12{
+	position:absolute;
+	top: 350px;
+	left: 436px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer1campo{
+	position:absolute;
+	right: 4%;
+	z-index:500;
+	width:100%;
+	bottom:0px;
+}
+/*campo*/
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+#transicioncampo{
+	position:absolute;
+	z-index:2000;
+	margin-left: 0px;
+	margin-top: -50px;
+}
+/*TRANSICIÓN PARA ESCRITORIO IMG*/
+/*ciudad*/
+#ciudad{
+	margin:0;
+	padding-top:420px;
+	background-color:#ffd57f;
+	position:relative;
+}
+
+#ciudad img{
+	width:100%;
+}
+
+#ciudad .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+#ciudad h2{
+	color:#42413f;
+	margin:0;
+}
+
+#ciudad p{
+	color:#42413f;
+}
+
+#ciudad .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+	padding:20px;
+}
+#animalesciudad{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#fresno{
+	position:absolute;
+	top: -14%;
+	right: 16%;
+	height: 31%;
+	width: 37%;
+}
+#gorrionc{
+	position:absolute;
+	top: 18%;
+	right: 45%;
+	width: 6%;
+	height: 10%;
+}
+#paloma{
+	position:absolute;
+ 	top: 22%;
+	right: 66%;
+	width: 5%;
+	height: 10%;
+}
+#cucaracha{
+	position:absolute;
+	top: 92%;
+	right: 59%;
+	width: 5%;
+	height: 8%;
+}
+#nina{
+	position:absolute;
+	top: 65%;
+	right: 39%;
+	width: 8%;
+	height: 11%;
+	;
+}
+#rata{
+	position:absolute;
+	top: 79%;
+	right: 53%;
+	width: 6%;
+	height: 12%;
+}
+#mosca{
+	position:absolute;
+	top: 80%;
+	right: 61%;
+	width: 6%;
+	height: 10%;
+}
+#abeja{
+	position:absolute;
+	top: 20%;
+	right: 27%;
+	width: 8%;
+	height: 14%;
+}
+#gato{
+	position:absolute;
+	top: 39%;
+	right: 53%;
+	width: 6%;
+	height: 12%;
+}
+#perro{
+	position:absolute;
+	top: 77%;
+	right: 41%;
+	width: 6%;
+	height: 12%;
+}
+#productos{
+	position:absolute;
+	top: 55%;
+	right: 45%;
+	width: 3%;
+	height: 14%;
+	transform: rotate(233deg);
+}
+#hormiga{
+	position:absolute;
+	top: 49%;
+	right: 28%;
+	width: 6%;
+	height: 12%;
+}
+#fondociudad img{
+	margin-top:500px;
+	width:100%;
+	bottom:0;
+}
+#nube13{
+	position:absolute;
+	top: 350px;
+	left: 136px;
+	width: 80%;
+	display: block!important;
+}
+
+#layer1ciudad{
+	position:absolute;
+	z-index:500;
+	width:100%
+}
+
+#layer1ciudad img{
+	transform: translateX(67%);
+	-webkit-transform: translateX(67%);
+	-o-transform: translateX(67%);
+	-moz-transform: translateX(67%);
+	-ms-transform: translateX(67%);
+	position: absolute;
+	width:60%;
+	bottom:0px;
+}
+
+#layer3ciudad{
+	position:absolute;
+	bottom:0px;
+	right: 52%;;
+	z-index:500;
+}
+
+/*ciudad*/
+
+/*#puntos a title{
+	font-family:mclaren-regular;
+	font-size:18px;
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+
+.ui-tooltip {
+	font-family:mclaren-regular;
+	font-size:18px;
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+body .ui-tooltip {
+	font-family:mclaren-regular;
+	border-width: 2px;
+	background-color:#E0DDD1;
+	color:#2D2713;
+	border-color:#2D2713;
+	box-shadow: 0 0 5px #aaa;
+	max-width: 600px;
+}*/
+
+
+
+
+

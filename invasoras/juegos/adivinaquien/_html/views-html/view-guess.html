@@ -1,0 +1,310 @@
+<div class='view-guess'>
+
+    <div class='guess-info'>
+        <h2 id='guessInfoTitle' class='guess-info-title'>Jugando Nivel: gameLimitRounds</h2>
+        <!-- <h2 id='guessInfoCrono' class='guess-info-crono'>display</h2> -->
+        <span class='cf'></span>
+
+        <h2 id='guessInfoGaming' class='guess-info-gaming'>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+            <!-- <span>Pregunta seleccionada</span> -->
+        </h2>
+    </div>
+
+    <div id='guessBoardPlayers' class='guess-board-players'>
+
+        <div id='guessPlayerOne' class='guess-player-holder'>
+            <span id='guessPlayerOneRound' class='guess-player-avatar show-round' style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/turno-luna.png);'></span>
+
+            <span data-id='0' class='card card-character'>
+                <span id='gameChosenCharOneFront' data-id='0' class='card-face card-front card-me' style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/luna.png);'></span>
+                <span id='gameChosenCharOneBack' class='card-face card-back'></span>
+            </span>
+
+            <strong id='gameWinsPlayerOne' class='action-card-wins playerOne show-round-'>Player 1: 100</strong>
+
+            <!-- <span class='action-card' data-state='3' data-label='adivinar'>Adivinar</span> -->
+            <!-- <span class='action-card' data-state='2' data-label='descartar'>Descartar</span> -->
+        </div>
+
+        <div class='guess-lists-holder'>
+            
+            <div id='guessQuestionsHolder' class='guess-questions-holder'>
+                <ul id='guessQuestionsList' class='guess-questions-list show'>
+
+                    <li data-module='0' data-group='1' data-prop='animal'      data-option=''><em>¿Eres un animal?</em></li>
+                    <li data-module='1' data-group='1' data-prop='plant'       data-option=''><em>¿Eres una planta?</em></li>
+                    <li data-module='2' data-group='1' data-prop='big'         data-option=''><em>¿Eres grande?</em></li>
+                    <li data-module='3' data-group='1' data-prop='small'       data-option=''><em>¿Eres pequeño?</em></li>
+
+                    <li data-module='4' data-group='2' data-prop='aquatic'     data-option=''><em>¿Eres acuático?</em></li>
+                    <li data-module='5' data-group='2' data-prop='terrestrial' data-option=''><em>¿Eres terrestre?</em></li>
+                    <li data-module='6' data-group='2' data-prop='harmful'     data-option=''><em>¿Eres invasora?</em></li>
+                    <!-- <li data-module='7' data-group='3' data-prop='harmless'    data-option=''><em>¿No causas daño?</em></li> -->
+
+                    <li data-module='8' data-group='3' data-prop='useful'      data-option=''><em>¿Eres útil?</em></li>
+                    <!-- <li data-module='9' data-group='3' data-prop='useless'     data-option=''><em>¿No te usan?</em></li> -->
+                    <li data-module='10' data-group='3' data-prop='mx'          data-option=''><em>¿Eres de México?</em></li>
+                    <li data-module='11' data-group='3' data-prop='splaces'     data-option=''><em>¿Eres exótico?</em></li>
+
+                </ul>
+            </div>
+
+            <div id='guessNotificationsHolder' class='guess-notifications-holder show+'>
+
+                <div id='guessResolveOptions' class='guess-notifications-list show+'>
+                    <span class='title'>¡INTENTEMOS GANAR LA RONDA!</span>
+                    <ol>
+                        <li>DA CLICK a un personaje del tablero inferior</li>
+                        <li>DA CLICK después en el botón "ADIVINAR PERSONAJE"</li>
+                    </ol>
+                <span id='btnGameResolve' class='btn-ok'>ADIVINAR PERSONAJE</span>
+                </div>
+
+                <div id='guessDescartOptions' class='guess-notifications-list show+'>
+                    <span class='title'>DESCARTA PERSONAJES:
+                        <span class='answer'></span>
+                        <span class='answer'></span>
+                    </span>
+                    <!-- <p></p> -->
+                    <p><strong>DESCARTAR SELECCIONADOS</strong> selecciona y descarta manualmente los personajes</p>
+                    <p><strong>AUTODESCARTAR</strong> descarta automáticamente</p>
+                    <span id='btnGameDescart' class='btn-ok'>DESCARTAR SELECCIONADOS</span>
+                    <span id='btnGameAutoDescart' class='btn-ok'>AUTODESCARTAR</span>
+                </div>
+
+                <div id='guessChooseOptions' class='guess-notifications-list show+'>
+                    <!--
+                    <span class='title'>SELECCIONA UNA OPCIÓN</span>
+                    <ol>
+                        <li>Selecciona una de las opciones siguientes para continuar el juego</li>
+                    </ol>
+                    -->
+                    <span id='btnGameShowResolve' class='btn-ok'>INTENTAR ADIVINAR PERSONAJE</span>
+                    <span id='btnGameShowQuestions' class='btn-ok'>HACER PREGUNTA</span>
+                </div>
+
+
+                <div id='guessDescartingPlayerTwo' class='guess-notifications-list show+'>
+                    <span class='title'>Invasorín</span>
+                    <ol style="list-style: disc;">
+                        <li id='guessDescartingOptsPlayerTwo'>[ ESTÁ DESCARTANDO PREGUNTA ]</li>
+                    </ol>
+                </div>
+                <div id='guessAnswerPlayerTwo' class='guess-notifications-list show+'>
+                    <span class='title'>Invasorín <strong id='guessActionPlayerTwo'>PREGUNTAR/RESOLVER</strong></span>
+                    <ol style="list-style: disc;">
+                        <li id='guessQuestionPlayerTwo'>[ PREGUNTA ]</li>
+                    </ol>
+                    <span id='' class='btn-ok' data-answer='1'>SI</span>
+                    <span id='' class='btn-ok' data-answer='0'>NO</span>
+                </div>
+                <div id='guessRoundPlayerTwo' class='guess-notifications-list show+'>
+                    <span class='title'>Turno de Invasorín</span>
+                    <ol style="list-style: disc;">
+                        <li>Esperemos a que Invasorín pregunte o intente resolver el juego</li>
+                    </ol>
+                </div>
+
+
+                <div id='guessStartRound' class='guess-notifications-list show+'>
+                    <!--
+                    <span class='title'>COMENZAR RONDA</span>
+                    <ol style="list-style: disc;">
+                        <li>DA CLICK al botón "COMENZAR RONDA" para comenzar a jugar </li>
+                        <li>El usuario simpre comienza los Juegos</li>
+                    </ol>
+                    -->
+                    <span id='btnGameStart' class='btn-ok'>COMENZAR RONDA</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id='guessPlayerTwo' class='guess-player-holder'>
+            <span data-id='0' class='card card-character'>
+                <span id='gameChosenCharTwoFront'  data-id='0' class='card-face card-front card-who'></span>
+                <span id='gameChosenCharTwoBack' class='card-face card-back'></span>
+            </span>
+
+            <span id='guessPlayerTwoRound' class='guess-player-avatar' style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/turno-robby.png);'></span>
+
+            <strong id='gameWinsPlayerTwo' class='action-card-wins playerTwo show-round-'>Player 2: 100</strong>
+        </div>
+
+
+        <!-- <span class='cf'></span> -->
+    </div>
+
+    <div id='guessBoard' class='guess-board'>
+
+        <span data-id='0' data-check='0' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='1' data-check='1' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='2' data-check='2' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='3' data-check='3' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='4' data-check='4' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='5' data-check='5' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='6' data-check='6' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+
+        <span data-id='7' data-check='7' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='8' data-check='8' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='9' data-check='9' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='10'  data-check='10' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='11'  data-check='11' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='12'  data-check='12' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='13'  data-check='13' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+
+        <span data-id='14'  data-check='14' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='15'  data-check='15' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='16'  data-check='16' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='17'  data-check='17' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='18'  data-check='18' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='19'  data-check='19' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+
+        <span data-id='20'  data-check='20' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+
+        <!--
+        <span data-id='21'  data-check='21' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+
+        <span data-id='22'  data-check='22' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        <span data-id='23'  data-check='23' class='card'>
+            <span class='card-face card-front'></span>
+        </span>
+        -->
+
+
+
+    </div>
+
+    <div id='guessList' class='guess-list'>
+
+        <ul id='guessOptions' class='guess-options'>
+            <!--
+            <li id='guessBtnGuide' data-id='0' class='guess-option' data-title='Guía'
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/boton-06-guide.png);'>
+                <span></span>
+            </li>
+            -->
+            <li id='guessBtnReset' data-id='1' class='guess-option' data-title='Reiniciar'
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/boton-08-reset.png);'>
+                <span></span>
+            </li>
+            <li id='guessBtnHome' data-id='2' class='guess-option' data-title='Home'
+
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/boton-07-home.png);'>
+                <span></span>
+            </li>
+        </ul>
+
+
+        <!--
+        <ul id='guessOptions' class='guess-options'>
+            <li data-id='0' class='guess-option'
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/turno-luna.png);'>
+                <span></span>
+            </li>
+            <li data-id='1' class='guess-option'
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/turno-robby.png);'>
+                <span></span>
+            </li>
+            <li data-id='2' class='guess-option'
+                style='background-image: url(_imgs/views-imgs/view-guess/gallery-03/15-rattus-rattus.png);'>
+                <span></span>
+            </li>
+            <li data-id='3' class='guess-option'
+                style='background-image: url(../../_imgs/views-imgs/view-guess/gallery-04/031-pineapple.png);'>
+                <span></span>
+            </li>
+            <li data-id='4' class='guess-option'
+                style='background-image: url(../../_imgs/views-imgs/view-guess/gallery-05/041-cocktail.png);'>
+                <span></span>
+            </li>
+        </ul>
+        -->
+
+        <!--
+        <ul id='guessPlayers' class='guess-options'>
+            <span class='guess-options-label'>Turno de</span>
+            <li id='guessPlayerOneRound--old' data-id='0' class='guess-option'
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/turno-luna.png);'>
+                <span></span>
+            </li>
+            <li id='guessPlayerTwoRound--old' data-id='1' class='guess-option'
+                style='background-image: url(_imgs/views-imgs/view-guess/guess-assets/turno-robby.png);'>
+                <span></span>
+            </li>
+        </ul>
+        -->
+
+        <!-- <p class='options-list-title'>Escoge una opción</p> -->
+
+    </div>
+
+    <div id='guessBoardModal' class='guess-board-modal'>
+        <div id='guessMessageModal' class='guess-message'>
+            <h2 id='guessHeadingModal'></h2>
+            <h3>Has completado el juego</h3>
+            <!-- <p>Puedes escoger otra opción y jugar de nuevo</p> -->
+            <!-- <span id='guessBtnModal' class='btn-next'>Continuar</span> -->
+        </div>
+    </div>
+
+    <div id='guessRestartModal' class='guess-board-modal'>
+        <div id='guessRestartMessage' class='guess-message' style='background-color: #f0d9a5e8;'>
+            <h2 id='guessRestartHeading'>El juego se ha completado</h2>
+            <img class='spinner' src='_imgs/misc-imgs/spinner.gif'>
+            <h3>Reiniciando juego</h3>
+            <!-- <p>Puedes escoger otra opción y jugar de nuevo</p> -->
+            <!-- <span id='guessBtnModal' class='btn-next'>Continuar</span> -->
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,524 @@
+section {
+
+  overflow:hidden;
+
+  width: 100%;
+
+  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+.margen{
+
+  z-index: 2;
+
+}
+
+#texheader{
+
+	text-decoration: none;
+
+	color: #0f5f53;
+
+}
+
+#selecciona {
+
+  color: #21675e;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+
+}
+
+#cap1 {
+
+  background-color: #ffcfae;
+
+  color: #FFF;
+
+  position:relative;
+
+  padding-top:131px;
+
+  z-index: 3;
+
+  height: 325px;
+
+}
+
+#cap1 .margen {
+
+  height: 100%;
+
+}
+
+#cap1 h3 {
+
+    width: 520px;
+
+    text-align: center;
+
+    top: -13px;
+
+    left: 157px;
+
+    position: relative;
+
+}
+
+#cap1 p {
+
+    width: 570px;
+
+    text-align: center;
+
+    top: 166px;
+
+    left: 117px;
+
+    position: absolute;
+
+	font-size: 18px;
+	
+
+}
+
+#cap1 #titoLibro {
+
+  height: 106%;
+
+  width: 277px;
+
+  background-image: url("../assets/img/capsulas/luna_escucha.png");
+
+  background-size: 100% auto;
+
+  background-repeat: no-repeat;
+
+  position: absolute;
+
+  bottom: -36px;
+
+  right: -90px;
+
+}
+
+#cap2 {
+
+  background-color: #8ED1C9;
+
+  background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
+
+  color: #0A4D43;
+
+  margin-left: 00px;
+
+  position:relative;
+
+  z-index: 3;
+
+}
+
+#cap2 #group1 {
+
+	
+	background-image: url("../assets/img/capsulas/gatof.png");
+	text-align: center;
+	align-content: center;
+	width: 180px;
+	height: 180px;
+	position: relative;
+
+
+}
+
+#group1 .logodesc {
+
+  background-position: -23px 0px;
+
+  width: 92px;
+
+}
+
+ a{
+	
+	text-align: center;
+
+}
+
+#cap2 #group2 {
+
+	background-image: url("../assets/img/capsulas/pericoa.png");
+	width: 180px;
+	height: 180px;
+	position: relative;
+	text-align: center;
+
+}
+
+#group2 .logodesc {
+
+  background-position: -133px 0px;
+
+  width: 93px;
+
+}
+
+#cap2 #group3 {
+	background-image: url("../assets/img/capsulas/palomillad.png");
+	background-repeat: no-repeat;
+	width: 180px;
+	height:180px;
+	position: relative;
+	text-align: center;
+
+}
+
+#group3 .logodesc {
+	
+	background-image: url("../assets/img/capsulas/gatof.png");
+	width: 180px;
+	height: 180px;
+	position: relative;
+
+}
+
+#cap2 #group4 {
+	
+	background-image: url("../assets/img/capsulas/lirioa.png");
+	width: 180px;
+	height: 180px;
+	position: relative;
+	text-align: center;
+
+}
+
+#group4 .logodesc {
+
+  background-position: -416px 0px;
+
+  width: 74px;
+
+}
+
+#cap2 #group5 {
+	
+	background-image: url("../assets/img/capsulas/pezl.png");
+	width: 180px;
+	height: 180px;
+	position: relative;
+	text-align: center;
+
+}
+
+#group5 .logodesc {
+
+  background-position: -10px -176px;
+
+  width: 116px;
+
+}
+
+
+#cap2 .squarecolor{
+
+  display: inline-block;
+
+  width: 235px;
+
+  height: 320px;
+
+  font-size: 21px;
+
+  margin-bottom: 20px;
+
+  vertical-align: top;
+
+}
+
+#cap2 .squarecolor .logodesc {
+
+  height: 170px;
+
+  background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
+
+  margin: 10px auto 0px;
+
+  background-size: auto 360px;
+
+}
+
+#cap2 ul{
+
+  text-align: center;
+
+  list-style: none;
+
+  margin: 0px;
+
+  padding: 0;
+
+}
+
+#cap2 ul li {
+
+  padding-left: 25px;
+
+}
+
+#cap2 ul li:hover {
+
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+#cap2 ul li a{
+
+  background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
+
+  text-decoration: none;
+
+  color: inherit;
+
+  display: block;
+
+  align-content: center;
+  text-align: center;
+
+  background-size: 20px;
+
+}
+
+#cap2 ul li a img:first-child{
+
+}
+
+#cap2 ul li a img:last-child{
+
+}
+
+#lastlink {
+
+  display: block;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  color: #081611;
+
+}
+
+.bigtext {
+
+  width: 900px;
+
+  font-size: 25px;
+
+  display: inline-block;
+
+  color: #0A4D43;
+	
+  text-align: center
+
+}
+
+.smalltext {
+
+  width: 480px;
+
+  font-size: 15px;
+
+  display: inline-block;
+
+  color: #4e7c32;
+
+}
+
+.largetext {
+
+  width: 480px;
+
+  font-size: 18px;
+
+  display: inline-block;
+
+  color: #132800;
+
+}
+
+.bandTitle {
+
+  width: 300px;
+
+  height: 76px;
+
+  background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
+
+  background-size: 300px auto;
+
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+
+}
+
+.bandTitle p {
+
+  margin: 0 auto;
+
+  width: 210px;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  padding-top: 15px;
+
+}
+
+.colecciones {
+
+  background-image: url("../assets/img/materiales/capsulas/bandera_capsulas.png");
+
+}
+
+
+
+.mask {
+
+  display: none;
+
+  position: fixed;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.8);
+
+  z-index: 20000;
+
+  display: block;
+
+  left: 0;
+
+  top: 0;
+
+}
+
+
+
+#modalAudio {
+
+  display: none;
+
+  position: fixed;
+
+  width: 350px;
+
+  height: 200px;
+
+  top: 50%;
+
+  left: 50%;
+
+  margin-top: -100px;
+
+  margin-left: -175px;
+
+  background-color: #b3d49d;
+
+  border-radius: 5px;
+
+}
+
+.titulo {
+
+  margin-top: 20px;
+
+  text-align: center;
+
+  font-size: 24px;
+
+  color:#033;
+
+}
+
+.iconote {
+
+  height: 100px;
+
+  width: 100px;
+
+  cursor: pointer;
+
+  display: inline-block;
+
+  margin: 25px 35px;
+
+}
+
+#audioChange {
+
+    background-image: url("../assets/img/iconovoz_cap.png");
+
+	background-repeat:no-repeat;
+
+    background-size: 100px auto;
+
+    background-position: 0px -5px;
+
+}
+
+#downloadChange {
+
+  background-image: url("../assets/img/imprimir_ico_cap.png");
+
+  background-repeat:no-repeat;
+
+  background-size: 95px auto;
+
+  background-position: 0 4px;
+
+}
+
+.closeModal {
+
+  position: absolute;
+
+  width: 35px;
+
+  height: 35px;
+
+  cursor: pointer;
+
+  background-image: url('../assets/img/iconoscerrar.png');
+
+  background-size: auto 100%;
+
+  right: -17px;
+
+  top: -18px;
+
+}
+
+#titulo {
+	
+    margin-top: -60px;
+    margin-left: 170px;
+}	
+	
+#titulo img {
+	
+	width: 720px;
+    height: auto;
+    margin: 50px 0px 0px -300px;
+
+}
+
+

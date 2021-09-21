@@ -1,0 +1,33 @@
+// GROUP 01
+    1 Pez Leon
+    2 Pleco
+    3 Cerdo
+    4 Gato
+    5 Mosquito
+    6 Tilapia
+    7 Barrenador Esmeralda
+    8 Lirio
+
+
+
+// GROUP 02
+    1 Melinis Repens
+    2 Perro
+    3 Ratones
+    4 Palomilla
+    5 Hidrila
+    6 Abrus
+    7 Aguas de Lastre
+    8 Mejillon Cebra
+
+
+
+// GROUP 02
+    1 Ratas
+    2 Perico
+    3 Equipo Sucio
+    4 Pangasio
+    5 Tamarix
+    6 Bambu
+    7 Planta Regalo
+    8 Kalanchoe

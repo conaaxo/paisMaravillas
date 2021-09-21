@@ -1,0 +1,83 @@
+body{
+
+	background-color: #EADE99;
+
+}
+
+p{
+
+	color: #066;
+
+}
+
+h4{
+
+	color: #066;
+
+}
+
+#titulo{
+
+	margin: 0 auto;
+
+	width: 885px;
+
+}
+
+.creditos{
+
+	line-height: 8px;
+
+	display: inline-block;
+
+	vertical-align: text-top;
+
+	padding: 40px;
+
+}
+
+h2{
+
+	margin-top: 120px;
+
+	color: #066;
+
+}
+
+
+
+.creditos2{
+
+	width: 883px;
+
+	margin: 0 auto;
+
+}
+
+h5{
+
+	color: #096;
+
+}
+
+h6{
+
+	color: #066;
+
+}
+
+#tito{
+
+	width: 400px;
+
+	display: inline-block;
+
+	right: 140px;
+
+	top: 200px;
+
+	position: fixed;
+
+	left: 1140px;
+
+}

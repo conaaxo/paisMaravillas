@@ -1,0 +1,192 @@
+/* ================================================================ */
+/* SETUP VIEW */
+/* ---------------------------------------------------------------- */
+
+/*  */
+.view-setup {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* background-color: #fff; */
+    background-color: rgba(255,255,255,0.5);
+    /* background-image: url(../../_imgs/views-imgs/view-setup/children.jpg); */
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3px 24px #aaa;
+}
+.view-setup * {
+    font-family: 'McLaren', cursive;    
+}
+
+.view-setup .view-title {
+    font-size: 48px;
+    text-transform: none;
+    color: #634531;
+    margin: 10px auto 24px auto;
+}
+.view-setup .main-description {
+    width: 400px;
+    float: right;
+    font-size: 24px;
+    color: #634531;
+    /* background-color: orange; */
+    padding: 16px 16px 16px 0;
+    margin: 54px 0;
+}
+
+/* ======================================================== */
+.setup-board-instructions {
+    width: 47%;
+    float: left;
+}
+.setup-board-instructions .instruction-block {
+    margin: 10px 0;
+}
+.setup-board-instructions .view-title {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 0.25em 0 0 0;
+    color: #634531;
+    /*font-weight: normal;*/
+}
+.setup-board-instructions .view-subtitle {
+    /*font-size: 24px;    */
+    margin: 0 0 0 0;
+    color: #634531;
+}
+.setup-board-instructions img {
+    width: 80px;
+    height: auto;
+}
+
+/* ======================================================== */
+.setup-board {
+    width: 47%;
+    height: auto;
+    /*padding: 20px;
+    margin: 0 auto;*/
+    float: right;
+    /*background-color: rgba(255,255,255,0.9);*/
+    /*background-color: gold;*/
+    border-radius: 8px;
+}
+
+.setup-board .view-title {
+    font-size: 30px;
+    text-transform: none;
+    text-align: left;
+    margin: 0.25em 0 0 0;
+    color: #634531;
+    /* font-weight: normal;
+}
+
+.setup-board .option-block {
+    /*margin: 8px 0;
+    padding: 8px;*/
+    transition: background-color 0.35s ease-in-out;
+}
+.setup-board .option-block:hover {
+    /*background-color: rgba(136,238,136,0.25);*/
+}
+
+.setup-board .option-block * {
+    cursor: pointer;    
+}
+
+.setup-board label {
+    color: #634531;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.setup-board label img {
+    width: 80px;
+    height: auto;
+}
+
+.setup-board .option-description {
+    display: block;
+    margin: 0 auto auto auto;
+    font-size: 16px;
+}
+
+.setup-board .input-icon {
+    display: block;
+    margin: 0 auto;
+}
+.setup-board .input {
+    /*
+    position: absolute;
+    left: 222px;
+    bottom: 65px;
+    */
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin: 12px auto 0px auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    background-color: #BCA495;
+    border: 1px solid #BCA495;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 24px;
+    color: #BCA495;
+    color: #fff;
+    transition: background-color 0.35s ease-in-out;
+}
+.setup-board .input::-webkit-input-placeholder { 
+    color: white;
+}
+.setup-board .input:focus {
+    outline: none;
+    background-color: #EBE4E0;
+    color: #634531;
+}
+.setup-board .input:focus::-webkit-input-placeholder {
+    color: #634531;    
+}
+
+.setup-board input[type="radio"] {
+    padding: 8px;
+    background-color: orange;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+.setup-board .btn-next {
+    /*
+    position: absolute;
+    bottom: 16px;
+    left: 210px;
+    */
+
+    display: block;
+    width: 302px;
+    padding: 8px;
+    margin: 0 auto;
+
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #BCA495;
+    border-radius: 4px;
+    background-color: #BCA495;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 24px;
+    font-size: 1.1em;
+    transition: background-color 0.35s ease-in-out;
+}
+
+.setup-board .btn-next:hover {
+    background-color: #fc6;
+    background-color: #66f;
+    background-color: #EBE4E0;
+    color: white;
+    color: #634531;
+}
