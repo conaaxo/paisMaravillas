@@ -212,7 +212,7 @@ section {
 
 #group9 .logodesc2 {
 
-  background-position: -5px -146px;
+  background-position: -13px -145px;
 
   width: 130px;
 
@@ -226,7 +226,7 @@ section {
 
 #group10 .logodesc2 {
 
-  background-position: -240px -146px;
+  background-position: -235px -145px;
 
   width: 130px;
 
@@ -240,11 +240,26 @@ section {
 
 #group11 .logodesc2 {
 
-  background-position: -470px -146px;
+  background-position: -460px -145px;
 
   width: 130px;
 
 }
+
+#dow2 #group12 {
+
+  background-color: #707b31;
+
+}
+
+#group12 .logodesc2 {
+
+  background-position: -690px -145px;
+
+  width: 130px;
+
+}
+
 
 
 #dow2 .squarecolor{
@@ -267,9 +282,9 @@ section {
 
   display: inline-block;
 
-  width: 315px;
+  width: 235px;
 
-  height: 200px;
+  height: 265px;
 
   font-size: 16px;
 
@@ -293,13 +308,13 @@ section {
 
 #dow2 .squarecolor2 .logodesc2 {
 
-  height: 165px;
+  height: 130px;
 
   background-image: url("../assets/img/materiales/descargables/descargables_juegos.png");
 
-  margin: -5px 85px 0px;
+  margin: 8px 57px 0px;
 
-  background-size: auto 150px;
+  background-size: auto 140px;
 
 }
 
