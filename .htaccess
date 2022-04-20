@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Debes ingresar usuario y password comunal"
-AuthUserFile /home/servicios/.htpasswd
-require valid-user
