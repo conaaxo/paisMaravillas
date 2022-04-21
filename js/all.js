@@ -2,6 +2,61 @@ var totalSecciones = 0;
 var puntos = [];
 var miAudio = null;
 var myVideo = document.createElement('video');
+ 
+
+
+
+$(".locucion").on("click", function(event){
+      event.preventDefault();
+      audioSrc = $(this).data("descripcion");
+      if(audioSrc != undefined)
+      {
+        if(miAudio != null)
+        {
+            if (miAudio.src.indexOf(audioSrc) !=-1)
+            {
+                if(!miAudio.paused)
+                    stopMedia();
+                else
+                    miAudio.play();
+                return;
+            }
+            if(!miAudio.paused)
+                miAudio.pause();
+        }
+        audioPlay(audioSrc);
+      }
+    });
+    if(navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i))
+    {
+        //do nothing
+    }
+    else
+	{
+		$.stellar();
+		if($("#puntos").length)
+	  		$('#puntos').tooltip();
+        if($("#tito").length)
+            $('#tito').tooltip({ track: true });
+        if($(".banderas").length)
+            $('.banderas').tooltip({position: {
+                    my: "center",
+                    at: "right-200",
+                    track: false,
+                    using: function(position, feedback) {
+                        $(this).css(position);
+                    }
+                }
+            });
+            console.log("Ejecuta tooltip");
+	}
+
+
+});
+
+
+
+
 
 
 $(document).ready(function() {
@@ -324,3 +379,5 @@ function mezclar(o) {
   for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
   return o;
 };
+
+ 
