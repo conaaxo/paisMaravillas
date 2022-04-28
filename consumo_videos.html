@@ -1,210 +1,256 @@
-<!doctype html>
-<html><!-- InstanceBegin template="/Templates/ninos.dwt" codeOutsideHTMLIsLocked="false" -->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Consumo responsable| Conabio</title>
-<!-- InstanceEndEditable -->
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
-<link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
-<link href="css/style_tablet.css" media="only screen and (max-width:980px)" rel="stylesheet" type="text/css">
-<!-- InstanceParam name="audioam" type="boolean" value="true" -->
-<!-- InstanceBeginEditable name="head_cs" -->
-<link href="css/consumo_videos.css" rel="stylesheet" type="text/css">
-<!-- InstanceEndEditable -->
-<script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.sticky-kit.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/all.js"></script>
-<!-- InstanceBeginEditable name="head_js" -->
-<script type="text/javascript" src="js/consumo_videos.js"></script>
-<!-- InstanceEndEditable -->
-<link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
-<!--<link rel="shortcut icon" href="../assets/img/favicon.ico"/>-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!--<script>document.getElementsByTagName("html")[0].className += " js";</script>-->
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>México el país de las maravillas</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
 
-</head>
-<body>
+<!-- jquery del CDN de google -->
+	<script src="js/jquery-2.2.4.min.js"></script>
 
-<header>
-	<div class="margen">
-        <h1><a href="index.html">M&eacute;xico el pa&iacute;s de las maravillas</a></h1>
-        <!-- InstanceBeginEditable name="audioam" -->
+	<!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Work+Sans:ital,wght@0,300;0,400;0,800;1,400&display=swap"
+            rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- animate-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!--css fuera del template base-->
+        <!-- <link rel="stylesheet" href="assets/full-screen-pushing-navigation-master/assets/css/style.scss">  menu  -->
+        <link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
+        <!-- <link rel="stylesheet" href="assets/morphing-modal/css/style.css"> modales a full -->
+        <link rel="stylesheet" href="assets/animated-headline/css/style.css"> <!-- animacion de texto se escribe -->
 
-    <!-- InstanceEndEditable -->
-        <nav id="principal">
-            <ul>
-                <li data-elemento="Mexico"><a href="#">M&eacute;xico</a></li>
-                <li data-elemento="Explora"><a href="#">Explora</a></li>
-                <li data-elemento="Conoce"><a href="#">Conoce</a></li>
-                <li data-elemento="Actividades"><a href="#">Actividades</a></li>
-                <li data-elemento="Materiales"><a href="#">Materiales</a></li>
-            </ul>
-        </nav>
-        <nav class="submenu" id="menuMexico">
-        	<ul>
-            	<li><a href="mexico.html">El país de las maravillas</a></li>
-                <li><a href="ecosistemas.html">Los ecosistemas</a></li>
-                <li><a href="obtenemos.html">¿Qué obtenemos de los ecosistemas?</a></li>
-                <li><a href="quedana.html">¿Cómo dañamos los ecosistemas?</a></li>
-                <li><a href="especies.html">Las especies</a></li>
-                <li><a href="lagranfamilia.html">La gran familia</a></li>
-                <li><a href="quepasa.html">¿Qué pasa cuando eliminamos?</a></li>
-                <li><a href="entremas.html">Entre más somos</a></li>
-                <li><a href="conservar.html">¿Por qué conservar?</a></li>
-                <li><a href="quehacer.html">¿Qué puedo hacer?</a></li>
-            
-            </ul>
-        </nav>
-         <nav class="submenu" id="menuExplora">
-        	<ul>
-            	<li><a href="explora.html">Explora México</a></li>
-                <li><a href="explora.html#ciudad">Ciudad</a></li>
-                <li><a href="explora.html#campo">Campo</a></li>
-            	<li><a href="explora.html#selvahumeda">Selva húmeda</a></li>
-                <li><a href="explora.html#bosquenublado">Bosque nublado</a></li>
-                <li><a href="explora.html#bosquetemplado">Bosque templado</a></li>
-                <li><a href="explora.html#rios">Ríos y lagos</a></li>
-                <li><a href="explora.html#pastizal">Pastizal</a></li>
-                <li><a href="explora.html#matorral">Matorral</a></li>
-                <li><a href="explora.html#selvaseca">Selva seca</a></li>
-                <li><a href="explora.html#pacifico">Océano Pacífico</a></li>
-                <li><a href="explora.html#golfo">Golfo y Caribe</a></li>
-            </ul>
-        </nav>
-         <nav class="submenu" id="menuConoce">
-        	<ul>
-            	<li><a href="mapas.html">Mapas</a></li>
-                <li><a href="fotografias.html">Fotografías</a></li>
-                <li><a href="videos.html">Videos</a></li> 
-                <li><a href="cuidas.html">¿Cuidas o destruyes?</a></li>
-                <li><a href="encuentra.html">Encuentra su casa</a></li>
-                <li><a href="vecinos.html">Vecinos verdes</a></li>
-                <li><a href="consumo_videos.html">Consume responsablemente</a></li>
-                <li><a href="mascotas.html">Mascotas</a></li>
-				<li><a href="https://www.biodiversidad.gob.mx/biodiversidad/curiosos/" target="_blank">Curiosos y comprometidos</a></li>
-				<li><a href="/invasoras" target="_blank">Especies invasoras</a></li>
-            </ul>
-        </nav>
-         <nav class="submenu" id="menuMateriales">
-        	<ul>
-                <li><a href="sep.html">Curriculum SEP Primaria</a></li>
-                <li><a href="assets/pdf/curriculum_sep_secundaria.pdf" target="_blank">Curriculum SEP Secundaria</a></li>
-            	<li><a href="publicaciones.html">Publicaciones</a></li>
-                <li><a href="carteles.html">Carteles</a></li>
-                <li><a href="capsulas.html">Cápsulas</a></li>
-                <li><a href="descargables.html">Descargables</a></li>
-				<li><a href="recortables.html">Recortables</a></li>
-                <li><a href="cantos.html">Cantos y cuentos</a></li>
-                <li><a href="sitiosweb.html">Enlaces</a></li>
-                <li><a href="dvdmegadiverso.html">Megadiverso DVD</a></li>
-                <li><a href="https://www.uv.mx/cosustenta/documentos/kit-de-juegos-abe/" target="_blank">Juegos sobre cambio climático</a></li>
-            </ul>
-        </nav>
-        <nav class="submenu" id="menuActividades">
-        	<ul>
-            	<li><a href="memoramas.html">Memoramas</a></li>
-            	<li><a href="rompecabezas.html">Rompecabezas</a></li>
-                <li><a href="color_selvah.html">Para colorear</a></li>
-                <li><a href="megadiverso.html">México megadiverso</a></li>
-                <li><a href="exploradores.html">Pequeños exploradores</a></li>
-                <li><a href="assets/pdf/cuadernodeVIAJE.pdf" target="_blank">Diario de viaje</a></li>
-                <li><a href="http://www.paismaravillas.mx/polinizadores/" target="_blank">Jardín de polinizadores</a></li>
-            </ul>
-        </nav>
-        <!-- InstanceBeginEditable name="secpuntos" -->
+<link href="css/consumo_videos.css" rel="stylesheet" type="text/css"> <!-- estilos del sitio pais de las maravillas versión anterior -->
 
-    <!-- InstanceEndEditable -->
-    </div>    
-    <div id="maestro" class="banderas" title="Para maestros"><a href="#" target="_blank"></a></div>
-    <div id="idioma" class="banderas" title="English"><a href="index_ing.html"></a></div>
-    <div id="contacto" class="banderas" title="Contacto"><a href="mailto:ninos@conabio.gob.mx"></a></div>
-    <div class="toside">
-        <div id="bio" class="banderas1" class="fa" title="www.biodiversidad">
-            <a href="http://www.biodiversidad.gob.mx/" target="_blank"></a>
+    </head>
+    <body id="page-top" class="nav-is-fixed">
+    <!--  <header class="cd-main-header"></header> -->
+   <main class="cd-main-content">   
+                      
+<section class="about-section text-center pb-5 d-none d-lg-block" id="web1">
+            </section>
+            <!-- Projects-->
+            <section class="projects-section" id="web2">
+				  <div class="container px-4 px-lg-5 mt-5">
+                    <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-8 wow animate__animated animate__fadeInLeft">
+            <h3 class="mb-4">Consumo responsable</h3>
+            <p>En un día común desempeñamos varias actividades para cubrir nuestras necesidades. Todo lo que hacemos involucra gasto de energía y uso de recursos. Pero, ¿Te has detenido a pensar de dónde viene y a dónde va todo lo que usas a diario? Cada uno de los bienes y servicios que utilizamos pasan por un largo proceso que tiene efecto en la economía, en la sociedad, en tu salud y la del ambiente. Debido a nuestro consumo excesivo los ecosistemas de México se desgastan y muchas especies corren peligro de extinguirse.</p>
+</div>
+</div>
+</div>
+  <!-- Topic Cards -->
+    <div id="cards_landscape_wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                  <a  href="https://www.youtube.com/watch?v=MHO3oUExoGE&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=1" target="_blank"><img src="assets/img/materiales/consumo/sitios/01.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Consumo responsable</h6>
+                                    <p>¿Te has detenido a pensar de dónde viene y a dónde va todo lo que usas a diario?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=1o2dj8TLFmA&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=2" target="_blank"><img src="assets/img/materiales/consumo/sitios/02.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">                                    
+                                    <h6>Agricultura</h6>
+                                    <p>¿Alguna vez te has preguntado con qué está hecho tu caldo tlalpeño?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=wQ20yqBzdKE&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=3" target="_blank"><img src="assets/img/materiales/consumo/sitios/03.png" alt="" /></a>
+                                </div>
+
+                                <div class="text-container">
+                                    <h6>Agua</h6>
+                                   <p>¿Sabes de donde viene el agua y adonde se va después de ser usada?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=OSK9sz9GASk&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=4" target="_blank"><img src="assets/img/materiales/consumo/sitios/04.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Energía</h6>
+                                   <p>¿Haz cuestionado el origen de aquello que hace que tus cosas cobren vida?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=Wi0JNp1ZCaY&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=5" target="_blank"><img src="assets/img/materiales/consumo/sitios/05.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Ganadería</h6>
+                                   <p>¿Recuerdas qué comiste hoy?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=rlBD49J2U4Q&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=6" target="_blank"><img src="assets/img/materiales/consumo/sitios/06.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Pesca</h6>
+                                   <p>¿Pescado a la talla?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=OSK9sz9GASk&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=7" target="_blank"><img src="assets/img/materiales/consumo/sitios/07.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Residuos</h6>
+                                   <p>¿Te haz preguntado a dónde se va y cómo afecta lo que desechas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=OSK9sz9GASk&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=8" target="_blank"><img src="assets/img/materiales/consumo/sitios/08.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Textil</h6>
+                                   <p>¿Sabes cómo llegan los productos que usas a los lugares donde los compras?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=OSK9sz9GASk&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=9" target="_blank"><img src="assets/img/materiales/consumo/sitios/09.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Transporte</h6>
+                                   <p>¿Conoces el funcionamiento vial de la ciudad de México?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer wow animate__animated animate__flipInX">
+                            <div class="text-box">
+                                <div class="image-box">
+                                <a href="https://www.youtube.com/watch?v=OSK9sz9GASk&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=10" target="_blank"><img src="assets/img/materiales/consumo/sitios/10.png" alt="" /></a>
+                                </div>
+                                <div class="text-container">
+                                    <h6>Vivienda</h6>
+                                   <p>¿Sabes qué había antes de que construyeran la casa donde vives?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div id="face" class="redes" class="fa">
-            <a href="https://www.facebook.com/pages/Comision-Nacional-para-el-Conocimiento-y-uso-de-la-Biodiversidad/208239404119?v=wall" target="_blank"></a>
-        </div>
-        <div id="twitter" class="redes" class="fa">
-            <a href="https://twitter.com/conabio" target="_blank"></a>
-        </div>
-        <div id="youtube" class="redes" class="fa">
-            <a href="https://www.youtube.com/user/biodiversidadmexico?gl=MX&user=biodiversidadmexico" target="_blank"></a>
-        </div>
-        <div id="vimeo" class="redes" class="fa">
-            <a href="https://vimeo.com/conabio" target="_blank"></a>
-        </div>
-        <div id="instagram" class="redes" class="fa">
-            <a href="https://www.instagram.com/biodiversidad_mexicana/" target="_blank"></a>
-        </div>
-    </div>
-</header>
+                </div>
+                 <a id="tianguis" href="https://www.biodiversidad.gob.mx/diversidad/alimentos/consumidor-responsable" target="_blank"><img src="assets/img/conoce/fruta.png">Red de tianguis y mercados orgánicos</a>
+                    <!-- Featured Project Row-->
+            </section>
+           
+          
+            <!-- Footer
+            <footer class="footer bg-black small text-center text-white-50" id="footer">
+                <div class="container px-4 px-lg-5 wow animate__animated animate__fadeInUp">
+                    <a href="https://www.biodiversidad.gob.mx/"><img src="assets/img/home/CONABIO-logo2021-01.svg" alt="logo conabio"></a>
+                    <hr>
+                    <p class="small">México, 2022</p>
+                </div>
+            </footer> -->            
+        </main>
 
+	<!-- Usar load para cargar contenido de menu y footer-->
+	<script>
+	  $('header').load('./header.html');
+	  //$('footer').load('./footer.html');
+	</script>
 
-<!-- InstanceBeginEditable name="content" -->
-<!--<div id="maestrolink" data-link="http://paramaestro.com"></div>-->
-<section>
-    <div class="margen">
-    </div>
-</section>
-<section>
-    <div class="margen">
-        <div class="megatitle" id="sitiosweb"></div>
-        <p>En un día común desempeñamos varias actividades para cubrir nuestras necesidades. Todo lo que hacemos involucra gasto de energía y uso de recursos.
-Pero, ¿Te has detenido a pensar de dónde viene y a dónde va todo lo que usas a diario?
-Cada uno de los bienes y servicios que utilizamos pasan por un largo proceso que tiene efecto en la economía, en la sociedad, en tu salud y la del ambiente. Debido a nuestro consumo excesivo los ecosistemas de México se desgastan y muchas especies corren peligro de extinguirse.</p>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=MHO3oUExoGE&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=1" target="_blank"><img src="assets/img/materiales/consumo/sitios/01.png" alt="some"><div class="select"><strong style="color:#FFF">Consumo responsable</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=1o2dj8TLFmA&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=2" target="_blank"><img src="assets/img/materiales/consumo/sitios/02.png" alt="some"><div class="select"><strong style="color:#FFF">Agricultura</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=wQ20yqBzdKE&index=3&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT" target="_blank"><img src="assets/img/materiales/consumo/sitios/03.png" alt="some"><div class="select"><strong style="color:#FFF">Agua</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=OSK9sz9GASk&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=4" target="_blank"><img src="assets/img/materiales/consumo/sitios/04.png" alt="some"><div class="select"><strong style="color:#FFF">Energía</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=Wi0JNp1ZCaY&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=5" target="_blank"><img src="assets/img/materiales/consumo/sitios/05.png" alt="some"><div class="select"><strong style="color:#FFF">Ganadería</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=rlBD49J2U4Q&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=6" target="_blank"><img src="assets/img/materiales/consumo/sitios/06.png" alt="some"><div class="select"><strong style="color:#FFF">Pesca</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=ornRuH3sodw&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=7" target="_blank"><img src="assets/img/materiales/consumo/sitios/07.png" alt="some"><div class="select"><strong style="color:#FFF">Residuos</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=wNrym05waWY&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT&index=8" target="_blank"><img src="assets/img/materiales/consumo/sitios/08.png" alt="some"><div class="select"><strong style="color:#FFF">Textil</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=7094_S6C4Qc&index=9&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT" target="_blank"><img src="assets/img/materiales/consumo/sitios/09.png" alt="some"><div class="select"><strong style="color:#FFF">Transporte</strong><br/>Viene y va</div></a></li>
-            <li><a href="https://www.youtube.com/watch?v=Snrk7Im91As&index=10&list=PLLAcoRHqCmNSRYOrx-s0B_5t0Qc99SIoT" target="_blank"><img src="assets/img/materiales/consumo/sitios/10.png" alt="some"><div class="select"><strong style="color:#FFF">Vivienda</strong><br/>Viene y va</div></a></li> 
-        </ul>
-    </div>
-   	<a id="tianguis" href="https://www.biodiversidad.gob.mx/diversidad/alimentos/consumidor-responsable" target="_blank"><img src="assets/img/conoce/fruta.png">Red de tianguis<br>y mercados orgánicos</a>
-</section>
- <div class="modalVideo"></div>
- <div class="back"></div>
- <div id="overlay"></div>
- 
-    
-<!-- InstanceEndEditable -->
-<footer>
-    <div>
-        <a href="http://www.conabio.gob.mx/" target="_blank"><img src="assets/img/home/logoconabio.png"/></a>
-    </div>
-    <strong>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad</strong>
-    <p>Liga Periférico - Insurgentes Sur, Núm. 4903, Col. Parques del Pedregal, Delegación Tlalpan, 14010
-México, D.F. | Tel. 5004.5000</p>
-</footer>
+   
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
 
+        <!--<script src="js/scripts.js"></script>-->
+        <!--wow js-->
+        <script src="js/wow.js"></script>
+        <!--scripts fuera del template base, tomé los del morphing modals, pero podrían ser en una carpeta afuera-->
 
-<!-- Código para estadísticas en Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <!--script src="assets/morphing-modal/js/jquery-2.1.1.js"></script> <!-- jquery -->
 
-ga('create', 'UA-76995702-1', 'auto');
-ga('send', 'pageview');
+        <script src="assets/morphing-modal/js/velocity.min.js"></script> <!-- velocity -->
+        <script src="assets/morphing-modal/js/modernizr.js"></script> <!-- Modernizr -->
+        
+    <!--  <script src="assets/morphing-modal/js/main.js"></script> modales fullscreen -->
 
-</script>
-<!-- Fin del código para estadísticas en Google Analytics -->
-</body>
+      <!--  <script src="assets/full-screen-pushing-navigation-master/assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+        <script src="assets/mega-site-navigation/js/main.js"></script> <!-- mega menu -->
+        <script src="assets/mega-site-navigation/js/jquery.mobile.custom.min.js"></script> <!-- mega menu -->
+        <script src="assets/animated-headline/js/main.js"></script> <!-- efecto escribe -->
+        <script>
+            new WOW().init();
+        </script>
+    </body>
+</html>
 
-
-
-<!-- InstanceEnd --></html>
