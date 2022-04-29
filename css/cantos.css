@@ -1,407 +1,162 @@
 section {
-
   overflow:hidden;
-
   width: 100%;
-
   z-index: 3;
-
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
-
-}
-
-h3{
-
-	font-family: inherit;
-
-	font-size:22px;
-
-}
-
-
-
-.margen{
-
-  z-index: 4;
-
-  box-sizing: border-box;
-
-}
-
-
-
-.audiojs {
-
-  height: 20px;
-
-  width: 240px;
-
-  display: inline-block;
-
-  background: rgb(255,255,255);
-
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZGFkYWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-
-  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(173,173,173,1) 100%);
-
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(173,173,173,1)));
-
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(173,173,173,1) 100%);
-
-  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(173,173,173,1) 100%);
-
-  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(173,173,173,1) 100%);
-
-  background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(173,173,173,1) 100%);
-
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#adadad',GradientType=0 );
-
-}
-
-
-
-.audiojs .play-pause {
-
-  width: 24px;
-
-  overflow: hidden;
-
-  border-right: 1px solid #000;
-
-  float: left;
-
-  margin: -3px;
-
-  height: 22px;
-
-  padding: 0px;
-
-}
-
-
-
-.audiojs .scrubber {
-
-  height: 5px;
-
-  margin: 7px 4px 0px 11px;
-
-  width: 200px;
-
-}
-
-
-
-.audiojs .time {
-
-  height: 20px;
-
-  padding: 0px 6px 0px 7px;
-
-  line-height: 23px;
-
-  color: #000;
-
-}
-
-.audiojs .time em {
-
-  color: inherit;
-
 }
 
 #cc1 {
-
   background-color: #2E4E56;
-
 }
 
-
-
 #cc1 .margen {
-
   height: 400px;
-
   background-repeat: no-repeat;
-
   background-position: 50% 67%;
-
-  background-size: 75% auto;
-
   background-image: url('../assets/img/materiales/cantosycuentos/cantosycuentos.png');
 
 }
 
 .columna {
-
   width: 49%;
-
   box-sizing: border-box;
-
   display: inline-block;
-
   vertical-align: top;
-
-  color: #2a2a2a!important;
-
+  color: #8f5a17 !important;
 }
 
 .columna h3 {
-
   margin: 0;
-
   font-weight: normal;
-
+  font-family: inherit;
+  font-size:22px;
 }
 
 .columna p {
-
   margin: 0;
-
   color:#6A5A4D
-
 }
 
-.columna ul {
-
-  list-style-type: none;
-
-  padding: 0;
-
-  margin: 0;
-
+.estados {
+  color:#937257 !important;
 }
-
 
 
 .columna li {
-
   padding-left: 22px;
-
   background-position: 0 8px;
-
   background-repeat: no-repeat;
-
   width: 90%;
-
 }
 
-
-
-.columna li a {
-
-  background-image: url("../assets/img/materiales/cantosycuentos/bajar.png");
-
-  background-size: auto 82%;
-
-  background-repeat: no-repeat;
-
-  background-position: 0 0;
-
-  padding: 1px 14px;
-
+.columna img {
+  width: 50px;
   margin: -8px 10px;
-
 }
 
-
+.columna a {
+  color: #d95d41;
+}
 
 .columna .titulo {
-
   height: 25px;
-
   width: 100%;
-
   background-size: auto 100%;
-
   background-repeat: no-repeat;
-
   background-position: 15px 50%;
-
 }
-
-
-
-.original {
-
-	display: inline-block;
-
-	font-size: 10px;
-
-}
-
-
 
 .cantos .titulo {
-
   background-image: url('../assets/img/materiales/cantosycuentos/cantos.png');
-
 }
-
-
 
 .cuentos .titulo {
-
   background-image: url('../assets/img/materiales/cantosycuentos/cuentos.png');
-
 }
-
-
 
 .cantos li {
-
   background-image: url('../assets/img/materiales/cantosycuentos/1.png');
-
 }
-
-
 
 .cuentos li {
-
   background-image: url('../assets/img/materiales/cantosycuentos/2.png');
-
 }
-
-
 
 #enlace{
-
 	background-image: url("../assets/img/materiales/cantosycuentos/elllamado.png");
-
 	background-repeat: no-repeat;
-
 	background-position: 0px 0px;
-
 	position: fixed;
-
 	width: 125px;
-
 	height: 106px;
-
 	top: 420px;
-
-	right: 100px;
-
+	right: 390px;
 	z-index: 9999;
-
-	margin: 10px;
-
+	margin: -375px;
 	cursor: pointer;
-
 }
-
 
 
 #enlace:hover{
-
 	background-position: -124px 0px;
-
 }
-
-
 
 #cc2 {
-
   background-color: #c9c1aa;
-
   color: #fff;
-
   position: relative;
-
 }
-
 
 
 #cc3 {
-
   background-color: #e1dcca;
-
   color: #7a7054;
-
   position: relative;
-
 }
 
 section ul{
-
   margin: 0 auto;
-
   padding: 0;
-
   margin: 0;
-
   margin-bottom: 150px;
-
 }
 
 section ul li {
-
   width: 200px;
-
   overflow: visible;
-
   display: inline-block;
-
   margin: 20px 15px;
-
   vertical-align: top;
-
 }
 
 .megatitle {
-
   height: 50px;
-
   width: 250px;
-
   margin: 50px auto;
-
   background-repeat: no-repeat;
-
   background-position: 50% 50%;
-
   background-size: 100% auto;
-
 }
 
 #ganadores {
-
   background-image: url('../assets/img/materiales/cantosycuentos/ganadores.png');
-
 }
 
 #honorifica {
-
   background-image: url('../assets/img/materiales/cantosycuentos/menciones.png');
-
 }
 
 .semifooter {
-
   text-align: center;
-
 }
 
 .semifooter .logos
 
 {
-
   height: 95px;
-
   width: 320px;
-
   background-repeat: no-repeat;
-
   background-image: url("../assets/img/materiales/cantosycuentos/logotiposcantos.png");
-
   margin: 12px auto;
-
   background-size: auto 100%;
-
 }
-
-footer{
-
-	display: none;
-
-	}
