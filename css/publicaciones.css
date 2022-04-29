@@ -4,28 +4,20 @@ section {
   box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
 }
 
-.margen{
-  z-index: 2;
-}
-h2{
-	margin: 0 auto;
-}
 #pub1 {
   background-color: #27526b;
   color: #FFF;
   position:relative;
   padding-top:81px;
   z-index: 3;
-  height: 324px;
+  height: 350px;
 }
-#pub1 .margen {
-  height: 100%;
-}
+
 #pub1 p {
-  width: 412px;
+  width: 620px;
   text-align: center;
-  top: 0;
-  left: 160px;
+  top: 110px;
+  left: 645px;
   position: absolute;
 }
 #pub1 #titoLibro {
@@ -35,8 +27,8 @@ h2{
   background-size: 100% auto;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 60px;
-  right: 100px;
+  bottom: 5px;
+  right: 930px;
 }
 #pub2 {
   background-color: #a6c0cf;
@@ -45,7 +37,7 @@ h2{
   position:relative;
   z-index: 3;
   background-image: url("../assets/img/materiales/publicaciones/patronP.png");
-  height: 1300px;
+  height: 1200px;
 }
 #pub2 ul{
   text-align: center;
@@ -54,26 +46,14 @@ h2{
   margin: 0;
 }
 #pub2 ul li {
-  width: 230px;
+  width: 300px;
   overflow: hidden;
-  height: 230px;
+  height: 225px;
   display: inline-block;
-  margin: 25px;
-  margin: 0 25px;
-}
-#pub2 ul li a{
-  width: 230px;
-  height: 230px;
-}
-#pub2 ul li a img:first-child{
-  width: 230px;
-  height: auto;
-}
-#pub2 ul li a img:last-child{
-  width: 230px;
-  height: auto;
+  margin: 0 5px;
   position: relative;
 }
+
 #pub3 {
   background-color: #27526b;
   color: #FFF;
@@ -88,20 +68,13 @@ h2{
   margin: 0;
 }
 #pub3 ul li {
-  width: 230px;
+  width: 330px;
   overflow: hidden;
-  height: 175px;
+  height: 250px;
   display: inline-block;
   margin: 0 25px;
 }
-#pub3 ul li a{
-  width: 230px;
-  height: 175px;
-}
-#pub3 ul li a img:first-child{
-  width: 230px;
-  height: auto;
-}
+
 #pub4 {
   text-align: center;
   background-color: #a6c0cf;
@@ -118,20 +91,13 @@ h2{
   margin: 0;
 }
 #pub4 ul li {
-  width: 230px;
+  width: 330px;
   overflow: hidden;
-  height: 175px;
+  height: 250px;
   display: inline-block;
   margin: 0 25px;
 }
-#pub4 ul li a{
-  width: 230px;
-  height: 175px;
-}
-#pub4 ul li a img:first-child{
-  width: 230px;
-  height: auto;
-}
+
 #pub5 {
   text-align: center;
   background-color: #27526b;
@@ -147,20 +113,13 @@ h2{
   margin: 0;
 }
 #pub5 ul li {
-  width: 230px;
+  width: 330px;
   overflow: hidden;
-  height: 175px;
+  height: 250px;
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 20px;
 }
-#pub5 ul li a{
-  width: 230px;
-  height: 175px;
-}
-#pub5 ul li a img:first-child{
-  width: 230px;
-  height: auto;
-}
+
 #pub6 {
   text-align: center;
   background-color: #a6c0cf;
@@ -177,19 +136,11 @@ h2{
   margin: 0;
 }
 #pub6 ul li {
-  width: 230px;
+  width: 330px;
   overflow: hidden;
-  height: 230px;
+  height: 250px;
   display: inline-block;
   margin: 10px 25px;
-}
-#pub6 ul li a{
-  width: 230px;
-  height: 175px;
-}
-#pub6 ul li a img:first-child{
-  width: 230px;
-  height: auto;
 }
 
 #pub7 {
@@ -199,7 +150,6 @@ h2{
   position: relative;
   z-index: 6;
   min-height: 600px;
-
 }
 #pub7 ul{
   text-align: center;
@@ -208,23 +158,12 @@ h2{
   margin: 0;
 }
 #pub7 ul li {
-  width: 230px;
+  width: 330px;
   overflow: hidden;
-  height: 230px;
+  height: 250px;
   display: inline-block;
   margin: 10px 25px;
 }
-#pub7 ul li a{
-  width: 230px;
-  height: 175px;
-}
-#pub7 ul li a img:first-child{
-  width: 230px;
-  height: auto;
-}
-
-
-
 
 #pub8 {
   text-align: center;
@@ -242,21 +181,12 @@ h2{
   margin: 0;
 }
 #pub8 ul li {
-  width: 230px;
+  width: 320px;
   overflow: hidden;
   height: 230px;
   display: inline-block;
-  margin: 10px 25px;
+  margin: 10px 20px;
 }
-#pub8 ul li a{
-  width: 230px;
-  height: 175px;
-}
-#pub8 ul li a img:first-child{
-  width: 230px;
-  height: auto;
-}
-
 
 
 .bandTitle {
@@ -274,9 +204,7 @@ h2{
   font-size: 15px;
   padding-top: 15px;
 }
-.subtitle {
-	
-}
+
 .colecciones {
   background-image: url("../assets/img/materiales/publicaciones/bandera.png");
 }
