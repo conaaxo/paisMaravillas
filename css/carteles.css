@@ -25,7 +25,8 @@ p a {
 }
 
 #car1 iframe{
-	position: absolute;
+	/* position: absolute; */
+  margin: 5px 520px;
 }
 
 #car2 {
@@ -36,15 +37,7 @@ p a {
   background-image: url("../assets/img/materiales/carteles/patronCa.png");
 }
 
-#car2 .twoseries{
-  margin-top: 50px;
-}
 
-#car2 .siblings {
-  width: 460px;
-  height: 200px;
-  display: inline-block;
-}
 
 #bichosl {
   background-image: url('../assets/img/materiales/carteles/bichos.png');
@@ -101,7 +94,7 @@ p a {
 }
 
 #car3 aside {
-  width: 25%;
+  width: 15%;
   display: inline-block;
   vertical-align: top;
 }
@@ -143,11 +136,11 @@ p a {
   display: inline-block;
   margin: 20px 15px;
 }
-#car3 .sidecont ul li a{
+#car3 .sidecont ul li {
   width: 203px;
   height: 304px;
 }
-#car3 .sidecont ul li a img:first-child{
+#car3 .sidecont ul li img:first-child{
   width: 190px;
   height: auto;
 }
@@ -169,7 +162,7 @@ p a {
   background-image: url("../assets/img/materiales/carteles/maguey.png");
 }
 #car4 aside {
-  width: 25%;
+  width: 15%;
   display: inline-block;
   vertical-align: top;
 }
@@ -211,11 +204,11 @@ p a {
   display: inline-block;
   margin: 20px 15px;
 }
-#car4 .sidecont ul li a{
+#car4 .sidecont ul li {
   width: 203px;
   height: 304px;
 }
-#car4 .sidecont ul li a img:first-child{
+#car4 .sidecont ul li img:first-child{
   width: 190px;
   height: auto;
 }
@@ -250,9 +243,7 @@ p a {
   margin: 20px 15px;
   vertical-align: top;
 }
-#car5 ul li a{
-  width: 280px;
-}
+
 #car5 ul li a img:first-child{
   width: 240px;
   height: auto;
@@ -332,11 +323,11 @@ p a {
 
 .megatitle {
   width: 90%;
-  height: 170px;
+  height: 210px;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: 100% auto;
-  margin-top: 120px;
+  margin-top: 5px;
 }
 .megaside {
   width: 80%;
@@ -377,7 +368,4 @@ p a {
   text-align: center;
   font-size: 15px;
   padding-top: 15px;
-}
-footer{
-	display: none;
 }
