@@ -26,7 +26,7 @@ p a {
 
 #car1 iframe{
 	/* position: absolute; */
-  margin: 5px 520px;
+  margin: 5px 480px;
 }
 
 #car2 {
@@ -94,7 +94,7 @@ p a {
 }
 
 #car3 aside {
-  width: 15%;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
 }
@@ -162,7 +162,7 @@ p a {
   background-image: url("../assets/img/materiales/carteles/maguey.png");
 }
 #car4 aside {
-  width: 15%;
+  width: 25%;
   display: inline-block;
   vertical-align: top;
 }
