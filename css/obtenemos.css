@@ -72,6 +72,8 @@ h2, h3 {
 
   bottom: 0;
 
+  color: wheat;
+
 }
 
 
@@ -192,7 +194,7 @@ h2, h3 {
 
 #menuCirculo ul li a {
 
-	color: transparent!important;
+  color: transparent!important;
 
 }
 

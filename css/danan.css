@@ -36,7 +36,7 @@ h2, h3 {
 
 
 
-#ed1 {
+ #ed1 {
 
   width: 100%;
 
@@ -50,9 +50,10 @@ h2, h3 {
 
   overflow: hidden;
 
-  position: relative;
+  position: static;
 
   margin-top: 81px;
+
 
 }
 
@@ -62,23 +63,25 @@ h2, h3 {
 
   height: 400px;
 
-  width: 100%;
+  width: 20%;
 
   background-color: rgba(0,0,0,.8);
 
-  overflow: hidden;
+  overflow: scroll;
 
-  position: absolute;
+  margin-top: 15px;
 
   bottom: 0;
+
+  color: wheat;
 
 }
 
 
 
-.fundidoNegro article {
+.fundidoNegro  {
 
-  width: 750px;
+  width: 150px;
 
   margin: 0 auto;
 
@@ -93,82 +96,6 @@ h2, h3 {
   text-align: center;
 
 }*/
-
-#menuCirculo {
-
-  margin-top: 10px;
-
-}
-
-#menuCirculo ul {
-
-  padding: 0;
-
-  margin: 0 auto;
-
-  width: 600px;
-
-}
-
-
-
-#menuCirculo ul li {
-
-  display: inline-block;
-
-  vertical-align: top;
-
-  width: 60px;
-
-  margin: 0px 5px;
-
-}
-
-
-
-#menuCirculo ul li p{
-
-  text-align: center;
-
-  color: #FFF;
-
-  font-size: 14px;
-
-}
-
-
-
-#menuCirculo .circulo {
-
-  display: block;
-
-  width: 50px;
-
-  height: 50px;
-
-  border: none;
-
-  background-image: url(../assets/img/botonescosistemas.png);
-
-  background-color: #404e5b;
-
-  border-radius: 50%;
-
-  line-height: 50px;
-
-  text-align: center;
-
-  font-size: 30px;
-
-  margin: 0 auto;
-
-  text-decoration: none;
-
-  color: #cec4a4;
-
-  background-size: auto 330%;
-
-}
 
 
 
@@ -185,112 +112,6 @@ h2, h3 {
 #puntos {
 
  /* display: none;*/
-
-}
-
-#menuCirculo ul li a {
-
-	color: transparent!important;
-
-}
-
-#menuCirculo ul li:nth-child(1) a {
-
-  background-position: -3px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(2) a {
-
-  background-position: -59px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(3) a {
-
-  background-position: -114px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(4) a {
-
-  background-position: -170px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(5) a {
-
-  background-position: -225px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(6) a {
-
-  background-position: -280px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(7) a {
-
-  background-position: -335px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(8) a {
-
-  background-position: -391px -58px;
-
-}
-
-
-
-
-
-#menuCirculo ul li:nth-child(1) a:hover {
-
-  background-position: -3px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(2) a:hover {
-
-  background-position: -59px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(3) a:hover {
-
-  background-position: -114px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(4) a:hover {
-
-  background-position: -170px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(5) a:hover {
-
-  background-position: -225px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(6) a:hover {
-
-  background-position: -280px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(7) a:hover {
-
-  background-position: -335px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(8) a:hover {
-
-  background-position: -391px -112px;
 
 }
 
@@ -334,9 +155,11 @@ article.producto img{
 
   height: 300px;
 
-  width: auto;
+  width: 50%;
 
 }
+
+
 
 
 
