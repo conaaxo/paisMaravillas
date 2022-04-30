@@ -33,7 +33,11 @@ h2, h3 {
 }
 
 
-
+.fondonegro {
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    margin: 130px;
+}
 
 
 #eo1 {
@@ -52,127 +56,10 @@ h2, h3 {
 
   position: relative;
 
-  margin-top: 81px;
-
 }
 
 
 
-.fundidoNegro {
-
-  height: 370px;
-
-  width: 100%;
-
-  background-color: rgba(0,0,0,.8);
-
-  overflow: hidden;
-
-  position: absolute;
-
-  bottom: 0;
-
-  color: wheat;
-
-}
-
-
-
-.fundidoNegro article {
-
-  width: 670px;
-
-  margin: 0 auto;
-
-  margin-top: 15px;
-
-}
-
-
-
-/*.fundidoNegro article h2{
-
-  text-align: center;
-
-}
-
-*/
-
-#menuCirculo {
-
-  margin-top: 10px;
-
-}
-
-#menuCirculo ul {
-
-  padding: 0;
-
-  margin: 0 auto;
-
-  width: 600px;
-
-}
-
-
-
-#menuCirculo ul li {
-
-  display: inline-block;
-
-  vertical-align: top;
-
-  width: 60px;
-
-  margin: 0px 5px;
-
-}
-
-
-
-#menuCirculo ul li p{
-
-  text-align: center;
-
-  color: #FFF;
-
-  font-size: 14px;
-
-}
-
-
-
-#menuCirculo .circulo {
-
-  display: block;
-
-  width: 50px;
-
-  height: 50px;
-
-  border: none;
-
-  background-image: url(../assets/img/botonescosistemas.png);
-
-  background-color: #404e5b;
-
-  border-radius: 50%;
-
-  line-height: 50px;
-
-  text-align: center;
-
-  font-size: 30px;
-
-  margin: 0 auto;
-
-  text-decoration: none;
-
-  color: #cec4a4;
-
-  background-size: auto 330%;
-
-}
 
 
 
@@ -191,114 +78,6 @@ h2, h3 {
  /* display: none;*/
 
 }
-
-#menuCirculo ul li a {
-
-  color: transparent!important;
-
-}
-
-#menuCirculo ul li:nth-child(1) a {
-
-  background-position: -3px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(2) a {
-
-  background-position: -59px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(3) a {
-
-  background-position: -114px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(4) a {
-
-  background-position: -170px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(5) a {
-
-  background-position: -225px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(6) a {
-
-  background-position: -280px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(7) a {
-
-  background-position: -335px -58px;
-
-}
-
-#menuCirculo ul li:nth-child(8) a {
-
-  background-position: -391px -58px;
-
-}
-
-
-
-
-
-#menuCirculo ul li:nth-child(1) a:hover {
-
-  background-position: -3px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(2) a:hover {
-
-  background-position: -59px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(3) a:hover {
-
-  background-position: -114px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(4) a:hover {
-
-  background-position: -170px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(5) a:hover {
-
-  background-position: -225px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(6) a:hover {
-
-  background-position: -280px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(7) a:hover {
-
-  background-position: -335px -112px;
-
-}
-
-#menuCirculo ul li:nth-child(8) a:hover {
-
-  background-position: -391px -112px;
-
-}
-
-
 
 article.fijo .margen{
 
@@ -365,7 +144,7 @@ article.contenido {
 #eo2 {
 
   background-color: #828729;
-
+padding: 20px;
 }
 
 
@@ -391,7 +170,7 @@ article.contenido {
 #eo3 {
 
   background-color: #6F996B;
-
+padding: 20px;
 }
 
 
@@ -417,7 +196,7 @@ article.contenido {
 #eo4 {
 
   background-color: #BD9638;
-
+padding: 20px;
 }
 
 
@@ -443,7 +222,7 @@ article.contenido {
 #eo5 {
 
   background-color: #67553D;
-
+padding: 20px;
 }
 
 
@@ -469,7 +248,7 @@ article.contenido {
 #eo6 {
 
   background-color: #374F59;
-
+padding: 20px;
 }
 
 
@@ -495,7 +274,7 @@ article.contenido {
 #eo7 {
 
   background-color: #4E807D;
-
+padding: 20px;
 }
 
 
@@ -521,7 +300,7 @@ article.contenido {
 #eo8 {
 
   background-color: #856A50;
-
+padding: 20px;
 }
 
 
@@ -547,7 +326,7 @@ article.contenido {
 #eo9 {
 
   background-color: #87847B;
-
+padding: 20px;
 }
 
 
