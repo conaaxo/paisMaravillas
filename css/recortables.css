@@ -15,10 +15,6 @@ a{
   box-sizing: border-box;
 }
 
-p {
-	text-align: left;
-	color: #053521;
-}
 
 .textoverde{
 	color: #0A5638;
@@ -31,6 +27,11 @@ p {
   background-position: 50% 100%;
   background-color: #48502B;
   background-image: url('../assets/img/materiales/recortables/tito.png');
+}
+
+.textocolor {
+text-align: left;
+  color: #053521;
 }
 
 #web2 { 

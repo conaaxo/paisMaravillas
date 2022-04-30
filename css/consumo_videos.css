@@ -14,9 +14,6 @@ section {
   box-sizing: border-box;
 }
 
-p{
-	color: #5e050a;
-}
 
 h3 {color: #af6400;}
 
@@ -52,6 +49,10 @@ h3 {color: #af6400;}
   background-color: #2f7a89;
   background-image: url('../assets/img/materiales/consumo/titulo.png');
 }
+
+.textocolor {
+  color: #5e050a;
+} 
 
 #web2 {
   background-color: rgb(225, 174, 105);
