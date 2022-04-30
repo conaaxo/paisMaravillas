@@ -24,10 +24,10 @@ section {
   height: 100%;
   width: 237px;
   background-image: url("../assets/img/materiales/publicaciones/titolibro.png");
-  background-size: 100% auto;
+  background-size: 80% auto;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 5px;
+  bottom: -80px;
   right: 930px;
 }
 #pub2 {

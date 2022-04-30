@@ -33,10 +33,10 @@
 
     </head>
     <body id="page-top" class="nav-is-fixed">
-    <!--  <header class="cd-main-header"></header> -->
+    <header class="cd-main-header"></header> 
    <main class="cd-main-content">   
                       
-<section class="text-center pb-5 d-none d-lg-block" id="pub1">
+<section class="text-center py-5 mt-5 d-none d-lg-block" id="pub1">
      <div class="col-sm-6 col-md-4 col-lg-4"> 
             <p>Hay alguien que puede salvarnos, que conoce la historia del manatí, de la tortuga y de todos nosotros. Alguien que ha comprendido la importancia de conservar la riqueza la Tierra y ha decidido lograrlo.</p>
             </p>           
@@ -184,21 +184,18 @@
         </ul>
 </div>
             </section>
-                     <!-- Footer
-            <footer class="footer bg-black small text-center text-white-50" id="footer">
-                <div class="container px-4 px-lg-5 wow animate__animated animate__fadeInUp">
-                    <a href="https://www.biodiversidad.gob.mx/"><img src="assets/img/home/CONABIO-logo2021-01.svg" alt="logo conabio"></a>
-                    <hr>
-                    <p class="small">México, 2022</p>
-                </div>
-            </footer> -->            
+    
+            <footer class="footer" id="footer">
+             
+            </footer>
         </main>
+        
+    <!-- Usar load para cargar contenido de menu y footer-->
+    <script>
+      $('header').load('./includes/header.html');
+      $('footer').load('./includes/footer.html');
+    </script>
 
-	<!-- Usar load para cargar contenido de menu y footer-->
-	<script>
-	  $('header').load('./header.html');
-	  //$('footer').load('./footer.html');
-	</script>
 
    
         <!-- Bootstrap core JS-->

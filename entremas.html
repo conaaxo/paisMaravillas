@@ -8,6 +8,12 @@
         <meta name="author" content="" />
         <title>¿Qué es una especie?</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+  <!-- jquery del CDN de google -->
+  <script src="js/jquery-2.2.4.min.js"></script>
+
+
+  
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -27,13 +33,9 @@
 
         <link href="css/entremas.css" rel="stylesheet" type="text/css"><!-- estilos del sitio pais de las maravillas versión anterior -->
     </head>
-    <body id="page-top" class="nav-is-fixed">
-<!-- <header class="cd-main-header">
-         
-        </header> -->
-
-
-   <main class="cd-main-content">            
+  <body id="page-top" class="nav-is-fixed">
+      <header class="cd-main-header"></header>
+   <main class="cd-main-content">          
 <section class="text-center pb-5 entremas" id="tito">                
                 <div class="container px-4 px-lg-5 pt-5">
                     <div class="row justify-content-center align-items-center">
@@ -261,13 +263,17 @@
                 </div>
             </section>
 
-
-                    <!-- Footer
-            <footer class="footer bg-verdeselva small text-center text-white-50" id="footer">
+                   
+            <footer id="footer">
              
-            </footer>-->
+            </footer>
         </main>
         
+    <!-- Usar load para cargar contenido de menu y footer-->
+    <script>
+      $('header').load('./includes/header.html');
+      $('footer').load('./includes/footer.html');
+    </script>
 
         
         <!-- Bootstrap core JS-->

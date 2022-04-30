@@ -8,6 +8,12 @@
         <meta name="author" content="" />
         <title>México el país de las maravillas</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+
+<!-- jquery del CDN de google -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+
+    
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -27,11 +33,9 @@
 
         <link href="css/mexico.css" rel="stylesheet" type="text/css"> <!-- estilos del sitio pais de las maravillas versión anterior -->
     </head>
-    <body id="page-top" class="nav-is-fixed">
- <!--   <header class="cd-main-header" id="menu-general">
-         
-        </header> -->
-
+     <body id="page-top" class="nav-is-fixed">
+  <header class="cd-main-header"></header> 
+   <main class="cd-main-content">   
 
    <main class="cd-main-content">            
 <section class="text-center pb-5 m1" id="tito">                
@@ -233,12 +237,18 @@
                 </div>
                 </div>
             </section>      
-                    <!-- Footer
-            <footer class="footer bg-verdeselva small text-center text-white-50" id="footer">
+    
+            <footer class="footer" id="footer">
              
-            </footer>-->
+            </footer>
         </main>
         
+    <!-- Usar load para cargar contenido de menu y footer-->
+    <script>
+      $('header').load('./includes/header.html');
+      $('footer').load('./includes/footer.html');
+    </script>
+
 
         
         <!-- Bootstrap core JS-->
