@@ -1,306 +1,216 @@
-<!doctype html>
-<html><!-- InstanceBegin template="/Templates/ninos.dwt" codeOutsideHTMLIsLocked="false" -->
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<!-- InstanceBeginEditable name="doctitle" -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!--<script>document.getElementsByTagName("html")[0].className += " js";</script>-->
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>¿Que pasa cuando elimino?</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png"/>
 
-<title>¿Qué pasa cuando elimino? | Conabio</title>
-
-<!-- InstanceEndEditable -->
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css">
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
-<link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
-<link href="css/style_tablet.css" media="only screen and (max-width:980px)" rel="stylesheet" type="text/css">
-<!-- InstanceParam name="audioam" type="boolean" value="true" -->
-<!-- InstanceBeginEditable name="head_cs" -->
-
-<link href="css/quepasa.css" rel="stylesheet" type="text/css">
-
-<link href="css/quepasa_tablet.css" media="only screen and (max-width:980px)" rel="stylesheet" type="text/css">
-
-<!-- InstanceEndEditable -->
-<script src="http://bdi.conabio.gob.mx/fotoweb/googleAnalytics.js"></script>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.sticky-kit.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/all.js"></script>
-<!-- InstanceBeginEditable name="head_js" -->
-
-<script src="js/quepasa.js"></script>
-
-<!-- InstanceEndEditable -->
-<link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
-<!--<link rel="shortcut icon" href="../assets/img/favicon.ico"/>-->
-
-</head>
-<body>
-
-<header>
-	<div class="margen">
-        <h1><a href="index.html">M&eacute;xico el pa&iacute;s de las maravillas</a></h1>
-        <!-- InstanceBeginEditable name="audioam" -->
+  <!-- jquery del CDN de google -->
+  <script src="js/jquery-2.2.4.min.js"></script>
 
 
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Work+Sans:ital,wght@0,300;0,400;0,800;1,400&display=swap"
+            rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- animate-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!--css fuera del template base-->
+        <!-- <link rel="stylesheet" href="assets/full-screen-pushing-navigation-master/assets/css/style.scss">  menu  -->
+        <link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
+        <!-- <link rel="stylesheet" href="assets/morphing-modal/css/style.css"> modales a full -->
+        <link rel="stylesheet" href="assets/animated-headline/css/style.css"> <!-- animacion de texto se escribe -->
 
-		<!-- InstanceEndEditable -->
-        <nav id="principal">
-            <ul>
-                <li data-elemento="Mexico"><a href="#">M&eacute;xico</a></li>
-                <li data-elemento="Explora"><a href="#">Explora</a></li>
-                <li data-elemento="Conoce"><a href="#">Conoce</a></li>
-                <li data-elemento="Actividades"><a href="#">Actividades</a></li>
-                <li data-elemento="Materiales"><a href="#">Materiales</a></li>
-            </ul>
-        </nav>
-        <nav class="submenu" id="menuMexico">
-        	<ul>
-            	<li><a href="mexico.html">El país de las maravillas</a></li>
-                <li><a href="ecosistemas.html">Los ecosistemas</a></li>
-                <li><a href="obtenemos.html">¿Qué obtenemos de los ecosistemas?</a></li>
-                <li><a href="quedana.html">¿Cómo dañamos los ecosistemas?</a></li>
-                <li><a href="especies.html">Las especies</a></li>
-                <li><a href="lagranfamilia.html">La gran familia</a></li>
-                <li><a href="quepasa.html">¿Qué pasa cuando eliminamos?</a></li>
-                <li><a href="entremas.html">Entre más somos</a></li>
-                <li><a href="conservar.html">¿Por qué conservar?</a></li>
-                <li><a href="quehacer.html">¿Qué puedo hacer?</a></li>
-            
-            </ul>
-        </nav>
-         <nav class="submenu" id="menuExplora">
-        	<ul>
-            	<li><a href="explora.html">Explora México</a></li>
-                <li><a href="explora.html#ciudad">Ciudad</a></li>
-                <li><a href="explora.html#campo">Campo</a></li>
-            	<li><a href="explora.html#selvahumeda">Selva húmeda</a></li>
-                <li><a href="explora.html#bosquenublado">Bosque nublado</a></li>
-                <li><a href="explora.html#bosquetemplado">Bosque templado</a></li>
-                <li><a href="explora.html#rios">Ríos y lagos</a></li>
-                <li><a href="explora.html#pastizal">Pastizal</a></li>
-                <li><a href="explora.html#matorral">Matorral</a></li>
-                <li><a href="explora.html#selvaseca">Selva seca</a></li>
-                <li><a href="explora.html#pacifico">Océano Pacífico</a></li>
-                <li><a href="explora.html#golfo">Golfo y Caribe</a></li>
-            </ul>
-        </nav>
-         <nav class="submenu" id="menuConoce">
-        	<ul>
-            	<li><a href="mapas.html">Mapas</a></li>
-                <li><a href="fotografias.html">Fotografías</a></li>
-                <li><a href="videos.html">Videos</a></li> 
-                <li><a href="cuidas.html">¿Cuidas o destruyes?</a></li>
-                <li><a href="encuentra.html">Encuentra su casa</a></li>
-                <li><a href="vecinos.html">Vecinos verdes</a></li>
-                <li><a href="consumo_videos.html">Consume responsablemente</a></li>
-                <li><a href="mascotas.html">Mascotas</a></li>
-				<li><a href="https://www.biodiversidad.gob.mx/biodiversidad/curiosos/" target="_blank">Curiosos y comprometidos</a></li>
-				<li><a href="/invasoras" target="_blank">Especies invasoras</a></li>
-            </ul>
-        </nav>
-         <nav class="submenu" id="menuMateriales">
-        	<ul>
-                <li><a href="sep.html">Curriculum SEP Primaria</a></li>
-                <li><a href="assets/pdf/curriculum_sep_secundaria.pdf" target="_blank">Curriculum SEP Secundaria</a></li>
-            	<li><a href="publicaciones.html">Publicaciones</a></li>
-                <li><a href="carteles.html">Carteles</a></li>
-                <li><a href="capsulas.html">Cápsulas</a></li>
-                <li><a href="descargables.html">Descargables</a></li>
-				<li><a href="recortables.html">Recortables</a></li>
-                <li><a href="cantos.html">Cantos y cuentos</a></li>
-                <li><a href="sitiosweb.html">Enlaces</a></li>
-                <li><a href="dvdmegadiverso.html">Megadiverso DVD</a></li>
-                <li><a href="https://www.uv.mx/cosustenta/documentos/kit-de-juegos-abe/" target="_blank">Juegos sobre cambio climático</a></li>
-            </ul>
-        </nav>
-        <nav class="submenu" id="menuActividades">
-        	<ul>
-            	<li><a href="memoramas.html">Memoramas</a></li>
-            	<li><a href="rompecabezas.html">Rompecabezas</a></li>
-                <li><a href="color_selvah.html">Para colorear</a></li>
-                <li><a href="megadiverso.html">México megadiverso</a></li>
-                <li><a href="exploradores.html">Pequeños exploradores</a></li>
-                <li><a href="assets/pdf/cuadernodeVIAJE.pdf" target="_blank">Diario de viaje</a></li>
-                <li><a href="http://www.paismaravillas.mx/polinizadores/" target="_blank">Jardín de polinizadores</a></li>
-            </ul>
-        </nav>
-        <!-- InstanceBeginEditable name="secpuntos" -->
+        <link href="css/quepasa.css" rel="stylesheet" type="text/css"><!-- estilos del sitio pais de las maravillas versión anterior -->
+    </head>
+  <body id="page-top" class="nav-is-fixed">
+      <header class="cd-main-header"></header>
+     <main class="cd-main-content">  
+    <div class="row">
+    <div class="col-12"><img class="img-fluid w-100" src="assets/img/mexico/quepasa/selva.jpg"></div>
+       </div>              
+<section class="text-center" id="herbivoros">                
+                <div class="container px-4 px-lg-5 pt-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-12 wow animate__animated animate__fadeInLeft">
+                            <img class="img-fluid" src="assets/img/mexico/quepasa/her_menos.png" alt="Menos herbívoros"/>
+                           <p>Si quitamos a los <span class="resaltetxt">herbívoros</span>, ya no habrá quién se coma a las <span class="resaltetxt">plantas.</span> </p>
+                           <p>Las <span class="resaltetxt">plantas</span> aumentarían pero los <span class="resaltetxt">carnívoros</span> no tendrían que comer y desaparecerían.</p>
+                        </div>
+                    </div>  
+                </div>  
 
-
-
-		<!-- InstanceEndEditable -->
-    </div>    
-    <div id="maestro" class="banderas" title="Para maestros"><a href="#" target="_blank"></a></div>
-    <div id="idioma" class="banderas" title="English"><a href="index_ing.html"></a></div>
-    <div id="contacto" class="banderas" title="Contacto"><a href="mailto:ninos@conabio.gob.mx"></a></div>
-    <div class="toside">
-        <div id="bio" class="banderas1" class="fa" title="www.biodiversidad">
-            <a href="http://www.biodiversidad.gob.mx/" target="_blank"></a>
-        </div>
-        <div id="face" class="redes" class="fa">
-            <a href="https://www.facebook.com/pages/Comision-Nacional-para-el-Conocimiento-y-uso-de-la-Biodiversidad/208239404119?v=wall" target="_blank"></a>
-        </div>
-        <div id="twitter" class="redes" class="fa">
-            <a href="https://twitter.com/conabio" target="_blank"></a>
-        </div>
-        <div id="youtube" class="redes" class="fa">
-            <a href="https://www.youtube.com/user/biodiversidadmexico?gl=MX&user=biodiversidadmexico" target="_blank"></a>
-        </div>
-        <div id="vimeo" class="redes" class="fa">
-            <a href="https://vimeo.com/conabio" target="_blank"></a>
-        </div>
-        <div id="instagram" class="redes" class="fa">
-            <a href="https://www.instagram.com/biodiversidad_mexicana/" target="_blank"></a>
-        </div>
+<div id="carouselExampleFade-01" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/mexico/quepasa/her_1.jpg" class="d-block w-100" alt="eliminar herbívoros">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <p>Quitamos a los  herbívoros</p>
+      </div> -->
     </div>
-</header>
-
-
-<!-- InstanceBeginEditable name="content" -->
-
-	<article id="inicio" class="margen">
-
-        <h3></br></h3>
-
-    </article>
-
-    <article id="animales" class="margen">
-
-    	<div id="tapir" class="especie">
-
-        	<img src="assets/img/mexico/quepasa/tapir.png">
-
-            <h3>Herbívoros</h3>
-
-        </div>
-
-        <div id="planta" class="especie">
-
-        	<img src="assets/img/mexico/quepasa/planta.png">
-
-            <h3>Plantas</h3>
-
-        </div>
-
-        <div id="jaguar" class="especie">
-
-        	<img src="assets/img/mexico/quepasa/jaguar.png">
-
-            <h3>Carnívoros</h3>
-
-        </div>
-
-    </article>
-
-	<section id="e0">
-
-        <div id="her_1" class="fondoimg"><img src="assets/img/mexico/quepasa/her_1.jpg"></div>
-
-        <div id="her_2" class="fondoimg"><img src="assets/img/mexico/quepasa/her_2.jpg"></div>
-
-        <div id="her_3" class="fondoimg"><img src="assets/img/mexico/quepasa/her_3.jpg"></div>
-
-        <div id="car_1" class="fondoimg"><img src="assets/img/mexico/quepasa/car_1.jpg"></div>
-
-        <div id="car_2" class="fondoimg"><img src="assets/img/mexico/quepasa/car_2.jpg"></div>
-
-        <div id="car_3" class="fondoimg"><img src="assets/img/mexico/quepasa/car_3.jpg"></div>
-
-        <div id="car_4" class="fondoimg"><img src="assets/img/mexico/quepasa/car_4.jpg"></div>
-
-        <div id="pla_1" class="fondoimg"><img src="assets/img/mexico/quepasa/pla_1.jpg"></div>
-
-        <div id="pla_2" class="fondoimg"><img src="assets/img/mexico/quepasa/pla_2.jpg"></div>
-
-    	<img id="fon_1" src="assets/img/mexico/quepasa/selva.jpg" class="fondoimg">
-
-	</section>
-
-    <div id="plantas" class="modal">
-
-    	<div class="imagenModal">
-
-    		<img src="assets/img/mexico/quepasa/plantas_menos.png">
-
-	    </div>
-
-    	<div class="back"></div>
-
-		<p class="textoModal">Si quitamos a las <span style="color:#FFC;">plantas, </span> ya no tienen que comer los <span style="color:#FFC;">herbívoros</span> y sus poblaciones desaparecerían.</br></br>Al desaparecer los <span style="color:#FFC;">herbívoros</span> los <span>carnívoros</span> tampoco tendrían que comer.</p>
-
-        <span class="animar">Ver</span>
-
-	</div>
-
-
-
-    <div id="herbivoros" class="modal">
-
-    	<div class="imagenModal">
-
-    		<img src="assets/img/mexico/quepasa/her_menos.png">
-
-	    </div>
-
-    	<div class="back"></div>
-
-		<p class="textoModal">Si quitamos a los <span style="color:#FFC;">herbívoros, </span> ya no habrá quién se coma a las <span style="color:#FFC;">plantas.</span></br></br>Las<span style="color:#FFC;"> plantas</span> aumentarían pero los <span>carnívoros</span> no tendrían que comer y desaparecerían.</p>
-
-        <span class="animar">Ver</span>
-
-	</div>
-
-
-
-    <div id="carnivoros" class="modal">
-
-    	<div class="imagenModal">
-
-    		<img src="assets/img/mexico/quepasa/carni_menos.png">
-
-	    </div>
-
-    	<div class="back"></div>
-
-		<p class="textoModal">Si quitamos a los <span style="color:#FFC;">carnívoros, </span> ya no hay quien se coma a los  <span style="color:#FFC;">herbívoros.</span></br></br>Sus poblaciones aumentan y se comen todas las <span style="color:#FFC;">plantas.</span> Sin <span>plantas</span> el suelo se pierde y se acaba el <span style="color:#FFC;">agua</span>.</p>
-
-        <span class="animar">Ver</span>
-
-	</div>
-
-
-
-    <div id="overlay"></div>
-
-<!-- InstanceEndEditable -->
-<footer>
-    <div>
-        <a href="http://www.conabio.gob.mx/" target="_blank"><img src="assets/img/home/logoconabio.png"/></a>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/her_3a.jpg" class="d-block w-100" alt="carnívoros desaparecen">
+      <!--  <div class="carousel-caption d-none d-md-block">
+      <p>Los carnívoros desaparecen porque no tienen que comer</p>
+      </div> -->
     </div>
-    <strong>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad</strong>
-    <p>Liga Periférico - Insurgentes Sur, Núm. 4903, Col. Parques del Pedregal, Delegación Tlalpan, 14010
-México, D.F. | Tel. 5004.5000</p>
-</footer>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/her_2.jpg" class="d-block w-100" alt="plantas aumentan">
+      <!--  <div class="carousel-caption d-none d-md-block">
+      <p>Las plantas aumentan</p>
+      </div> -->
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade-01" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade-01" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<section class="text-center" id="plantas">                
+                <div class="container px-4 px-lg-5 pt-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-12 wow animate__animated animate__swing">
+                            <img class="img-fluid" src="assets/img/mexico/quepasa/plantas_menos.png" alt="Menos plantas"/>
+                           <p>Si quitamos a las <span class="resaltetxt">plantas</span>, ya no tienen que comer los <span class="resaltetxt">herbívoros</span> y sus poblaciones desaparecerían.</p>
+                           <p>Al desaparecer los <span class="resaltetxt">herbívoros</span> los <span class="resaltetxt">carnívoros</span> tampoco tendrían que comer.</p>
+                        </div>
+                    </div>  
+                </div>
+<div id="carouselExampleFade-02" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img src="assets/img/mexico/quepasa/pla_0.jpg" class="d-block w-100" alt="ecosistema en equilibrio">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/pla_1.jpg" class="d-block w-100" alt="eliminar plantas">
+   <!--   <div class="carousel-caption d-none d-md-block">
+        <p>Quitamos las plantas</p>
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/pla_2.jpg" class="d-block w-100" alt="desaparecen herbívoros">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <p>Desaparecen los herbívoros si no tienen alimento</p>
+      </div> -->
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade-02" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade-02" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>             
+</section>
+<section class="text-center" id="carnivoros">                
+                <div class="container px-4 px-lg-5 pt-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-12 wow animate__animated animate__fadeInLeft">
+                            <img class="img-fluid" src="assets/img/mexico/quepasa/carni_menos.png" alt="Menos carnívoros"/>
+                           <p>Si quitamos a los <span class="resaltetxt">carnívoros</span>, ya no hay quien se coma a los <span class="resaltetxt">herbívoros</span>.</p>
+                           <p>Sus poblaciones aumentan y se comen todas las <span class="resaltetxt">plantas</span>. Sin <span class="resaltetxt">plantas</span> el suelo se pierde y se acaba el <span class="resaltetxt">agua</span>.</p>
+                        </div>
+                    </div> 
+                 </div>
+<div id="carouselExampleFade-03" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/mexico/quepasa/pla_0.jpg" class="d-block w-100" alt="ecosistema en equilibrio">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/car_2.jpg" class="d-block w-100" alt="herbívoros no tienen depredador">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <p>Los herbívoros no tienen depredador</p>
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/car_3.jpg" class="d-block w-100" alt="desaparacen plantas">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <p>Desaparecen las plantas, se pierde el suelo y se acaba el agua</p>
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/mexico/quepasa/car_4.jpg" class="d-block w-100" alt="desaparecen las plantas y se acaba el agua">
+     <!-- <div class="carousel-caption d-none d-md-block">
+        <p>Desaparecen las plantas, se pierde el suelo y se acaba el agua</p>
+      </div> -->
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade-03" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade-03" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>         
+ </section>
 
+<footer id="footer"></footer>
+        </main>
+        
+    <!-- Usar load para cargar contenido de menu y footer-->
+    <script>
+      $('header').load('./includes/header.html');
+      $('footer').load('./includes/footer.html');
+    </script>
 
-<!-- Código para estadísticas en Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
 
-ga('create', 'UA-76995702-1', 'auto');
-ga('send', 'pageview');
+        <!--<script src="js/scripts.js"></script>-->
+        <!--wow js-->
+        <script src="js/wow.js"></script>
+        <!--scripts fuera del template base, tomé los del morphing modals, pero podrían ser en una carpeta afuera-->
+        <script src="assets/morphing-modal/js/jquery-2.1.1.js"></script> <!-- jquery -->
+        <script src="assets/morphing-modal/js/velocity.min.js"></script> <!-- velocity -->
+        <script src="assets/morphing-modal/js/modernizr.js"></script> <!-- Modernizr -->
+        
+    <!--  <script src="assets/morphing-modal/js/main.js"></script> modales fullscreen -->
 
-</script>
-<!-- Fin del código para estadísticas en Google Analytics -->
-</body>
+      <!--  <script src="assets/full-screen-pushing-navigation-master/assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+        <script src="assets/mega-site-navigation/js/main.js"></script> <!-- mega menu -->
+        <script src="assets/mega-site-navigation/js/jquery.mobile.custom.min.js"></script> <!-- mega menu -->
+        <script src="assets/animated-headline/js/main.js"></script> <!-- efecto escribe -->
+        <script>
+            new WOW().init();
+        </script>
+    </body>
+</html>
 
-
-
-<!-- InstanceEnd --></html>
