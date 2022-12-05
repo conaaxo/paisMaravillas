@@ -303,8 +303,10 @@ z" target="_blank"><img src="assets/img/materiales/enlaces/videos/05.png" alt="s
         
     <!-- Usar load para cargar contenido de menu y footer-->
     <script>
-      $('header').load('./includes/header.html');
-      $('footer').load('./includes/footer.html');
+      $(document).ready(function () {
+        $('header').load('./includes/header.html');
+        $('footer').load('./includes/footer.html');
+      }); 
     </script>
 
    
