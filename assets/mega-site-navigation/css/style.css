@@ -698,7 +698,7 @@ Main components
   }
   .cd-primary-nav .cd-secondary-nav > li {
     /* change the height according to your needs - you can even set height: auto */
-    height: 250px;
+    height: 315px;
     /* here you set the number of columns - use width percentage */
     width: 25%;
     float: left;
@@ -729,13 +729,19 @@ Main components
     }
   }
 
+.lista-wrap {
+line-height: 23px !important;
+margin-bottom: 29px;
+margin-top: 10px;
+ }
+
   .cd-primary-nav .cd-secondary-nav > li{
     list-style: none !important;
   }
   .cd-primary-nav .cd-secondary-nav a {
     height: 30px;
     line-height: 30px;
-    padding: 0 18% 0 0;
+    padding: 0 10% 0 0;
     color: #0B4D31;
     border-bottom: none;
     font-size: 1.2rem;
