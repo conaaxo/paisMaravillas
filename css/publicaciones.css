@@ -27,8 +27,7 @@ section {
   background-size: 80% auto;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -80px;
-  right: 395px;
+  inset: 80px auto auto 1280px;
 }
 #pub2 {
   background-color: #a6c0cf;
