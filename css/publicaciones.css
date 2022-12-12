@@ -188,6 +188,29 @@ section {
 }
 
 
+#pub9 {
+  text-align: center;
+  background-color: #27526b;
+  color: #FFF;
+  position: relative;
+  z-index: 6;
+  min-height: 600px;
+}
+#pub9 ul{
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  margin: 0;
+}
+#pub9 ul li {
+  width: 330px;
+  overflow: hidden;
+  height: 250px;
+  display: inline-block;
+  margin: 10px 25px;
+}
+
+
 .bandTitle {
   width: 300px;
   height: 100px;
