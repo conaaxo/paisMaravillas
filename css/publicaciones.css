@@ -29,6 +29,15 @@ section {
   position: absolute;
   inset: 80px auto auto 1280px;
 }
+#pub1 #LunaEscribe {
+  height: 100%;
+  width: 237px;
+  background-image: url("../assets/img/materiales/publicaciones/lunaEscribe.png");
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  inset: 110px auto auto 460px;
+}
 #pub2 {
   background-color: #a6c0cf;
   color: #2c3b3a;
