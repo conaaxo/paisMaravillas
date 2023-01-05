@@ -27,9 +27,7 @@
         <!-- <link rel="stylesheet" href="assets/full-screen-pushing-navigation-master/assets/css/style.scss">  menu  -->
         <link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
         <!-- <link rel="stylesheet" href="assets/morphing-modal/css/style.css"> modales a full -->
-        <link rel="stylesheet" href="assets/animated-headline/css/style.css"> <!-- animacion de texto se escribe -->
         <link href="css/exploradores.css" rel="stylesheet" type="text/css"> <!-- estilos del sitio pais de las maravillas versión anterior -->
-
     </head>
   <body id="page-top" class="nav-is-fixed">
       <header class="cd-main-header"></header>
@@ -540,13 +538,15 @@
 </div>
 
 <footer id="footer">             
-            </footer>
+</footer>
         </main>
 
-    <!-- Usar load para cargar contenido de menu y footer-->
+      <!-- Usar load para cargar contenido de menu y footer-->
     <script>
-      $('header').load('./includes/header.html');
-      $('footer').load('./includes/footer.html');
+        $(document).ready(function () {
+            $('header').load('./includes/header.html');
+            $('footer').load('./includes/footer.html');
+        });  
     </script>
         
         <!-- Bootstrap core JS-->
