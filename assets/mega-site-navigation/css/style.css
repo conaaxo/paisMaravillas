@@ -864,7 +864,7 @@ margin-top: 10px;
   display: inline-block;
   height: 2px;
   width: 10px;
-  background: #464c4e;
+  background: #DA812D;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 
@@ -885,7 +885,7 @@ margin-top: 10px;
 }
 @media only screen and (min-width: 1170px) {
   .has-children > a::before, .has-children > a::after, .go-back a::before, .go-back a::after {
-    background: #c9cbc4;
+    background: #DA812D;
   }
   .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after {
     background: #69aa6f;
@@ -920,7 +920,7 @@ margin-top: 10px;
 
 @media only screen and (min-width: 1170px) {
   .has-children > a::before, .has-children > a::after {
-    right: 15%;
+    right: 45%;
   }
 
   .cd-primary-nav > .has-children > a {
