@@ -216,7 +216,10 @@
 <!-- Usar load para cargar contenido de menu y footer-->
 <script>
     $(document).ready(function () {
-        $('header').load('./includes/header.html');
+        $('header').load('./includes/header.html',function(){
+            $.getScript('./assets/mega-site-navigation/js/main.js');
+            $.getScript('./assets/mega-site-navigation/js/jquery.mobile.custom.min.js');
+        });
         $('footer').load('./includes/footer.html');
     });
 </script>
