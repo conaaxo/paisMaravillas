@@ -26,3 +26,5 @@
 *.sync
 *._*
 .idea
+*_notes/
+*_notes/*
