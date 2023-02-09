@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-   	cambiarAlto();
+   	//cambiarAlto();
 
 
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 	$(window).resize(function() {
 
-      cambiarAlto();
+      //cambiarAlto();
 
     });
 
