@@ -54,13 +54,17 @@ section p {
 }
 
 #quehacer{ 
-	height: 1500px;
+	height: 1550px;
 	position: relative;
 	z-index:2000;
 	margin-left: 80px;
 	margin-top: 100px;
 	padding-top: 10px;
+ background-color: #8ED1C9;
 }
+
+.cd-main-content {
+    background: #8ED1C9 !important;}
 
 #1{
 	position: absolute;
