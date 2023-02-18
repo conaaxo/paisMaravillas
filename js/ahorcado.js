@@ -11,14 +11,14 @@ plb = [
           ]
 acertijo =  [
               'Sin el aire yo no vivo; sin la tierra yo me muero; tengo yemas sin ser huevo, y copa sin ser sombrero.',
-              'De mi tronco herido<br>sacan la resina.<br>En las piÒas guardo<br>todas mis semillas.',
-              'Soy pariente del frijol y mis vainas son de color rojizo. La gente las colecta para cocinarlas y hacer una salsa<br>Conocida como ìguaxmoleî.',
-              'Est· en la navaja<br>y est· en el cuaderno<br>se cae del ·rbol<br>antes del invierno.',
-              'Soy un ·rbol con flores muy llamativas,<br>soy originario de ¡frica y he sido utilizado para la fabricaciÛn de tambores.',
-              'Soy un ·rbol originario de Estados Unidos y de MÈxico. Mis hojas tienen tres grandes puntas y se parecen un poco a las de los maples. Mis frutos son pequeÒas bolitas redondas de picos.',
-              'Soy el gran ìViejo del aguaî. Puedo vivir muchos aÒos y siempre te espero cerca de arroyos y rÌos.',
+              'De mi tronco herido<br>sacan la resina.<br>En las pi√±as guardo<br>todas mis semillas.',
+              'Soy pariente del frijol y mis vainas son de color rojizo. La gente las colecta para cocinarlas y hacer una salsa<br>Conocida como ‚Äúguaxmole‚Äù.',
+              'Est√° en la navaja<br>y est√° en el cuaderno<br>se cae del √°rbol<br>antes del invierno.',
+              'Soy un √°rbol con flores muy llamativas,<br>soy originario de √Åfrica y he sido utilizado para la fabricaci√≥n de tambores.',
+              'Soy un √°rbol originario de Estados Unidos y de M√©xico. Mis hojas tienen tres grandes puntas y se parecen un poco a las de los maples. Mis frutos son peque√±as bolitas redondas de picos.',
+              'Soy el gran ‚ÄúViejo del agua‚Äù. Puedo vivir muchos a√±os y siempre te espero cerca de arroyos y r√≠os.',
               'Siempre se muere escondida sin dar guerra, por dar a otros su vida bajo tierra.',
-              'Yo soy la Jacaranda. Soy un ·rbol de las selvas secas de Bolivia y Argentina. Mi nombre proviene de la lengua guaranÌ. Soy muy f·cil de reconocer cuando florezco øMe puedes ayudar a decir de quÈ regiÛn provengo?'
+              'Yo soy la Jacaranda. Soy un √°rbol de las selvas secas de Bolivia y Argentina. Mi nombre proviene de la lengua guaran√≠. Soy muy f√°cil de reconocer cuando florezco ¬øMe puedes ayudar a decir de qu√© regi√≥n provengo?'
             ]
 imagen =  [
             'img_1.png',
@@ -132,7 +132,7 @@ function armar(palabra) {
       {
         if ($.inArray(c, malas) === -1)
         {
-          $(".faltantes").html("Te quedan " + (maxerrores -  (malas.length + 1)) + " intentos m·s");
+          $(".faltantes").html("Te quedan " + (maxerrores -  (malas.length + 1)) + " intentos m√°s");
           malas.push(c);
           letramala = '<div class="letramala"><span>' + c + '</span></div>';
           $("#errores").append(letramala);
@@ -143,7 +143,7 @@ function armar(palabra) {
         $('#keyboard').fadeOut();
         $("body").off('keyup');
         $(".retryText").show();
-        $("#boton").html("IntÈntalo de nuevo");
+        $("#boton").html("Int√©ntalo de nuevo");
         $("#boton").on('click',function(){
           $('#lid').fadeOut();
           $('#hangmodal').hide();
@@ -193,7 +193,7 @@ function armar(palabra) {
     $("body").on('keyup', function(e) {
       c = String.fromCharCode(e.which);
       if(e.keyCode == 0)
-        c = "—";
+        c = "√ë";
       indices = [];
       for(var i=0; i<len; i++) {
         if (palabra[i] === c) indices.push(i);
@@ -212,7 +212,7 @@ function armar(palabra) {
       {
         if ($.inArray(c, malas) === -1)
         {
-          $(".faltantes").html("Te quedan " + (maxerrores -  (malas.length + 1)) + " intentos m·s");
+          $(".faltantes").html("Te quedan " + (maxerrores -  (malas.length + 1)) + " intentos m√°s");
           malas.push(c);
           letramala = '<div class="letramala"><span>' + c + '</span></div>';
           $("#errores").append(letramala);
@@ -222,7 +222,7 @@ function armar(palabra) {
       {
         $("body").off('keyup');
         $(".retryText").show();
-        $("#boton").html("IntÈntalo de nuevo");
+        $("#boton").html("Int√©ntalo de nuevo");
         $("#boton").on('click',function(){
           $('#lid').fadeOut();
           $('#hangmodal').hide();
