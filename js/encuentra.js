@@ -9,7 +9,7 @@ ecosistemas = ["ciudad",
               ];
 ecodrop = [];
 drags = [];
-mensajeBien = ["¡Primer Nivel<br/>Superado!", "¡Segundo Nivel<br/>Superado!", "¡Fin del Juego<br/>Has Ganado!"];
+mensajeBien = ["Â¡Primer Nivel<br/>Superado!", "Â¡Segundo Nivel<br/>Superado!", "Â¡Fin del Juego<br/>Has Ganado!"];
 mensajeMal = ["Vuelve a intentarlo", "Vuelve a intentarlo", "Vuelve a intentarlo"];
 especies = [
             ["aguilapescadora", "golfo"],

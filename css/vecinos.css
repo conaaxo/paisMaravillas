@@ -3,6 +3,11 @@ section {
 	height: 600px;
 }
 
+section#vecinosaxo {
+	width: 100%;
+	height: 400px;
+  }
+
 .fondovv {
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -28,7 +33,7 @@ h2 {
 
 #mexico {
 	background-image: url(../assets/img/conoce/vecinosverde/mexico_bn.jpg);
-	margin-top: 81px;
+	
 	overflow: hidden;
 }
 
@@ -123,7 +128,13 @@ h2 {
 #sudamerica {
 	background-image: url(../assets/img/conoce/vecinosverde/sudamerica_bn.jpg);
 	margin-top: -1%;
+
 }
+#vecinosaxo {
+	background-image: url(../assets/img/conoce/vecinosverde/bottom.png);
+
+}
+
 .dayimg {
 	width: 100%;
 	height: 100%;
@@ -576,4 +587,25 @@ h2 {
 
 #mapa:hover{
 	background-position: 0px -97px;
+}
+
+.clear{
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+
+@media all and (min-width: 1170px) {
+	.top-vecinos{
+		visibility:visible;
+		height: 81px;
+		
+	}
+}
+@media all and (max-width: 1169px) {
+	.top-vecinos{
+		visibility:visible;
+		height: 41px;
+	}
 }

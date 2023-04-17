@@ -87,12 +87,15 @@ body {
   display: none;
 }
 #menuCirculo {
+
   margin-top: 10px;
+  margin-bottom: 180px; /* AXO */
+
 }
 #menuCirculo ul {
   padding: 0;
   margin: 0 auto;
-  width: 600px;
+  width: 640px;
 }
 
 #menuCirculo ul li {
@@ -213,4 +216,9 @@ body {
 }
 #maestro {
   display: none;
+}
+
+footer{
+  position: fixed !important; /* AXO */
+  bottom: 0;
 }

@@ -1,3 +1,4 @@
+/* INVASORAS */
 @charset "utf-8";
 
 @font-face {
@@ -21,9 +22,13 @@
 body {
 	margin:0px;
 	padding:0px;
-	font-family:mclaren-regular; 
+	font-family:mclaren-regular;
+	font-size:18px;
 }
 
+.activo{
+	background-color:#da812d;
+}
 
 p{
 	font-family:mclaren-regular; 
@@ -68,7 +73,7 @@ a{
 header {
 	width:100%;
 	height:81px;
-	background-color:#2D7068;
+	background-color:#15774e;
 	box-shadow:0 3px 8px rgba(0,0,0,0.4);
 	position:fixed;
 	top:0;
@@ -105,9 +110,17 @@ header nav#menuMexico li:hover {
 header nav#menuExplora li:hover {
 	background-color:#CECCB5;
 }
+header nav#menuConoce li:hover {
+	background-color:#CECCB5;
+}
+header nav#menuActividades li:hover {
+	background-color:#CECCB5;
+}
 header nav#menuMateriales li:hover {
 	background-color:#CECCB5;
 }
+
+
 header nav li a {
 	text-decoration:none;
 	color:inherit;
@@ -124,18 +137,31 @@ header nav#principal li a:hover {
 
 header nav#menuMexico {
 	position:absolute;
-	right:143px;
+	right: 183px;
 	top:81px;
 }
 header nav#menuExplora {
 	position:absolute;
-	right:50px;
+	right: 263px;
 	top:81px;
 }
+
+header nav#menuConoce {
+	position:absolute;
+	right: 92px;
+	top:81px;
+}
+
+header nav#menuActividades {
+	position:absolute;
+	right: 44px;
+	top:81px;
+}
+
 header nav#menuMateriales {
-	position: absolute;
-	right: 6px;
-	top: 81px;
+	position:absolute;
+	right: -106px;
+	top:81px;
 }
 
 header nav.submenu {
@@ -421,3 +447,9 @@ footer p{
     border-radius: 20px;
 }
 
+.spacer100{
+	display: block;
+	height: 100px;
+	clear: both;
+	width: 100%;
+}

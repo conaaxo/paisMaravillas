@@ -245,6 +245,7 @@ body {
 #menuCirculo {
 
   margin-top: 10px;
+  margin-bottom: 180px; /* AXO */
 
 }
 
@@ -254,7 +255,7 @@ body {
 
   margin: 0 auto;
 
-  width: 460px;
+  width: 480px;
 
 }
 
@@ -496,4 +497,18 @@ body {
 
   display: none;
 
+}
+
+#espacioTarjetas #titocolorear {
+  width: 200px;
+  height: 390px;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/actividades/colorear/titocolorear.png);
+}
+
+footer{
+  position: fixed !important; /* AXO */
+  bottom: 0;
 }

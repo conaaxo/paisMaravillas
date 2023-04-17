@@ -1,5 +1,6 @@
-@charset "utf-8";
 /* general */
+@charset "utf-8";
+
 @font-face {
 	font-family:"mclaren-regular";
 	src:url("../assets/fonts/mclaren-regular-webfont.ttf") format("truetype"),
@@ -428,7 +429,7 @@ footer{
 }
 
 footer img{
-	margin: 21px 0px 0px 35px;
+	margin: 21px 0px 0px 0px;
 }
 
 footer strong{
@@ -440,9 +441,7 @@ footer strong{
 }
 
 footer p{
-	position: absolute;
-	top: 40px;
-	right: 20px;
+	
 	color: #9fca63;
 	font-size: 11px;
 	width: auto!important;
@@ -540,4 +539,22 @@ footer p{
 
 .locucion:hover {
 	background-position: -45px 0px;
+}
+
+
+/* 4X0 */
+body{
+	
+	min-height: 100vh;
+}
+footer{
+position: absolute;
+bottom: 0;
+}
+
+.spacer100{
+	display: block;
+	height: 100px;
+	clear: both;
+	width: 100%;
 }
