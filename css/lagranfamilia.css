@@ -4,6 +4,7 @@
 
 body{
 	position: relative;
+	
 }
 
 .margen{
@@ -39,7 +40,7 @@ p{
 	color: #FFF;
 	font-size: 18px;
 	width: 400px;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 .textoecosistemas{
 	width: 500px;
@@ -74,7 +75,7 @@ section{
 .modalfoto img{
 	width: 900px;
 	height: 527px;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 	margin-right: 20px;
 }
@@ -426,7 +427,7 @@ section{
 
 
 #fondo img{
-	margin-top:-350px;
+	margin-top:-370px;
 	width:100%;
 	top:0;
 }
@@ -444,6 +445,21 @@ section{
 	right: 20px;
 	width: 160%;
 	display: block!important;
+}
+
+footer p {
+	font-family: var(--bs-font-sans-serif);
+	margin-top: 0;
+	margin-bottom: .1rem;
+	font-size: 14px;
+	line-height: .5rem;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+
+.colorlagranfamilia{
+ background-color: #fbfbf1;
 }
 
 /*ciudad*/

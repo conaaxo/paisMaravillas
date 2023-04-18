@@ -11810,10 +11810,19 @@ body {
   background-color: #15774E;
 }
 .footer img{
-  max-width: 400px;
+  max-width: 250px;
   filter: brightness(0) invert(1);
 
 }
+
+.footer p {
+  font-family: var(--bs-font-sans-serif);
+  margin-top: 0;
+  margin-bottom: .1rem;
+	font-size: 14px;
+	line-height: .5rem;
+  }
+
 .footer hr {
     border-color: #15774E;
     border-width: 2rem;

@@ -43,7 +43,7 @@ header {
 }
 
 header nav#principal {
-	display:inline-block;
+	/*display:inline-block;*/
 	float:right;
 	margin: 31px 32px 0px 0px;
 }
@@ -423,13 +423,12 @@ footer{
 	position:relative;
 	width: 100%;
 	bottom: 0;
-	background-color:#15774e;
 	left: 0;
-	z-index: 2000;
+	z-index: 3;
 }
 
 footer img{
-	margin: 21px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 footer strong{
@@ -441,8 +440,7 @@ footer strong{
 }
 
 footer p{
-	
-	color: #9fca63;
+
 	font-size: 11px;
 	width: auto!important;
 }
@@ -552,9 +550,33 @@ position: absolute;
 bottom: 0;
 }
 
+.spacer200{
+	display: block;
+	height: 200px;
+	clear: both;
+	width: 100%;
+}
+.spacer150{
+	display: block;
+	height: 150px;
+	clear: both;
+	width: 100%;
+}
 .spacer100{
 	display: block;
 	height: 100px;
+	clear: both;
+	width: 100%;
+}
+.spacer75{
+	display: block;
+	height: 75px;
+	clear: both;
+	width: 100%;
+}
+.spacer50{
+	display: block;
+	height: 50px;
 	clear: both;
 	width: 100%;
 }
