@@ -11835,3 +11835,22 @@ body {
   filter: brightness(0) invert(1);
 }
 
+
+
+@media (min-width: 1200px){
+  #menuCirculo ul li p{
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    line-height: 1.5rem !important;
+    font-family: mclaren-regular;
+  }
+}
+
+@media (max-width: 1199px){
+  #menuCirculo ul li p{
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    line-height: 1.5rem !important;
+    font-family: mclaren-regular;
+  }
+}

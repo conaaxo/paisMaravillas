@@ -276,12 +276,10 @@ body {
 
 
 #menuCirculo ul li p{
-
   text-align: center;
-
   color: #404e5b;
-
   font-size: 14px;
+  line-height: 1.5rem;
 
 }
 
@@ -512,3 +510,5 @@ footer{
   position: fixed !important; /* AXO */
   bottom: 0;
 }
+
+
