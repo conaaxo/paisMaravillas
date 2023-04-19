@@ -16,7 +16,8 @@
 
 .leftGood > div > p {
 
-    width: 350px;
+    width: 300px;
+    font-size: 14px !important;
 
 }
 
@@ -24,7 +25,8 @@
 
 .rightBad > div > p {
 
-	    width: 350px;
+	    width: 300px;
+        font-size: 14px !important;
 
 }
 
