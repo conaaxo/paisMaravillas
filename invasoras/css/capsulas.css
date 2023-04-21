@@ -46,14 +46,14 @@ section {
 
   z-index: 3;
 
-  height: 325px;
+  height: 555px;
 
 }
 
 #cap1 .margen {
 
   height: 100%;
-
+margin-top: 50px;
 }
 
 #cap1 h3 {
@@ -70,226 +70,238 @@ section {
 
 }
 
+
+
 #cap1 p {
 
-    width: 570px;
+  width: 570px;
 
-    text-align: center;
+  text-align: center;
 
-    top: 166px;
+  top: 166px;
 
-    left: 117px;
+  left: 117px;
 
-    position: absolute;
+  position: absolute;
 
-	font-size: 18px;
-	
+font-size: 18px;
+
 
 }
 
 #cap1 #titoLibro {
 
-  height: 106%;
+height: 106%;
 
-  width: 277px;
+width: 277px;
 
-  background-image: url("../assets/img/capsulas/luna_escucha.png");
+background-image: url("../assets/img/capsulas/luna_escucha.png");
 
-  background-size: 100% auto;
+background-size: 100% auto;
 
-  background-repeat: no-repeat;
+background-repeat: no-repeat;
 
-  position: absolute;
+position: absolute;
 
-  bottom: -36px;
+bottom: -36px;
 
-  right: -90px;
+right: -90px;
 
 }
 
 #cap2 {
 
-  background-color: #8ED1C9;
+background-color: #8ED1C9;
 
-  background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
+/*background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");*/
 
-  color: #0A4D43;
+color: #0A4D43;
 
-  margin-left: 00px;
+margin-left: 00px;
 
-  position:relative;
+position:relative;
 
-  z-index: 3;
+z-index: 3;
 
 }
 
 #cap2 #group1 {
 
-	
-	background-image: url("../assets/img/capsulas/gatof.png");
-	text-align: center;
-	align-content: center;
-	width: 180px;
-	height: 180px;
-	position: relative;
+
+background-image: url("../assets/img/capsulas/gatof.png");
+text-align: center;
+align-content: center;
+width: 180px;
+height: 180px;
+position: relative;
 
 
 }
 
 #group1 .logodesc {
 
-  background-position: -23px 0px;
+background-position: -23px 0px;
 
-  width: 92px;
+width: 92px;
+
+}
+
+section a{
+
+text-align: center;
+text-decoration: none;
+color: #266044;
 
 }
 
- a{
-	
-	text-align: center;
+section a:hover{
 
-}
+  text-align: center;
+  text-decoration: none;
+  color: #1c9b5e;
+  
+  }
 
 #cap2 #group2 {
 
-	background-image: url("../assets/img/capsulas/pericoa.png");
-	width: 180px;
-	height: 180px;
-	position: relative;
-	text-align: center;
+background-image: url("../assets/img/capsulas/pericoa.png");
+width: 180px;
+height: 180px;
+position: relative;
+text-align: center;
 
 }
 
 #group2 .logodesc {
 
-  background-position: -133px 0px;
+background-position: -133px 0px;
 
-  width: 93px;
+width: 93px;
 
 }
 
 #cap2 #group3 {
-	background-image: url("../assets/img/capsulas/palomillad.png");
-	background-repeat: no-repeat;
-	width: 180px;
-	height:180px;
-	position: relative;
-	text-align: center;
+background-image: url("../assets/img/capsulas/palomillad.png");
+background-repeat: no-repeat;
+width: 180px;
+height:180px;
+position: relative;
+text-align: center;
 
 }
 
 #group3 .logodesc {
-	
-	background-image: url("../assets/img/capsulas/gatof.png");
-	width: 180px;
-	height: 180px;
-	position: relative;
+
+background-image: url("../assets/img/capsulas/gatof.png");
+width: 180px;
+height: 180px;
+position: relative;
 
 }
 
 #cap2 #group4 {
-	
-	background-image: url("../assets/img/capsulas/lirioa.png");
-	width: 180px;
-	height: 180px;
-	position: relative;
-	text-align: center;
+
+background-image: url("../assets/img/capsulas/lirioa.png");
+width: 180px;
+height: 180px;
+position: relative;
+text-align: center;
 
 }
 
 #group4 .logodesc {
 
-  background-position: -416px 0px;
+background-position: -416px 0px;
 
-  width: 74px;
+width: 74px;
 
 }
 
 #cap2 #group5 {
-	
-	background-image: url("../assets/img/capsulas/pezl.png");
-	width: 180px;
-	height: 180px;
-	position: relative;
-	text-align: center;
+
+background-image: url("../assets/img/capsulas/pezl.png");
+width: 180px;
+height: 180px;
+position: relative;
+text-align: center;
 
 }
 
 #group5 .logodesc {
 
-  background-position: -10px -176px;
+background-position: -10px -176px;
 
-  width: 116px;
+width: 116px;
 
 }
 
 
 #cap2 .squarecolor{
 
-  display: inline-block;
+display: inline-block;
 
-  width: 235px;
+width: 235px;
 
-  height: 320px;
+height: 320px;
 
-  font-size: 21px;
+font-size: 21px;
 
-  margin-bottom: 20px;
+margin-bottom: 20px;
 
-  vertical-align: top;
+vertical-align: top;
 
 }
 
 #cap2 .squarecolor .logodesc {
 
-  height: 170px;
+height: 170px;
 
-  background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
+/* background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");*/
 
-  margin: 10px auto 0px;
+margin: 10px auto 0px;
 
-  background-size: auto 360px;
+background-size: auto 360px;
 
 }
 
 #cap2 ul{
 
-  text-align: center;
+text-align: center;
 
-  list-style: none;
+list-style: none;
 
-  margin: 0px;
+margin: 0px;
 
-  padding: 0;
+padding: 0;
 
 }
 
 #cap2 ul li {
 
-  padding-left: 25px;
+padding-left: 25px;
 
 }
 
 #cap2 ul li:hover {
 
-  background-color: rgba(0,0,0,0.4);
+background-color: rgba(0,0,0,0.4);
 
 }
 
 #cap2 ul li a{
 
-  background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
+background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
 
-  text-decoration: none;
+text-decoration: none;
 
-  color: inherit;
+color: inherit;
 
-  display: block;
+display: block;
 
-  align-content: center;
-  text-align: center;
+align-content: center;
+text-align: center;
 
-  background-size: 20px;
+background-size: 20px;
 
 }
 
@@ -303,15 +315,19 @@ section {
 
 #lastlink {
 
-  display: block;
+display: block;
 
-  text-align: left;
+text-align: left;
 
-  text-decoration: none;
+text-decoration: none;
 
-  color: #081611;
+color: #081611;
 
 }
+
+
+
+
 
 .bigtext {
 
@@ -383,7 +399,7 @@ section {
 
 .colecciones {
 
-  background-image: url("../assets/img/materiales/capsulas/bandera_capsulas.png");
+  /* background-image: url("../assets/img/materiales/capsulas/bandera_capsulas.png"); */
 
 }
 
@@ -437,7 +453,7 @@ section {
 
 }
 
-.titulo {
+section .titulo {
 
   margin-top: 20px;
 

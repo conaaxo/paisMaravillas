@@ -1,3 +1,85 @@
+/*trim*/
+@charset "UTF-8";
+
+
+:root {
+	--bs-blue: #0d6efd;
+	--bs-indigo: #6610f2;
+	--bs-purple: #7464a1;
+	--bs-pink: #d63384;
+	--bs-red: #af1923;
+	--bs-orange: #D95D41;
+	--bs-yellow: #e4c662;
+	--bs-green: #67c29c;
+	--bs-teal: #64a19d;
+	--bs-cyan: #1cabc4;
+	--bs-white: #fff;
+	--bs-gray: #6c757d;
+	--bs-gray-dark: #343a40;
+	--bs-gray-100: #f8f9fa;
+	--bs-gray-200: #e9ecef;
+	--bs-gray-300: #dee2e6;
+	--bs-gray-400: #ced4da;
+	--bs-gray-500: #adb5bd;
+	--bs-gray-600: #6c757d;
+	--bs-gray-700: #495057;
+	--bs-gray-800: #343a40;
+	--bs-gray-900: #212529;
+	--bs-primary: #64a19d;
+	--bs-secondary: #7464a1;
+	--bs-success: #67c29c;
+	--bs-info: #1cabc4;
+	--bs-warning: #e4c662;
+	--bs-danger: #a16468;
+	--bs-light: #f8f9fa;
+	--bs-dark: #212529;
+	--bs-black: #000;
+	--bs-white: #fff;
+	--bs-primary-rgb: 100, 161, 157;
+	--bs-secondary-rgb: 116, 100, 161;
+	--bs-success-rgb: 103, 194, 156;
+	--bs-info-rgb: 28, 171, 196;
+	--bs-warning-rgb: 228, 198, 98;
+	--bs-danger-rgb: 161, 100, 104;
+	--bs-light-rgb: 248, 249, 250;
+	--bs-dark-rgb: 33, 37, 41;
+	--bs-black-rgb: 0, 0, 0;
+	--bs-white-rgb: 255, 255, 255;
+	--bs-white-rgb: 255, 255, 255;
+	--bs-black-rgb: 0, 0, 0;
+	--bs-body-color-rgb: 33, 37, 41;
+	--bs-body-bg-rgb: 255, 255, 255;
+	--bs-font-sans-serif: system-ui, -apple-system, Work Sans, sans-serif;
+	--bs-font-cursive: system-ui, -apple-system, Pangolin, sans-serif;
+	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+	--bs-body-font-family: Work Sans, sans-serif;
+	--bs-body-font-size: 1.45rem;
+	--bs-body-font-weight: 400;
+	--bs-body-line-height: 1.6;
+	--bs-body-color: #212529;
+	--bs-body-bg: #fff;
+  }
+
+
+@font-face {
+	font-family:"mclaren-regular";
+	src:url("../assets/fonts/mclaren-regular-webfont.ttf") format("truetype"),
+	url("../assets/fonts/mclaren-regular-webfont.eot") format("emmbedded-opentype"),
+	url("../assets/fonts/mclaren-regular-webfont.woff") format("woff"),
+	url("../assets/fonts/mclaren-regular-webfont.svg") format("svg");
+}
+
+@font-face {
+	font-family:"gregh";
+	src:url("../assets/fonts/gregh__-webfont.ttf") format("truetype"),
+	url("../assets/fonts/gregh__-webfont.eot") format("emmbedded-opentype"),
+	url("../assets/fonts/gregh__-webfont.woff") format("woff"),
+	url("../assets/fonts/gregh__-webfont.svg") format("svg");
+}
+
+
+
 html {
         /*
     MAIN COLORS
@@ -40,7 +122,6 @@ html, body {
 }
 
 body {
-    font-family: 'McLaren', cursive;
     color: #bca495;
     /*background-color: #a3cb59;*/
     background-position: right top;
@@ -53,7 +134,7 @@ body {
 /* ---------------------------------------------------------------- */
 .appHolder {
     border-radius: 8px;
-    margin: 100px auto 0 auto;
+    margin: 120px auto 0 auto;
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     /*background-color: orange;*/
@@ -62,13 +143,14 @@ body {
     width: 1190px;
     /*border: 4px solid white;*/
     /*box-sizing: border-box;*/
+    font-family: mclaren-regular !important;
 }
 .appHolder.playing {
     background-color: rgba( 255,255,255,0.5);
     box-shadow: 0 3px 24px #aaa;
 }
 .appHolder * {
-    font-family: 'McLaren', cursive;
+    /*font-family: 'McLaren', cursive;*/
 }
 
 
@@ -102,3 +184,6 @@ body {
 /* ---------------------------------------------------------------- */
 
 
+#footer-invisible{
+    display: none;
+}

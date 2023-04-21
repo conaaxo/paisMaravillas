@@ -124,9 +124,9 @@ p {
  	background-color: #8ED1C9;
  	color: #0A4D43;
  	position:relative;
- 	padding-top:81px;
+ 	padding-top:31px;
  	z-index: 3;
- 	height: 950px;
+ 	height: 900px;
 }
 
 
@@ -193,6 +193,7 @@ p {
 #e2 h2 {
 	color: #134B45;
    /*	 margin: 0% 143px 4% 70px;*/
+   font-size: 1.5em !important;
 }
 
 
@@ -202,6 +203,8 @@ p {
 	margin-top: 28px;
 	margin-bottom: 25px;
 	text-align: left;
+
+	font-size: 1em !important;
 }
 
 
@@ -274,7 +277,7 @@ p {
  	padding-top: 33px;
  	position:relative;
  	z-index: 3;
- 	height: 700px;
+ 	height: 730px;
 }
 
 
@@ -311,6 +314,12 @@ p {
 	background-color: #A5D8D2;
 
 	width: 100%;
+
+}
+
+#e3 #nativas p {
+
+	font-size: 1em;
 
 }
 
@@ -732,6 +741,10 @@ p {
 
  background-color: #8ED1C9;
  min-height: 10vh !important;
+}
+
+.centrar .p1{
+	font-size: 1em !important;
 }
 
 

@@ -105,7 +105,7 @@ Main components
 
 .cd-main-content {
   /*background: black;*/
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   z-index: 2;
 }
 
@@ -586,6 +586,7 @@ Main components
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+    padding: 0px !important; /*reduce espacio*/
   }
   .cd-primary-nav ul.moves-out > li > a {
     /* reset mobile style */
@@ -595,6 +596,7 @@ Main components
     -o-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
+    
   }
   .cd-primary-nav > li {
     float: left;
@@ -700,7 +702,7 @@ Main components
     /* change the height according to your needs - you can even set height: auto */
     height: 315px;
     /* here you set the number of columns - use width percentage */
-    width: 25%;
+    width: 29%;
     float: left;
     margin-right: 2%;
     border-right: 1px solid #e2e3df;
@@ -737,14 +739,16 @@ margin-top: 10px;
 
   .cd-primary-nav .cd-secondary-nav > li{
     list-style: none !important;
+   
   }
   .cd-primary-nav .cd-secondary-nav a {
-    height: 30px;
-    line-height: 30px;
+    height: 28px;
+    line-height: 28px;
     padding: 0 10% 0 0;
     color: #0B4D31;
     border-bottom: none;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+    letter-spacing: -1px;
     text-decoration:none;
     font-family: "Work Sans", sans-serif;
     overflow: visible;
@@ -768,6 +772,7 @@ margin-top: 10px;
     left: 0;
     height: 100%;
     width: 100%;
+    padding: 0px !important; /*reduce espacio*/
   }
   .cd-primary-nav .cd-secondary-nav ul ul.is-hidden {
     -webkit-transform: translateX(100%);
@@ -860,6 +865,7 @@ margin-top: 10px;
   content: '';
   position: absolute;
   top: 50%;
+  
   margin-top: -1px;
   display: inline-block;
   height: 2px;
@@ -875,6 +881,7 @@ margin-top: 10px;
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+
 }
 .has-children > a::after, .go-back a::after {
   -webkit-transform: rotate(-45deg);
@@ -893,7 +900,7 @@ margin-top: 10px;
 }
 
 .has-children > a {
-  padding-right: 40px;
+  padding-right: 20px;
 }
 .has-children > a::before, .has-children > a::after {
   /* arrow goes on the right side - children navigation */
@@ -920,7 +927,7 @@ margin-top: 10px;
 
 @media only screen and (min-width: 1170px) {
   .has-children > a::before, .has-children > a::after {
-    right: 45%;
+    right: 40%;
   }
 
   .cd-primary-nav > .has-children > a {

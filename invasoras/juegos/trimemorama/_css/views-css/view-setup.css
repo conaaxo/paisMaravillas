@@ -12,7 +12,7 @@
     /* background-image: url(../../_imgs/views-imgs/view-setup/children.jpg); */
     background-size: cover;
     background-position: center;
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     box-shadow: 0 3px 24px #aaa;
 }
@@ -34,6 +34,7 @@
     /* background-color: orange; */
     padding: 16px 16px 16px 0;
     margin: 54px 0;
+    font-family: mclaren-regular !important;
 }
 
 /* ======================================================== */
@@ -43,6 +44,7 @@
 }
 .setup-board-instructions .instruction-block {
     margin: 10px 0;
+    font-size: .8em !important;
 }
 .setup-board-instructions .view-title {
     font-size: 30px;
@@ -54,6 +56,7 @@
 }
 .setup-board-instructions .view-subtitle {
     /*font-size: 24px;    */
+    font-size: .8em !important;
     margin: 0 0 0 0;
     color: #634531;
 }
