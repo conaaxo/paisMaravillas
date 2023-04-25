@@ -341,3 +341,8 @@ body {
   cursor: pointer;
   display: inline-block;
 }
+
+footer {
+  position: fixed !important;
+  bottom: 0;
+}
