@@ -495,7 +495,7 @@ body .ui-tooltip {
 	max-width: 600px;
 }*/
 
-
+/* modal*/
 @media (min-width: 1200px){
 	#modal {
 		display: none;
