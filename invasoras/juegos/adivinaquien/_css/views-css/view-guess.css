@@ -308,6 +308,7 @@
     }
     .guess-lists-holder .guess-notifications-list.show {
         display: block;
+        font-size: .85em !important;
     }
     .guess-lists-holder .guess-notifications-list * {
         font-family: 'McLaren', cursive;

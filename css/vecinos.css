@@ -3,7 +3,7 @@ section {
 	height: 600px;
 }
 
-section#vecinosaxo {
+section#vecinosbg{
 	width: 100%;
 	height: 400px;
   }
@@ -130,7 +130,7 @@ h2 {
 	margin-top: -1%;
 
 }
-#vecinosaxo {
+#vecinosbg {
 	background-image: url(../assets/img/conoce/vecinosverde/bottom.png);
 
 }

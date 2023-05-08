@@ -103,13 +103,7 @@ section{
 }
 
 
-/*.modalVideo video{
-	position: absolute;
-	width: 320px;
-	height: 240px;
-	margin: 0px auto;
-	cursor: move;
-}*/
+
 
 .modalbtn{
 	width: 900px;
@@ -462,148 +456,84 @@ footer p {
  background-color: #fbfbf1;
 }
 
-/*ciudad*/
 
-/*#puntos a title{
-	font-family:mclaren-regular;
-	font-size:18px;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	-webkit-box-shadow: 0 0 5px #aaa;
-	box-shadow: 0 0 5px #aaa;
-}
-
-.ui-tooltip {
-	font-family:mclaren-regular;
-	font-size:18px;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	-webkit-box-shadow: 0 0 5px #aaa;
-	box-shadow: 0 0 5px #aaa;
-}
-body .ui-tooltip {
-	font-family:mclaren-regular;
-	border-width: 2px;
-	background-color:#E0DDD1;
-	color:#2D2713;
-	border-color:#2D2713;
-	box-shadow: 0 0 5px #aaa;
-	max-width: 600px;
-}*/
 
 /* modal*/
-@media (min-width: 1200px){
+@media only screen and (min-width: 1200px){
 	#modal {
 		display: none;
 		width: 900px;
 		height: 565px;
 		top: 20%;
 		left: 15%;
-		background-color: rgba(0,0,0,0.6);
-		z-index: 9999;
-		position: fixed;
 	  }
-
-
 	.modalfoto img {
 		width: 900px;
 		height: 527px;
-		display: inline-block;
-		float: left;
 		margin-right: 20px;
 	  }
-
 	  .modalbtn {
 		width: 900px;
-		position: absolute;
-		display: block;
 		margin: 0px auto;
 		height: 38px;
 		bottom: 0px;
-		background-color: #15774e;
-		left: 0px;
 	  }
   }
   
-  @media (max-width: 1199px){
+@media only screen and (max-width: 1199px) and (min-width: 601px){
 	#modal {
 		display: none;
 		width: 600px;
 		height: 388px;
 		top: 20%;
 		left: 15%;
-		background-color: rgba(0,0,0,0.6);
-		z-index: 9999;
-		position: fixed;
 	  }
 
 
 	.modalfoto img {
 		width: 600px;
 		height: 351px;
-		display: inline-block;
-		float: left;
 		margin-right: 20px;
 	  }
 
 	  .modalbtn {
 		width: 600px;
-		position: absolute;
-		display: block;
 		margin: 0px auto;
 		height: 38px;
 		bottom: 0px;
-		background-color: #15774e;
-		left: 0px;
 	  }
   }
 
 
-  @media (max-width: 600px){
+  @media only screen and  (max-width: 600px){
 	#modal {
 		display: none;
 		width: 350px;
 		height: 241px;
 		top: 20%;
 		left: 15%;
-		background-color: rgba(0,0,0,0.6);
-		z-index: 9999;
-		position: fixed;
 	  }
-
 
 	.modalfoto img {
 		width: 350px;
 		height: 205px;
-		display: inline-block;
-		float: left;
 		margin-right: 20px;
-	  }
+	}
 
 	  .modalbtn {
 		width: 350px;
-		position: absolute;
-		display: block;
 		margin: 0px auto;
 		height: 38px;
 		bottom: 0px;
-		background-color: #15774e;
-		left: 0px;
+		
 	  }
 	  .back {
-		width: 40px;
-		height: 40px;
-		background-image: url("../assets/img/iconoscerrar.png");
+		width: 30px;
+		height: 30px;
 		background-size: auto 100%;
 		z-index: 10;
-		right: -28px;
-		position: absolute;
-		top: -29px;
-		cursor: pointer;
+		right: -18px;
+		top: -19px;
 	  }
   }
 

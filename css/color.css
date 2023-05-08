@@ -1,10 +1,15 @@
 body {
 
-  background-color: #FFD761;
-
-  background-image: url(../assets/img/actividades/colorear/patronC.png);
-
-}
+  background-image: 
+    repeating-linear-gradient(
+      -45deg,
+      #eacb72 0px,
+      #eacb72 3px,
+      #e6c66a 3px,
+      #e6c66a 6px
+    )
+  ;
+  }
 
 #dataRow {
 
@@ -245,7 +250,7 @@ body {
 #menuCirculo {
 
   margin-top: 10px;
-  margin-bottom: 180px; /* AXO */
+  margin-bottom: 180px; 
 
 }
 
@@ -507,7 +512,7 @@ body {
 }
 
 footer{
-  position: fixed !important; /* AXO */
+  position: fixed !important; 
   bottom: 0;
 }
 

@@ -1,7 +1,15 @@
 body {
-  background-color: #c2d999;
-  background-image: url(../assets/img/actividades/rompecabezas/patronR.png);
-}
+
+  background-image: 
+    repeating-linear-gradient(
+      -45deg,
+      #becd98 0px,
+      #becd98 3px,
+      #b4c48b 3px,
+      #b4c48b 6px
+    )
+  ;
+  }
 #dataRow {
   width: 700px;
   margin: 130px auto 0px;

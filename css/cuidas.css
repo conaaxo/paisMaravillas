@@ -104,14 +104,14 @@ footer{
 #descActividad h3{
   font-family: gregh;
   font-size: 30px;
-  margin: 15px 0;
+  margin: 7px 0;
 }
 .greenText {
   color: #34d9c0!important;
 }
 .flechaBlanca {
   width: 123px;
-  height: 65px;
+  height: 60px;
   background-image: url("../assets/img/conoce/cuidasvsdestruyes/desktop/flechablanca.png");
   background-size: 80px;
   background-repeat: no-repeat;
@@ -306,7 +306,8 @@ footer{
   height: 100%;
   background-color: rgba(0,0,0,0.7);
   color: white;
-  font-size: 12px;
+  font-size: .8rem;
+  line-height: 1em;
   text-align: center;
   padding-top: 14px;
   display: none;
@@ -316,7 +317,7 @@ footer{
 
 @media only screen and (min-width: 1170px) {
     #instActividad p {
-      font-size: 20px;
+      font-size: 1.1rem;
       line-height: 22px;
       margin-top: 10px !important;
   }
@@ -324,7 +325,7 @@ footer{
 
 @media only screen and (max-width: 1169px) {
   #instActividad p {
-    font-size: 18px;
+    font-size: .9rem;
     line-height: 20px;
     margin-top: 10px !important;
 }
@@ -333,7 +334,7 @@ footer{
 
 @media only screen and (min-width: 1170px) {
   #descActividad p {
-    font-size: 16px;
+    font-size: .8rem;
     line-height: 16px;
     margin-top: 10px !important;
 }
@@ -341,7 +342,7 @@ footer{
 
 @media only screen and (max-width: 1169px) {
 #descActividad p {
-  font-size: 14px;
+  font-size: .8rem;
   line-height: 14px;
   margin-top: 10px !important;
 }

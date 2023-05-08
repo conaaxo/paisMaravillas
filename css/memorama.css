@@ -1,9 +1,13 @@
 body {
-
-  background-color: #c1b791;
-
-  background-image: url(../assets/img/actividades/memoramas/patronM.png);
-
+background-image: 
+  repeating-linear-gradient(
+    -45deg,
+    #cbc1a4 0px,
+    #cbc1a4 3px,
+    #c2ba9a 3px,
+    #c2ba9a 6px
+  )
+;
 }
 
 #dataRow {
