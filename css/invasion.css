@@ -3,7 +3,7 @@ section {
 }
 
 p {
-	width: 700px;
+	
 }
 
 .margen {
@@ -126,7 +126,7 @@ p {
  	position:relative;
  	padding-top:31px;
  	z-index: 3;
- 	height: 900px;
+
 }
 
 
@@ -185,7 +185,7 @@ p {
  	padding-top:81px;
  	position:relative;
  	z-index: 3;
- 	height: 1500px;
+ 	height: 1300px;
  }
 
 
@@ -293,9 +293,14 @@ p {
 
 
 #e3 p {
-	width: 750px;
-	margin: 0px auto;
+	
+	margin: 0px 20px;
 	margin-bottom: 20px;
+}
+
+#e3 a{
+	text-decoration: none !important;
+	color: #266044;
 }
 
 
@@ -740,7 +745,7 @@ p {
 .cd-main-content{
 
  background-color: #8ED1C9;
- min-height: 10vh !important;
+ /* min-height: 10vh !important; */
 }
 
 .centrar .p1{
@@ -750,4 +755,428 @@ p {
 
 
 
+.title-que-es-una-invasion{
 
+	width: 70%;
+	height: 200px;
+	margin-top: 0px;
+	background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 100% 100%;
+}
+
+
+.title-como-invaden{
+	max-width: 800px;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background: url(../invasoras/assets/img/invasion/y-nuestras-especies.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+}
+.title-como-se-atiende{
+	max-width: 800px;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	background: url(../invasoras/assets/img/invasion/t-como-atender-problema.png);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+.invasion-palomilla-del-nopal{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: -185px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:0% 102%;
+}
+
+.invasion-tortuga{
+	display: block;
+		position: relative;
+		width: 300px;
+		right: 0px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/tortuga.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 0% 102%;
+}
+
+.diagrama-invasion{
+		width: 100%;
+		height: 600px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+}
+
+.invasion-luna-sola{
+	display: block;
+	position: relative;
+		width: 400px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/luna-sola.png);
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position:50% 50%;
+}
+
+
+
+
+
+.p2 {
+	color: #03412F;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 0px;
+	text-indent: 30px;
+  }
+
+  .p1 {
+	font-family: mclaren-regular;
+	line-height: 24px;
+	color: #0C1915;
+	font-size: 1em;
+	text-align: justify;
+  }
+
+
+  @media (max-width: 575px) {
+	
+	.title-que-es-una-invasion{
+		width: 100%;
+		height: 140px;
+		margin: 0px auto 20px;
+		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position: 50% 90%;
+	}
+
+
+	.title-como-invaden{
+		max-width: 800px;
+		width: 100%;
+		height: 60px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/y-nuestras-especies.png);
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+	.diagrama-invasion{
+		width: 100%;
+		max-width: 1100px;
+		max-height: 360px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	#e3{
+		height: 110rem;
+	}
+  }
+
+
+  @media (min-width: 576px) {
+
+	.title-que-es-una-invasion{
+		width: 100%;
+		height: 160px;
+		margin: 40px auto 20px;
+		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 90%;
+	}
+
+	.diagrama-invasion{
+		width: 100%;
+		max-width: 1100px;
+		max-height: 430px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	#e3{
+		height: 75rem;
+	}
+  }
+  @media (min-width: 768px) {
+	.title-que-es-una-invasion{
+		width: 100%;
+		height: 160px;
+		margin: 40px auto 20px;
+		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 90%;
+	}
+
+	.diagrama-invasion{
+		width: 100%;
+		max-width: 1100px;
+		max-height: 550px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+	.invasion-palomilla-del-nopal{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: -195px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:0% 102%;
+	}
+
+	#e3{
+		height: 53rem;
+	}
+  }
+  @media (min-width: 992px) {
+	.title-que-es-una-invasion{
+		width: 100%;
+		height: 160px;
+		margin: 60px auto 20px;
+		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+		background-repeat: no-repeat;
+		background-size: 60%;
+		background-position: 50% 90%;
+	}
+
+	.diagrama-invasion{
+		width: 100%;
+		max-width: 1100px;
+		max-height: 600px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+
+	.invasion-palomilla-del-nopal{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: -185px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:0% 102%;
+	}
+
+	.invasion-luna-sola{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: -30px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/luna-sola.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:50% 50%;
+	}
+	#e3{
+		height: 50rem;
+	}
+
+  }
+  @media (min-width: 1200px) {
+	.title-que-es-una-invasion{
+		width: 100%;
+		height: 150px;
+		margin: 100px auto 30px;
+		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 80%;
+	}
+	.diagrama-invasion{
+		width: 100%;
+		max-width: 1100px;
+		max-height: 600px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	.invasion-luna-sola{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: 0px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/luna-sola.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:50% 50%;
+	}
+
+	.invasion-palomilla-del-nopal{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: -135px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:0% 102%;
+	}
+	#e3{
+		height: 40rem;
+	}
+
+  }
+  @media (min-width: 1400px) {
+	.title-que-es-una-invasion{
+		
+		width: 100%;
+		height: 180px;
+		margin: 100px auto 30px;
+		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 80%;
+	}
+
+
+	.title-como-invaden{
+		max-width: 800px;
+		width: 100%;
+		height: 100px;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/y-nuestras-especies.png);
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 50%;
+	}
+
+	.diagrama-invasion{
+		width: 100%;
+		max-width: 1100px;
+		max-height: 800px;
+		
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/diagrama.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	.invasion-luna-sola{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: 0px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/luna-sola.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:50% 50%;
+	}
+
+	.invasion-palomilla-del-nopal{
+		display: block;
+		position: relative;
+		width: 300px;
+		left: -135px;
+		height: 100%;
+		margin: auto;
+		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:0% 102%;
+	}
+	#e3{
+		height: 40rem;
+	}
+  }
+ 
+
+.row80{
+	display: block;
+	max-width: 1200px;
+	margin: auto !important;
+	width: 80%;
+}
+
+
+
+/* MEDIA */
+/*
+  @media (min-width: 576px) {
+	.container-sm, .container {
+	  max-width: 540px;
+	}
+  }
+  @media (min-width: 768px) {
+	.container-md, .container-sm, .container {
+	  max-width: 720px;
+	}
+  }
+  @media (min-width: 992px) {
+	.container-lg, .container-md, .container-sm, .container {
+	  max-width: 960px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.container-xl, .container-lg, .container-md, .container-sm, .container {
+	  max-width: 1140px;
+	}
+  }
+  @media (min-width: 1400px) {
+	.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+	  max-width: 1320px;
+	}
+  }
+  */

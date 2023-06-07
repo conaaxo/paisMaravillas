@@ -12,8 +12,12 @@ section {
 }
 
 .nbig{
+	width: 15%;
 	color: #E4A929;
 	font-size: 90px;
+	font-family: mclaren-regular;
+	display: block;
+	float: left;
 }
 
 
@@ -24,19 +28,6 @@ section {
 	position: absolute;
 }
 
-
-/*section {
-	position: relative;
-	background: url(../assets/img/mexico/quehacer/q_hoja.png) no-repeat center;
-	background-position: 50% -10%;
-	transform:translateX(-50%);
-	-o-transform:translateX(-50%);
-	-ms-transform:translateX(-50%);
-	-moz-transform:translateX(-50%);
-	-khtml-transform:translateX(-50%);
-	-webkit-transform:translateX(-50%);
-	left: 50%;
-}*/
 
 .fondoimg{
 	width: 100%;
@@ -76,9 +67,14 @@ section p {
 	display: inline-block;
 }
 
-#informa{
-	display: inline-block;
-	margin-left: 10px;
+.list-number{
+	width: 80%;
+	display: block;
+	float: left;
+}
+.list-number h2{
+	text-align: left;
+	color: #0A4D43;
 }
 
 #2{
@@ -280,12 +276,316 @@ object{
 
 }
 
+.row80{
+	display: block;
+	max-width: 1200px;
+	margin: auto !important;
+	width: 80% !important;
+}
+
+
+.title-que-hacer{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 30px;
+	background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 80%;
+}
+
+.list-nino-piensa-compra{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/nino-piensa-compra.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 50% 50%;
+}
+
+.list-lena-barrenador{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/lena-barrenador.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+.list-nino-veterinario{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/nino-veterinario.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+.list-nino-veterinario{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/nino-veterinario.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+
+.list-senior-bote{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/senior-bote.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 50% 50%;
+}
+
+.list-celular{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/celular.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+.list-luna-maiz{
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/luna-maiz.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
 
 
 
 
 
+@media (max-width: 575px) {
+	.indicadores-img{
+		width: 100%;
+		height: 120px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+  
+	.title-como-llegan-al-pais{
+		height: 80px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	  }
+
+
+  	/* modal */
+	  #modal{
+		width: 300px;
+		height: 180px;
+		top: 15%;
+		left: 15%;
+	}
+	.back {
+		width: 30px;
+		height: 30px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+		width: 300px;
+		height: 180px;
+		margin-right: 20px;
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: .9em;
+		display: inline-block;
+	}
+	.modalTexto{
+		margin-top: 0px;
+		margin-left: 20px;
+		width: 260px;
+		font-size: .6em;
+		line-height: 1.5em;
+	}
+
+	.modalbtn {
+		width: 300px;
+		position: absolute;
+		display: block;
+		margin: -38px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+	/* modal */
+
+}
 
 
 
 
+
+  @media (max-width: 575px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 120px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		  background-position-x: 0%;
+		  background-position-y: 0%;
+		  background-repeat: repeat;
+		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 80%;
+	  }
+  }
+  @media (min-width: 576px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 140px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		  background-position-x: 0%;
+		  background-position-y: 0%;
+		  background-repeat: repeat;
+		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 80%;
+	  }
+  }
+  @media (min-width: 768px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 180px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		  background-position-x: 0%;
+		  background-position-y: 0%;
+		  background-repeat: repeat;
+		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 90%;
+	  }
+  }
+  @media (min-width: 992px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 180px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		  background-position-x: 0%;
+		  background-position-y: 0%;
+		  background-repeat: repeat;
+		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 90%;
+	  }
+  }
+  @media (min-width: 1200px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 250px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		  background-position-x: 0%;
+		  background-position-y: 0%;
+		  background-repeat: repeat;
+		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 80%;
+	  }
+  }
+  @media (min-width: 1400px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 250px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		  background-position-x: 0%;
+		  background-position-y: 0%;
+		  background-repeat: repeat;
+		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 80%;
+	  }
+  }

@@ -95,22 +95,20 @@ p{
 	font-family:mclaren-regular; 
 	line-height: 24px;
 	color:#0C1915;
-	width:500px;
-	text-align: left;
+	/*width:500px;*/
+	text-align: justify;
 }
 
 
 /*habla Pez león*/
 .p1 {
 	color: #0C1915;
-	width: 650px !important;
 	margin-top: 4px;
 }
 
 /*habla Luna*/
 .p2 {
 	color: #03412F;
-	width: 700px !important;
 	font-size: 1.1em;
 	font-style: italic;
 	font-weight: bold;
