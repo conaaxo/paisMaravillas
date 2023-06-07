@@ -97,7 +97,7 @@ body {
 #menuCirculo {
 
   margin-top: 10px;
-  margin-bottom: 180px; /* AXO */
+  margin-bottom: 180px; /*  */
 
 }
 #menuCirculo ul {
@@ -227,6 +227,6 @@ body {
 }
 
 footer{
-  position: fixed !important; /* AXO */
+  position: fixed !important; /*  */
   bottom: 0;
 }
