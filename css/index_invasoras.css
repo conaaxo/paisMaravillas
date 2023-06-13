@@ -1,17 +1,94 @@
-@font-face {
-	font-family:"mclaren-regular";
-	src:url("../assets/fonts/mclaren-regular-webfont.ttf") format("truetype"),
-	url("../assets/fonts/mclaren-regular-webfont.eot") format("emmbedded-opentype"),
-	url("../assets/fonts/mclaren-regular-webfont.woff") format("woff"),
-	url("../assets/fonts/mclaren-regular-webfont.svg") format("svg");
+/*C*/
+@charset "UTF-8";
+
+
+:root {
+	--bs-blue: #0d6efd;
+	--bs-indigo: #6610f2;
+	--bs-purple: #7464a1;
+	--bs-pink: #d63384;
+	--bs-red: #af1923;
+	--bs-orange: #D95D41;
+	--bs-yellow: #e4c662;
+	--bs-green: #67c29c;
+	--bs-teal: #64a19d;
+	--bs-cyan: #1cabc4;
+	--bs-white: #fff;
+	--bs-gray: #6c757d;
+	--bs-gray-dark: #343a40;
+	--bs-gray-100: #f8f9fa;
+	--bs-gray-200: #e9ecef;
+	--bs-gray-300: #dee2e6;
+	--bs-gray-400: #ced4da;
+	--bs-gray-500: #adb5bd;
+	--bs-gray-600: #6c757d;
+	--bs-gray-700: #495057;
+	--bs-gray-800: #343a40;
+	--bs-gray-900: #212529;
+	--bs-primary: #64a19d;
+	--bs-secondary: #7464a1;
+	--bs-success: #67c29c;
+	--bs-info: #1cabc4;
+	--bs-warning: #e4c662;
+	--bs-danger: #a16468;
+	--bs-light: #f8f9fa;
+	--bs-dark: #212529;
+	--bs-black: #000;
+	--bs-white: #fff;
+	--bs-primary-rgb: 100, 161, 157;
+	--bs-secondary-rgb: 116, 100, 161;
+	--bs-success-rgb: 103, 194, 156;
+	--bs-info-rgb: 28, 171, 196;
+	--bs-warning-rgb: 228, 198, 98;
+	--bs-danger-rgb: 161, 100, 104;
+	--bs-light-rgb: 248, 249, 250;
+	--bs-dark-rgb: 33, 37, 41;
+	--bs-black-rgb: 0, 0, 0;
+	--bs-white-rgb: 255, 255, 255;
+	--bs-white-rgb: 255, 255, 255;
+	--bs-black-rgb: 0, 0, 0;
+	--bs-body-color-rgb: 33, 37, 41;
+	--bs-body-bg-rgb: 255, 255, 255;
+	--bs-font-sans-serif: system-ui, -apple-system, Work Sans, sans-serif;
+	--bs-font-cursive: system-ui, -apple-system, Pangolin, sans-serif;
+	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+	--bs-body-font-family: Work Sans, sans-serif;
+	--bs-body-font-size: 1.45rem;
+	--bs-body-font-weight: 400;
+	--bs-body-line-height: 1.6;
+	--bs-body-color: #212529;
+	--bs-body-bg: #fff;
+  }
+
+
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:1.5rem;
+	
+
+
+	font-family: var(--bs-body-font-family);
+	font-size: var(--bs-body-font-size);
+	font-weight: var(--bs-body-font-weight);
+	line-height: var(--bs-body-line-height);
+	color: var(--bs-body-color);
+	text-align: var(--bs-body-text-align);
+	-webkit-text-size-adjust: 100%;
+	
+
+}
+p {
+	font-family: Work Sans, sans-serif;
+	color: #03412F !important;
 }
 
-@font-face {
-	font-family:"gregh";
-	src:url("../assets/fonts/gregh__-webfont.ttf") format("truetype"),
-	url("../assets/fonts/gregh__-webfont.eot") format("emmbedded-opentype"),
-	url("../assets/fonts/gregh__-webfont.woff") format("woff"),
-	url("../assets/fonts/gregh__-webfont.svg") format("svg");
+h2 {
+	font-family: Pangolin, sans-serif !important;
+	font-style: normal;
+	font-size: 2.75rem !important;
 }
 
 article{
@@ -82,6 +159,7 @@ section {
 }
 
 #e1 h2 {
+	font-family: Pangolin, sans-serif;
 	width: 700px;
 	color: #03412F;
 }
@@ -297,10 +375,6 @@ background-color: #8ED1C9;
   }
 
 
-
-
-
-
 .tittle-luna-al-rescate{
 	width: 100%;
 	height: 150px;
@@ -322,6 +396,10 @@ background-color: #8ED1C9;
 
 
 	@media (max-width: 575px) {
+
+	.section-invasoras h2{
+		font-size: 1.8rem !important;
+	}
 	.title-especies-invasoras {
 		height: 130px;
 		background-size: 80%;
@@ -340,7 +418,6 @@ background-color: #8ED1C9;
 		background-size: 70%;
 		background-position: 100% 50%;
 		transform: scaleX(-1);
-		
 	}
 	.pez-leon{
 		position: relative;
@@ -382,14 +459,15 @@ background-color: #8ED1C9;
 }
 
   @media (min-width: 576px) {
+
+	.section-invasoras h2{
+		font-size: 2rem !important;
+	}
 	.title-especies-invasoras {
 		height: 140px;
 		background-size: 80%;
 		background-position: 50% 90%;
 	}
-
-	
-
 
 	.luna-pez-leon{
 		position: relative;
@@ -403,8 +481,8 @@ background-color: #8ED1C9;
 		background-size: 70%;
 		background-position: 100% 50%;
 		transform: scaleX(-1);
-		
 	}
+
 	.pez-leon{
 		position: relative;
 		z-index: 3;
@@ -419,6 +497,7 @@ background-color: #8ED1C9;
 		background-position: 50% 100%;
 		animation: pez-leon 12s ease-in-out infinite;
 	}
+
 	@keyframes pez-leon {
 		0% {
 		
@@ -442,14 +521,12 @@ background-color: #8ED1C9;
 	.peces-muertos{
 		display: none;
 	}
-	
-
-
-
-
-
   }
+
   @media (min-width: 768px) {
+	.section-invasoras h2{
+		font-size: 2.5rem !important;
+	}
 	.title-especies-invasoras {
 		height: 170px;
 		background-size: 80%;
@@ -464,9 +541,6 @@ background-color: #8ED1C9;
 		background-position: 50% 50%;
 	}
 
-
-
-
 	.luna-pez-leon{
 		position: relative;
 		z-index: 2;
@@ -517,13 +591,12 @@ background-color: #8ED1C9;
   	}
 
 
-
-
-
-  }
   @media (min-width: 992px) {
+	.section-invasoras h2{
+		font-size: 2.5rem !important;
+	}
 	.title-especies-invasoras {
-		height: 180px;
+		height: 200px;
 		background-size: 80%;
 		background-position: 50% 90%;
 	}
@@ -583,11 +656,17 @@ background-color: #8ED1C9;
 		100% { top: 180px; left: 30px; opacity: 0;}
 	  }
   	}
-  }
-  @media (min-width: 1169px) {
+
+
+
+
+ @media (min-width: 1169px) {
+	.section-invasoras h2{
+		font-size: 2.5rem !important;
+	}
 	.title-especies-invasoras {
-		height: 220px;
-		background-size: 80%;
+		height: 240px;
+		background-size: 70%;
 		background-position: 50% 90%;
 	}
 	.luna-especies-invasoras{
@@ -597,7 +676,6 @@ background-color: #8ED1C9;
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-
 	.luna-pez-leon{
 		width: 80%;
 		margin: auto;
@@ -608,6 +686,9 @@ background-color: #8ED1C9;
   }
 
   @media (min-width: 1200px) {
+	.section-invasoras h2{
+		font-size: 2.5rem !important;
+	}
 	.title-especies-invasoras {
 		background-size: 70%;
 		height: 220px;
@@ -621,7 +702,7 @@ background-color: #8ED1C9;
 		width: 100%;
 		height: 100%;
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: 90%;
 		background-position: 50% 50%;
 	}
 
@@ -676,6 +757,9 @@ background-color: #8ED1C9;
   	}
 
   @media (min-width: 1400px) {
+	.section-invasoras h2{
+		font-size: 2.5rem !important;
+	}
 	.title-especies-invasoras {
 		background-size: 70%;
 		height: 250px;

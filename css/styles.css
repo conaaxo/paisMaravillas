@@ -166,6 +166,10 @@ p {
 	font-size: 23px;
 	line-height: 2rem;
   }
+
+.p-ecosistemas{
+  font-size: 1.12em;
+}
 }
 
 
@@ -11780,3 +11784,4 @@ body {
     font-family: mclaren-regular;
   }
 }
+

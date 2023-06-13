@@ -114,6 +114,7 @@ section{
 	left: 0px;
 }
 .modalbtn ul {
+	display: none;
 	float: none;
 	list-style-image: none;
 	list-style-type: none;
@@ -537,7 +538,7 @@ section{
 	#modal{
 		width: 550px;
 		height: 350px;
-		top: 30%;
+		top: 17%;
 		left: 15%;
 	}
 	.back {
@@ -605,7 +606,7 @@ section{
 	#modal{
 		width: 750px;
 		height: 430px;
-		top: 30%;
+		top: 17%;
 		left: 15%;
 	}
 	.back {
@@ -672,7 +673,7 @@ section{
 	#modal{
 		width: 900px;
 		height: 430px;
-		top: 30%;
+		top: 17%;
 		left: 15%;
 	}
 	.back {
@@ -742,7 +743,7 @@ section{
 	#modal{
 		width: 900px;
 		height: 430px;
-		top: 30%;
+		top: 15%;
 		left: 15%;
 	}
 	.back {
@@ -806,7 +807,7 @@ section{
 	#modal{
 		width: 900px;
 		height: 430px;
-		top: 30%;
+		top: 17%;
 		left: 15%;
 	}
 	.back {

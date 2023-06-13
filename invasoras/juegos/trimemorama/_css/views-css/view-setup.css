@@ -15,9 +15,11 @@
     width: 85%;
     margin: 0 auto;
     box-shadow: 0 3px 24px #aaa;
+    font-family: "Work Sans", sans-serif !important;
 }
 .view-setup * {
-    font-family: 'McLaren', cursive;    
+    font-family: "Work Sans", sans-serif !important;
+    font-style: normal !important;
 }
 
 .view-setup .view-title {
@@ -25,6 +27,7 @@
     text-transform: none;
     color: #634531;
     margin: 10px auto 24px auto;
+    font-family: Pangolin, sans-serif !important;
 }
 .view-setup .main-description {
     width: 400px;
@@ -34,7 +37,11 @@
     /* background-color: orange; */
     padding: 16px 16px 16px 0;
     margin: 54px 0;
-    font-family: mclaren-regular !important;
+    font-family: "Work Sans", sans-serif !important;
+}
+
+.view-setup .main-description p{
+    font-family: "Work Sans", sans-serif !important;
 }
 
 /* ======================================================== */
@@ -59,6 +66,7 @@
     font-size: .8em !important;
     margin: 0 0 0 0;
     color: #634531;
+    font-family: "Work Sans", sans-serif !important;
 }
 .setup-board-instructions img {
     width: 80px;

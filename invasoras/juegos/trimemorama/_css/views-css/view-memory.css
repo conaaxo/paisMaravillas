@@ -17,7 +17,8 @@
     .memory-info {}
     .memory-info .memory-info-title {
         font-size: 24px;
-        font-family: 'McLaren', cursive;
+        font-family: Pangolin, sans-serif !important;
+        font-style: normal;
         margin: 0.25em 0;
         float: left;
         width: 85%;
@@ -25,7 +26,8 @@
     .memory-info .memory-info-crono {
         margin: 0.25em 0;
         width: 10%;
-        font-family: 'McLaren', cursive;
+        font-family: Pangolin, sans-serif !important;
+        font-style: normal;
         text-align: right;
         float: right;
     }
@@ -355,6 +357,7 @@
         height: 100%;
     }
     .twelve-game-guide .btn-close-pdf {
+        font-size: .5rem;
         display: block;
         background-color: #634531;
         color: white;

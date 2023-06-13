@@ -6,6 +6,10 @@ body{
 	margin-top: 50px;
 	
 }
+p{
+	color: #03412F !important;
+}
+
 
 section {
 	overflow:hidden;
@@ -15,9 +19,11 @@ section {
 	width: 15%;
 	color: #E4A929;
 	font-size: 90px;
-	font-family: mclaren-regular;
 	display: block;
 	float: left;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+
 }
 
 
@@ -73,8 +79,11 @@ section p {
 	float: left;
 }
 .list-number h2{
+	font-family: Pangolin, sans-serif !important;
+	font-style: normal !important;
 	text-align: left;
 	color: #0A4D43;
+
 }
 
 #2{
@@ -273,16 +282,14 @@ object{
 	width: 720px;
     height: auto;
     margin: 39px -6px 61px -180px;
-
 }
 
 .row80{
 	display: block;
 	max-width: 1200px;
 	margin: auto !important;
-	width: 80% !important;
+	width: 85% !important;
 }
-
 
 .title-que-hacer{
 	width: 100%;
@@ -417,6 +424,10 @@ object{
 		height: 80px;
 		background-size: 80%;
 		background-position: 50% 50%;
+	  }
+
+	  .margin-left{
+		  text-align: left !important;
 	  }
 
 

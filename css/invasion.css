@@ -125,6 +125,7 @@ p {
  	color: #0A4D43;
  	position:relative;
  	padding-top:31px;
+	padding-bottom: 31px;
  	z-index: 3;
 
 }
@@ -204,7 +205,7 @@ p {
 	margin-bottom: 25px;
 	text-align: left;
 
-	font-size: 1em !important;
+	font-size: 1.5rem !important;
 }
 
 
@@ -324,7 +325,7 @@ p {
 
 #e3 #nativas p {
 
-	font-size: 1em;
+	font-size: 1.5 rem !important;
 
 }
 
@@ -411,203 +412,99 @@ p {
 
 
 #e3 #nativas2 img {
-
 	width: 100%;
-
 }
 
 
 
 #e3 #nativas2 p {
-
 	text-align: left;
-
 	width: 300px;
-	
 	color: #043934;
-
 }
-
-
 
 .blanco {
-
 	color: #113e31;
-
 }
-
 
 
 #e3 #nativas3 {
-
 	display: inline-block;
-
 	background-color: #367E64;
-
 	width: 300px;
-
 	height: 350px;
-
 	vertical-align: top;
-
 	margin-left: 135px;
-
 	margin-right: 14px;
-
 	padding: 20px;
-
 	text-align: center;
-
 }
 
 
 
 #e3 #nativas3 img {
-
 	width: 80%;
-
 }
 
 
 
 #e3 #nativas3 .timportante {
-
 	text-align: left;
-
 	width: 300px;
-
 }
 
 
 
 #e3 #nativas3 p {
-
 	text-align: left;
-
 	width: 300px;
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #e3 #exoticas {
-
 	background-color: #A5D8D2;
-
 	width: 100%;
-
 }
 
 
 
 #e3 #exoticas1 {
-
 	display: inline-block;
-
 	background-color: #d2bcad;
-
 	width: 300px;
-
 	height: 970px;
-
 	vertical-align: top;
-
 	margin-left: 135px;
-
 	margin-right: 14px;
-
 	padding: 20px;
-
 	text-align: center;
-
 }
 
 #e3 #exoticas1 .timportante {
-
 	text-align: left;
-
 	width: 300px;
-
 }
-
-
 
 #e3 #exoticas1 img {
-
 	width: 80%;
-
 }
-
-
 
 #e3 #exoticas1 p {
-
 	text-align: left;
-
 	width: 300px;
-
 }
-
-
 
 #e3 #exoticas2 {
-
 	display: inline-block;
-
 	background-color: #c8a596;
-
 	width: 300px;
-
 	height: 970px;
-
 	padding: 20px;
-
 	text-align: center;
-
 }
 
-
-
 #e3 #exoticas2 .timportante {
-
 	text-align: left;
-
 	width: 300px;
 
 }
@@ -615,41 +512,23 @@ p {
 
 
 #e3 #exoticas2 img {
-
 	width: 80%;
-
 }
 
 
 
 #e3 #exoticas2 p {
-
 	text-align: left;
-
 	width: 300px;
-
 }
 
-
-
-
-
-
-
 #e4 {
-
  	background-color: #1B1D12;
-
  	color: #D4D8A5;
-
  	padding-top:81px;
-
  	position:relative;
-
  	z-index: 3;
-
  	min-height: 1000px;
-
 	max-height: 2000px;
 
 }
@@ -657,9 +536,7 @@ p {
 
 
 #e4 h2 {
-
 	margin: 3% 0px 2% 360px;
-
 	color: #F1D862;
 
 }
@@ -667,9 +544,7 @@ p {
 
 
 #e4 p {
-
 	width: 400px;
-
 	margin-left: 360px;
 
 }
@@ -677,9 +552,7 @@ p {
 
 
 #e4 #pa2 {
-
 	width: 700px;
-
 	margin-left: 200px;
 
 }
@@ -687,7 +560,6 @@ p {
 
 
 #e4 img {
-
 	width: 70%;
 
 }
@@ -697,15 +569,10 @@ p {
 /*e_escarabajos.png*/
 
 #ima1_e4 img { 
-
 	width: 57%;
-
 	position: absolute;
-
 	margin: -1038px 0px 0px -200px;
-
 	z-index: -1;
-
 }
 
 
@@ -713,15 +580,10 @@ p {
 /*e_linne.png*/
 
 #ima2_e4 img {
-
 	width: 18%;
-
 	position: absolute;
-
 	margin: -816px 0px 0px 770px;
-
 	z-index: -1;
-
 }
 
 
@@ -729,34 +591,22 @@ p {
 /*e_seleccion.png*/
 
 #ima3_e4 img {
-
 	width: 25%;
-
 	position: absolute;
-
 	margin: -305px 0 0 -80px;
-
 	z-index: -1;
-
 	opacity: 0.3;
-
 }
 
 .cd-main-content{
-
  background-color: #8ED1C9;
- /* min-height: 10vh !important; */
 }
 
 .centrar .p1{
 	font-size: 1em !important;
 }
 
-
-
-
 .title-que-es-una-invasion{
-
 	width: 70%;
 	height: 200px;
 	margin-top: 0px;
@@ -787,14 +637,6 @@ p {
 	background-size: 80%;
 	background-position: 50% 50%;
 }
-
-
-
-
-
-
-
-
 
 .invasion-palomilla-del-nopal{
 		display: block;
@@ -844,17 +686,11 @@ p {
 		background-position:50% 50%;
 }
 
-
-
-
-
-.p2 {
+  .p2 {
 	color: #03412F;
 	font-size: 1.1em;
-	font-style: italic;
 	font-weight: bold;
 	margin-bottom: 0px;
-	text-indent: 30px;
   }
 
   .p1 {
@@ -863,6 +699,12 @@ p {
 	color: #0C1915;
 	font-size: 1em;
 	text-align: justify;
+  }
+
+
+
+  .color-verde{
+	color: #03412F;
   }
 
 
@@ -877,7 +719,6 @@ p {
 		background-size: 70%;
 		background-position: 50% 90%;
 	}
-
 
 	.title-como-invaden{
 		max-width: 800px;
@@ -900,12 +741,17 @@ p {
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-
+	#e1{
+		height: 130rem;
+	}
+	#e2{
+		height: 125rem;
+	}
+	
 	#e3{
-		height: 110rem;
+		height: 155rem;
 	}
   }
-
 
   @media (min-width: 576px) {
 
@@ -929,9 +775,14 @@ p {
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-
+	#e1{
+		height: 110rem;
+	}
+	#e2{
+		height: 110rem;
+	}
 	#e3{
-		height: 75rem;
+		height: 130rem;
 	}
   }
   @media (min-width: 768px) {
@@ -968,14 +819,20 @@ p {
 		background-position:0% 102%;
 	}
 
+	#e1{
+		height: 115rem;
+	}
+	#e2{
+		height: 100rem;
+	}
 	#e3{
-		height: 53rem;
+		height: 100rem;
 	}
   }
   @media (min-width: 992px) {
 	.title-que-es-una-invasion{
 		width: 100%;
-		height: 160px;
+		height: 180px;
 		margin: 60px auto 20px;
 		background: url(../invasoras/assets/img/invasion/que-son-las-especies-exoticas.png);
 		background-repeat: no-repeat;
@@ -1020,8 +877,14 @@ p {
 		background-size: 100%;
 		background-position:50% 50%;
 	}
+	#e1{
+		height: 95rem;
+	}
+	#e2{
+		height: 110rem;
+	}
 	#e3{
-		height: 50rem;
+		height: 80rem;
 	}
 
   }
@@ -1071,8 +934,14 @@ p {
 		background-size: 100%;
 		background-position:0% 102%;
 	}
+	#e1{
+		height: 85rem;
+	}
+	#e2{
+		height: 95rem;
+	}
 	#e3{
-		height: 40rem;
+		height: 70rem;
 	}
 
   }
@@ -1137,11 +1006,16 @@ p {
 		background-size: 100%;
 		background-position:0% 102%;
 	}
+	#e1{
+		height: 85rem;
+	}
+	#e2{
+		height: 95rem;
+	}
 	#e3{
-		height: 40rem;
+		height: 70rem;
 	}
   }
- 
 
 .row80{
 	display: block;

@@ -4,6 +4,7 @@
 body{
 	position: relative;
 	background-color: #a8dbd6;
+
 }
 
 .margen{
@@ -25,6 +26,7 @@ body{
 }
 
 .animales{
+	font-family: Pangolin, sans-serif !important;
 	background: rgba(0,0,0,0);
 	cursor: pointer;
 }
@@ -665,6 +667,8 @@ section{
 	background-size: 100%;
 	background-position: 50% 50%;
 	position: relative;
+	
+	font-family: Pangolin, sans-serif !important;
 }
 
 

@@ -62,7 +62,7 @@
   }
 
 
-@font-face {
+/*@font-face {
 	font-family:"mclaren-regular";
 	src:url("../assets/fonts/mclaren-regular-webfont.ttf") format("truetype"),
 	url("../assets/fonts/mclaren-regular-webfont.eot") format("emmbedded-opentype"),
@@ -83,8 +83,16 @@
 body {
 	margin:0px;
 	padding:0px;
-	font-family:mclaren-regular;
-	font-size:18px;
+	font-size:1.5rem;
+	font-family: var(--bs-body-font-family);
+	font-size: var(--bs-body-font-size);
+	font-weight: var(--bs-body-font-weight);
+	line-height: var(--bs-body-line-height);
+	color: var(--bs-body-color);
+	text-align: var(--bs-body-text-align);
+	-webkit-text-size-adjust: 100%;
+	
+
 }
 
 .activo{
@@ -92,29 +100,42 @@ body {
 }
 
 p{
-	font-family:mclaren-regular; 
-	line-height: 24px;
+	font-family: Work Sans, sans-serif;
+	font-size:1.5rem;
+	line-height: 2rem;
 	color:#0C1915;
 	/*width:500px;*/
-	text-align: justify;
+	text-align: left;
 }
 
 
 /*habla Pez león*/
 .p1 {
-	color: #0C1915;
+	color: #03412F;
 	margin-top: 4px;
 }
 
 /*habla Luna*/
 .p2 {
+	font-family: Work Sans, sans-serif;
 	color: #03412F;
-	font-size: 1.1em;
-	font-style: italic;
-	font-weight: bold;
+	font-size: 1.6em;
+	font-weight: 600;
 	margin-bottom: 0px;
-	text-indent: 30px;
+	margin: 10px 0;
+	
 }
+
+.p3 {
+	font-family: Pangolin, sans-serif !important;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #03412F;
+	font-size: 2em !important;
+	font-weight: bolder;
+	text-align: center !important;
+  }
 
 
 a{
@@ -374,7 +395,7 @@ h1 a{
 }
 
 h2 {
-	font-family:mclaren-regular; 
+	font-family: Work Sans, sans-serif;
 	line-height: 30px;
 	font-weight: bold;
 	font-style: italic;
@@ -382,7 +403,7 @@ h2 {
 }
 
 h3 {
-	font-family:mclaren-regular;
+	font-family: Work Sans, sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	font-style: italic;
@@ -720,7 +741,7 @@ body {
   }
   
   .footer p {
-    font-family: var(--bs-font-sans-serif) !important;
+    font-family: Work Sans, sans-serif;
     margin-top: 0;
     margin-bottom: .1rem;
     font-size: 14px;
@@ -745,5 +766,5 @@ body {
     filter: brightness(0) invert(1);
   }
   
-  
+ 
   

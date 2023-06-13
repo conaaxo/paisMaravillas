@@ -101,13 +101,16 @@ body, body * {
 
 
 h2.view-title{
-    font-family: mclaren-regular !important;
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal !important;
 }
 .setup-board h3{
-    font-family: mclaren-regular !important;
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal !important;
 }
 .guess-lists-holder .guess-notifications-list * {
-    font-family: mclaren-regular !important;
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal !important;
 }
 
 
