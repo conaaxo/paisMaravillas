@@ -36,8 +36,12 @@
     color: #634531;
     /* background-color: orange; */
     padding: 16px 16px 16px 0;
-    margin: 54px 0;
+    margin: 104px 0;
     font-family: "Work Sans", sans-serif !important;
+}
+
+.view-setup .bigmain{
+    font-size: 2.1rem;
 }
 
 .view-setup .main-description p{
@@ -200,4 +204,45 @@
     background-color: #EBE4E0;
     color: white;
     color: #634531;
+}
+
+
+.download{
+    position: absolute;
+    z-index: 3;
+    top: 35px;
+    right: 120px;
+    
+}
+.download p{
+  line-height: 2rem;
+    
+
+
+}
+
+
+.download a{
+    color: #634531 !important;
+}
+.download a:hover{
+    color: rgb(164, 89, 35) !important;
+}
+.download .guia{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background-image: url(../../_imgs/imprimir_ico_1.png);
+    background-position-x: center;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+}
+a:hover .guia{
+    background-image: url(../../_imgs/imprimir_ico_cap.png);
+    width: 38px;
+    height: 38px;
+    background-position-x: center;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    background-size: 125%;
 }

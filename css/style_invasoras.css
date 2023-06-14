@@ -103,7 +103,7 @@ p{
 	font-family: Work Sans, sans-serif;
 	font-size:1.5rem;
 	line-height: 2rem;
-	color:#0C1915;
+	color: #03412F;
 	/*width:500px;*/
 	text-align: left;
 }
@@ -647,7 +647,7 @@ html {
 }
 
 body {
-  letter-spacing: 0.0225em;
+	/*letter-spacing: 0.015em;*/
 }
 
 #mainNav {

@@ -163,7 +163,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-	font-size: 23px;
+	font-size: 1.6rem;
 	line-height: 2rem;
   }
 
@@ -11465,7 +11465,7 @@ html {
 }
 
 body {
-  letter-spacing: 0.0225em;
+  letter-spacing: 0em;
 }
 
 #mainNav {
