@@ -104,7 +104,6 @@ p{
 	font-size:1.5rem;
 	line-height: 2rem;
 	color: #03412F;
-	/*width:500px;*/
 	text-align: left;
 }
 
@@ -114,6 +113,8 @@ p{
 	color: #03412F;
 	margin-top: 4px;
 }
+
+
 
 /*habla Luna*/
 .p2 {
@@ -125,6 +126,7 @@ p{
 	margin: 10px 0;
 	
 }
+
 
 .p3 {
 	font-family: Pangolin, sans-serif !important;
