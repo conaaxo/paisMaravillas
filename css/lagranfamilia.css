@@ -4,6 +4,7 @@
 
 body{
 	position: relative;
+	
 }
 
 .margen{
@@ -39,7 +40,7 @@ p{
 	color: #FFF;
 	font-size: 18px;
 	width: 400px;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 .textoecosistemas{
 	width: 500px;
@@ -74,7 +75,7 @@ section{
 .modalfoto img{
 	width: 900px;
 	height: 527px;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 	margin-right: 20px;
 }
@@ -102,13 +103,7 @@ section{
 }
 
 
-/*.modalVideo video{
-	position: absolute;
-	width: 320px;
-	height: 240px;
-	margin: 0px auto;
-	cursor: move;
-}*/
+
 
 .modalbtn{
 	width: 900px;
@@ -426,7 +421,7 @@ section{
 
 
 #fondo img{
-	margin-top:-350px;
+	margin-top:-370px;
 	width:100%;
 	top:0;
 }
@@ -446,38 +441,101 @@ section{
 	display: block!important;
 }
 
-/*ciudad*/
-
-/*#puntos a title{
-	font-family:mclaren-regular;
-	font-size:18px;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	-webkit-box-shadow: 0 0 5px #aaa;
-	box-shadow: 0 0 5px #aaa;
+footer p {
+	font-family: var(--bs-font-sans-serif);
+	margin-top: 0;
+	margin-bottom: .1rem;
+	font-size: 14px;
+	line-height: .5rem;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.ui-tooltip {
-	font-family:mclaren-regular;
-	font-size:18px;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	-webkit-box-shadow: 0 0 5px #aaa;
-	box-shadow: 0 0 5px #aaa;
+
+
+.colorlagranfamilia{
+ background-color: #fbfbf1;
 }
-body .ui-tooltip {
-	font-family:mclaren-regular;
-	border-width: 2px;
-	background-color:#E0DDD1;
-	color:#2D2713;
-	border-color:#2D2713;
-	box-shadow: 0 0 5px #aaa;
-	max-width: 600px;
-}*/
+
+
+
+/* modal*/
+@media only screen and (min-width: 1200px){
+	#modal {
+		display: none;
+		width: 900px;
+		height: 565px;
+		top: 20%;
+		left: 15%;
+	  }
+	.modalfoto img {
+		width: 900px;
+		height: 527px;
+		margin-right: 20px;
+	  }
+	  .modalbtn {
+		width: 900px;
+		margin: 0px auto;
+		height: 38px;
+		bottom: 0px;
+	  }
+  }
+  
+@media only screen and (max-width: 1199px) and (min-width: 601px){
+	#modal {
+		display: none;
+		width: 600px;
+		height: 388px;
+		top: 20%;
+		left: 15%;
+	  }
+
+
+	.modalfoto img {
+		width: 600px;
+		height: 351px;
+		margin-right: 20px;
+	  }
+
+	  .modalbtn {
+		width: 600px;
+		margin: 0px auto;
+		height: 38px;
+		bottom: 0px;
+	  }
+  }
+
+
+  @media only screen and  (max-width: 600px){
+	#modal {
+		display: none;
+		width: 350px;
+		height: 241px;
+		top: 20%;
+		left: 15%;
+	  }
+
+	.modalfoto img {
+		width: 350px;
+		height: 205px;
+		margin-right: 20px;
+	}
+
+	  .modalbtn {
+		width: 350px;
+		margin: 0px auto;
+		height: 38px;
+		bottom: 0px;
+		
+	  }
+	  .back {
+		width: 30px;
+		height: 30px;
+		background-size: auto 100%;
+		z-index: 10;
+		right: -18px;
+		top: -19px;
+	  }
+  }
 
 
 

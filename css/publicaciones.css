@@ -14,11 +14,14 @@ section {
 }
 
 #pub1 p {
-  width: 620px;
+  max-width: 620px;
+  margin: 80px auto;
   text-align: center;
-  top: 110px;
-  left: 645px;
-  position: absolute;
+  position: relative;
+  /*top: 110px;*/
+  /*left: 645px;*/
+  /*position: absolute;*/
+  z-index: 3;
 }
 #pub1 #titoLibro {
   height: 100%;
@@ -27,7 +30,10 @@ section {
   background-size: 80% auto;
   background-repeat: no-repeat;
   position: absolute;
-  inset: 80px auto auto 1280px;
+  /*inset: 80px auto auto 1280px;*/
+  right: 0px;
+  top: 75px;
+  z-index: 2;
 }
 #pub1 #LunaEscribe {
   height: 100%;
@@ -36,7 +42,10 @@ section {
   background-size: 80% auto;
   background-repeat: no-repeat;
   position: absolute;
-  inset: 110px auto auto 460px;
+  /*inset: 110px auto auto 460px;*/
+  top: 115px;
+  left: 60px;
+  z-index: 2;
 }
 #pub2 {
   background-color: #a6c0cf;
@@ -243,3 +252,11 @@ section {
 .explora {
   background-image: url("../assets/img/materiales/publicaciones/banderacoleccion.png");
 }
+
+
+
+
+
+
+
+

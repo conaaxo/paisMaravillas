@@ -1,7 +1,15 @@
 body {
-  background-color: #c2d999;
-  background-image: url(../assets/img/actividades/rompecabezas/patronR.png);
-}
+
+  background-image: 
+    repeating-linear-gradient(
+      -45deg,
+      #becd98 0px,
+      #becd98 3px,
+      #b4c48b 3px,
+      #b4c48b 6px
+    )
+  ;
+  }
 #dataRow {
   width: 700px;
   margin: 130px auto 0px;
@@ -87,12 +95,15 @@ body {
   display: none;
 }
 #menuCirculo {
+
   margin-top: 10px;
+  margin-bottom: 180px; /*  */
+
 }
 #menuCirculo ul {
   padding: 0;
   margin: 0 auto;
-  width: 600px;
+  width: 640px;
 }
 
 #menuCirculo ul li {
@@ -213,4 +224,9 @@ body {
 }
 #maestro {
   display: none;
+}
+
+footer{
+  position: fixed !important; /*  */
+  bottom: 0;
 }

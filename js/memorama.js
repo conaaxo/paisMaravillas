@@ -214,7 +214,7 @@ function finishActivity() {
 
   timer.stop();
 
-  $('#espacioTarjetas').html('<div id="felicidades"><div class="titoFeliz"></div><div id="datosDer"><h2>¡Felicidades!</h2><p>Tu tiempo fue de</p><p id="resulTiempo">00:00</p></div></div>');
+  $('#espacioTarjetas').html('<div id="felicidades"><div class="titoFeliz"></div><div id="datosDer"><h2>Â¡Felicidades!</h2><p>Tu tiempo fue de</p><p id="resulTiempo">00:00</p></div></div>');
 
   $('#resulTiempo').html($('#numbers').html());
 

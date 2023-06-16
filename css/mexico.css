@@ -1,18 +1,10 @@
-
-
 section {
-
 	overflow:hidden;
-
 }
 
 .margen{
-
 	z-index: 2;
-
 }
-
-
 
 .circulo {
     background-color: #EDD46F;
@@ -25,9 +17,6 @@ section {
     -webkit-border-radius: 900px;
     }
 
-
-
-
 .circulo {
 	background-color: #EDD46F;
 	margin: 0px auto;
@@ -35,7 +24,6 @@ section {
 	z-index: 1;
 	position: relative;
 }
-
 
 .m1 {
     background-color: #F1D983;
@@ -48,68 +36,38 @@ section {
 .m1 p strong {
     color: #C86F1A;
 }
-}
-
-
 
 .na {
-
 	color: #D4842D;
-
 }
-
-
 
 #m1 h2 {
-
 	margin: 60px 0px 2% 156px;
-
 }
-
-
 
 #m1 h2 strong{
-
 	color:#c86f1a;
-
 	font-size: 50px;
-
 }
-
-
 
 #m1 p {
-
 	margin: 0px auto;
-
 }
-
-
 
 
 #ima1_m1 img {
-
 	width: 44%;
-
 	position: absolute;
-
 	margin: 105px 99px 0px;
-
 }
 
 
 
 #ima2_m1 img {
-
 	width: 40%;
-
 	position: absolute;
-
 	margin: -51px 0px 0px 625px;
-
 }
-
-
 
 .m2 {
     background-color: #EACF5C;
@@ -120,15 +78,9 @@ section {
     z-index: 3;
 }
 
-
-
 .az {
-
 	color: #31317B;
-
 }
-
-
 
 .m2 table {
     color: #50817e;
@@ -136,166 +88,87 @@ section {
 }
 
 #m2 p {
-
 	margin: 0px auto;
-
 	margin-top: 70px;
-
 	margin-bottom: 50px;
-
 	text-align: left;
-
 }
-
-
 
 #m2 p.timportante {
-
 	width: 100%;
-
 	height: 80px;
-
 	text-align: center;
-
 	margin-bottom: 0px;
-
 }
-
-
 
 #m2 table {
-
 	margin: 0px auto;
-
 	font-size: 14px;
-
 	border-spacing: 10px 5px;
-
 	border-collapse: collapse;
-
 	background-color: #FABA66;
-
 	color: #31317B;
-
 	cursor: auto;
-
 	border-radius:  0px 0px 20px 20px;
-
 	-o-border-radius: 0px 0px 20px 20px;
-
 	-ms-border-radius: 0px 0px 20px 20px;
-
 	-moz-border-radius: 0px 0px 20px 20px;
-
 	-khtml-border-radius: 0px 0px 20px 20px;
-
 	-webkit-border-radius: 0px 0px 20px 20px;
-
 }
-
-
 
 #m2 table tr:last-child td:first-child {
-
 	border-radius: 0px 0px 0px 20px;
-
 	-o-border-radius: 0px 0px 0px 20px;
-
 	-ms-border-radius: 0px 0px 0px 20px;
-
 	-moz-border-radius: 0px 0px 0px 20px;
-
 	-khtml-border-radius: 0px 0px 0px 20px;
-
 	-webkit-border-radius: 0px 0px 0px 20px;
-
 }
-
-
 
 #m2 table tr:last-child td:last-child {
-
 	border-radius: 0px 0px 20px 0px;
-
 	-o-border-radius: 0px 0px 20px 0px;
-
 	-ms-border-radius: 0px 0px 20px 0px;
-
 	-moz-border-radius: 0px 0px 20px 0px;
-
 	-khtml-border-radius: 0px 0px 20px 0px;
-
 	-webkit-border-radius: 0px 0px 20px 0px;
-
 }
-
 
 
 #m2 table tr th {
-
 	padding: 10px;
-
 }
-
-
 
 #m2 table tr td {
-
-	padding: 10px;
-
+padding: 10px;
 }
-
-
 
 #m2 table tr:nth-child(odd) {
-
  background-color: #FAE084;
-
 }
-
-
 
 #m2 table tr:hover {
-
 	background-color: #8CB5AB;
-
 	color: #1C594B;
-
 }
-
-
 
 #m2 table tr:first-child {
-
 	background-color: #DA812D;
-
 	color: white;
-
 	padding: 15px;
-
 }
-
-
 
 #m2 h2 {
-
 	margin: 35px 50px 0px -52px;
-
 }
-
-
 
 #m2 img {
-
 	width: 34%;
-
 }
-
-
 
 
 .m3 {
-
  	background-color: #8FC5AE;
  	background-image: url(../assets/img/mexico/mexico/m_desierto_iglu.png);
  	background-size: cover;
@@ -313,13 +186,9 @@ section {
  	z-index: 3;
 }
 
-
-
 #m3 h2 {
 	display: none;
 }
-
-
 
 .m3 .nbig {
 	float: left;
@@ -336,13 +205,10 @@ section {
 }
 
 #m3 p {
-
 	float: right;
 	margin-top: 3%;
 	margin-right: 133px;
 }
-
-
 
 
 .ima1_m3 {
@@ -350,9 +216,7 @@ section {
 	margin: 0px 0px 0px -40px;
 }
 
-
 .m4 {
-
  	background-color: #695E30;
  	background-size: cover;
  	-o-background-size: cover;
@@ -373,19 +237,11 @@ section {
     border-left: 0.5rem solid #e3c677;
 }
 
-
-
-
 #m4 h2 {
-
 	display: none;
-
 }
 
-
-
 .m4 .nbig {
-
 	float: left;
 	margin-top: 4%;
 	margin-left: 120px;
@@ -393,33 +249,20 @@ section {
 }
 
 
-
-
 #m4 p {
-
 	float: right;
-
 	margin-top: 3%;
-
 	margin-right: 109px;
-
 }
-
 
 
 #ima1_m4 img {
-
 	width: 100%;
-
 	bottom: 0%;
-
 	position: relative;
-
 }
 
-
 .m5 {
-
  	background-color: #374C51;
  	color: #E4DF50;
  	padding-top:81px;
@@ -427,37 +270,22 @@ section {
 }
 
 
-
-
-
 #m5 h2 {
-
 	display: none;
-
 }
 
-
-
 .m5 .nbig {
-
 	float: left;
 	margin-top: 5%;
 	margin-left: 120px;
 	margin-bottom: 4%;
 }
 
-
-
 #m5 p {
-
 	float: right;
-
 	margin-top: 4%;
-
 	margin-right: 109px;
-
 }
-
 
 
 #ima1_m5 img {
@@ -468,17 +296,11 @@ section {
 }
 
 
-
 #ima2_m5 img {
-
 	width: 100%;
-
 	bottom: 0%;
-
 	position: relative;
-
 }
-
 
 .m6 {
  	background-color: #EBD186;
@@ -488,59 +310,31 @@ section {
 }
 
 
-
-
 #m6 h2 {
-
 	display: none;
-
 }
-
-
 
 .m6 .nbig {
-
 	float: left;
-
 	margin-top: 8px;
-
 	margin-left: 120px;
-
 }
-
-
 
 #m6 p {
-
 	float: right;
-
 	margin-top: 2%;
-
 	margin-right: 109px;
-
 }
-
-
 
 #m6 p strong{
-
 	color: #1B484B;
-
 }
-
-
 
 #ima3_m6 img {
 	width: 90%;
 	position: absolute;
 	margin: -40px 0px 0px 110px;
 }
-
-
-
-
-
-
 
 .m7 {
  	background-color: #BCE5B9;
@@ -551,48 +345,29 @@ section {
  	min-height: 660px;
 }
 
-
-
-
 #m7 h2 {
-
 	display: none;
-
 }
 
 
 
 #m7 .nbig {
-
 	float: left;
-
 	margin-top: 0px;
-
 	margin-left: 120px;
-
 }
 
 
 
 #m7 p {
-
 	float: right;
-
 	margin-top: 75px;
-
 	margin-right: 109px;
-
 }
-
-
 
 #m7 p strong{
-
 	color: #113337;
-
 }
-
-
 
 .m7 img {
 	width: 50%;
@@ -600,44 +375,22 @@ section {
 }
 
 #grafica{
-
 	width: 80% !important;
-
 	height: auto;
-
 	margin-left: 10%;
-
 }
-
-
 
 #audio_m7{
-
 	position: absolute;
-
 	margin-left: 195px !important;
-
 }
 
-
-
 #chartdiv {
-
 	width: 80%;
-
 	height: 300px;
-
 	font-size: 30px;
-
 	margin: 0px auto;
-
 }			
-
-
-
-
-
-
 
 .m8 {
 
@@ -649,17 +402,13 @@ section {
 
 
 
-
 #m8 h2 {
-
 	display: none;
-
 }
 
 
 
 .m8 .nbig {
-
 	float: left;
 	margin-top: 1.5%;
 	margin-left: 120px;
@@ -668,31 +417,19 @@ section {
 
 
 #m8 p {
-
 	float: right;
-
 	margin-top: 1%;
-
 	margin-right: 109px;
-
 }
 
 
 
 #m8 p strong{
-
 	color: #960;
-
 }
 
-
-
 #ima1_m8 img {
-
 	width: 100%;
-
 	bottom: 0%;
-
 	position: relative;
-
 }

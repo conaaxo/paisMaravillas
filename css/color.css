@@ -1,10 +1,15 @@
 body {
 
-  background-color: #FFD761;
-
-  background-image: url(../assets/img/actividades/colorear/patronC.png);
-
-}
+  background-image: 
+    repeating-linear-gradient(
+      -45deg,
+      #eacb72 0px,
+      #eacb72 3px,
+      #e6c66a 3px,
+      #e6c66a 6px
+    )
+  ;
+  }
 
 #dataRow {
 
@@ -34,7 +39,7 @@ body {
 
   height: 500px;
 
-  background-color: #aecd7d;
+  background-color: #efc342;
 
   border-radius: 8px;
 
@@ -245,6 +250,7 @@ body {
 #menuCirculo {
 
   margin-top: 10px;
+  margin-bottom: 180px; 
 
 }
 
@@ -254,7 +260,7 @@ body {
 
   margin: 0 auto;
 
-  width: 460px;
+  width: 480px;
 
 }
 
@@ -275,12 +281,10 @@ body {
 
 
 #menuCirculo ul li p{
-
   text-align: center;
-
   color: #404e5b;
-
   font-size: 14px;
+  line-height: 1.5rem;
 
 }
 
@@ -497,3 +501,19 @@ body {
   display: none;
 
 }
+
+#espacioTarjetas #titocolorear {
+  width: 200px;
+  height: 390px;
+  background-position: 50% 50%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-image: url(../assets/img/actividades/colorear/titocolorear.png);
+}
+
+footer{
+  position: fixed !important; 
+  bottom: 0;
+}
+
+

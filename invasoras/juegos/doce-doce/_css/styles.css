@@ -44,7 +44,7 @@ html, body {
 }
 
 body {
-    font-family: 'McLaren', cursive;
+    /*font-family: 'McLaren', cursive;*/
     /*color: #bca495;*/
     color: #634531;
     /*background-color: #a3cb59;*/
@@ -54,16 +54,16 @@ body {
     background-repeat: no-repeat;
 }
 body * {
-    font-family: 'McLaren', cursive;
+    /*font-family: 'McLaren', cursive;*/
 }
 /* ================================================================ */
 /* main holder */
 /* ---------------------------------------------------------------- */
 .appHolder {
-    border-radius: 8px;
-    margin: 100px auto 0 auto;
-    padding: 24px;
-    width: 1190px;
+    border-radius: 8px !important;
+    margin: 120px auto 0 auto !important;
+    padding: 24px !important;
+    width: 1210px !important;
 }
 .appHolder.playing {
     background-color: rgba( 255,255,255,0.5);
@@ -99,3 +99,6 @@ body * {
 /* ---------------------------------------------------------------- */
 
 
+#footer-invisible{
+    display: none;
+}

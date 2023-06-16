@@ -45,14 +45,14 @@ html, body {
 
 body, body * {
     /*font-family: Calibri, Arial;*/
-    font-family: 'McLaren', cursive;
+    /*font-family: 'McLaren', cursive;*/
 }
 /* ================================================================ */
 /* main holder */
 /* ---------------------------------------------------------------- */
 .appHolder {
     border-radius: 8px;
-    margin: 100px auto 0 auto;
+    margin: 120px auto 0 auto;
     /*display: flex;*/
     /*flex-wrap: wrap;*/
     padding: 24px;
@@ -79,7 +79,7 @@ body, body * {
 /* ================================================================ */
 /* view-title */
 .view-title {
-    font-family: 'McLaren', cursive;
+    font-family: 'McLaren', cursive !important;
     color: #634531;
     font-weight: normal;
     text-transform: uppercase;
@@ -100,3 +100,20 @@ body, body * {
 /* ---------------------------------------------------------------- */
 
 
+h2.view-title{
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal !important;
+}
+.setup-board h3{
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal !important;
+}
+.guess-lists-holder .guess-notifications-list * {
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal !important;
+}
+
+
+#footer-invisible{
+    display: none;
+}

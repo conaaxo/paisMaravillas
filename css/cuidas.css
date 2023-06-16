@@ -8,6 +8,7 @@
 	left: 0;
 	background-color: #22312F;
 	min-height: 1000px;
+  height: 100vh;
 }
 #titlecard {
   z-index: 900;
@@ -65,6 +66,8 @@ footer{
   width: 410px;
   float: right;
   font-size: 18px;
+  line-height: 18px;
+  padding-top: 10px;
 }
 
 .rightBad > div{
@@ -77,9 +80,11 @@ footer{
 }
 
 .rightBad > div > p {
-  margin: 2px 30px;
+  margin: 10px 20px 0px;
   width: 410px;
+  float: left;
   font-size: 18px;
+  line-height: 18px;
   padding-top: 10px;
 }
 /*Fin reemplazar*/
@@ -99,14 +104,14 @@ footer{
 #descActividad h3{
   font-family: gregh;
   font-size: 30px;
-  margin: 15px 0;
+  margin: 7px 0;
 }
 .greenText {
   color: #34d9c0!important;
 }
 .flechaBlanca {
   width: 123px;
-  height: 65px;
+  height: 60px;
   background-image: url("../assets/img/conoce/cuidasvsdestruyes/desktop/flechablanca.png");
   background-size: 80px;
   background-repeat: no-repeat;
@@ -129,7 +134,7 @@ footer{
   background-size: auto 100%;
   position: fixed;
   left: 10%;
-  top: 101px;
+  top: 118px;
   z-index: 10;
 }
 .iconoStar {
@@ -150,6 +155,7 @@ footer{
   font-size: 15px;
   padding: 10px;
   padding-top: 0;
+  line-height: 18px;
 }
 #instActividad
 {
@@ -300,8 +306,45 @@ footer{
   height: 100%;
   background-color: rgba(0,0,0,0.7);
   color: white;
-  font-size: 12px;
+  font-size: .8rem;
+  line-height: 1em;
   text-align: center;
   padding-top: 14px;
   display: none;
 }
+
+
+
+@media only screen and (min-width: 1170px) {
+    #instActividad p {
+      font-size: 1.1rem;
+      line-height: 22px;
+      margin-top: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 1169px) {
+  #instActividad p {
+    font-size: .9rem;
+    line-height: 20px;
+    margin-top: 10px !important;
+}
+}
+
+
+@media only screen and (min-width: 1170px) {
+  #descActividad p {
+    font-size: .8rem;
+    line-height: 16px;
+    margin-top: 10px !important;
+}
+}
+
+@media only screen and (max-width: 1169px) {
+#descActividad p {
+  font-size: .8rem;
+  line-height: 14px;
+  margin-top: 10px !important;
+}
+}
+

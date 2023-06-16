@@ -1,0 +1,858 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	position: relative;
+	background-color:#e3e0d6;
+}
+
+.margen{
+	position: relative;
+}
+
+.fondoimg{
+	width: 100%;
+	margin: 0;
+}
+
+.fondoimg img{
+	width: 100%;
+	height: auto;
+}
+.timportante{
+	color: #0b253e;
+	width: 400px;
+}
+
+.animales{
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+}
+
+.fondovv {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+p{
+	color: #FFF;
+	font-size: 18px;
+	width: 400px;
+	display: inline-block;
+}
+.textoecosistemas{
+	width: 500px;
+}
+section{
+	overflow: hidden;
+}
+
+/*MODAL*/
+#modal{
+	display: none;
+	width: 900px;
+	height: 430px;
+	top: 20%;
+	left: 15%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 9999;
+	position: fixed;
+
+}
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url("../assets/img/iconoscerrar.png");
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
+.modalfoto img{
+	width: 900px;
+	height: 527px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+.modalNombre{
+	color:#FFF;
+	position:relative;
+	top: -446px;
+
+}
+.modalTexto{
+	color: #FFF;
+	position: relative;
+	top: -14px;
+	width: 880px !important;
+	
+	}
+.modalVideo{
+	width: 320px;
+	height: 240px;
+	margin: -363px auto;
+	background-color: rgba(0,0,0,0.0);
+	border: 0px solid #000;
+	position: relative;
+	display: none;
+}
+
+
+.modalbtn{
+	width: 900px;
+	position: absolute;
+	display: block;
+	margin: -132px auto;
+	height: 38px;
+	bottom: 0px;
+	background-color: #15774e;
+	left: 0px;
+}
+.modalbtn ul {
+	display: none;
+	float: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+.modalbtn ul li {
+	background-image: url('../assets/img/mexico/lagranfamilia/iconosnaen.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0px;
+	position: absolute;
+	bottom: 2px;
+	width: 40px;
+	height: 39px;
+	left: 10px;
+}
+.modalbtn ul li a{
+ 	 width: 100%;
+ 	 height: 100%;
+ 	 display: block;
+}
+.modalbtn ul li#men {
+ 	 background-position: -46px 0px;
+}
+.modalbtn ul li#mna {
+ 	background-position: -82px -60px;
+	width: 57px;
+	left: 52px;
+}
+.modalbtn ul li#msonido {
+ 	background-position: -37px -59px;
+	width: 50px;
+	left: 105px;
+}
+
+.modalbtn ul li#mlibro {
+	background-image:url(../assets/img/libros.png);
+	width: 57px;
+	left: 112px;
+}
+
+
+.modalbtn ul li#men:hover {
+ 	 background-position: 0px 0px;
+}
+.modalbtn ul li#mna:hover {
+ 	background-position: -82px 2px;
+	width: 57px;
+	left: 52px;
+}
+
+.modalbtn ul li#mlibro:hover {
+	background-image:url(../assets/img/libros_over.png);
+	width: 57px;
+	left: 112px;
+}
+
+
+.modalbtn ul li#msonido:hover {
+ 	background-position: 10px -59px;
+	width: 57px;
+	left: 105px;
+}
+
+
+
+#overlay{
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 9000;
+}
+
+/*MODAL*/
+
+#ciudad{
+	margin:0;
+	padding-top:420px;
+	background-color:#e3e0d6;
+	position:relative;
+}
+
+#ciudad img{
+	width:100%;
+}
+
+#ciudad .margen article{
+	margin:0 auto;
+	width:600px;
+	position:relative;
+}
+#ciudad h2{
+	color:#42413f;
+	margin:0;
+}
+
+#ciudad p{
+	color:#42413f;
+}
+
+#ciudad .margen article img{
+	display:inline-block;
+	position:absolute;
+	z-index:650;
+	width:200px;
+	padding:20px;
+}
+#animalesciudad{
+	margin-top:500px;
+	bottom:0;
+	position:absolute;
+	z-index:3000;
+	width: 100%;
+}
+#mamiferos{
+	position: absolute;
+    top: 21%;
+    right: 35%;
+    height: 12%;
+    width: 20%;
+}
+#mmarinos{
+	position:absolute;
+	top: 12%;
+	right: 69%;
+	width: 7%;
+	height: 7%;
+}
+#aves{
+	position:absolute;
+    top: 76%;
+    right: 74%;
+    width: 15%;
+    height: 9%;
+}
+#reptiles{
+	position:absolute;
+    top: 87%;
+    right: 48%;
+    width: 15%;
+    height: 9%;
+}
+#anfibios{
+	position:absolute;
+	top: 79%;
+	right: 8%;
+	width: 15%;
+	height: 9%;
+}
+#pdulce{
+	position:absolute;
+	top: 37%;
+	right: 69%;
+	width: 8%;
+	height: 7%;
+}
+#peces{
+	position:absolute;
+	top: 69%;
+	right: 6%;
+	width: 14%;
+	height: 7%;
+}
+#tiburones{
+	position:absolute;
+	top: 49%;
+	right: 72%;
+	width: 8%;
+	height: 9%;
+}
+#cnidarios{
+	position:absolute;
+	top: 54%;
+	right: 3%;
+	width: 12%;
+	height: 9%;
+}
+#estrellas{
+	position:absolute;
+	top: 84%;
+	right: 1%;
+	width: 12%;
+	height: 12%;
+}
+#pulpos{
+	position:absolute;
+	top: 50%;
+    right: 48%;
+    width: 7%;
+    height: 7%;
+}
+#camarones{
+	position:absolute;
+	top: 39%;
+    right: 47%;
+    width: 7%;
+    height: 6%;
+}
+#aranas{
+	position:absolute;
+	top: 34%;
+    right: 50%;
+    width: 14%;
+    height: 10%;
+}
+#insectos{
+	position:absolute;
+	top: 68%;
+	right: 37%;
+    width: 15%;
+    height: 11%;
+}
+#milpies{
+	position:absolute;
+	top: 8%;
+	right: 44%;
+    width: 7%;
+    height: 6%;
+}
+#algas{
+	position:absolute;
+	top: 59%;
+	right: 22%;
+    width: 12%;
+    height: 13%;
+}
+#helechos{
+	position:absolute;
+	top: 65%;
+	right: 27%;
+    width: 7%;
+    height: 6%;
+}
+#cicadas{
+	position:absolute;
+	top: 54%;
+	right: 23%;
+    width: 7%;
+    height: 6%;
+}
+#parboles{
+	position:absolute;
+	top: 44%;
+	right: 86%;
+    width: 14%;
+    height: 13%;
+}
+#pdeornamento{
+	position:absolute;
+	top: 31%;
+    right: 18%;
+    width: 14%;
+    height: 11%
+}
+#pdeusos{
+	position:absolute;
+	top: 25%;
+	right: 82%;
+    width: 14%;
+    height: 11%;
+}
+#hongos{
+	position:absolute;
+	top: 64%;
+	right: 71%;
+	width: 11%;
+	height: 8%;
+}
+#pacuaticas{
+	position:absolute;
+    top: 89%;
+    right: 24%;
+    width: 13%;
+    height: 9%;
+}
+#moluscos{
+	position:absolute;
+	top: 51%;
+	right: 30%;
+    width: 12%;
+    height: 8%;
+}
+#crustaceos{
+	position:absolute;
+	top: 57%;
+	right: 42%;
+	width: 15%;
+	height: 10%;
+}
+#mdomesticadas{
+	position:absolute;
+	top: 22%;
+	right: 32%;
+    width: 7%;
+    height: 6%;
+}
+
+
+
+
+
+#fondo img{
+	margin-top:-350px;
+	width:100%;
+	top:0;
+}
+#nube13{
+	position:absolute;
+	top: 280px;
+	left: 136px;
+	width: 80%;
+	display: block!important;
+}
+
+#nube14{
+	position:absolute;
+	top: 20px;
+	right: 20px;
+	width: 160%;
+	display: block!important;
+}
+
+/*ciudad*/
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+	.indicadores-img{
+		width: 100%;
+		height: 120px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+  
+	.title-como-llegan-al-pais{
+		height: 80px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	  }
+
+
+  	/* modal */
+	  #modal{
+		width: 300px;
+		height: 180px;
+		top: 15%;
+		left: 15%;
+	}
+	.back {
+		width: 30px;
+		height: 30px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+		width: 300px;
+		height: 180px;
+		margin-right: 20px;
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: .9em;
+		display: inline-block;
+	}
+	.modalTexto{
+		margin-top: 0px;
+		margin-left: 20px;
+		width: 260px;
+		font-size: .6em;
+		line-height: 1.5em;
+	}
+
+	.modalbtn {
+		width: 300px;
+		position: absolute;
+		display: block;
+		margin: -38px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+	/* modal */
+
+}
+
+
+
+
+
+ 
+  @media (min-width: 576px) {
+	.indicadores-img{
+		width: 100%;
+		height: 180px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+	/* modal */
+	#modal{
+		width: 550px;
+		height: 350px;
+		top: 17%;
+		left: 15%;
+	}
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+	
+		width: 550px;
+		height: 330px;
+	
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: .9em;
+		display: inline-block;
+	}
+	.modalTexto{
+		margin-top: 0px;
+		width: 260px;
+		font-size: .7em;
+		line-height: 1.5em;
+	}
+
+	.modalbtn {
+		width: 550px;
+		position: absolute;
+		display: block;
+		margin: -18px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+	/* modal */
+	.title-como-llegan-al-pais{
+		height: 120px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	  }
+
+
+  }
+  @media (min-width: 768px) {
+	.indicadores-img{
+		width: 100%;
+		height: 250px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal{
+		width: 750px;
+		height: 430px;
+		top: 17%;
+		left: 15%;
+	}
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+		width: 755px;
+		height: 452px;
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: 22px;
+		display: inline-block;
+	}
+	.modalTexto{
+		margin-top: 0px;
+		width: 350px;
+		font-size: .85em;
+	}
+
+	.modalbtn {
+		width: 755px;
+		position: absolute;
+		display: block;
+		margin: -60px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+	/* modal */
+	.title-como-llegan-al-pais{
+		height: 180px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	  }
+
+
+
+
+  }
+  @media (min-width: 992px) {
+	.indicadores-img{
+		width: 100%;
+		height: 300px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal{
+		width: 900px;
+		height: 430px;
+		top: 17%;
+		left: 15%;
+	}
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+		width: 901px;
+		height: 540px;
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: 22px;
+	}
+	.modalTexto{
+		margin-top: -10px;
+		width: 450px;
+		font-size: 1em;
+	}
+
+	.modalbtn {
+		width: 901px;
+		position: absolute;
+		display: block;
+		margin: -148px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+
+
+	/* modal */
+
+	.title-como-llegan-al-pais{
+		height: 220px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	  }
+
+	  
+
+	
+  }
+  @media (min-width: 1200px) {
+	.indicadores-img{
+		width: 100%;
+		height: 400px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+
+	/* modal */
+	#modal{
+		width: 900px;
+		height: 430px;
+		top: 15%;
+		left: 15%;
+	}
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+		width: 901px;
+		height: 540px;
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: 22px;
+	}
+	.modalTexto{
+		margin-top: -10px;
+		width: 450px;
+		font-size: 1em;
+	}
+	/* modal */
+
+	.title-como-llegan-al-pais{
+		height: 240px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	  }
+
+	  .modalbtn {
+		width: 901px;
+		position: absolute;
+		display: block;
+		margin: -148px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+
+  }
+  @media (min-width: 1400px) {
+	.indicadores-img{
+		width: 100%;
+		height: 400px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal{
+		width: 900px;
+		height: 430px;
+		top: 17%;
+		left: 15%;
+	}
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+	.modalfoto img{
+		width: 901px;
+		height: 540px;
+		
+	}
+	.modalNombre{
+		color:#FFF;
+		margin-top:18px;
+		font-size: 22px;
+	}
+	.modalTexto{
+		margin-top: -10px;
+		width: 450px;
+		font-size: 1em;
+	}
+	/* modal */
+
+	.title-como-llegan-al-pais{
+		height: 210px;
+		background-size: 80%;
+		background-position: 50% 70%;
+	  }
+
+	  .modalbtn {
+		width: 901px;
+		position: absolute;
+		display: block;
+		margin: -148px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	  }
+
+  }

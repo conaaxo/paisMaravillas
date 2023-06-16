@@ -19,6 +19,8 @@
     text-transform: none;
     color: #165947;
     margin: 10px auto 24px auto;
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal;
 }
 
 .setup-board {
@@ -50,10 +52,14 @@
 .setup-board p strong{
     text-align: center;
     color: #165947;
+    font-weight: 600;
 }
 .setup-board h3 {
     color: #165947;
     margin: 30px auto 0 auto;
+    font-family: Pangolin, sans-serif !important;
+    font-style: normal;
+    font-size: 2rem;
 }
 
 .setup-board .game-btn-sample {
