@@ -1,23 +1,20 @@
 #download a {
 
-  left: 15%;
+	left: 15%;
 
 }
 
 .mapas .mapa {
 
-  background-position: 50% 250px;
+	background-position: 50% 250px;
 
 }
 
 
+#mapaEstados {
 
-#mapaEstados
+	top: 391px;
 
-{
-
-  top: 391px;
-
-  height: 195px;
+	height: 195px;
 
 }

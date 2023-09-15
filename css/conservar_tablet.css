@@ -1,32 +1,26 @@
 
-
-
-
-#circulo{
+#circulo {
 
 	display: none;
 
 }
 
 
-
-#audioconservar{
+#audioconservar {
 
 	left: 484px;
 
 }
 
 
-
-#audioconservar2{
+#audioconservar2 {
 
 	left: 650px;
 
 }
 
 
-
-p{
+p {
 
 	margin: 0 auto;
 
@@ -35,16 +29,14 @@ p{
 }
 
 
-
-h2{
+h2 {
 
 	margin-left: 9%;
 
 }
 
 
-
-#audioconservar{
+#audioconservar {
 
 	background-image: url(../assets/img/iconovoz_3.png);
 
@@ -68,7 +60,7 @@ h2{
 
 }
 
-#audioconservar2{
+#audioconservar2 {
 
 	left: 576px;
 

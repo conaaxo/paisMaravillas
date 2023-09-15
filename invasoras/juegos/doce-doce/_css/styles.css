@@ -1,104 +1,109 @@
 html {
-    /*
-    MAIN COLORS
-    color: #CC9D4B;
-    color: #F9EACD;
-    color: #FDF7EB;
+	/*
+	MAIN COLORS
+	color: #CC9D4B;
+	color: #F9EACD;
+	color: #FDF7EB;
 
-    PURPLE CARD
-    color: #5F3F64;
-    color: #9C899F;
+	PURPLE CARD
+	color: #5F3F64;
+	color: #9C899F;
 
-    GREEN CARD
-    color: #6AC6AF;
-    color: #A3DCCD;
+	GREEN CARD
+	color: #6AC6AF;
+	color: #A3DCCD;
 
-    ORANGE CARD
-    color: #E2B653;
-    color: #F0D9A5;
+	ORANGE CARD
+	color: #E2B653;
+	color: #F0D9A5;
 
-    EXTRAS
-    color: #BCA495;
-    color: #F0D9A5;
-    color: #F0D9A5;
+	EXTRAS
+	color: #BCA495;
+	color: #F0D9A5;
+	color: #F0D9A5;
 
-    color: #E6EFEC;
-    color: #4F7F70;
-    color: #165947;
+	color: #E6EFEC;
+	color: #4F7F70;
+	color: #165947;
 
-    color: #B1A298;
-    color: #634531;
+	color: #B1A298;
+	color: #634531;
 
-    */
-    background-color: #A3CB59;
-    background-color: #FDF7EB;
-    background-image: url(../_imgs/misc-imgs/A.jpg);
-    background-position: right top;
-    background-size: cover;
-    -webkit-background-size: cover;
+	*/
+	background-color: #A3CB59;
+	background-color: #FDF7EB;
+	background-image: url(../_imgs/misc-imgs/A.jpg);
+	background-position: right top;
+	background-size: cover;
+	-webkit-background-size: cover;
 }
+
 html, body {
-    /*height: 100%;*/
-    margin: 0;
-    padding: 0;
+	/*height: 100%;*/
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    /*font-family: 'McLaren', cursive;*/
-    /*color: #bca495;*/
-    color: #634531;
-    /*background-color: #a3cb59;*/
-    background-position: right top;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
+	/*font-family: 'McLaren', cursive;*/
+	/*color: #bca495;*/
+	color: #634531;
+	/*background-color: #a3cb59;*/
+	background-position: right top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 body * {
-    /*font-family: 'McLaren', cursive;*/
+	/*font-family: 'McLaren', cursive;*/
 }
+
 /* ================================================================ */
 /* main holder */
 /* ---------------------------------------------------------------- */
 .appHolder {
-    border-radius: 8px !important;
-    margin: 120px auto 0 auto !important;
-    padding: 24px !important;
-    width: 1210px !important;
+	border-radius: 8px !important;
+	margin: 120px auto 0 auto !important;
+	padding: 24px !important;
+	width: 1210px !important;
 }
+
 .appHolder.playing {
-    background-color: rgba( 255,255,255,0.5);
-    box-shadow: 0 3px 24px #aaa;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 3px 24px #aaa;
 }
 
 /* ================================================================ */
 /* Loader */
 /* ---------------------------------------------------------------- */
 .appHolder .loader {
-    display: block;
-    display: none;
-    margin: 0 auto;
+	display: block;
+	display: none;
+	margin: 0 auto;
 }
 
 /* ================================================================ */
 /* view-title */
 .view-title {
-    color: #777;
-    text-transform: uppercase;
-    text-align: center;
+	color: #777;
+	text-transform: uppercase;
+	text-align: center;
 }
+
 /* ---------------------------------------------------------------- */
 
 /* ================================================================ */
 /* Misc */
 .cf {
-    display: block;
-    clear: both;
-    position: relative;
+	display: block;
+	clear: both;
+	position: relative;
 }
 
 /* ---------------------------------------------------------------- */
 
 
-#footer-invisible{
-    display: none;
+#footer-invisible {
+	display: none;
 }

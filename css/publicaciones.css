@@ -1,256 +1,276 @@
 section {
-  overflow:hidden;
-  width: 100%;
-  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	width: 100%;
+	box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
 }
 
 #pub1 {
-  background-color: #27526b;
-  color: #FFF;
-  position:relative;
-  padding-top:81px;
-  z-index: 3;
-  height: 350px;
+	background-color: #27526b;
+	color: #FFF;
+	position: relative;
+	padding-top: 81px;
+	z-index: 3;
+	height: 350px;
 }
 
 #pub1 p {
-  max-width: 620px;
-  margin: 80px auto;
-  text-align: center;
-  position: relative;
-  /*top: 110px;*/
-  /*left: 645px;*/
-  /*position: absolute;*/
-  z-index: 3;
+	max-width: 620px;
+	margin: 80px auto;
+	text-align: center;
+	position: relative;
+	/*top: 110px;*/
+	/*left: 645px;*/
+	/*position: absolute;*/
+	z-index: 3;
 }
+
 #pub1 #titoLibro {
-  height: 100%;
-  width: 237px;
-  background-image: url("../assets/img/materiales/publicaciones/titolibro.png");
-  background-size: 80% auto;
-  background-repeat: no-repeat;
-  position: absolute;
-  /*inset: 80px auto auto 1280px;*/
-  right: 0px;
-  top: 75px;
-  z-index: 2;
+	height: 100%;
+	width: 237px;
+	background-image: url("../assets/img/materiales/publicaciones/titolibro.png");
+	background-size: 80% auto;
+	background-repeat: no-repeat;
+	position: absolute;
+	/*inset: 80px auto auto 1280px;*/
+	right: 0px;
+	top: 75px;
+	z-index: 2;
 }
+
 #pub1 #LunaEscribe {
-  height: 100%;
-  width: 237px;
-  background-image: url("../assets/img/materiales/publicaciones/lunaEscribe.png");
-  background-size: 80% auto;
-  background-repeat: no-repeat;
-  position: absolute;
-  /*inset: 110px auto auto 460px;*/
-  top: 115px;
-  left: 60px;
-  z-index: 2;
+	height: 100%;
+	width: 237px;
+	background-image: url("../assets/img/materiales/publicaciones/lunaEscribe.png");
+	background-size: 80% auto;
+	background-repeat: no-repeat;
+	position: absolute;
+	/*inset: 110px auto auto 460px;*/
+	top: 115px;
+	left: 60px;
+	z-index: 2;
 }
+
 #pub2 {
-  background-color: #a6c0cf;
-  color: #2c3b3a;
-  text-align: center;
-  position:relative;
-  z-index: 3;
-  background-image: url("../assets/img/materiales/publicaciones/patronP.png");
-  height: 1200px;
+	background-color: #a6c0cf;
+	color: #2c3b3a;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+	background-image: url("../assets/img/materiales/publicaciones/patronP.png");
+	height: 1200px;
 }
-#pub2 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub2 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub2 ul li {
-  width: 300px;
-  overflow: hidden;
-  height: 225px;
-  display: inline-block;
-  margin: 0 5px;
-  position: relative;
+	width: 300px;
+	overflow: hidden;
+	height: 225px;
+	display: inline-block;
+	margin: 0 5px;
+	position: relative;
 }
 
 #pub3 {
-  background-color: #27526b;
-  color: #FFF;
-  position: relative;
-  z-index: 3;
-  text-align: center;
+	background-color: #27526b;
+	color: #FFF;
+	position: relative;
+	z-index: 3;
+	text-align: center;
 }
-#pub3 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub3 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub3 ul li {
-  width: 330px;
-  overflow: hidden;
-  height: 250px;
-  display: inline-block;
-  margin: 0 25px;
+	width: 330px;
+	overflow: hidden;
+	height: 250px;
+	display: inline-block;
+	margin: 0 25px;
 }
 
 #pub4 {
-  text-align: center;
-  background-color: #a6c0cf;
-  color: #2C3B3A;
-  position: relative;
-  z-index: 3;
-  min-height: 600px;
-  background-image: url("../assets/img/materiales/publicaciones/patronP.png");
+	text-align: center;
+	background-color: #a6c0cf;
+	color: #2C3B3A;
+	position: relative;
+	z-index: 3;
+	min-height: 600px;
+	background-image: url("../assets/img/materiales/publicaciones/patronP.png");
 }
-#pub4 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub4 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub4 ul li {
-  width: 330px;
-  overflow: hidden;
-  height: 250px;
-  display: inline-block;
-  margin: 0 25px;
+	width: 330px;
+	overflow: hidden;
+	height: 250px;
+	display: inline-block;
+	margin: 0 25px;
 }
 
 #pub5 {
-  text-align: center;
-  background-color: #27526b;
-  color: #FFF;
-  position: relative;
-  z-index: 3;
-  min-height: 600px;
+	text-align: center;
+	background-color: #27526b;
+	color: #FFF;
+	position: relative;
+	z-index: 3;
+	min-height: 600px;
 }
-#pub5 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub5 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub5 ul li {
-  width: 330px;
-  overflow: hidden;
-  height: 250px;
-  display: inline-block;
-  margin: 0 20px;
+	width: 330px;
+	overflow: hidden;
+	height: 250px;
+	display: inline-block;
+	margin: 0 20px;
 }
 
 #pub6 {
-  text-align: center;
-  background-color: #a6c0cf;
-  color: #2C3B3A;
-  position: relative;
-  z-index: 6;
-  min-height: 600px;
-  background-image: url("../assets/img/materiales/publicaciones/patronP.png");
+	text-align: center;
+	background-color: #a6c0cf;
+	color: #2C3B3A;
+	position: relative;
+	z-index: 6;
+	min-height: 600px;
+	background-image: url("../assets/img/materiales/publicaciones/patronP.png");
 }
-#pub6 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub6 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub6 ul li {
-  width: 330px;
-  overflow: hidden;
-  height: 250px;
-  display: inline-block;
-  margin: 10px 25px;
+	width: 330px;
+	overflow: hidden;
+	height: 250px;
+	display: inline-block;
+	margin: 10px 25px;
 }
 
 #pub7 {
-  text-align: center;
-  background-color: #27526b;
-  color: #FFF;
-  position: relative;
-  z-index: 6;
-  min-height: 600px;
+	text-align: center;
+	background-color: #27526b;
+	color: #FFF;
+	position: relative;
+	z-index: 6;
+	min-height: 600px;
 }
-#pub7 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub7 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub7 ul li {
-  width: 330px;
-  overflow: hidden;
-  height: 250px;
-  display: inline-block;
-  margin: 10px 25px;
+	width: 330px;
+	overflow: hidden;
+	height: 250px;
+	display: inline-block;
+	margin: 10px 25px;
 }
 
 #pub8 {
-  text-align: center;
-  background-color: #a6c0cf;
-  color: #2C3B3A;
-  position: relative;
-  z-index: 6;
-  min-height: 600px;
-  background-image: url("../assets/img/materiales/publicaciones/patronP.png");
+	text-align: center;
+	background-color: #a6c0cf;
+	color: #2C3B3A;
+	position: relative;
+	z-index: 6;
+	min-height: 600px;
+	background-image: url("../assets/img/materiales/publicaciones/patronP.png");
 }
-#pub8 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub8 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub8 ul li {
-  width: 320px;
-  overflow: hidden;
-  height: 230px;
-  display: inline-block;
-  margin: 10px 20px;
+	width: 320px;
+	overflow: hidden;
+	height: 230px;
+	display: inline-block;
+	margin: 10px 20px;
 }
 
 
 #pub9 {
-  text-align: center;
-  background-color: #27526b;
-  color: #FFF;
-  position: relative;
-  z-index: 6;
-  min-height: 600px;
+	text-align: center;
+	background-color: #27526b;
+	color: #FFF;
+	position: relative;
+	z-index: 6;
+	min-height: 600px;
 }
-#pub9 ul{
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px;
-  margin: 0;
+
+#pub9 ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+	margin: 0;
 }
+
 #pub9 ul li {
-  width: 330px;
-  overflow: hidden;
-  height: 250px;
-  display: inline-block;
-  margin: 10px 25px;
+	width: 330px;
+	overflow: hidden;
+	height: 250px;
+	display: inline-block;
+	margin: 10px 25px;
 }
 
 
 .bandTitle {
-  width: 300px;
-  height: 100px;
-  background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
-  background-size: 300px auto;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+	width: 300px;
+	height: 100px;
+	background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
+	background-size: 300px auto;
+	background-repeat: no-repeat;
+	margin: 0 auto;
 }
-.bandTitle p{
-  margin: 0 auto;
-  width: 242px;
-  text-align: center;
-  font-size: 15px;
-  padding-top: 15px;
+
+.bandTitle p {
+	margin: 0 auto;
+	width: 242px;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 15px;
 }
 
 .colecciones {
-  background-image: url("../assets/img/materiales/publicaciones/bandera.png");
+	background-image: url("../assets/img/materiales/publicaciones/bandera.png");
 }
 
 .explora {
-  background-image: url("../assets/img/materiales/publicaciones/banderacoleccion.png");
+	background-image: url("../assets/img/materiales/publicaciones/banderacoleccion.png");
 }
 
 

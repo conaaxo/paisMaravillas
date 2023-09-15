@@ -59,15 +59,13 @@
 	--bs-body-line-height: 1.6;
 	--bs-body-color: #212529;
 	--bs-body-bg: #fff;
-  }
-
+}
 
 
 body {
-	margin:0px;
-	padding:0px;
-	font-size:1.5rem;
-	
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.5rem;
 
 
 	font-family: var(--bs-body-font-family);
@@ -77,9 +75,10 @@ body {
 	color: var(--bs-body-color);
 	text-align: var(--bs-body-text-align);
 	-webkit-text-size-adjust: 100%;
-	
+
 
 }
+
 p {
 	font-family: Work Sans, sans-serif;
 	color: #03412F !important;
@@ -91,34 +90,34 @@ h2 {
 	font-size: 2.75rem !important;
 }
 
-article{
+article {
 	overflow: hidden;
 }
 
 .fondoimg {
-	width:100%;
-	margin:0;
+	width: 100%;
+	margin: 0;
 }
 
 .fondoimg img {
-	width:100%;
-	height:auto;
+	width: 100%;
+	height: auto;
 }
 
 .timportante {
-	color:#FC6;
-	width:400px;
+	color: #FC6;
+	width: 400px;
 }
 
 
 #titulo {
-	font-family:mclaren-regular;
-    margin-top: 50px;
-    margin-left: -60px;
-}	
-	
-h3{
-	font-family:mclaren-regular;
+	font-family: mclaren-regular;
+	margin-top: 50px;
+	margin-left: -60px;
+}
+
+h3 {
+	font-family: mclaren-regular;
 }
 
 #titulo img {
@@ -128,9 +127,8 @@ h3{
 
 
 section {
-	overflow:hidden;
+	overflow: hidden;
 }
-
 
 
 /*----------------------sección 1------------------------*/
@@ -139,18 +137,18 @@ section {
 	position: relative;
 	width: 820px;
 	height: auto;
-/*	margin: 0 auto;	*/
+	/*	margin: 0 auto;	*/
 	margin-top: -5%;
 }
 
 #e1 {
-	margin:0;
-	padding:0;
-	height:1300px;
-	background-color:#8ED1C9;
-	margin-top:48px;
-	width:100%;
-	position:relative;
+	margin: 0;
+	padding: 0;
+	height: 1300px;
+	background-color: #8ED1C9;
+	margin-top: 48px;
+	width: 100%;
+	position: relative;
 }
 
 #e1articulo1 {
@@ -164,39 +162,37 @@ section {
 	color: #03412F;
 }
 
-#e1articulo1 p strong{
-	color:#FC6;
+#e1articulo1 p strong {
+	color: #FC6;
 }
 
-#e1img1{
-	width:20px;
-	height:auto;
+#e1img1 {
+	width: 20px;
+	height: auto;
 	position: absolute;
 	bottom: 35%;
 	right: 349px;
 }
 
 
-
 /*----------------------sección 2------------------------*/
 
 
-
 #e2 {
-	margin:0;
+	margin: 0;
 	margin-left: -60px;
 	padding-top: 50px;
 	height: 1200px;
-	background-color:#8ed1c9;
+	background-color: #8ed1c9;
 	background-image: url("../assets/img/home/agua.png");
 	position: relative;
 	background-size: 100% auto;
 	background-position: bottom;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 }
 
 #e2 article p {
-	
+
 }
 
 #fondoe2 {
@@ -205,8 +201,8 @@ section {
 	position: absolute;
 	width: 100%;
 	height: auto;
- 	background-position: bottom;
-	background-repeat:no-repeat;
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
 
 #e2 h2 {
@@ -219,8 +215,8 @@ section {
 
 #e2 .margen {
 	margin-top: -900px;
-	padding-left:200px;
-	color:#FC6;
+	padding-left: 200px;
+	color: #FC6;
 }
 
 #e2img1 {
@@ -231,7 +227,7 @@ section {
 }
 
 #e2img2 {
-	position:absolute; 
+	position: absolute;
 	right: -50px;
 	top: 250px;
 }
@@ -239,7 +235,7 @@ section {
 #e2img2 img {
 	right: 0px;
 	width: 470px;
-}		
+}
 
 #e2img3 {
 	position: relative;
@@ -253,25 +249,25 @@ section {
 }
 
 #e2imgburbuja {
-	position:absolute;
+	position: absolute;
 	top: 20%;
 	left: 20%;
-	width:10px;	
+	width: 10px;
 }
 
 #e2img4 {
-	bottom:-20px;
-	position:relative;
+	bottom: -20px;
+	position: relative;
 	width: 50px;
 	right: -910px !important;
 }
 
 
-#main-especies-invasoras{
-background-color: #8ED1C9;
+#main-especies-invasoras {
+	background-color: #8ED1C9;
 }
 
-.title-especies-invasoras{
+.title-especies-invasoras {
 	width: 70%;
 	height: 200px;
 	margin-top: 150px;
@@ -282,7 +278,7 @@ background-color: #8ED1C9;
 }
 
 
-.luna-especies-invasoras{
+.luna-especies-invasoras {
 	width: 90%;
 	height: 90%;
 	min-height: 450px;
@@ -293,11 +289,11 @@ background-color: #8ED1C9;
 	background-position: 50% 50%;
 }
 
-.luna-pez-leon{
+.luna-pez-leon {
 	position: relative;
 	z-index: 2;
 	width: 80%;
-	
+
 	min-height: ;
 	margin: auto;
 	background: url(../invasoras/assets/img/home/lunapiedras-02.png);
@@ -305,9 +301,10 @@ background-color: #8ED1C9;
 	background-size: 90%;
 	background-position: ;
 	transform: scaleX(-1);
-	
+
 }
-.pez-leon{
+
+.pez-leon {
 	position: relative;
 	z-index: 3;
 	top: -280px;
@@ -321,14 +318,15 @@ background-color: #8ED1C9;
 	background-position: ;
 	animation: pez-leon 12s ease-in-out infinite;
 }
+
 @keyframes pez-leon {
 	0% {
-	
-	  left: 30px;
-	  opacity: 1;
-	  transform: scaleX(-1);
+
+		left: 30px;
+		opacity: 1;
+		transform: scaleX(-1);
 	}
-  
+
 	50% {
 		left: -25px;
 		opacity: 1;
@@ -339,29 +337,30 @@ background-color: #8ED1C9;
 		opacity: 1;
 		transform: scaleX(-1);
 	}
-  }
+}
 
-.peces-muertos{
+.peces-muertos {
 	position: relative;
 	z-index: 4;
 	width: 100%;
 	height: 350px;
-	
+
 	min-height: ;
 	margin: auto;
 	background: url(../invasoras/assets/img/home/peces-muertos_02.png);
 	background-repeat: no-repeat;
 	background-size: 30%;
-	background-position:50% 50% ;
+	background-position: 50% 50%;
 	animation: peces-muertos 7s linear infinite;
 }
+
 @keyframes peces-muertos {
 	0% {
-	  top: -380px;
-	  left: 30px;
-	  opacity: 0;
+		top: -380px;
+		left: 30px;
+		opacity: 0;
 	}
-  
+
 	50% {
 		top: -180px;
 		left: 30px;
@@ -372,10 +371,10 @@ background-color: #8ED1C9;
 		left: 30px;
 		opacity: 0;
 	}
-  }
+}
 
 
-.tittle-luna-al-rescate{
+.tittle-luna-al-rescate {
 	width: 100%;
 	height: 150px;
 	background: url(../invasoras/assets/img/home/t-luna-rescate.png);
@@ -385,28 +384,27 @@ background-color: #8ED1C9;
 }
 
 
-
-.section-invasoras h2{
+.section-invasoras h2 {
 	color: #03412F;
 }
-
 
 
 /* RESPONSIVE */
 
 
-	@media (max-width: 575px) {
+@media (max-width: 575px) {
 
-	.section-invasoras h2{
+	.section-invasoras h2 {
 		font-size: 1.8rem !important;
 	}
+
 	.title-especies-invasoras {
 		height: 130px;
 		background-size: 80%;
 		background-position: 50% 90%;
 	}
 
-	.luna-pez-leon{
+	.luna-pez-leon {
 		position: relative;
 		z-index: 2;
 		width: 80%;
@@ -419,7 +417,8 @@ background-color: #8ED1C9;
 		background-position: 100% 50%;
 		transform: scaleX(-1);
 	}
-	.pez-leon{
+
+	.pez-leon {
 		position: relative;
 		z-index: 3;
 		top: -110px;
@@ -433,14 +432,15 @@ background-color: #8ED1C9;
 		background-position: 50% 100%;
 		animation: pez-leon 12s ease-in-out infinite;
 	}
+
 	@keyframes pez-leon {
 		0% {
-		
-		  left: 80px;
-		  opacity: 1;
-		  transform: scaleX(-1);
+
+			left: 80px;
+			opacity: 1;
+			transform: scaleX(-1);
 		}
-	  
+
 		50% {
 			left: 15px;
 			opacity: 1;
@@ -451,25 +451,26 @@ background-color: #8ED1C9;
 			opacity: 1;
 			transform: scaleX(-1);
 		}
-	  }
-	
-	.peces-muertos{
+	}
+
+	.peces-muertos {
 		display: none;
 	}
 }
 
-  @media (min-width: 576px) {
+@media (min-width: 576px) {
 
-	.section-invasoras h2{
+	.section-invasoras h2 {
 		font-size: 2rem !important;
 	}
+
 	.title-especies-invasoras {
 		height: 140px;
 		background-size: 80%;
 		background-position: 50% 90%;
 	}
 
-	.luna-pez-leon{
+	.luna-pez-leon {
 		position: relative;
 		z-index: 2;
 		width: 80%;
@@ -483,7 +484,7 @@ background-color: #8ED1C9;
 		transform: scaleX(-1);
 	}
 
-	.pez-leon{
+	.pez-leon {
 		position: relative;
 		z-index: 3;
 		top: -110px;
@@ -500,12 +501,12 @@ background-color: #8ED1C9;
 
 	@keyframes pez-leon {
 		0% {
-		
-		  left: 80px;
-		  opacity: 1;
-		  transform: scaleX(-1);
+
+			left: 80px;
+			opacity: 1;
+			transform: scaleX(-1);
 		}
-	  
+
 		50% {
 			left: 15px;
 			opacity: 1;
@@ -516,24 +517,25 @@ background-color: #8ED1C9;
 			opacity: 1;
 			transform: scaleX(-1);
 		}
-	  }
-	
-	.peces-muertos{
+	}
+
+	.peces-muertos {
 		display: none;
 	}
-  }
+}
 
-  @media (min-width: 768px) {
-	.section-invasoras h2{
+@media (min-width: 768px) {
+	.section-invasoras h2 {
 		font-size: 2.5rem !important;
 	}
+
 	.title-especies-invasoras {
 		height: 170px;
 		background-size: 80%;
 		background-position: 50% 90%;
 	}
 
-	.luna-especies-invasoras{
+	.luna-especies-invasoras {
 		width: 100%;
 		height: 100%;
 		background-repeat: no-repeat;
@@ -541,7 +543,7 @@ background-color: #8ED1C9;
 		background-position: 50% 50%;
 	}
 
-	.luna-pez-leon{
+	.luna-pez-leon {
 		position: relative;
 		z-index: 2;
 		width: 80%;
@@ -552,7 +554,7 @@ background-color: #8ED1C9;
 		transform: scaleX(-1);
 	}
 
-	.pez-leon{
+	.pez-leon {
 		position: relative;
 		z-index: 3;
 		top: -100px;
@@ -564,13 +566,26 @@ background-color: #8ED1C9;
 		background-size: 40%;
 		animation: pez-leon 12s ease-in-out infinite;
 	}
+
 	@keyframes pez-leon {
-		0% { left: 30px; opacity: 1; transform: scaleX(-1);}
-		50% { left: -25px; opacity: 1; transform: scaleX(-1);}
-		100% { left: 30px; opacity: 1; transform: scaleX(-1); }
-	  }
-	
-	.peces-muertos{
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
 		position: relative;
 		z-index: 4;
 		width: 100%;
@@ -580,27 +595,42 @@ background-color: #8ED1C9;
 		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
 		background-repeat: no-repeat;
 		background-size: 30%;
-		background-position:50% 50% ;
+		background-position: 50% 50%;
 		animation: peces-muertos 7s linear infinite;
 	}
+
 	@keyframes peces-muertos {
-		0% { top: -180px; left: 30px; opacity: 0;}
-		50% { top: 0px; left: 30px; opacity: 1;}
-		100% { top: 180px; left: 30px; opacity: 0;}
-	  }
-  	}
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
 
 
-  @media (min-width: 992px) {
-	.section-invasoras h2{
+@media (min-width: 992px) {
+	.section-invasoras h2 {
 		font-size: 2.5rem !important;
 	}
+
 	.title-especies-invasoras {
 		height: 200px;
 		background-size: 80%;
 		background-position: 50% 90%;
 	}
-	.luna-especies-invasoras{
+
+	.luna-especies-invasoras {
 		width: 100%;
 		height: 100%;
 		background-repeat: no-repeat;
@@ -608,7 +638,7 @@ background-color: #8ED1C9;
 		background-position: 50% 50%;
 	}
 
-	.luna-pez-leon{
+	.luna-pez-leon {
 		position: relative;
 		z-index: 2;
 		width: 80%;
@@ -619,7 +649,7 @@ background-color: #8ED1C9;
 		transform: scaleX(-1);
 	}
 
-	.pez-leon{
+	.pez-leon {
 		position: relative;
 		z-index: 3;
 		top: -100px;
@@ -631,13 +661,26 @@ background-color: #8ED1C9;
 		background-size: 40%;
 		animation: pez-leon 12s ease-in-out infinite;
 	}
+
 	@keyframes pez-leon {
-		0% { left: 30px; opacity: 1; transform: scaleX(-1);}
-		50% { left: -25px; opacity: 1; transform: scaleX(-1);}
-		100% { left: 30px; opacity: 1; transform: scaleX(-1); }
-	  }
-	
-	.peces-muertos{
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
 		position: relative;
 		z-index: 4;
 		width: 100%;
@@ -647,58 +690,75 @@ background-color: #8ED1C9;
 		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
 		background-repeat: no-repeat;
 		background-size: 30%;
-		background-position:50% 50% ;
+		background-position: 50% 50%;
 		animation: peces-muertos 7s linear infinite;
 	}
+
 	@keyframes peces-muertos {
-		0% { top: -180px; left: 30px; opacity: 0;}
-		50% { top: 0px; left: 30px; opacity: 1;}
-		100% { top: 180px; left: 30px; opacity: 0;}
-	  }
-  	}
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
 
 
-
-
- @media (min-width: 1169px) {
-	.section-invasoras h2{
+@media (min-width: 1169px) {
+	.section-invasoras h2 {
 		font-size: 2.5rem !important;
 	}
+
 	.title-especies-invasoras {
 		height: 240px;
 		background-size: 70%;
 		background-position: 50% 90%;
 	}
-	.luna-especies-invasoras{
+
+	.luna-especies-invasoras {
 		width: 100%;
 		height: 100%;
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-	.luna-pez-leon{
+
+	.luna-pez-leon {
 		width: 80%;
 		margin: auto;
 		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
 	}
-  }
+}
 
-  @media (min-width: 1200px) {
-	.section-invasoras h2{
+@media (min-width: 1200px) {
+	.section-invasoras h2 {
 		font-size: 2.5rem !important;
 	}
+
 	.title-especies-invasoras {
 		background-size: 70%;
 		height: 220px;
 		background-position: 50% 80%;
 	}
-	.container{
+
+	.container {
 		width: 60% !important;
 		max-width: 1000px !important;
 	}
-	.luna-especies-invasoras{
+
+	.luna-especies-invasoras {
 		width: 100%;
 		height: 100%;
 		background-repeat: no-repeat;
@@ -706,8 +766,8 @@ background-color: #8ED1C9;
 		background-position: 50% 50%;
 	}
 
-	
-	.luna-pez-leon{
+
+	.luna-pez-leon {
 		position: relative;
 		z-index: 2;
 		width: 80%;
@@ -718,7 +778,7 @@ background-color: #8ED1C9;
 		transform: scaleX(-1);
 	}
 
-	.pez-leon{
+	.pez-leon {
 		position: relative;
 		z-index: 3;
 		top: -100px;
@@ -730,13 +790,26 @@ background-color: #8ED1C9;
 		background-size: 40%;
 		animation: pez-leon 12s ease-in-out infinite;
 	}
+
 	@keyframes pez-leon {
-		0% { left: 30px; opacity: 1; transform: scaleX(-1);}
-		50% { left: -25px; opacity: 1; transform: scaleX(-1);}
-		100% { left: 30px; opacity: 1; transform: scaleX(-1); }
-	  }
-	
-	.peces-muertos{
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
 		position: relative;
 		z-index: 4;
 		width: 100%;
@@ -746,32 +819,47 @@ background-color: #8ED1C9;
 		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
 		background-repeat: no-repeat;
 		background-size: 30%;
-		background-position:50% 50% ;
+		background-position: 50% 50%;
 		animation: peces-muertos 7s linear infinite;
 	}
-	@keyframes peces-muertos {
-		0% { top: -180px; left: 30px; opacity: 0;}
-		50% { top: 0px; left: 30px; opacity: 1;}
-		100% { top: 180px; left: 30px; opacity: 0;}
-	  }
-  	}
 
-  @media (min-width: 1400px) {
-	.section-invasoras h2{
+	@keyframes peces-muertos {
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.section-invasoras h2 {
 		font-size: 2.5rem !important;
 	}
+
 	.title-especies-invasoras {
 		background-size: 70%;
 		height: 250px;
 		background-position: 50% 80%;
 	}
-	.container{
+
+	.container {
 		width: 60% !important;
 		max-width: 1000px !important;
 	}
 
-	
-	.luna-pez-leon{
+
+	.luna-pez-leon {
 		position: relative;
 		z-index: 2;
 		width: 80%;
@@ -782,7 +870,7 @@ background-color: #8ED1C9;
 		transform: scaleX(-1);
 	}
 
-	.pez-leon{
+	.pez-leon {
 		position: relative;
 		z-index: 3;
 		top: -100px;
@@ -794,13 +882,26 @@ background-color: #8ED1C9;
 		background-size: 40%;
 		animation: pez-leon 12s ease-in-out infinite;
 	}
+
 	@keyframes pez-leon {
-		0% { left: 30px; opacity: 1; transform: scaleX(-1);}
-		50% { left: -25px; opacity: 1; transform: scaleX(-1);}
-		100% { left: 30px; opacity: 1; transform: scaleX(-1); }
-	  }
-	
-	.peces-muertos{
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
 		position: relative;
 		z-index: 4;
 		width: 100%;
@@ -810,22 +911,31 @@ background-color: #8ED1C9;
 		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
 		background-repeat: no-repeat;
 		background-size: 30%;
-		background-position:50% 50% ;
+		background-position: 50% 50%;
 		animation: peces-muertos 7s linear infinite;
 	}
+
 	@keyframes peces-muertos {
-		0% { top: -180px; left: 30px; opacity: 0;}
-		50% { top: 0px; left: 30px; opacity: 1;}
-		100% { top: 180px; left: 30px; opacity: 0;}
-	  }
-  	}
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
 
 
-  }
-
-
-
-
+}
 
 
 /* MEDIA */

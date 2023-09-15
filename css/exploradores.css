@@ -1,110 +1,179 @@
-section {overflow:hidden;}
+section {
+	overflow: hidden;
+}
 
-a {text-decoration:none;}
+a {
+	text-decoration: none;
+}
 
-h4 {color: #9ab300; font-size: 30px;}
+h4 {
+	color: #9ab300;
+	font-size: 30px;
+}
 
-.bala1{color: #D9DCBC;}
+.bala1 {
+	color: #D9DCBC;
+}
 
-.bala2{color: #5cbd8a;}
+.bala2 {
+	color: #5cbd8a;
+}
 
-.bala3{color: #d7903d;}
+.bala3 {
+	color: #d7903d;
+}
 
-.bala4{color: #34848a;}
+.bala4 {
+	color: #34848a;
+}
 
-.bala5{color: #a6b968;}
+.bala5 {
+	color: #a6b968;
+}
 
-.bala6{color: #b96868;}
+.bala6 {
+	color: #b96868;
+}
 
-.balazosparra {margin-left: 90px;}
+.balazosparra {
+	margin-left: 90px;
+}
 
-.nbig {font-family: "mclaren-regular"; font-size: 115px; float: left;}
+.nbig {
+	font-family: "mclaren-regular";
+	font-size: 115px;
+	float: left;
+}
 
 /* seccion 1 */
 
-.bala01{color:#193133;}
+.bala01 {
+	color: #193133;
+}
 
-.bala02{color:#A63A34;}
+.bala02 {
+	color: #A63A34;
+}
 
-#e1 {background-color: #E9E4C6;
- 	color: #193133;
- 	position:relative;
- 	z-index: 2;}
+#e1 {
+	background-color: #E9E4C6;
+	color: #193133;
+	position: relative;
+	z-index: 2;
+}
 
 /* seccion 2 */
 
-#e2 {background-color: #333837;
- 	color: #D9DCBC;
- 	position:relative;
- 	text-align: center;
- 	z-index: 2;}
+#e2 {
+	background-color: #333837;
+	color: #D9DCBC;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
 
-#ima1_e2{background-color:#a63a34;}
+#ima1_e2 {
+	background-color: #a63a34;
+}
 
-/* seccion 3 */	
+/* seccion 3 */
 
-#e3 {background-color:#333837;
- 	color: #D9DCBC;
- 	text-align: center;
- 	position:relative;
- 	z-index: 2;}
+#e3 {
+	background-color: #333837;
+	color: #D9DCBC;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
 
- #ima1_e3{background-color: #204844;}
+#ima1_e3 {
+	background-color: #204844;
+}
 
-/* seccion 4 */	
+/* seccion 4 */
 
-#e4 {background-color:#333837;
- 	color: #D9DCBC;
- 	text-align: center;
- 	position:relative;
- 	z-index: 2;}
+#e4 {
+	background-color: #333837;
+	color: #D9DCBC;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
 
-#ima1_e4 {background-color: #616E2B;}
+#ima1_e4 {
+	background-color: #616E2B;
+}
 
-/* seccion 5 */	
+/* seccion 5 */
 
-#e5 {background-color: #333837;
- 	color: #D9DCBC;
- 	text-align: center;
- 	position:relative;
- 	z-index: 3;}
+#e5 {
+	background-color: #333837;
+	color: #D9DCBC;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
 
-#ima1_e5{background-color: #a63a34;}
+#ima1_e5 {
+	background-color: #a63a34;
+}
 
-/* seccion 6 */	
+/* seccion 6 */
 
-#e6 {background-color:#333837;
- 	color: #D9DCBC;
- 	text-align: center;
- 	position:relative;
- 	z-index: 3;}
+#e6 {
+	background-color: #333837;
+	color: #D9DCBC;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
 
-#ima1_e6{background-color: #487a4a;}
+#ima1_e6 {
+	background-color: #487a4a;
+}
 
-/* seccion 7 */	
+/* seccion 7 */
 
-#e7 {background-color: #333837;
- 	color: #D9DCBC;
- 	text-align: center;
- 	position:relative;
- 	z-index: 3;}
+#e7 {
+	background-color: #333837;
+	color: #D9DCBC;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
 
-#ima1_e7 {background-color: #296568;}
+#ima1_e7 {
+	background-color: #296568;
+}
 
-#e7 .small {color: rgb(213 224 144); font-size: 15px; line-height: 1em;}
+#e7 .small {
+	color: rgb(213 224 144);
+	font-size: 15px;
+	line-height: 1em;
+}
 
-#ima2_e7 {background-color: #3B4041;}
+#ima2_e7 {
+	background-color: #3B4041;
+}
 
-#ima3_e7{background-color: #3B4041;}
+#ima3_e7 {
+	background-color: #3B4041;
+}
 
-#ima4_e7{background-color: #296568;}
+#ima4_e7 {
+	background-color: #296568;
+}
 
-/* seccion 8 */	
+/* seccion 8 */
 
-#e8 {background-color: #e9e4c6;
- 	color: #193133; 	
- 	text-align: center;
- 	position:relative;
- 	z-index: 3;}
+#e8 {
+	background-color: #e9e4c6;
+	color: #193133;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
 
-#e8 h4 {color: #A63A34;}
+#e8 h4 {
+	color: #A63A34;
+}

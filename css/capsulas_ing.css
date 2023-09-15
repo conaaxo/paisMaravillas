@@ -1,78 +1,77 @@
 section {
 
-  overflow:hidden;
+	overflow: hidden;
 
-  width: 100%;
+	width: 100%;
 
-  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
 
 }
 
 
+.margen {
 
-.margen{
-
-  z-index: 2;
+	z-index: 2;
 
 }
 
 #selecciona {
 
-  color: #982728;
+	color: #982728;
 
-  font-size: 22px;
+	font-size: 22px;
 
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 
 }
 
 #cap1 {
 
-  background-color: #952828;
+	background-color: #952828;
 
-  color: #FFF;
+	color: #FFF;
 
-  position:relative;
+	position: relative;
 
-  padding-top:81px;
+	padding-top: 81px;
 
-  z-index: 3;
+	z-index: 3;
 
-  height: 325px;
+	height: 325px;
 
 }
 
 #cap1 .margen {
 
-  height: 100%;
+	height: 100%;
 
 }
 
 #cap1 h3 {
 
-    width: 420px;
+	width: 420px;
 
-    text-align: center;
+	text-align: center;
 
-    top: 7px;
+	top: 7px;
 
-    left: 157px;
+	left: 157px;
 
-    position: relative;
+	position: relative;
 
 }
 
 #cap1 p {
 
-    width: 500px;
+	width: 500px;
 
-    text-align: center;
+	text-align: center;
 
-    top: 30px;
+	top: 30px;
 
-    left: 122px;
+	left: 122px;
 
-    position: absolute;
+	position: absolute;
 
 	font-size: 16px;
 
@@ -80,430 +79,427 @@ section {
 
 #cap1 #titoLibro {
 
-  height: 100%;
+	height: 100%;
 
-  width: 392px;
+	width: 392px;
 
-  background-image: url("../assets/img/materiales/capsulas/titochango.png");
+	background-image: url("../assets/img/materiales/capsulas/titochango.png");
 
-  background-size: 100% auto;
+	background-size: 100% auto;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  position: absolute;
+	position: absolute;
 
-  bottom: 14px;
+	bottom: 14px;
 
-  right: -80px;
+	right: -80px;
 
 }
 
 #cap2 {
 
-  background-color: #b3d49d;
+	background-color: #b3d49d;
 
-  background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
+	background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
 
-  color: #fff;
+	color: #fff;
 
-  text-align: center;
+	text-align: center;
 
-  position:relative;
+	position: relative;
 
-  z-index: 3;
+	z-index: 3;
 
 }
 
 #cap2 #group1 {
 
-  background-color: #a2a81d;
+	background-color: #a2a81d;
 
 }
 
 #group1 .logodesc {
 
-  background-position: -23px 0px;
+	background-position: -23px 0px;
 
-  width: 92px;
+	width: 92px;
 
 }
 
 #cap2 #group2 {
 
-  background-color: #719544;
+	background-color: #719544;
 
 }
 
 #group2 .logodesc {
 
-  background-position: -133px 0px;
+	background-position: -133px 0px;
 
-  width: 93px;
+	width: 93px;
 
 }
 
 #cap2 #group3 {
 
-  background-color: #d09c14;
+	background-color: #d09c14;
 
 }
 
 #group3 .logodesc {
 
-  background-position: -255px 0px;
+	background-position: -255px 0px;
 
-  width: 132px;
+	width: 132px;
 
 }
 
 #cap2 #group4 {
 
-  background-color: #cd7f12;
+	background-color: #cd7f12;
 
 }
 
 #group4 .logodesc {
 
-  background-position: -416px 0px;
+	background-position: -416px 0px;
 
-  width: 74px;
+	width: 74px;
 
 }
 
 #cap2 #group5 {
 
-  background-color: #34748d;
+	background-color: #34748d;
 
 }
 
 #group5 .logodesc {
 
-  background-position: -10px -176px;
+	background-position: -10px -176px;
 
-  width: 116px;
+	width: 116px;
 
 }
 
 #cap2 #group6 {
 
-  background-color: #4eb287;
+	background-color: #4eb287;
 
 }
 
 #group6 .logodesc {
 
-  background-position: -166px -176px;
+	background-position: -166px -176px;
 
-  width: 125px;
+	width: 125px;
 
 }
 
 #cap2 #group7 {
 
-  background-color: #7d5e34;
+	background-color: #7d5e34;
 
 }
 
 #group7 .logodesc {
 
-  background-position: -331px -176px;
+	background-position: -331px -176px;
 
-  width: 103px;
+	width: 103px;
 
 }
 
 #cap2 #group8 {
 
-  background-color: #85827a;
+	background-color: #85827a;
 
 }
 
 #group8 .logodesc {
 
-  background-position: -475px -176px;
+	background-position: -475px -176px;
 
-  width: 40px;
+	width: 40px;
 
 }
 
 
+#cap2 .squarecolor {
 
-#cap2 .squarecolor{
+	display: inline-block;
 
-  display: inline-block;
+	width: 235px;
 
-  width: 235px;
+	height: 320px;
 
-  height: 320px;
+	font-size: 16px;
 
-  font-size: 16px;
+	margin-bottom: 20px;
 
-  margin-bottom: 20px;
-
-  vertical-align: top;
+	vertical-align: top;
 
 }
 
 #cap2 .squarecolor .logodesc {
 
-  height: 170px;
+	height: 170px;
 
-  background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
+	background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
 
-  margin: 10px auto 0px;
+	margin: 10px auto 0px;
 
-  background-size: auto 360px;
+	background-size: auto 360px;
 
 }
 
-#cap2 ul{
+#cap2 ul {
 
-  text-align: left;
+	text-align: left;
 
-  list-style: none;
+	list-style: none;
 
-  margin: 0px;
+	margin: 0px;
 
-  padding: 0;
+	padding: 0;
 
 }
 
 #cap2 ul li {
 
-  padding-left: 25px;
+	padding-left: 25px;
 
 }
 
 #cap2 ul li:hover {
 
-  background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 
 }
 
-#cap2 ul li a{
+#cap2 ul li a {
 
-  background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
+	background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: inherit;
+	color: inherit;
 
-  display: block;
+	display: block;
 
-  padding-left: 33px;
+	padding-left: 33px;
 
-  background-size: 20px;
-
-}
-
-#cap2 ul li a img:first-child{
+	background-size: 20px;
 
 }
 
-#cap2 ul li a img:last-child{
+#cap2 ul li a img:first-child {
+
+}
+
+#cap2 ul li a img:last-child {
 
 }
 
 #lastlink {
 
-  display: block;
+	display: block;
 
-  text-align: left;
+	text-align: left;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: #081611;
+	color: #081611;
 
 }
 
 .bigtext {
 
-  width: 480px;
+	width: 480px;
 
-  font-size: 18px;
+	font-size: 18px;
 
-  display: inline-block;
+	display: inline-block;
 
-  color: #437225;
+	color: #437225;
 
 }
 
 .smalltext {
 
-  width: 480px;
+	width: 480px;
 
-  font-size: 15px;
+	font-size: 15px;
 
-  display: inline-block;
+	display: inline-block;
 
-  color: #4e7c32;
+	color: #4e7c32;
 
 }
 
 .largetext {
 
-  width: 480px;
+	width: 480px;
 
-  font-size: 18px;
+	font-size: 18px;
 
-  display: inline-block;
+	display: inline-block;
 
-  color: #132800;
+	color: #132800;
 
 }
 
 .bandTitle {
 
-  width: 300px;
+	width: 300px;
 
-  height: 76px;
+	height: 76px;
 
-  background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
+	background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
 
-  background-size: 300px auto;
+	background-size: 300px auto;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  margin: 0 auto;
+	margin: 0 auto;
 
 }
 
 .bandTitle p {
 
-  margin: 0 auto;
+	margin: 0 auto;
 
-  width: 210px;
+	width: 210px;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 15px;
+	font-size: 15px;
 
-  padding-top: 15px;
+	padding-top: 15px;
 
 }
 
 .colecciones {
 
-  background-image: url("../assets/img/materiales/capsulas/bandera_capsulas_ing.png");
+	background-image: url("../assets/img/materiales/capsulas/bandera_capsulas_ing.png");
 
 }
-
 
 
 .mask {
 
-  display: none;
+	display: none;
 
-  position: fixed;
+	position: fixed;
 
-  width: 100%;
+	width: 100%;
 
-  height: 100%;
+	height: 100%;
 
-  background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 
-  z-index: 20000;
+	z-index: 20000;
 
-  display: block;
+	display: block;
 
-  left: 0;
+	left: 0;
 
-  top: 0;
+	top: 0;
 
 }
 
 
-
 #modalAudio {
 
-  display: none;
+	display: none;
 
-  position: fixed;
+	position: fixed;
 
-  width: 350px;
+	width: 350px;
 
-  height: 200px;
+	height: 200px;
 
-  top: 50%;
+	top: 50%;
 
-  left: 50%;
+	left: 50%;
 
-  margin-top: -100px;
+	margin-top: -100px;
 
-  margin-left: -175px;
+	margin-left: -175px;
 
-  background-color: #b3d49d;
+	background-color: #b3d49d;
 
-  border-radius: 5px;
+	border-radius: 5px;
 
 }
 
 .titulo {
 
-  margin-top: 20px;
+	margin-top: 20px;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 24px;
+	font-size: 24px;
 
-  color:#033;
+	color: #033;
 
 }
 
 .iconote {
 
-  height: 100px;
+	height: 100px;
 
-  width: 100px;
+	width: 100px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  display: inline-block;
+	display: inline-block;
 
-  margin: 25px 35px;
+	margin: 25px 35px;
 
 }
 
 #audioChange {
 
-    background-image: url("../assets/img/iconovoz_cap.png");
+	background-image: url("../assets/img/iconovoz_cap.png");
 
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 
-    background-size: 100px auto;
+	background-size: 100px auto;
 
-    background-position: 0px -5px;
+	background-position: 0px -5px;
 
 }
 
 #downloadChange {
 
-  background-image: url("../assets/img/imprimir_ico_cap.png");
+	background-image: url("../assets/img/imprimir_ico_cap.png");
 
-  background-repeat:no-repeat;
+	background-repeat: no-repeat;
 
-  background-size: 95px auto;
+	background-size: 95px auto;
 
-  background-position: 0 4px;
+	background-position: 0 4px;
 
 }
 
 .closeModal {
 
-  position: absolute;
+	position: absolute;
 
-  width: 35px;
+	width: 35px;
 
-  height: 35px;
+	height: 35px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  background-image: url('../assets/img/iconoscerrar.png');
+	background-image: url('../assets/img/iconoscerrar.png');
 
-  background-size: auto 100%;
+	background-size: auto 100%;
 
-  right: -17px;
+	right: -17px;
 
-  top: -18px;
+	top: -18px;
 
 }

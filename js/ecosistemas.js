@@ -1,221 +1,180 @@
 // JavaScript Document// JavaScript Document
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-   	cambiarAlto();
-
-
-
-	ancho = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    cambiarAlto();
 
 
-
-	if(ancho >= 960){
-
-	//código para Pcs
-
-		allDesktop();
-
-	}
-
-	else if(ancho < 960 && ancho >= 640)
-
-	{
-
-		allDesktop();
-
-		//código para tabletas aquí
-
-	}
-
-	else if(ancho < 640)
-
-	{
-
-		//código para teléfonos aquí
-
-	}
+    ancho = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
 
+    if (ancho >= 960) {
 
-	$(window).resize(function() {
+        //código para Pcs
 
-      cambiarAlto();
+        allDesktop();
+
+    } else if (ancho < 960 && ancho >= 640) {
+
+        allDesktop();
+
+        //código para tabletas aquí
+
+    } else if (ancho < 640) {
+
+        //código para teléfonos aquí
+
+    }
+
+
+    $(window).resize(function () {
+
+        cambiarAlto();
 
     });
 
-	/*if(window.innerWidth > 0)
+    /*if(window.innerWidth > 0)
 
-		ancho = window.innerWidth;
+        ancho = window.innerWidth;
 
-	else
+    else
 
-		ancho = screen.width;*/
+        ancho = screen.width;*/
 
-	if(navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i))
+    if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
 
-  {
+        //do nothing
 
-      //do nothing
+    } else
 
-  }
+        $.stellar();
 
-  else
+});
 
-		$.stellar();
 
-	});
+function allDesktop() {
 
+    $('#e1').waypoint(function () {
 
 
+    });
 
 
+    $('#e2').waypoint(function (direction) {
 
+        if (direction == "down") {
 
+            $("#e2img1").animate({
 
+                left: "0px"
 
-function allDesktop(){
+            }, 1000);
 
-	$('#e1').waypoint(function() {
+            $("#e2img2").animate({
 
+                right: "100px"
 
+            }, 2000);
 
-  		});
+            $("#e2img3").animate({
 
+                right: "0px"
 
+            }, 1000);
 
-  	$('#e2').waypoint(function(direction) {
 
-		if(direction =="down")
+        } else if (direction == "up") {
 
-		{
+            $("#e2img1").animate({
 
-		$("#e2img1").animate({
+                left: "-300px"
 
-			left:"0px"
+            }, 1000);
 
-			}, 1000);
+            $("#e2img2").animate({
 
-		$("#e2img2").animate({
+                right: "-500px"
 
-			right:"100px"
+            }, 1000);
 
-			}, 2000);
+            $("#e2img3").animate({
 
-		$("#e2img3").animate({
+                right: "-600px"
 
-			right:"0px"
+            }, 1000);
 
-			}, 1000);
+        }
 
+        /*upDown($("#e2img2"), 3);*/
 
+    }, {offset: 81});
 
-		}
 
-		else if(direction =="up")
+    $('#e3').waypoint(function (direction) {
 
-		{
 
-		$("#e2img1").animate({
+        if (direction == "down") {
 
-			left:"-300px"
+            $("#arbusto2").animate({
 
-			}, 1000);
+                bottom: "-500px"
 
-		$("#e2img2").animate({
+            }, 1000);
 
-			right:"-500px"
+            $("#e3a1").animate({
 
-			}, 1000);
+                left: "5px"
 
-		$("#e2img3").animate({
+            }, 2000);
 
-			right:"-600px"
+            $("#e3a2").animate({
 
-			}, 1000);
+                top: "200px"
 
-		}
+            }, 1000);
 
-		/*upDown($("#e2img2"), 3);*/
+            $("#e3a3").animate({
 
- 		 }, {offset: 81});
+                top: "750px",
 
+                left: "20"
 
+            }, 1000);
 
-  	$('#e3').waypoint(function(direction) {
 
+        } else if (direction == "up") {
 
+            $("#arbusto2").animate({
 
-		 if(direction =="down")
+                bottom: "500px"
 
-			{
+            }, 1000);
 
-			$("#arbusto2").animate({
+            $("#e3a1").animate({
 
-				bottom:"-500px"
+                left: "-282px"
 
-				}, 1000);
+            }, 1000);
 
-			$("#e3a1").animate({
+            $("#e3a2").animate({
 
-				left:"5px"
+                top: "90px"
 
-				}, 2000);
+            }, 1000);
 
-			$("#e3a2").animate({
+            $("#e3a3").animate({
 
-				top:"200px"
+                top: "300px",
 
-				}, 1000);
+                left: "40px"
 
-			$("#e3a3").animate({
+            }, 1000);
 
-				top:"750px",
+        }
 
-				left:"20"
-
-				}, 1000);
-
-
-
-			}
-
-			else if(direction =="up")
-
-			{
-
-			$("#arbusto2").animate({
-
-				bottom:"500px"
-
-				}, 1000);
-
-			$("#e3a1").animate({
-
-				left:"-282px"
-
-				}, 1000);
-
-			$("#e3a2").animate({
-
-				top:"90px"
-
-				}, 1000);
-
-			$("#e3a3").animate({
-
-				top:"300px",
-
-				left:"40px"
-
-				}, 1000);
-
-			}
-
- 		 }, {offset: 81});
+    }, {offset: 81});
 
 }
-
 
 
 /*function cambiarAlto(){
@@ -239,44 +198,43 @@ function allDesktop(){
 }*/
 
 
+function upDown(elemento, segundos) {
 
-function upDown(elemento, segundos){
+    tTotal = segundos * 1000;
 
-	tTotal = segundos * 1000;
+    tAnimacion = tTotal / 2;
 
-	tAnimacion = tTotal/2;
+    elemento.animate({
 
-	elemento.animate({
+        top: "+=50px"
 
-			top: "+=50px"
+    }, tAnimacion, function () {
 
-		}, tAnimacion, function(){
+        $(this).animate({
 
-			$(this).animate({
+            top: "-=50px"
 
-				top: "-=50px"
+        }, tAnimacion);
 
-			}, tAnimacion);
+    });
 
-		});
+    setInterval(function () {
 
-	setInterval(function(){
+        elemento.animate({
 
-		elemento.animate({
+            top: "+=50px"
 
-			top: "+=50px"
+        }, tAnimacion, function () {
 
-		}, tAnimacion, function(){
+            $(this).animate({
 
-			$(this).animate({
+                top: "-=50px"
 
-				top: "-=50px"
+            }, tAnimacion);
 
-			}, tAnimacion);
+        });
 
-		});
-
-	},tTotal);
+    }, tTotal);
 
 }
 

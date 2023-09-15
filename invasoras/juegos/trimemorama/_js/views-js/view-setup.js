@@ -8,24 +8,24 @@ window.MemoryApp.ViewSetup = (function ViewSetup() {
 
 
     function setViewUI() {
-        appHolder      = $( '#appHolder' );
+        appHolder = $('#appHolder');
         apploadedViews = window.MemoryApp.loadedViews;
-        playerNameUI   = $( '#setupPlayerName' );
-        nextBtn        = $( '#setupBtnNext' );
+        playerNameUI = $('#setupPlayerName');
+        nextBtn = $('#setupBtnNext');
 
-        appHolder.removeClass( 'playing' );
+        appHolder.removeClass('playing');
 
-        nextBtn.on( 'click', function() {
-            window.MemoryApp.setGameLevel( $( 'input[name=level]:checked' ).val() );
-            console.log( 'WINDEX',  window.MemoryApp.getGameLevel() );
+        nextBtn.on('click', function () {
+            window.MemoryApp.setGameLevel($('input[name=level]:checked').val());
+            console.log('WINDEX', window.MemoryApp.getGameLevel());
 
-            window.MemoryApp.setPlayerName( playerNameUI.val() );
-            console.log( 'WINDEX',  window.MemoryApp.getPlayerName() );
+            window.MemoryApp.setPlayerName(playerNameUI.val());
+            console.log('WINDEX', window.MemoryApp.getPlayerName());
 
-            appHolder.html( apploadedViews[ 'viewMemory' ].viewContent );
+            appHolder.html(apploadedViews['viewMemory'].viewContent);
             window.MemoryApp.ViewMemory.setViewUI();
         });
-        console.log( `%c SETTING ${ this.name } UI ELEMENTS`, 'background: gold; color: purple;');
+        console.log(`%c SETTING ${this.name} UI ELEMENTS`, 'background: gold; color: purple;');
     };
 
 
@@ -34,7 +34,7 @@ window.MemoryApp.ViewSetup = (function ViewSetup() {
     }
 
 
-    console.log( `%c LOADING ${ this.name } `, 'background: #09f; color: #fff;');
+    console.log(`%c LOADING ${this.name} `, 'background: #09f; color: #fff;');
     return {
         // Returns the ViewSetup function itself
         // name: ViewSetup,

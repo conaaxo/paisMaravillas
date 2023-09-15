@@ -19,7 +19,6 @@
  */
 
 
-
 /* Layout helpers
 
 ----------------------------------*/
@@ -71,7 +70,6 @@
 }
 
 .ui-helper-clearfix:before,
-
 .ui-helper-clearfix:after {
 
 	content: "";
@@ -108,10 +106,9 @@
 
 	opacity: 0;
 
-	filter:Alpha(Opacity=0); /* support: IE8 */
+	filter: Alpha(Opacity=0); /* support: IE8 */
 
 }
-
 
 
 .ui-front {
@@ -119,9 +116,6 @@
 	z-index: 100;
 
 }
-
-
-
 
 
 /* Interaction Cues
@@ -135,13 +129,9 @@
 }
 
 
-
-
-
 /* Icons
 
 ----------------------------------*/
-
 
 
 /* states and images */
@@ -159,13 +149,9 @@
 }
 
 
-
-
-
 /* Misc visuals
 
 ----------------------------------*/
-
 
 
 /* Overlays */
@@ -203,7 +189,6 @@
 }
 
 .ui-datepicker .ui-datepicker-prev,
-
 .ui-datepicker .ui-datepicker-next {
 
 	position: absolute;
@@ -217,7 +202,6 @@
 }
 
 .ui-datepicker .ui-datepicker-prev-hover,
-
 .ui-datepicker .ui-datepicker-next-hover {
 
 	top: 1px;
@@ -249,7 +233,6 @@
 }
 
 .ui-datepicker .ui-datepicker-prev span,
-
 .ui-datepicker .ui-datepicker-next span {
 
 	display: block;
@@ -285,7 +268,6 @@
 }
 
 .ui-datepicker select.ui-datepicker-month,
-
 .ui-datepicker select.ui-datepicker-year {
 
 	width: 45%;
@@ -325,7 +307,6 @@
 }
 
 .ui-datepicker td span,
-
 .ui-datepicker td a {
 
 	display: block;
@@ -377,7 +358,6 @@
 }
 
 
-
 /* with multiple calendars */
 
 .ui-datepicker.ui-datepicker-multi {
@@ -419,7 +399,6 @@
 }
 
 .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
-
 .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
 
 	border-left-width: 0;
@@ -441,7 +420,6 @@
 	font-size: 0;
 
 }
-
 
 
 /* RTL support */
@@ -497,7 +475,6 @@
 }
 
 .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
-
 .ui-datepicker-rtl .ui-datepicker-group {
 
 	float: right;
@@ -505,7 +482,6 @@
 }
 
 .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
-
 .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
 
 	border-right-width: 0;
@@ -516,9 +492,9 @@
 
 .ui-tooltip {
 
-	font-family:mclaren-regular;
+	font-family: mclaren-regular;
 
-	font-size:9px;
+	font-size: 9px;
 
 	padding: 8px;
 
@@ -536,15 +512,15 @@
 
 body .ui-tooltip {
 
-	font-family:mclaren-regular;
+	font-family: mclaren-regular;
 
 	border-width: 2px;
 
-	background-color:#E0DDD1;
+	background-color: #E0DDD1;
 
-	color:#2D2713;
+	color: #2D2713;
 
-	border-color:#2D2713;
+	border-color: #2D2713;
 
 	box-shadow: 0 0 5px #aaa;
 
