@@ -26,17 +26,7 @@
 }
 
 #title {
-	width: 401px;
-	height: 71px;
-	background-image: url(../assets/img/conoce/cuidasvsdestruyes/desktop/plecainicio.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0 auto;
-	line-height: 71px;
-	text-align: center;
-	color: white;
 	font-family: gregh;
-	font-size: 40px;
 }
 
 footer {
