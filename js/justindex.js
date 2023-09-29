@@ -1,25 +1,18 @@
 // JavaScript Document// JavaScript Document
 
-$(document).ready(function() {
+$(document).ready(function () {
 
-   	//cambiarAlto();
+    //cambiarAlto();
 
-	if(navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i))
+    if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) {
 
-  {
+        //do nothing
 
-    //do nothing
-
-  }
-
-	else
-
-	{
+    } else {
 
 
+    }
 
-	}
-
-	waysingle();
+    waysingle();
 
 });

@@ -4,183 +4,194 @@
 
 /*  */
 .view-setup {
-    padding: 8px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    background-color: rgba(255,255,255,0.5);
-    width: 825px;
-    margin: 0 auto;
-    /*background-image: url(../../_imgs/views-imgs/view-setup/children.jpg);*/
-    background-size: cover;
-    background-position: center;
+	padding: 8px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 825px;
+	margin: 0 auto;
+	/*background-image: url(../../_imgs/views-imgs/view-setup/children.jpg);*/
+	background-size: cover;
+	background-position: center;
 }
+
 .view-setup .view-title {
-    font-size: 48px;
-    text-transform: none;
-    color: #165947;
-    margin: 10px auto 24px auto;
-    font-family: Pangolin, sans-serif !important;
-    font-style: normal;
+	font-size: 48px;
+	text-transform: none;
+	color: #165947;
+	margin: 10px auto 24px auto;
+	font-family: Pangolin, sans-serif !important;
+	font-style: normal;
 }
 
 .setup-board {
-    /*background-color: rgba(255,255,255,0.9);*/
-    /*width: 400px;*/
-    height: auto;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 3px 24px #aaa;
+	/*background-color: rgba(255,255,255,0.9);*/
+	/*width: 400px;*/
+	height: auto;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 3px 24px #aaa;
 }
+
 .setup-board .main-image {
-    width: 350px;
-    height: auto;
-    border-radius: 50%;
-    /*border: 1px solid #165947;*/
+	width: 350px;
+	height: auto;
+	border-radius: 50%;
+	/*border: 1px solid #165947;*/
 }
+
 .setup-board .main-description {
-    width: 400px;
-    float: right;
-    font-size: 24px;
-    /*background-color: orange;*/
-    padding: 16px 16px 16px 0;
-    margin: 84px 0;
+	width: 400px;
+	float: right;
+	font-size: 24px;
+	/*background-color: orange;*/
+	padding: 16px 16px 16px 0;
+	margin: 84px 0;
 }
+
 .setup-board p {
-    font-size: 18px;
+	font-size: 18px;
 }
-.setup-board p strong{
-    text-align: center;
-    color: #165947;
-    font-weight: 600;
+
+.setup-board p strong {
+	text-align: center;
+	color: #165947;
+	font-weight: 600;
 }
+
 .setup-board h3 {
-    color: #165947;
-    margin: 30px auto 0 auto;
-    font-family: Pangolin, sans-serif !important;
-    font-style: normal;
-    font-size: 2rem;
+	color: #165947;
+	margin: 30px auto 0 auto;
+	font-family: Pangolin, sans-serif !important;
+	font-style: normal;
+	font-size: 2rem;
 }
 
 .setup-board .game-btn-sample {
-    width: 80px;
-    height: auto;
-    border: 8px solid #165947;
-    border-radius: 50%;
+	width: 80px;
+	height: auto;
+	border: 8px solid #165947;
+	border-radius: 50%;
 }
+
 .setup-board .games-options {
-    text-align: center;
+	text-align: center;
 }
+
 .setup-board .games-options img {
-    margin: 8px;
+	margin: 8px;
 }
 
 .setup-board .option-block {
-    margin: 8px 0;
-    padding: 8px;
-    transition: background-color 0.35s ease-in-out;
+	margin: 8px 0;
+	padding: 8px;
+	transition: background-color 0.35s ease-in-out;
 }
+
 .setup-board .option-block:hover {
-    background-color: rgba(136,238,136,0.25);
+	background-color: rgba(136, 238, 136, 0.25);
 }
 
 .setup-board .option-block * {
-    cursor: pointer;    
+	cursor: pointer;
 }
 
 .setup-board label {
-    font-size: 20px;
-    text-transform: uppercase;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .setup-board .option-description {
-    display: block;
-    margin: 0 auto auto auto;
-    font-size: 16px;
+	display: block;
+	margin: 0 auto auto auto;
+	font-size: 16px;
 }
 
 .setup-board input[type="radio"] {
-    padding: 8px;
-    background-color: orange;
-    text-align: center;
+	padding: 8px;
+	background-color: orange;
+	text-align: center;
 }
 
 .setup-board .setup-form {
-    /*background-image: url(../../_imgs/views-imgs/view-login/Luna-1-blank.png);*/
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 350px;
-    position: relative;
-    margin: 0 auto 10px auto;
+	/*background-image: url(../../_imgs/views-imgs/view-login/Luna-1-blank.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+	position: relative;
+	margin: 0 auto 10px auto;
 }
 
 .setup-board .input-icon {
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .setup-board .input {
-    /*
-    position: absolute;
-    left: 222px;
-    bottom: 65px;
-    */
-    display: block;
-    padding: 8px;
-    margin: 0 auto 4px auto;
-    width: 320px;
-    box-sizing: border-box;
+	/*
+	position: absolute;
+	left: 222px;
+	bottom: 65px;
+	*/
+	display: block;
+	padding: 8px;
+	margin: 0 auto 4px auto;
+	width: 320px;
+	box-sizing: border-box;
 
-    background-color: #BCA495;
-    border: 1px solid #BCA495;
-    text-align: center;
-    font-size: 1.1em;
-    border-radius: 24px;
-    color: #BCA495;
-    color: #fff;
-    transition: background-color 0.35s ease-in-out;
+	background-color: #BCA495;
+	border: 1px solid #BCA495;
+	text-align: center;
+	font-size: 1.1em;
+	border-radius: 24px;
+	color: #BCA495;
+	color: #fff;
+	transition: background-color 0.35s ease-in-out;
 }
-.setup-board .input::-webkit-input-placeholder { 
-    color: white;
+
+.setup-board .input::-webkit-input-placeholder {
+	color: white;
 }
 
 .setup-board .input:focus {
-    outline: none;
-    background-color: #EBE4E0;
-    color: #634531;
+	outline: none;
+	background-color: #EBE4E0;
+	color: #634531;
 }
+
 .setup-board .input:focus::-webkit-input-placeholder {
-    color: #634531;    
+	color: #634531;
 }
 
 .setup-board .btn-next {
-    /*
-    position: absolute;
-    left: 222px;
-    bottom: 16px;
-    */
-    display: block;
-    width: 300px;
-    margin: 0 auto;
-    padding: 8px;
-    border: 1px solid #BCA495;
+	/*
+	position: absolute;
+	left: 222px;
+	bottom: 16px;
+	*/
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	padding: 8px;
+	border: 1px solid #BCA495;
 
-    font-size: 20px;
-    text-transform: uppercase;
-    border-radius: 4px;
-    background-color: #BCA495;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 24px;
-    font-size: 1.1em;
-    text-align: center;
-    transition: background-color 0.35s ease-in-out;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	background-color: #BCA495;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 24px;
+	font-size: 1.1em;
+	text-align: center;
+	transition: background-color 0.35s ease-in-out;
 }
 
 .setup-board .btn-next:hover {
-    background-color: #fc6;
-    background-color: #66f;
-    background-color: #EBE4E0;
-    color: white;
-    color: #634531;
+	background-color: #fc6;
+	background-color: #66f;
+	background-color: #EBE4E0;
+	color: white;
+	color: #634531;
 }

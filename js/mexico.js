@@ -1,63 +1,59 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-	cambiarAlto();
+    cambiarAlto();
 
-	iniciales("m");
+    iniciales("m");
 
-	$("a[href^=#]").click(function(event) {
+    $("a[href^=#]").click(function (event) {
 
-		event.preventDefault();
+        event.preventDefault();
 
-		elemento = this.hash;
+        elemento = this.hash;
 
-		$("html, body").animate({
+        $("html, body").animate({
 
-			'scrollTop': $(elemento).data('posicion')
+            'scrollTop': $(elemento).data('posicion')
 
-		}, 600, 'swing');
+        }, 600, 'swing');
 
-	});
-
-	
-
-	//$("section").stick_in_parent({});
+    });
 
 
+    //$("section").stick_in_parent({});
 
-	//$("a[href^=#]").click(function(event) {
 
-		//event.preventDefault();
+    //$("a[href^=#]").click(function(event) {
 
-		//elemento = this.hash;
+    //event.preventDefault();
 
-		//$("html, body").animate({
+    //elemento = this.hash;
 
-		//	'scrollTop': $(elemento).data('posicion')
+    //$("html, body").animate({
 
-		//}, 600, 'swing');
+    //	'scrollTop': $(elemento).data('posicion')
 
-	//});
+    //}, 600, 'swing');
 
+    //});
 
 
 });
 
 
-
 function cambiarAlto() {
 
-	altoNavegador = window.innerHeight;
+    altoNavegador = window.innerHeight;
 
-	altoNavegador -= 81;
+    altoNavegador -= 81;
 
-	$('section').each(function(){
+    $('section').each(function () {
 
-		if($(this).data('alto') != 'independiente')
+        if ($(this).data('alto') != 'independiente')
 
-			$(this).css({height: altoNavegador + "px"});
+            $(this).css({height: altoNavegador + "px"});
 
-	//console.log(altoNavegador);
+        //console.log(altoNavegador);
 
-	});
+    });
 
 }

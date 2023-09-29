@@ -1,24 +1,27 @@
-window.GuessApp = (function() {
+window.GuessApp = (function () {
 
     this.name = "GuessApp";
     this.somemethod = function (argument) {
-        console.log( "Private" );
+        console.log("Private");
     }
 
-    var playerName      = 'Jugador invitado';
+    var playerName = 'Jugador invitado';
     var gameLimitRounds = 3;
 
     function getPlayerName() {
         return playerName;
     }
-    function setPlayerName( newName ) {
-        if( !newName ) return;
+
+    function setPlayerName(newName) {
+        if (!newName) return;
         playerName = newName;
     }
+
     function getGameRounds() {
         return gameLimitRounds;
     }
-    function setGameRounds( numRounds ) {
+
+    function setGameRounds(numRounds) {
         gameLimitRounds = numRounds;
     }
 
@@ -48,29 +51,31 @@ window.GuessApp = (function() {
     var loadedViewsArray = [];
 
     function loadViews() {
-        for( var i = 0, l = viewsArray.length; i < l; i++ ) {
+        for (var i = 0, l = viewsArray.length; i < l; i++) {
             // console.log( i );
-            console.log( `%c SOME MESSAGE ${ i }  `, 'background: #09f; color: #fff;');
+            console.log(`%c SOME MESSAGE ${i}  `, 'background: #09f; color: #fff;');
 
-            $.get( dirTemplates + viewsArray[ i ], function( data, status ) {
-                console.log( `%c PUSHING DATA ${ status } `, 'background: purple; color: #fff;');
-                loadedViewsArray.push( data );
-                if( i === viewsArray.length -1 ) {
-                    console.log( `%c LOADED`, 'background: teal; color: #fff;');
-                };
+            $.get(dirTemplates + viewsArray[i], function (data, status) {
+                console.log(`%c PUSHING DATA ${status} `, 'background: purple; color: #fff;');
+                loadedViewsArray.push(data);
+                if (i === viewsArray.length - 1) {
+                    console.log(`%c LOADED`, 'background: teal; color: #fff;');
+                }
+                ;
             });
-        };
+        }
+        ;
     }
 
-    function loadViewTemplate( viewRef, showView ) {
+    function loadViewTemplate(viewRef, showView) {
         var viewReference = viewRef;
-        $.get( dirTemplates + viewReference.viewFileName, function( data, status ) {
+        $.get(dirTemplates + viewReference.viewFileName, function (data, status) {
 
-            if( status === 'success' ) {
+            if (status === 'success') {
                 viewReference.viewContent = data;
-                loadedViewsArray[ viewReference.viewAlias ] = viewReference;
-                if( !!showView ) {
-                    $( '#appHolder' ).html( loadedViewsArray[ viewReference.viewAlias ].viewContent );
+                loadedViewsArray[viewReference.viewAlias] = viewReference;
+                if (!!showView) {
+                    $('#appHolder').html(loadedViewsArray[viewReference.viewAlias].viewContent);
 
                     // window.GuessApp.ViewLogin.getViewUI()
                     // console.log( window.ViewLogin.setViewUI );
@@ -83,26 +88,26 @@ window.GuessApp = (function() {
                     // window.GuessApp.ViewGuess.setViewUI();
                     // ================================================================
 
-                    console.log( `%c LOADED VIEW: ${ loadedViewsArray[ viewReference.viewAlias ].viewAlias } `, 'background: #288; color: #fff;' );
+                    console.log(`%c LOADED VIEW: ${loadedViewsArray[viewReference.viewAlias].viewAlias} `, 'background: #288; color: #fff;');
                 }
             }
         });
     }
 
     // Load default View ( true )
-    loadViewTemplate( viewLoginRef, !true );
-    loadViewTemplate( viewSetupRef, !!true );
-    loadViewTemplate( viewGuessRef, !true );
+    loadViewTemplate(viewLoginRef, !true);
+    loadViewTemplate(viewSetupRef, !!true);
+    loadViewTemplate(viewGuessRef, !true);
 
     // console.log( loadedViewsArray );
-    console.log( `%c RUNNING ${ this.name } `, 'background: #cf0; color: teal;');
+    console.log(`%c RUNNING ${this.name} `, 'background: #cf0; color: teal;');
 
     return {
         // this.name : this.name
-        loadedViews:      loadedViewsArray,
+        loadedViews: loadedViewsArray,
         loadViewTemplate: loadViewTemplate,
-        getPlayerName:    getPlayerName,
-        setPlayerName:    setPlayerName,
+        getPlayerName: getPlayerName,
+        setPlayerName: setPlayerName,
 
         getGameRounds: getGameRounds,
         setGameRounds: setGameRounds

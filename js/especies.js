@@ -1,54 +1,46 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-	cambiarAlto();
+    cambiarAlto();
 
-	iniciales("e");
-
-
-
-	$("section").stick_in_parent({offset_top: 0});
+    iniciales("e");
 
 
-
-	$("a[href^=#]").click(function(event) {
-
-		event.preventDefault();
-
-		elemento = this.hash;
-
-		$("html, body").animate({
-
-			'scrollTop': $(elemento).data('posicion')
-
-		}, 600, 'swing');
-
-	});
+    $("section").stick_in_parent({offset_top: 0});
 
 
+    $("a[href^=#]").click(function (event) {
 
+        event.preventDefault();
+
+        elemento = this.hash;
+
+        $("html, body").animate({
+
+            'scrollTop': $(elemento).data('posicion')
+
+        }, 600, 'swing');
+
+    });
 
 
 });
 
 
-
-
-
 function cambiarAlto() {
 
-	altoNavegador = window.innerHeight;
+    altoNavegador = window.innerHeight;
 
-	altoNavegador -= 81;
+    altoNavegador -= 81;
 
-	$('section').each(function(){
+    $('section').each(function () {
 
-		if($(this).data('alto') != 'independiente')
+        if ($(this).data('alto') != 'independiente')
 
-			$(this).css({height: altoNavegador + "px"});
+            $(this).css({height: altoNavegador + "px"});
 
-	//console.log(altoNavegador);
+        //console.log(altoNavegador);
 
-	});
+    });
 
 }
 

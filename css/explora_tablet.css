@@ -1,11 +1,9 @@
 
-
-p { 
+p {
 
 	font-size: 20px;
 
 }
-
 
 
 h2 {
@@ -15,34 +13,29 @@ h2 {
 }
 
 
-
 article {
 
-	
 
 }
 
 
-
-#explora{
+#explora {
 
 	background-color: #090d16;
 
 }
 
 
-
-#explora .layerplaneta{
+#explora .layerplaneta {
 
 	width: 160%;
 
-	margin: 17px -290px 2px;	
+	margin: 17px -290px 2px;
 
 }
 
 
-
-#planeta{
+#planeta {
 
 	width: 160%;
 
@@ -51,24 +44,21 @@ article {
 }
 
 
-
 #menuecosistemas {
 
-    margin: 95px 0px 0px;
+	margin: 95px 0px 0px;
 
 }
-
 
 
 #musicaexplora {
 
-    top: 95px;
+	top: 95px;
 
 }
 
 
-
-#modal{
+#modal {
 
 	width: 544px;
 
@@ -81,8 +71,7 @@ article {
 }
 
 
-
-#modal p{
+#modal p {
 
 	font-size: 20px;
 
@@ -93,8 +82,7 @@ article {
 }
 
 
-
-#modal h2{
+#modal h2 {
 
 	font-size: 35px;
 
@@ -102,39 +90,35 @@ article {
 
 	margin-left: 50px;
 
-} 
-
+}
 
 
 .modalfoto img {
 
-    margin-left: 72px;
+	margin-left: 72px;
 
 }
-
 
 
 .modalbtn {
 
-    width: 400px;
+	width: 400px;
 
-    height: 45px;
+	height: 45px;
 
-    margin-bottom: 27px;
+	margin-bottom: 27px;
 
 }
 
 
-
-.modalbtn  img{
+.modalbtn img {
 
 	bottom: 20px;
 
 }
 
 
-
-.modalVideo video{
+.modalVideo video {
 
 	position: absolute;
 
@@ -145,100 +129,89 @@ article {
 }
 
 
-
 #selvaseca .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #selvaseca .margen article img {
 
-    margin-top: 470px;
+	margin-top: 470px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesselvaseca{
+#animalesselvaseca {
 
 	width: 140%;
 
-    left: -30%;
+	left: -30%;
 
 }
-
 
 
 #fondoselvaseca img {
 
-    width: 140%;
+	width: 140%;
 
-    left: -30%;
+	left: -30%;
 
 }
-
 
 
 #selvahumeda .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #selvahumeda .margen article img {
 
-    margin-top: 360px;
+	margin-top: 360px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesselva{
+#animalesselva {
 
 	width: 150%;
 
-    left: -25%;
+	left: -25%;
 
 }
-
 
 
 #fondoselvahumeda img {
 
-    width: 150%;
+	width: 150%;
 
-    left: -25%;
+	left: -25%;
 
 }
 
 
-
-#layer2selva{
+#layer2selva {
 
 	display: none;
 
 }
 
 
-
-#layer2_2selva{
+#layer2_2selva {
 
 	display: none;
 
 }
 
 
-
-#transicionselvahumeda{
+#transicionselvahumeda {
 
 	margin-left: 0px;
 
@@ -247,51 +220,45 @@ article {
 }
 
 
-
 #bosquenublado .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #bosquenublado .margen article img {
 
-    margin-top: 470px;
+	margin-top: 470px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesbosquenublado{
+#animalesbosquenublado {
 
 	width: 150%;
 
-    left: -25%;
+	left: -25%;
 
 }
-
 
 
 #fondobosquenublado img {
 
-    width: 150%;
+	width: 150%;
 
-    left: -25%;
-
-}
-
-
-
-#bosquetemplado{
-
-    padding-top: 420px;
+	left: -25%;
 
 }
 
+
+#bosquetemplado {
+
+	padding-top: 420px;
+
+}
 
 
 #bosquetemplado .margen article {
@@ -301,28 +268,25 @@ article {
 }
 
 
-
 #bosquetemplado .margen article img {
 
-    margin-top: 300px;
+	margin-top: 300px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesbosque{
+#animalesbosque {
 
 	width: 150%;
 
-    left: -32%;
+	left: -32%;
 
 }
 
 
-
-#fondobosquetemplado{
+#fondobosquetemplado {
 
 	width: 150%;
 
@@ -331,24 +295,21 @@ article {
 }
 
 
-
-#layer2bosquetemplado{
-
-	display: none;
-
-}
-
-
-
-#layer3bosquetemplado{
+#layer2bosquetemplado {
 
 	display: none;
 
 }
 
 
+#layer3bosquetemplado {
 
-#transicionbosquetemplado{
+	display: none;
+
+}
+
+
+#transicionbosquetemplado {
 
 	margin-left: 0px;
 
@@ -358,101 +319,91 @@ article {
 
 #rios .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #rios .margen article img {
 
-    margin-top: 470px;
+	margin-top: 470px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesrios{
+#animalesrios {
 
 	width: 150%;
 
-    left: -25%;
+	left: -25%;
 
 }
-
 
 
 #fondorios img {
 
-    width: 150%;
+	width: 150%;
 
-    left: -25%;
-
-}
-
-
-
-#pastizal{
-
-    padding-top:400px;
+	left: -25%;
 
 }
 
+
+#pastizal {
+
+	padding-top: 400px;
+
+}
 
 
 #pastizal .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #pastizal .margen article img {
 
-    margin-top: 249px;
+	margin-top: 249px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalespastizal{
+#animalespastizal {
 
 	width: 150%;
 
-    left: -25%;
+	left: -25%;
 
 }
-
 
 
 #layer1pastizal {
 
-    width: 150%;
+	width: 150%;
 
-    bottom: 20px;
+	bottom: 20px;
 
-    left: -24%;
+	left: -24%;
 
 }
-
 
 
 #fondopastizal img {
 
-    width: 150%;
+	width: 150%;
 
-    margin-left: -197px;
+	margin-left: -197px;
 
 }
 
 
-
-#transicionpastizal{
+#transicionpastizal {
 
 	margin-left: 0px;
 
@@ -463,41 +414,36 @@ article {
 }
 
 
+#matorral {
 
-#matorral{
-
-    padding-top:250px;
+	padding-top: 250px;
 
 }
-
 
 
 #matorral .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #matorral .margen article img {
 
-    margin-top: 360px;
+	margin-top: 360px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesmatorral{
+#animalesmatorral {
 
 	width: 150%;
 
-    left: -33%;
+	left: -33%;
 
 }
-
 
 
 #cactoviejito {
@@ -526,29 +472,27 @@ article {
 
 #fondomatorral img {
 
-    width: 150%;
+	width: 150%;
 
-    margin-left: -274px;
+	margin-left: -274px;
 
-    margin-top: 270px;
+	margin-top: 270px;
 
 }
-
 
 
 #layer1matorral {
 
-    bottom: 35px;
+	bottom: 35px;
 
-    right: -0px;
+	right: -0px;
 
-    width: 108%;
+	width: 108%;
 
 }
 
 
-
-#transicionmatorral{
+#transicionmatorral {
 
 	margin-left: 0px;
 
@@ -557,80 +501,72 @@ article {
 }
 
 
+#pacifico {
 
-#pacifico{
-
-    padding-top:250px;
+	padding-top: 250px;
 
 }
-
 
 
 #pacifico .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #pacifico .margen article img {
 
-    margin-top: 250px;
+	margin-top: 250px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalespacifico{
+#animalespacifico {
 
 	width: 150%;
 
-    left: -20%;
+	left: -20%;
 
 }
-
 
 
 #fondopacifico img {
 
-    width: 150%;
+	width: 150%;
 
-    margin-left: -164px;
+	margin-left: -164px;
 
-    margin-top: 100px;
+	margin-top: 100px;
 
 }
-
 
 
 #layer1pacifico img {
 
-    bottom: 7px;
+	bottom: 7px;
 
-    width: 69%;
+	width: 69%;
 
-    margin-left: -137px;
+	margin-left: -137px;
 
 }
-
 
 
 #layer2pacifico img {
 
-    bottom: 6px;
+	bottom: 6px;
 
-    width: 74%;
+	width: 74%;
 
-    margin-left: -146px;
+	margin-left: -146px;
 
 }
 
 
-
-#transicionpacifico{
+#transicionpacifico {
 
 	margin-left: 0px;
 
@@ -639,148 +575,133 @@ article {
 }
 
 
-
 #golfo {
 
-    padding-top: 260px;
+	padding-top: 260px;
 
 }
-
 
 
 #golfo .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #golfo .margen article img {
 
-    margin-top: 220px;
+	margin-top: 220px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesgolfo{
+#animalesgolfo {
 
 	width: 150%;
 
-    left: -20%;
+	left: -20%;
 
 }
-
 
 
 #fondogolfo img {
 
-    width: 150%;
+	width: 150%;
 
-    margin-left: -164px;
+	margin-left: -164px;
 
-    margin-top: 360px;
+	margin-top: 360px;
 
 }
-
 
 
 #layer1golfo img {
 
-    bottom: 7px;
+	bottom: 7px;
 
-    width: 155%;
+	width: 155%;
 
-    margin-left: -41px;
+	margin-left: -41px;
 
 }
-
 
 
 #layer2golfo img {
 
-    bottom: 6px;
+	bottom: 6px;
 
-    width: 74%;
+	width: 74%;
 
-    margin-left: -146px;
+	margin-left: -146px;
 
 }
 
 
-
-#transiciongolfo{
+#transiciongolfo {
 
 	margin-left: 0px;
 
 	margin-top: -40px;
 
 }
-
 
 
 #campo {
 
-    padding-top: 260px;
+	padding-top: 260px;
 
 }
-
 
 
 #campo .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #campo .margen article img {
 
-    margin-top: 538px;
+	margin-top: 538px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalescampo{
+#animalescampo {
 
 	width: 150%;
 
-    left: -39%;
+	left: -39%;
 
 }
-
 
 
 #fondocampo img {
 
-    width: 150%;
+	width: 150%;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
-    margin-top: 330px;
+	margin-top: 330px;
 
 }
-
 
 
 #layer1campo {
 
-    right: -9%;
+	right: -9%;
 
-    width: 144%;
+	width: 144%;
 
 }
 
 
-
-#transicioncampo{
+#transicioncampo {
 
 	margin-left: 0px;
 
@@ -789,77 +710,69 @@ article {
 }
 
 
+#ciudad {
 
-#ciudad{
-
-    padding-top:300px;
+	padding-top: 300px;
 
 }
-
 
 
 #ciudad .margen article {
 
-    margin: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 200px;
 
 }
-
 
 
 #ciudad .margen article img {
 
-    margin-top: 370px;
+	margin-top: 370px;
 
-    margin-left: -330px;
+	margin-left: -330px;
 
 }
 
 
-
-#animalesciudad{
+#animalesciudad {
 
 	width: 150%;
 
-    left: -35%;
+	left: -35%;
 
 }
-
 
 
 #fondociudad img {
 
-    width: 150%;
+	width: 150%;
 
-    margin-left: -292px;
+	margin-left: -292px;
 
 }
-
 
 
 #layer1ciudad {
 
-    right: -9%;
+	right: -9%;
 
-    width: 144%;
+	width: 144%;
 
 }
-
 
 
 #layer1ciudad img {
 
-    width: 60%;
+	width: 60%;
 
-    margin-left: 32px;
+	margin-left: 32px;
 
 }
 
 
-
 #layer3ciudad {
 
-    right: 61%;
+	right: 61%;
 
-    width: 28%;
+	width: 28%;
 
 }

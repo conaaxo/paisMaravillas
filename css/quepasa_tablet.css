@@ -1,15 +1,15 @@
 #animales {
-    margin: 0px auto;
-    top: 100px;
-    left: -19px;
-    color: #9DC63C;
-    z-index: 5000;
-    width: 900px;
-    margin-bottom: 140px;
+	margin: 0px auto;
+	top: 100px;
+	left: -19px;
+	color: #9DC63C;
+	z-index: 5000;
+	width: 900px;
+	margin-bottom: 140px;
 }
 
-#e0 img{
-    width: 150%;
-    margin-left: -230px;
+#e0 img {
+	width: 150%;
+	margin-left: -230px;
 	bottom: 0px;
 }

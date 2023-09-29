@@ -1,57 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body {
 	position: relative;
 	background-color: #a8dbd6;
 
 }
 
-.margen{
+.margen {
 	position: relative;
 }
 
-.fondoimg{
+.fondoimg {
 	width: 100%;
 	margin: 0;
 }
 
-.fondoimg img{
+.fondoimg img {
 	width: 100%;
 	height: auto;
 }
-.timportante{
+
+.timportante {
 	color: #0b253e;
 	width: 400px;
 }
 
-.animales{
+.animales {
 	font-family: Pangolin, sans-serif !important;
-	background: rgba(0,0,0,0);
+	background: rgba(0, 0, 0, 0);
 	cursor: pointer;
 }
 
-.textoecosistemas{
+.textoecosistemas {
 	margin-top: 180px;
 	width: 700px;
 	color: #33866C;
 }
-section{
+
+section {
 	overflow: hidden;
 }
 
 /*MODAL*/
-#modal{
+#modal {
 	display: none;
 	width: 900px;
 	height: 430px;
 	top: 30%;
 	left: 15%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 9999;
 	position: fixed;
 
 }
+
 .back {
 	width: 40px;
 	height: 40px;
@@ -65,46 +68,50 @@ section{
 }
 
 
-.modalfoto img{
+.modalfoto img {
 	width: 400px;
 	height: 392px;
 	display: inline-block;
 	float: left;
 	margin-right: 20px;
 }
-.modalicon img{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    float: left;
-    margin-top: 10px;
+
+.modalicon img {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
 }
-.modalNombre{
-	color:#FFF;
-	display:inline-block;
-	position:relative;
-	float:left;
-	margin-top:18px;
+
+.modalNombre {
+	color: #FFF;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-top: 18px;
 	font-size: 22px;
 }
-.modalTexto{
+
+.modalTexto {
 	color: #FFF;
 	position: relative;
 	display: inline-block;
 	margin-top: -10px;
 	width: 450px;
 }
-.modalVideo{
+
+.modalVideo {
 	width: 320px;
 	height: 240px;
 	margin: -363px auto;
-	background-color: rgba(0,0,0,0.0);
+	background-color: rgba(0, 0, 0, 0.0);
 	border: 0px solid #000;
 	position: relative;
 	display: none;
 }
 
-.modalVideo video{
+.modalVideo video {
 	position: absolute;
 	width: 320px;
 	height: 240px;
@@ -112,15 +119,17 @@ section{
 	cursor: move;
 }
 
-.modalbtn{
+.modalbtn {
 	display: none;
 
 }
+
 .modalbtn ul {
 	float: none;
 	list-style-image: none;
 	list-style-type: none;
 }
+
 .modalbtn ul li {
 	background-image: url('../assets/img/iconosmultimedia.png');
 	background-repeat: no-repeat;
@@ -132,48 +141,53 @@ section{
 	height: 39px;
 	left: 10px;
 }
-.modalbtn ul li a{
- 	 width: 100%;
- 	 height: 100%;
- 	 display: block;
+
+.modalbtn ul li a {
+	width: 100%;
+	height: 100%;
+	display: block;
 }
+
 .modalbtn ul li#maudio {
- 	 background-position: -46px 0px;
+	background-position: -46px 0px;
 }
+
 .modalbtn ul li#mvideo {
- 	background-position: -82px -60px;
+	background-position: -82px -60px;
 	width: 57px;
 	left: 52px;
 }
+
 .modalbtn ul li#msonido {
- 	background-position: -37px -59px;
+	background-position: -37px -59px;
 	width: 50px;
 	left: 105px;
 }
 
 .modalbtn ul li#mlibro {
-	background-image:url(../assets/img/libros.png);
+	background-image: url(../assets/img/libros.png);
 	width: 57px;
 	left: 112px;
 }
 
 .modalbtn ul li#maudio:hover {
- 	 background-position: 0px 0px;
+	background-position: 0px 0px;
 }
+
 .modalbtn ul li#mvideo:hover {
- 	background-position: -82px 2px;
+	background-position: -82px 2px;
 	width: 57px;
 	left: 52px;
 }
 
 .modalbtn ul li#mlibro:hover {
-	background-image:url(../assets/img/libros_over.png);
+	background-image: url(../assets/img/libros_over.png);
 	width: 57px;
 	left: 112px;
 }
 
 .modalbtn ul li#msonido:hover {
- 	background-position: 10px -59px;
+	background-position: 10px -59px;
 	width: 57px;
 	left: 105px;
 }
@@ -194,14 +208,14 @@ section{
 	color: #EF4B3A;
 }
 
-#overlay{
+#overlay {
 	position: fixed;
 	display: none;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	z-index: 9000;
 }
 
@@ -218,29 +232,29 @@ section{
 }
 
 .logo {
-    width: 100%;
-    height: auto;
-    background-image: url("assets/img/logoinvasoras.png");
-    margin-top: -17%;
+	width: 100%;
+	height: auto;
+	background-image: url("assets/img/logoinvasoras.png");
+	margin-top: -17%;
 	position: relative;
-    background-size: 100%;
-    left: 12%;
+	background-size: 100%;
+	left: 12%;
 }
 
 
 /*invasoras*/
-#invasoras{
+#invasoras {
 	margin: 0;
 	padding-top: 80px;
 	background-color: #8ED1C9;
 	position: relative;
 }
 
-#invasoras img{
+#invasoras img {
 	width: 100%;
 }
 
-#invasoras .margen article{
+#invasoras .margen article {
 	margin: 0 auto;
 	width: 700px;
 	height: auto;
@@ -252,7 +266,7 @@ section{
 	margin-top: -10px;
 }
 
-#invasoras h2{
+#invasoras h2 {
 	text-align: center;
 }
 
@@ -263,7 +277,7 @@ section{
 	width: 600px;
 }*/
 
-#rutas{
+#rutas {
 	margin-top: 500px;
 	bottom: 0;
 	position: absolute;
@@ -274,43 +288,42 @@ section{
 
 /*RUTAS*/
 
-#intencional{
+#intencional {
 	position: absolute;
 	top: 40%;
-    right: 85%;
-    width: 11%;
-    height: 61%;
+	right: 85%;
+	width: 11%;
+	height: 61%;
 }
 
-#nintencional{
-    position: absolute;
-    top: 40%;
-    right: 67%;
-    width: 11%;
-    height: 61%;
-}
-
-#fnaturales{
+#nintencional {
 	position: absolute;
 	top: 40%;
-    right: 50%;
-    width: 11%;
-    height: 61%;
+	right: 67%;
+	width: 11%;
+	height: 61%;
+}
+
+#fnaturales {
+	position: absolute;
+	top: 40%;
+	right: 50%;
+	width: 11%;
+	height: 61%;
 }
 
 /*IMPACTO*/
 
-#impacto{
-    position: absolute;
-    top: 40%;
-    right: 13%;
-    width: 11%;
-    height: 61%;
+#impacto {
+	position: absolute;
+	top: 40%;
+	right: 13%;
+	width: 11%;
+	height: 61%;
 }
 
 
-
-#polizon{
+#polizon {
 	position: absolute;
 	top: 18%;
 	right: 31%;
@@ -318,7 +331,7 @@ section{
 	height: 5%;
 }
 
-#contaminantes{
+#contaminantes {
 	position: absolute;
 	top: 14.5%;
 	right: 61%;
@@ -326,37 +339,39 @@ section{
 	height: 5%;
 }
 
-#corredores{
+#corredores {
 	position: absolute;
 	top: 29%;
 	right: 76%;
 	width: 8%;
 	height: 5%;
 }
-#dispersion{
+
+#dispersion {
 	position: absolute;
 	top: 88%;
 	right: 21.5%;
 	width: 7%;
-	height: 5%;	
+	height: 5%;
 }
-#economia{
-	position:absolute;
+
+#economia {
+	position: absolute;
 	top: 43%;
 	right: 33%;
 	width: 8%;
 	height: 5%;
 }
 
-#ornamento{
-	position:absolute;
+#ornamento {
+	position: absolute;
 	top: 37%;
 	right: 10%;
 	width: 8%;
 	height: 5%;
 }
 
-#ecosistema{
+#ecosistema {
 	position: absolute;
 	top: 50%;
 	right: 78%;
@@ -364,7 +379,7 @@ section{
 	height: 7%;
 }
 
-#usos{
+#usos {
 	position: absolute;
 	top: 61%;
 	right: 78%;
@@ -372,58 +387,63 @@ section{
 	height: 5%;
 }
 
-#social{
+#social {
 	position: absolute;
 	top: 56%;
 	right: 31%;
 	width: 6%;
 	height: 5%;
 }
-#mascotas{
+
+#mascotas {
 	position: absolute;
 	top: 57%;
 	right: 52%;
 	width: 7%;
 	height: 5%;
 }
-#liberacion{
-	position:absolute;
+
+#liberacion {
+	position: absolute;
 	top: 79%;
 	right: 22.5%;
 	width: 7%;
 	height: 5%;
 }
 
-#plagas{
-	position:absolute;
+#plagas {
+	position: absolute;
 	top: 80%;
 	right: 77.5%;
 	width: 7%;
 	height: 5%;
 }
 
-#biodiversidad{
+#biodiversidad {
 	position: absolute;
-    top: 85.5%;
-    right: 49%;
-    width: 7%;
-    height: 5%;
+	top: 85.5%;
+	right: 49%;
+	width: 7%;
+	height: 5%;
 }
-#escape{
+
+#escape {
 	position: absolute;
 	top: 70%;
 	right: 28.5%;
-    width: 7%;
-    height: 5%;
+	width: 7%;
+	height: 5%;
 }
-#salud{
+
+#salud {
 	position: absolute;
 	top: 29%;
 	right: 51.5%;
 	width: 7%;
 	height: 5%;
 }
-#fondoinvasoras img{
+
+#fondoinvasoras img {
 	margin-top: 1px;
 	width: 100%;
 	height: auto;
@@ -431,20 +451,20 @@ section{
 	position: relative;
 }
 
-#layer0invasoras{
+#layer0invasoras {
 	position: absolute;
 	margin-top: -500px;
 	z-index: 500;
 	width: 100%;
 }
 
-#layer2selva{
+#layer2selva {
 	position: absolute;
 	z-index: 660;
 	width: 80%
 }
 
-#layer2selva img{
+#layer2selva img {
 	bottom: 0;
 	transform: translateX(-20%);
 	-webkit-transform: translateX(-20%);
@@ -455,13 +475,13 @@ section{
 	width: 50%;
 }
 
-#layer2_2selva{
+#layer2_2selva {
 	position: absolute;
 	z-index: 660;
 	width: 80%
 }
 
-#layer2_2selva img{
+#layer2_2selva img {
 	bottom: 0;
 	transform: translateX(160%);
 	-webkit-transform: translateX(160%);
@@ -473,44 +493,48 @@ section{
 }
 
 /*bosquenublado*/
-#bosquenublado{
+#bosquenublado {
 	margin: 0;
 	padding-top: 400px;
 	background-color: #C29484;
 	position: relative;
 }
-#bosquenublado p{
+
+#bosquenublado p {
 	color: #FFF;
 }
+
 /*#bosquenublado img{
 	width: 100%;
 }
 */
-#bosquenublado .margen article{
+#bosquenublado .margen article {
 	margin: 0 auto;
 	width: 600px;
 	position: relative;
 }
 
-#bosquenublado h2{
+#bosquenublado h2 {
 	color: #FFF;
 	margin: 0;
 }
 
-#bosquenublado .margen article img{
+#bosquenublado .margen article img {
 	display: inline-block;
 	position: absolute;
 	z-index: 100;
 	width: 300px;
 }
-#animalesbosquenublado{
+
+#animalesbosquenublado {
 	margin-top: 500px;
 	bottom: 0;
 	position: absolute;
 	z-index: 3000;
 	width: 100%;
 }
-#fondobosquenublado img{
+
+#fondobosquenublado img {
 	margin-top: 500px;
 	width: 100%;
 	height: auto;
@@ -518,112 +542,125 @@ section{
 	position: relative;
 	z-index: 2000;
 }
-#nube22{
+
+#nube22 {
 	position: absolute;
 	top: 47px;
 	right: 10%;
 	width: 80%;
-	display: block!important;
+	display: block !important;
 	z-index: 5000;
 }
-#nube2{
+
+#nube2 {
 	position: absolute;
 	top: 547px;
 	right: -3%;
 	width: 80%;
-	display: block!important;
+	display: block !important;
 	z-index: 5500;
 }
-#nube3{
+
+#nube3 {
 	position: absolute;
 	top: 4099px;
 	right: 50px;
 	width: 80%;
-	display: block!important;
+	display: block !important;
 	z-index: 6500;
 }
-#quetzal{
+
+#quetzal {
 	position: absolute;
 	top: 38%;
 	right: 50%;
 	width: 6%;
 	height: 21%;
 }
-#osohormiguero{
+
+#osohormiguero {
 	position: absolute;
 	top: 69%;
 	right: 36%;
 	width: 10%;
 	height: 9%;
 }
-#pavon{
+
+#pavon {
 	position: absolute;
 	top: 21%;
 	right: 26%;
 	width: 12%;
 	height: 22%;
 }
-#aracari{
+
+#aracari {
 	position: absolute;
-    top: 23%;
+	top: 23%;
 	right: 41%;
 	width: 5%;
 	height: 10%;
 }
-#cometa{
+
+#cometa {
 	position: absolute;
-    top: 39%;
+	top: 39%;
 	right: 39%;
 	width: 5%;
 	height: 9%;
 }
-#tigrillo{
+
+#tigrillo {
 	position: absolute;
-   	top: 69%;
+	top: 69%;
 	right: 22%;
 	width: 10%;
 	height: 21%;
 }
-#magnolia{
+
+#magnolia {
 	position: absolute;
-   top: 58%;
+	top: 58%;
 	right: 39%;
 	width: 10%;
 	height: 11%;
 }
-#viejo{
+
+#viejo {
 	position: absolute;
-    top: 85%;
+	top: 85%;
 	right: 41%;
 	width: 11%;
 	height: 9%;
 }
-#tlaconete{
+
+#tlaconete {
 	position: absolute;
 	top: 77%;
 	right: 61%;
 	width: 11%;
 	height: 8%;
 }
-#nauyaca{
+
+#nauyaca {
 	position: absolute;
-   top: 60%;
+	top: 60%;
 	right: 55%;
 	width: 11%;
 	height: 10%;
 }
 
-#bromelian{
+#bromelian {
 	position: absolute;
-  	top: 36%;
+	top: 36%;
 	right: 64%;
 	width: 9%;
 	height: 22%;
 }
 
-#helecho{
+#helecho {
 	position: absolute;
-    top: 47%;
+	top: 47%;
 	right: 13%;
 	width: 12%;
 	height: 24%;
@@ -632,17 +669,16 @@ section{
 #titulo {
 	text-align: center;
 	margin-top: 20px;
-}	
-	
+}
+
 #titulo img {
-	
+
 	width: 630px;
-    height: auto;
+	height: auto;
 }
 
 
-
-.title-como-llegan-al-pais{
+.title-como-llegan-al-pais {
 	max-width: 800px;
 	width: 100%;
 	height: 200px;
@@ -655,10 +691,10 @@ section{
 	background-repeat: no-repeat;
 	background-size: 80%;
 	background-position: 50% 50%;
-  }
+}
 
 
-.indicadores-img{
+.indicadores-img {
 	width: 100%;
 	height: 400px;
 	margin-top: 0px;
@@ -667,14 +703,12 @@ section{
 	background-size: 100%;
 	background-position: 50% 50%;
 	position: relative;
-	
+
 	font-family: Pangolin, sans-serif !important;
 }
 
 
-
-
-.row80{
+.row80 {
 	display: block;
 	max-width: 1200px;
 	margin: auto !important;
@@ -684,53 +718,51 @@ section{
 .cd-main-content a {
 	color: #266044 !important;
 	text-decoration: none;
-  }
+}
 
 
+/* modal */
+#modal {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 9999;
+	position: fixed;
+}
 
-	/* modal */
-	#modal{
-		display: none;
-		background-color: rgba(0,0,0,0.6);
-		z-index: 9999;
-		position: fixed;
-	}
-	.back {
-		width: 40px;
-		height: 40px;
-		background-image: url(../assets/img/iconoscerrar.png);
-		background-size: auto 100%;
-		z-index: 10;
-		right: -8px;
-		position: absolute;
-		top: -9px;
-		cursor: pointer;
-	}
-	
-	
-	.modalfoto img{
-		display: inline-block;
-		float: left;
-	}
-
-	.modalNombre{
-		color:#FFF;
-		display:inline-block;
-		position:relative;
-		float:left;
-	}
-	.modalTexto{
-		color: #FFF;
-		position: relative;
-		display: inline-block;
-	}
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url(../assets/img/iconoscerrar.png);
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
 
 
+.modalfoto img {
+	display: inline-block;
+	float: left;
+}
+
+.modalNombre {
+	color: #FFF;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+.modalTexto {
+	color: #FFF;
+	position: relative;
+	display: inline-block;
+}
 
 
-
-  @media (max-width: 575px) {
-	.indicadores-img{
+@media (max-width: 575px) {
+	.indicadores-img {
 		width: 100%;
 		height: 120px;
 		margin-top: 0px;
@@ -740,21 +772,22 @@ section{
 		background-position: 50% 50%;
 		position: relative;
 	}
-  
-	.title-como-llegan-al-pais{
+
+	.title-como-llegan-al-pais {
 		height: 80px;
 		background-size: 80%;
 		background-position: 50% 50%;
-	  }
+	}
 
 
-  	/* modal */
-	  #modal{
+	/* modal */
+	#modal {
 		width: 300px;
 		height: 555px;
 		top: 15%;
 		left: 15%;
 	}
+
 	.back {
 		width: 40px;
 		height: 40px;
@@ -766,35 +799,35 @@ section{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 300px;
 		height: 292px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: .9em;
 		display: inline-block;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: 0px;
 		margin-left: 20px;
 		width: 260px;
 		font-size: .6em;
 		line-height: 1.5em;
 	}
+
 	/* modal */
 
 }
 
 
-
-
-
- 
-  @media (min-width: 576px) {
-	.indicadores-img{
+@media (min-width: 576px) {
+	.indicadores-img {
 		width: 100%;
 		height: 180px;
 		margin-top: 0px;
@@ -804,13 +837,15 @@ section{
 		background-position: 50% 50%;
 		position: relative;
 	}
+
 	/* modal */
-	#modal{
+	#modal {
 		width: 550px;
 		height: 380px;
 		top: 30%;
 		left: 15%;
 	}
+
 	.back {
 		width: 40px;
 		height: 40px;
@@ -822,33 +857,38 @@ section{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 200px;
 		height: 192px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: .9em;
 		display: inline-block;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: 0px;
 		width: 260px;
 		font-size: .7em;
 		line-height: 1.5em;
 	}
+
 	/* modal */
-	.title-como-llegan-al-pais{
+	.title-como-llegan-al-pais {
 		height: 120px;
 		background-size: 80%;
 		background-position: 50% 50%;
-	  }
+	}
 
-  }
-  @media (min-width: 768px) {
-	.indicadores-img{
+}
+
+@media (min-width: 768px) {
+	.indicadores-img {
 		width: 100%;
 		height: 250px;
 		margin-top: 0px;
@@ -860,12 +900,13 @@ section{
 	}
 
 	/* modal */
-	#modal{
+	#modal {
 		width: 750px;
 		height: 430px;
 		top: 30%;
 		left: 15%;
 	}
+
 	.back {
 		width: 40px;
 		height: 40px;
@@ -877,32 +918,37 @@ section{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 300px;
 		height: 292px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: 22px;
 		display: inline-block;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: 0px;
 		width: 350px;
 		font-size: .85em;
 	}
+
 	/* modal */
-	.title-como-llegan-al-pais{
+	.title-como-llegan-al-pais {
 		height: 180px;
 		background-size: 80%;
 		background-position: 50% 50%;
-	  }
+	}
 
-  }
-  @media (min-width: 992px) {
-	.indicadores-img{
+}
+
+@media (min-width: 992px) {
+	.indicadores-img {
 		width: 100%;
 		height: 300px;
 		margin-top: 0px;
@@ -914,12 +960,13 @@ section{
 	}
 
 	/* modal */
-	#modal{
+	#modal {
 		width: 900px;
 		height: 430px;
 		top: 30%;
 		left: 15%;
 	}
+
 	.back {
 		width: 40px;
 		height: 40px;
@@ -931,33 +978,37 @@ section{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 400px;
 		height: 392px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: 22px;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: -10px;
 		width: 450px;
 		font-size: 1em;
 	}
-	/* modal */
 
-	.title-como-llegan-al-pais{
+	/* modal */
+	.title-como-llegan-al-pais {
 		height: 220px;
 		background-size: 80%;
 		background-position: 50% 50%;
-	  }
+	}
 
-	
-  }
-  @media (min-width: 1200px) {
-	.indicadores-img{
+
+}
+
+@media (min-width: 1200px) {
+	.indicadores-img {
 		width: 100%;
 		height: 400px;
 		margin-top: 0px;
@@ -970,12 +1021,13 @@ section{
 
 
 	/* modal */
-	#modal{
+	#modal {
 		width: 900px;
 		height: 430px;
 		top: 30%;
 		left: 15%;
 	}
+
 	.back {
 		width: 40px;
 		height: 40px;
@@ -987,34 +1039,37 @@ section{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 400px;
 		height: 392px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: 22px;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: -10px;
 		width: 450px;
 		font-size: 1em;
 	}
-	/* modal */
 
-	.title-como-llegan-al-pais{
+	/* modal */
+	.title-como-llegan-al-pais {
 		height: 240px;
 		background-size: 80%;
 		background-position: 50% 50%;
-	  }
+	}
 
 
+}
 
-  }
-  @media (min-width: 1400px) {
-	.indicadores-img{
+@media (min-width: 1400px) {
+	.indicadores-img {
 		width: 100%;
 		height: 400px;
 		margin-top: 0px;
@@ -1026,12 +1081,13 @@ section{
 	}
 
 	/* modal */
-	#modal{
+	#modal {
 		width: 900px;
 		height: 430px;
 		top: 30%;
 		left: 15%;
 	}
+
 	.back {
 		width: 40px;
 		height: 40px;
@@ -1043,28 +1099,31 @@ section{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 400px;
 		height: 392px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: 22px;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: -10px;
 		width: 450px;
 		font-size: 1em;
 	}
-	/* modal */
 
-	.title-como-llegan-al-pais{
+	/* modal */
+	.title-como-llegan-al-pais {
 		height: 210px;
 		background-size: 80%;
 		background-position: 50% 70%;
-	  }
+	}
 
 
-  }
+}

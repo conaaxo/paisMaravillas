@@ -1,15 +1,15 @@
-$( document ).ready(function() {
-  iniciales("eo");
+$(document).ready(function () {
+    iniciales("eo");
 
-  $(".fijo").stick_in_parent({offset_top: 81});
+    $(".fijo").stick_in_parent({offset_top: 81});
 
-  $("a[href^=#]").click(function(event) {
-		event.preventDefault();
-		elemento = this.hash;
-		$("html, body").animate({
-			'scrollTop': $(elemento).data('posicion')
-		}, 600, 'swing');
-	});
+    $("a[href^=#]").click(function (event) {
+        event.preventDefault();
+        elemento = this.hash;
+        $("html, body").animate({
+            'scrollTop': $(elemento).data('posicion')
+        }, 600, 'swing');
+    });
 
 });
 

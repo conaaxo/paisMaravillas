@@ -53,169 +53,190 @@
  */
 
 
+;(function ($) {
 
-;(function($) {
+    $.timer = function (func, time, autostart) {
 
-	$.timer = function(func, time, autostart) {	
+        this.set = function (func, time, autostart) {
 
-	 	this.set = function(func, time, autostart) {
+            this.init = true;
 
-	 		this.init = true;
+            if (typeof func == 'object') {
 
-	 	 	if(typeof func == 'object') {
+                var paramList = ['autostart', 'time'];
 
-		 	 	var paramList = ['autostart', 'time'];
+                for (var arg in paramList) {
+                    if (func[paramList[arg]] != undefined) {
+                        eval(paramList[arg] + " = func[paramList[arg]]");
+                    }
+                }
+                ;
 
-	 	 	 	for(var arg in paramList) {if(func[paramList[arg]] != undefined) {eval(paramList[arg] + " = func[paramList[arg]]");}};
+                func = func.action;
 
- 	 			func = func.action;
+            }
 
-	 	 	}
+            if (typeof func == 'function') {
+                this.action = func;
+            }
 
-	 	 	if(typeof func == 'function') {this.action = func;}
+            if (!isNaN(time)) {
+                this.intervalTime = time;
+            }
 
-		 	if(!isNaN(time)) {this.intervalTime = time;}
+            if (autostart && !this.isActive) {
 
-		 	if(autostart && !this.isActive) {
+                this.isActive = true;
 
-			 	this.isActive = true;
+                this.setTimer();
 
-			 	this.setTimer();
+            }
 
-		 	}
+            return this;
 
-		 	return this;
+        };
 
-	 	};
+        this.once = function (time) {
 
-	 	this.once = function(time) {
+            var timer = this;
 
-			var timer = this;
+            if (isNaN(time)) {
+                time = 0;
+            }
 
-	 	 	if(isNaN(time)) {time = 0;}
+            window.setTimeout(function () {
+                timer.action();
+            }, time);
 
-			window.setTimeout(function() {timer.action();}, time);
+            return this;
 
-	 		return this;
+        };
 
-	 	};
+        this.play = function (reset) {
 
-		this.play = function(reset) {
+            if (!this.isActive) {
 
-			if(!this.isActive) {
+                if (reset) {
+                    this.setTimer();
+                } else {
+                    this.setTimer(this.remaining);
+                }
 
-				if(reset) {this.setTimer();}
+                this.isActive = true;
 
-				else {this.setTimer(this.remaining);}
+            }
 
-				this.isActive = true;
+            return this;
 
-			}
+        };
 
-			return this;
+        this.pause = function () {
 
-		};
+            if (this.isActive) {
 
-		this.pause = function() {
+                this.isActive = false;
 
-			if(this.isActive) {
+                this.remaining -= new Date() - this.last;
 
-				this.isActive = false;
+                this.clearTimer();
 
-				this.remaining -= new Date() - this.last;
+            }
 
-				this.clearTimer();
+            return this;
 
-			}
+        };
 
-			return this;
+        this.stop = function () {
 
-		};
+            this.isActive = false;
 
-		this.stop = function() {
+            this.remaining = this.intervalTime;
 
-			this.isActive = false;
+            this.clearTimer();
 
-			this.remaining = this.intervalTime;
+            return this;
 
-			this.clearTimer();
+        };
 
-			return this;
+        this.toggle = function (reset) {
 
-		};
+            if (this.isActive) {
+                this.pause();
+            } else if (reset) {
+                this.play(true);
+            } else {
+                this.play();
+            }
 
-		this.toggle = function(reset) {
+            return this;
 
-			if(this.isActive) {this.pause();}
+        };
 
-			else if(reset) {this.play(true);}
+        this.reset = function () {
 
-			else {this.play();}
+            this.isActive = false;
 
-			return this;
+            this.play(true);
 
-		};
+            return this;
 
-		this.reset = function() {
+        };
 
-			this.isActive = false;
+        this.clearTimer = function () {
 
-			this.play(true);
+            window.clearTimeout(this.timeoutObject);
 
-			return this;
+        };
 
-		};
+        this.setTimer = function (time) {
 
-		this.clearTimer = function() {
+            var timer = this;
 
-			window.clearTimeout(this.timeoutObject);
+            if (typeof this.action != 'function') {
+                return;
+            }
 
-		};
+            if (isNaN(time)) {
+                time = this.intervalTime;
+            }
 
-	 	this.setTimer = function(time) {
+            this.remaining = time;
 
-			var timer = this;
+            this.last = new Date();
 
-	 	 	if(typeof this.action != 'function') {return;}
+            this.clearTimer();
 
-	 	 	if(isNaN(time)) {time = this.intervalTime;}
+            this.timeoutObject = window.setTimeout(function () {
+                timer.go();
+            }, time);
 
-		 	this.remaining = time;
+        };
 
-	 	 	this.last = new Date();
+        this.go = function () {
 
-			this.clearTimer();
+            if (this.isActive) {
 
-			this.timeoutObject = window.setTimeout(function() {timer.go();}, time);
+                this.action();
 
-		};
+                this.setTimer();
 
-	 	this.go = function() {
+            }
 
-	 		if(this.isActive) {
+        };
 
-	 			this.action();
 
-	 			this.setTimer();
+        if (this.init) {
 
-	 		}
+            return new $.timer(func, time, autostart);
 
-	 	};
+        } else {
 
-	 	
+            this.set(func, time, autostart);
 
-	 	if(this.init) {
+            return this;
 
-	 		return new $.timer(func, time, autostart);
+        }
 
-	 	} else {
-
-			this.set(func, time, autostart);
-
-	 		return this;
-
-	 	}
-
-	};
+    };
 
 })(jQuery);

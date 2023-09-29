@@ -8,22 +8,22 @@ window.TwelveApp.ViewSetup = (function ViewSetup() {
 
 
     function setViewUI() {
-        appHolder = $( '#appHolder' );
+        appHolder = $('#appHolder');
         apploadedViews = window.TwelveApp.loadedViews;
-        playerNameUI = $( '#setupPlayerName' );
-        nextBtn = $( '#setupBtnNext' );
+        playerNameUI = $('#setupPlayerName');
+        nextBtn = $('#setupBtnNext');
 
-        appHolder.removeClass( 'playing' );
+        appHolder.removeClass('playing');
 
-        nextBtn.on( 'click', function() {
-            window.TwelveApp.setPlayerName( playerNameUI.val() );
-            console.log( 'WINDEX',  window.TwelveApp.getPlayerName() );
+        nextBtn.on('click', function () {
+            window.TwelveApp.setPlayerName(playerNameUI.val());
+            console.log('WINDEX', window.TwelveApp.getPlayerName());
 
-            appHolder.html( apploadedViews[ 'viewTwelve' ].viewContent );
+            appHolder.html(apploadedViews['viewTwelve'].viewContent);
             window.TwelveApp.ViewTwelve.setViewUI();
 
         });
-        console.log( `%c SETTING ${ this.name } UI ELEMENTS`, 'background: gold; color: purple;');
+        console.log(`%c SETTING ${this.name} UI ELEMENTS`, 'background: gold; color: purple;');
     };
 
 
@@ -32,7 +32,7 @@ window.TwelveApp.ViewSetup = (function ViewSetup() {
     }
 
 
-    console.log( `%c LOADING ${ this.name } `, 'background: #09f; color: #fff;');
+    console.log(`%c LOADING ${this.name} `, 'background: #09f; color: #fff;');
     return {
         // Returns the ViewSetup function itself
         // name: ViewSetup,

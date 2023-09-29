@@ -1,188 +1,188 @@
 section {
-  overflow:hidden;
-  width: 100%;
-  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
-  height: 75%;
+	overflow: hidden;
+	width: 100%;
+	box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.2);
+	height: 75%;
 }
 
 
 #dow1 {
-  background-color: #225e5d;
-  color: #FFF;
-  position:relative;
-  padding-top:81px;
-  z-index: 3;
-  height: 415px;
+	background-color: #225e5d;
+	color: #FFF;
+	position: relative;
+	padding-top: 81px;
+	z-index: 3;
+	height: 415px;
 }
 
 #dow2 {
-  background-color: rgba(119, 169, 155, 0.89);
-  color: #ffffff;
-  text-align: center;
-  position:relative;
-  z-index: 3;
+	background-color: rgba(119, 169, 155, 0.89);
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	z-index: 3;
 }
 
 #dow2 #group1 {
-  background-color: #a2a81d;
+	background-color: #a2a81d;
 }
 
 #group1 .logodesc {
-  background-position: -23px 0px;
-  width: 92px;
+	background-position: -23px 0px;
+	width: 92px;
 }
 
 #dow2 #group2 {
-  background-color: #719544;
+	background-color: #719544;
 }
 
 #group2 .logodesc {
-  background-position: -133px 0px;
-  width: 93px;
+	background-position: -133px 0px;
+	width: 93px;
 }
 
 #dow2 #group3 {
-  background-color: #d09c14;
+	background-color: #d09c14;
 }
 
 #group3 .logodesc {
-  background-position: -255px 0px;
-  width: 132px;
+	background-position: -255px 0px;
+	width: 132px;
 }
 
 #dow2 #group4 {
-  background-color: #cd7f12;
+	background-color: #cd7f12;
 }
 
 #group4 .logodesc {
-  background-position: -416px 0px;
-  width: 74px;
+	background-position: -416px 0px;
+	width: 74px;
 }
 
 #dow2 #group5 {
-  background-color: #34748d;
+	background-color: #34748d;
 }
 
 #group5 .logodesc {
-  background-position: -10px -176px;
-  width: 116px;
+	background-position: -10px -176px;
+	width: 116px;
 }
 
 #dow2 #group6 {
-  background-color: #4eb287;
+	background-color: #4eb287;
 }
 
 #group6 .logodesc {
-  background-position: -166px -176px;
-  width: 125px;
+	background-position: -166px -176px;
+	width: 125px;
 }
 
 #dow2 #group7 {
-  background-color: #7d5e34;
+	background-color: #7d5e34;
 }
 
 #group7 .logodesc {
-  background-position: -331px -176px;
-  width: 103px;
+	background-position: -331px -176px;
+	width: 103px;
 }
 
 #dow2 #group8 {
-  background-color: #85827a;
+	background-color: #85827a;
 }
 
 #dow2 #group9 {
-  background-color: #694344;
+	background-color: #694344;
 }
 
 #group8 .logodesc {
-  background-position: -475px -176px;
-  width: 40px;
+	background-position: -475px -176px;
+	width: 40px;
 }
 
 #group9 .logodesc2 {
-  background-position: -13px -145px;
-  width: 150px;
+	background-position: -13px -145px;
+	width: 150px;
 }
 
 #dow2 #group10 {
-  background-color: #564000;
+	background-color: #564000;
 }
 
 #group10 .logodesc2 {
-  background-position: -255px -145px;
-  width: 150px;
+	background-position: -255px -145px;
+	width: 150px;
 }
 
 #dow2 #group11 {
-  background-color: #00668e;
+	background-color: #00668e;
 }
 
 #group11 .logodesc2 {
-  background-position: -490px -145px;
-  width: 150px;
+	background-position: -490px -145px;
+	width: 150px;
 }
 
 #dow2 #group12 {
-  background-color: #707b31;
+	background-color: #707b31;
 }
 
 #group12 .logodesc2 {
-  background-position: -725px -145px;
-  width: 150px;
+	background-position: -725px -145px;
+	width: 150px;
 }
 
 
-#dow2 .squarecolor{
-  display: inline-block;
-  width: 235px;
-  font-size: 16px;
-  margin-bottom: 10px;
-  vertical-align: top;
+#dow2 .squarecolor {
+	display: inline-block;
+	width: 235px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	vertical-align: top;
 }
 
 #dow2 .squarecolor2 {
-  display: inline-block;
-  width: 235px;
-  font-size: 16px;
-  vertical-align: top
+	display: inline-block;
+	width: 235px;
+	font-size: 16px;
+	vertical-align: top
 }
 
 #dow2 .squarecolor .logodesc {
-  height: 170px;
-  background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
-  margin: 5px auto 0px;
-  background-size: auto 360px;
+	height: 170px;
+	background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
+	margin: 5px auto 0px;
+	background-size: auto 360px;
 }
 
 #dow2 .squarecolor2 .logodesc2 {
-  height: 150px;
-  background-image: url("../assets/img/materiales/descargables/descargables_juegos.png");
-  margin: 5px 30px 10px;
-  background-size: auto 150px;
+	height: 150px;
+	background-image: url("../assets/img/materiales/descargables/descargables_juegos.png");
+	margin: 5px 30px 10px;
+	background-size: auto 150px;
 }
 
-#dow2 ul{
-  text-align: left;
-  list-style: none;
-  margin: -20px 0px;
-  padding: 0;
+#dow2 ul {
+	text-align: left;
+	list-style: none;
+	margin: -20px 0px;
+	padding: 0;
 }
 
 #dow2 ul li {
-  padding-left: 15px;
+	padding-left: 15px;
 }
 
 #dow2 ul li:hover {
-  background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
-#dow2 ul li a{
-  background: url('../assets/img/materiales/descargables/bajar.png') no-repeat left 50%;
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  padding-left: 40px;
-  background-size: 30px;
+#dow2 ul li a {
+	background: url('../assets/img/materiales/descargables/bajar.png') no-repeat left 50%;
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	padding-left: 40px;
+	background-size: 30px;
 }
 
 
@@ -190,48 +190,55 @@ section {
 
 /*----  Main Style  ----*/
 
-#cards_landscape_wrap-2 .container{
-  padding-bottom: 200px;
-  text-align: center;
+#cards_landscape_wrap-2 .container {
+	padding-bottom: 200px;
+	text-align: center;
 }
-#cards_landscape_wrap-2 a{
-  text-decoration: none;
-  outline: none;
+
+#cards_landscape_wrap-2 a {
+	text-decoration: none;
+	outline: none;
 }
+
 #cards_landscape_wrap-2 .card-flyer {
-  border-radius: 5px;
+	border-radius: 5px;
 }
+
 #cards_landscape_wrap-2 .card-flyer .image-box {
- /* background: #ffffff; */
-  overflow: hidden;
-  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50); */
-  border-radius: 5px;
+	/* background: #ffffff; */
+	overflow: hidden;
+	/* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50); */
+	border-radius: 5px;
 }
+
 #cards_landscape_wrap-2 .card-flyer .text-box {
-  text-align: center;
+	text-align: center;
 }
+
 #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
-  padding: 40px 10px;
+	padding: 40px 10px;
 }
+
 #cards_landscape_wrap-2 .card-flyer {
-  /*background: #fff3e2; */
-  margin-top: 50px;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+	/*background: #fff3e2; */
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
 }
+
 #cards_landscape_wrap-2 .card-flyer:hover {
-  background: #fff;
-  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  margin-top: 50px;
+	background: #fff;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
 }
 
 

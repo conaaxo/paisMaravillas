@@ -1,16 +1,16 @@
-.margen{
-	width:800px;
-	margin:0 auto;
-	position:relative;
+.margen {
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
 }
 
 header nav#menuMateriales {
-	position:absolute;
+	position: absolute;
 	right: 32px;
-	top:81px;
+	top: 81px;
 }
 
-footer strong{
+footer strong {
 	position: absolute;
 	top: 7px;
 	right: 35px;
@@ -21,20 +21,22 @@ footer strong{
 
 
 .barraExtra {
-    bottom: -10px;
+	bottom: -10px;
 	z-index: 8000;
 }
 
-body{
-	
+body {
+
 	min-height: 100vh;
 }
-footer{
 
-position: absolute;
-bottom: 0px;
+footer {
+
+	position: absolute;
+	bottom: 0px;
 }
-footer img{
+
+footer img {
 	width: 220px;
 }
 
