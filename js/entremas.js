@@ -1,76 +1,72 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-	cambiarAlto();
+    cambiarAlto();
 
-	iniciales("e");
+    iniciales("e");
 
 
+    $("section").stick_in_parent({offset_top: 0})
 
-	$("section").stick_in_parent({offset_top: 0})
+        .on("sticky_kit:stick", function (e) {
 
-	.on("sticky_kit:stick", function(e) {
+            $(".scrollable").each(function () {
 
-	    $(".scrollable").each(function(){
+                $(this).removeClass('showSect').addClass('hideSect');
 
-	    	$(this).removeClass('showSect').addClass('hideSect');
+            });
 
-	    });
+            $(e.target).removeClass('hideSect').addClass('showSect');
 
-	    $(e.target).removeClass('hideSect').addClass('showSect');
+        })
 
-	})
+        .on("sticky_kit:unstick", function (e) {
 
-	.on("sticky_kit:unstick", function(e) {
+            $(e.target).removeClass('showSect').addClass('hideSect');
 
-		$(e.target).removeClass('showSect').addClass('hideSect');
+            $(e.target).prev().prev().removeClass('hideSect').addClass('showSect');
 
-	    $(e.target).prev().prev().removeClass('hideSect').addClass('showSect');
+        });
 
-	});
+    $("a[href^=#]").click(function (event) {
 
-	$("a[href^=#]").click(function(event) {
+        event.preventDefault();
 
-		event.preventDefault();
+        elemento = this.hash;
 
-		elemento = this.hash;
+        $("html, body").animate({
 
-		$("html, body").animate({
+            'scrollTop': $(elemento).data('posicion') + 90
 
-			'scrollTop': $(elemento).data('posicion') + 90
+        }, 600, 'swing');
 
-		}, 600, 'swing');
+    });
 
-	});
+    $(window).on('resize', function () {
 
-	$(window).on('resize', function(){
+        cambiarAlto();
 
-		cambiarAlto();
-
-  });
+    });
 
 });
 
 
-
-
-
 function cambiarAlto() {
 
-	altoNavegador = window.innerHeight;
+    altoNavegador = window.innerHeight;
 
-	altoNavegador -= 81;
+    altoNavegador -= 81;
 
-	$('section').each(function(){
+    $('section').each(function () {
 
-		if($(this).data('alto') != 'independiente')
+        if ($(this).data('alto') != 'independiente')
 
-			$(this).css({height: altoNavegador + "px"});
+            $(this).css({height: altoNavegador + "px"});
 
-	//console.log(altoNavegador);
+        //console.log(altoNavegador);
 
-	});
+    });
 
-	$("#seccion0").css({height: altoNavegador + "px"});
+    $("#seccion0").css({height: altoNavegador + "px"});
 
 }
 

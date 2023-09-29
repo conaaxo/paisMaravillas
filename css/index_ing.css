@@ -8,9 +8,9 @@ body {
 
 title {
 
-	font-family:mclaren-regular;
+	font-family: mclaren-regular;
 
-	font-size:9px;
+	font-size: 9px;
 
 	padding: 8px;
 
@@ -40,7 +40,7 @@ section {
 
 }
 
-#premio{
+#premio {
 
 	position: absolute;
 
@@ -62,13 +62,13 @@ section {
 
 }
 
-#premio span{
+#premio span {
 
 	font-size: 18px;
 
 }
 
-#premio img{
+#premio img {
 
 	left: -80px;
 
@@ -78,7 +78,7 @@ section {
 
 }
 
-#premio a{
+#premio a {
 
 	text-decoration: none;
 
@@ -88,7 +88,7 @@ section {
 
 }
 
-.downloadPC{
+.downloadPC {
 
 	cursor: pointer;
 
@@ -96,7 +96,7 @@ section {
 
 }
 
-.downloadPC a {	
+.downloadPC a {
 
 	text-decoration: none;
 
@@ -104,7 +104,7 @@ section {
 
 }
 
-.downloadAndroid{
+.downloadAndroid {
 
 	cursor: pointer;
 
@@ -122,37 +122,32 @@ section {
 
 	margin: 21px 0px 0px 360px !important;
 
-	
 
 }
 
 
-
-#audio_i1:hover{
+#audio_i1:hover {
 
 	background-position: -45px 0px;
 
 }
 
 
-
-#audio_i1:focus{
+#audio_i1:focus {
 
 	background-position: -45px 0px;
 
 }
 
 
-
-header h1{
+header h1 {
 
 	display: none;
 
 }
 
 
-
-.fondoimg{
+.fondoimg {
 
 	width: 100%;
 
@@ -161,8 +156,7 @@ header h1{
 }
 
 
-
-.fondoimg img{
+.fondoimg img {
 
 	width: 100%;
 
@@ -171,32 +165,30 @@ header h1{
 }
 
 
-
-.fa{
+.fa {
 
 	cursor: pointer;
 
 }
 
 
-
-#logotipo{
+#logotipo {
 
 	height: 100%;
 
 	width: auto;
 
-	transform:translateX(-50%);
+	transform: translateX(-50%);
 
-	-o-transform:translateX(-50%);
+	-o-transform: translateX(-50%);
 
-	-ms-transform:translateX(-50%);
+	-ms-transform: translateX(-50%);
 
-	-moz-transform:translateX(-50%);
+	-moz-transform: translateX(-50%);
 
-	-khtml-transform:translateX(-50%);
+	-khtml-transform: translateX(-50%);
 
-	-webkit-transform:translateX(-50%);
+	-webkit-transform: translateX(-50%);
 
 	left: 50%;
 
@@ -211,10 +203,9 @@ header h1{
 }
 
 
+#tito {
 
-#tito{
-
-    position: absolute;
+	position: absolute;
 
 	z-index: 1000;
 
@@ -223,7 +214,6 @@ header h1{
 	top: 53px;
 
 }
-
 
 
 .back {
@@ -249,8 +239,7 @@ header h1{
 }
 
 
-
-#modalhome{
+#modalhome {
 
 	display: none;
 
@@ -278,7 +267,7 @@ header h1{
 
 	z-index: 4000;
 
-	position:fixed;
+	position: fixed;
 
 	padding: 40px;
 
@@ -301,7 +290,6 @@ header h1{
 }
 
 
-
 #modalcontent {
 
 	height: 100%;
@@ -311,8 +299,7 @@ header h1{
 }
 
 
-
-#modalhome h2{
+#modalhome h2 {
 
 	color: #545972;
 
@@ -325,8 +312,7 @@ header h1{
 }
 
 
-
-#modalhome p{
+#modalhome p {
 
 	width: 700px;
 
@@ -335,8 +321,7 @@ header h1{
 }
 
 
-
-#titologo{
+#titologo {
 
 	position: absolute;
 
@@ -347,8 +332,7 @@ header h1{
 }
 
 
-
-#tito1{
+#tito1 {
 
 	position: absolute;
 
@@ -359,12 +343,11 @@ header h1{
 }
 
 
+#overlay {
 
-#overlay{
+	position: fixed;
 
-	position:fixed;
-
-	display:none;
+	display: none;
 
 	top: 0;
 
@@ -374,23 +357,23 @@ header h1{
 
 	height: 100%;
 
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 
 	z-index: 1000;
 
 }
 
-.banderas1{
+.banderas1 {
 
-	height:41px;
+	height: 41px;
 
-	width:87px;
+	width: 87px;
 
-	display:block;
+	display: block;
 
-	position:fixed;
+	position: fixed;
 
-	right:0;
+	right: 0;
 
 	background-image: url('../assets/img/bandera_creditos.png');
 
@@ -398,29 +381,27 @@ header h1{
 
 	background-repeat: no-repeat;
 
-	transition:all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 
-	-moz-transition:all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
 
-	-ms-transition:all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
 
-	-webkit-transition:all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
 
-	-o-transition:all 0.3s ease-in-out;
-
+	-o-transition: all 0.3s ease-in-out;
 
 
 }
 
 
+.banderas1 a {
 
-.banderas1 a{
+	display: block;
 
-	display:block;
+	height: 41px;
 
-	height:41px;
-
-	width:87px;
+	width: 87px;
 
 }
 
@@ -440,7 +421,7 @@ header h1{
 
 }*/
 
-#creditos{
+#creditos {
 
 	top: 258px;
 
@@ -450,15 +431,14 @@ header h1{
 
 }
 
-#creditos:hover{
+#creditos:hover {
 
 	background-position: 0px -49px !important;
 
 }
 
 
-
-#fondohome{
+#fondohome {
 
 	position: fixed;
 
@@ -479,24 +459,23 @@ header h1{
 }
 
 
-
-#fondohome img{
+#fondohome img {
 
 	height: 100%;
 
 	width: auto;
 
-	transform:translateX(-50%);
+	transform: translateX(-50%);
 
-	-o-transform:translateX(-50%);
+	-o-transform: translateX(-50%);
 
-	-ms-transform:translateX(-50%);
+	-ms-transform: translateX(-50%);
 
-	-moz-transform:translateX(-50%);
+	-moz-transform: translateX(-50%);
 
-	-khtml-transform:translateX(-50%);
+	-khtml-transform: translateX(-50%);
 
-	-webkit-transform:translateX(-50%);
+	-webkit-transform: translateX(-50%);
 
 	left: 50%;
 
@@ -505,8 +484,7 @@ header h1{
 }
 
 
-
-footer{
+footer {
 
 	position: fixed;
 
@@ -516,7 +494,7 @@ footer{
 
 	bottom: 0;
 
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0, 0, 0, .5);
 
 	left: 0;
 
@@ -525,16 +503,14 @@ footer{
 }
 
 
-
-footer div{
+footer div {
 
 	margin: 21px 0px 0px 35px;
 
 }
 
 
-
-footer h4{
+footer h4 {
 
 	position: absolute;
 
@@ -547,8 +523,7 @@ footer h4{
 }
 
 
-
-footer p{
+footer p {
 
 	position: absolute;
 
@@ -561,7 +536,6 @@ footer p{
 	font-size: 11px;
 
 }
-
 
 
 footer img {

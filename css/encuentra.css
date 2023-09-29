@@ -1,232 +1,259 @@
 #dragndrop {
-  background-color: #99c5b4;
-  background-image: url(../assets/img/conoce/encuentrasucasa/patronE.png);
+	background-color: #99c5b4;
+	background-image: url(../assets/img/conoce/encuentrasucasa/patronE.png);
 }
+
 #titlecard, #dragndrop {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #a5cfc2;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #a5cfc2;
 }
+
 #dragndrop {
-  height: 100%;
+	height: 100%;
 }
 
 #titlecard {
-  z-index: 900;
+	z-index: 900;
 }
+
 #dragndrop {
-  z-index: 800;
+	z-index: 800;
 }
+
 #dragndrop > .margen:first-child {
-  margin-top: 130px;
+	margin-top: 130px;
 }
+
 #ecosistemasDrop {
-  background-color: #99c5b4;
-  width: 799px;
-  height: 424px;;
-  border-radius: 8px;
-  margin: 0 auto;
-  margin-top: 20px;
+	background-color: #99c5b4;
+	width: 799px;
+	height: 424px;;
+	border-radius: 8px;
+	margin: 0 auto;
+	margin-top: 20px;
 }
+
 .ecosistemaSquare {
-  width: 170px;
-  height: 150px;
-  background-size: cover;
-  float: left;
-  margin: 8px 8px;
+	width: 170px;
+	height: 150px;
+	background-size: cover;
+	float: left;
+	margin: 8px 8px;
 }
+
 .placeEsp1 {
-  left: 210px;
+	left: 210px;
 }
+
 .placeEsp2 {
-  left: 350px
+	left: 350px
 }
+
 .placeEsp3 {
-  left: 490px;
+	left: 490px;
 }
+
 .placeEsp4 {
-  left: 630px;
+	left: 630px;
 }
+
 .draggable {
-  width: 111px;
-  height: 145px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-size: cover;
+	width: 111px;
+	height: 145px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
 }
+
 #especiesDrag {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 160px;
-  background-color: #404e5b;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 160px;
+	background-color: #404e5b;
 }
-#especiesDrag .margen > div{
-  position: absolute;
-  top: 7px;
-  background-color: #445366;
-  width: 111px;
-  height: 145px;
+
+#especiesDrag .margen > div {
+	position: absolute;
+	top: 7px;
+	background-color: #445366;
+	width: 111px;
+	height: 145px;
 }
+
 #title {
-    width: 206px;
-    height: 104px;
-    background-image: url("../assets/img/conoce/encuentrasucasa/desktop/ui/logoencuentra.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 165px auto 43px;
+	width: 206px;
+	height: 104px;
+	background-image: url("../assets/img/conoce/encuentrasucasa/desktop/ui/logoencuentra.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 165px auto 43px;
 }
 
 #tito {
-  height: 217px;
-  width: 195px;
-  margin: 53px auto;
-  background-image: url(../assets/img/conoce/encuentrasucasa/desktop/ui/titoencuentra.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+	height: 217px;
+	width: 195px;
+	margin: 53px auto;
+	background-image: url(../assets/img/conoce/encuentrasucasa/desktop/ui/titoencuentra.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
+
 #titoact {
-    height: 232px;
-    width: 159px;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    margin: 79px 50px;
+	height: 232px;
+	width: 159px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	margin: 79px 50px;
 }
+
 .margen p {
-  text-align: center;
-  font-size: 14px;
-  color: #2a3a36;
+	text-align: center;
+	font-size: 14px;
+	color: #2a3a36;
 }
 
 p span {
-  color: #94282a;
+	color: #94282a;
 }
 
 #btnEmpezar {
-  height: 35px;
-  width: 101px;
-  background-image: url(../assets/img/conoce/encuentrasucasa/desktop/ui/btn_empezar.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+	height: 35px;
+	width: 101px;
+	background-image: url(../assets/img/conoce/encuentrasucasa/desktop/ui/btn_empezar.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
 }
 
 .info {
-  position: absolute;
-  top: -60px;
+	position: absolute;
+	top: -60px;
 }
 
 #tiempo {
-  left: 27px;
+	left: 27px;
 }
 
 #puntos {
-  left: 150px;
-  display: none;
+	left: 150px;
+	display: none;
 }
 
 .space {
-  margin-left: 10px;
+	margin-left: 10px;
 }
+
 #puntos {
-  display: none;
+	display: none;
 }
+
 #dataRow {
-  width: 665px;
-  margin: 90px auto 0px;
-  text-align: left;
-  margin-left: 150px;
-  position: relative;
+	width: 665px;
+	margin: 90px auto 0px;
+	text-align: left;
+	margin-left: 150px;
+	position: relative;
 }
+
 #dataRow > div {
-  display: inline-block;
+	display: inline-block;
 }
 
 #showTime {
-  background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
-  background-color: #424f5a;
-  background-size: auto 40px;
-  height: 40px;
-  width: 113px;
-  line-height: 35px;
-  text-align: center;
-  font-size: 14px;
-  color: #f5fcf6;
+	background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
+	background-color: #424f5a;
+	background-size: auto 40px;
+	height: 40px;
+	width: 113px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #f5fcf6;
 }
-#numbers{
-  background-color: #fcf1c8;
-  color: #404e5b;
-  padding: 3px;
-  line-height: 39px;
+
+#numbers {
+	background-color: #fcf1c8;
+	color: #404e5b;
+	padding: 3px;
+	line-height: 39px;
 }
+
 #showPoints {
-  background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
-  background-color: #942824;
-  background-size: auto 40px;
-  height: 40px;
-  width: 113px;
-  line-height: 35px;
-  text-align: center;
-  font-size: 14px;
-  color: #f5fcf6;
+	background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
+	background-color: #942824;
+	background-size: auto 40px;
+	height: 40px;
+	width: 113px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	color: #f5fcf6;
 }
+
 #points {
-  background-color: #FCF1C8;
-  color: #404E5B;
-  padding: 3px;
-  line-height: 22px;
-  position: relative;
-  width: 34px;
-  height: 20px;
-  display: inline-block;
-  top: 3px;
+	background-color: #FCF1C8;
+	color: #404E5B;
+	padding: 3px;
+	line-height: 22px;
+	position: relative;
+	width: 34px;
+	height: 20px;
+	display: inline-block;
+	top: 3px;
 }
+
 #nivel {
-  height: 57px;
-  width: 152px;
-  background-size: auto 57px;
-  position: absolute;
-  top: -3px;
-  right: 0;
+	height: 57px;
+	width: 152px;
+	background-size: auto 57px;
+	position: absolute;
+	top: -3px;
+	right: 0;
 }
+
 #endLevel {
-    background-color: #99C5B4;
-    width: 749px;
-    height: 700px;
-    border-radius: 8px;
-    margin: 23px -62px 0px;
-    position: absolute;
-    top: 42px;
-    left: 148px;
-    display: none;
+	background-color: #99C5B4;
+	width: 749px;
+	height: 700px;
+	border-radius: 8px;
+	margin: 23px -62px 0px;
+	position: absolute;
+	top: 42px;
+	left: 148px;
+	display: none;
 }
+
 #mensaje {
-  display: inline-block;
-  height: 180px;
-  width: 270px;
-  position: absolute;
-  top: 90px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  left: 260px;
-  color: #fff;
-  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+	display: inline-block;
+	height: 180px;
+	width: 270px;
+	position: absolute;
+	top: 90px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	left: 260px;
+	color: #fff;
+	text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
+
 #certificadonumero {
-  background-image: url("../assets/img/conoce/encuentrasucasa/desktop/ui/certificado.png");
-  height: 260px;
-  width: 151px;
-  background-size: 151px auto;
-  position: absolute;
-  top: -25px;
-  right: -50px;
+	background-image: url("../assets/img/conoce/encuentrasucasa/desktop/ui/certificado.png");
+	height: 260px;
+	width: 151px;
+	background-size: 151px auto;
+	position: absolute;
+	top: -25px;
+	right: -50px;
 }
+
 /*#certificado {
   background-image: url("../assets/img/conoce/encuentrasucasa/desktop/ui/certificado.png");
   height: 260px;
@@ -255,56 +282,66 @@ p span {
   right: -50px;
 }*/
 #next {
-  background-color: transparent !important;
-  margin: 47px auto;
-  height: 57px !important;
-  width: 185px !important;
-  background-size: 185px auto;
-  left: 40%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  display: none;
+	background-color: transparent !important;
+	margin: 47px auto;
+	height: 57px !important;
+	width: 185px !important;
+	background-size: 185px auto;
+	left: 40%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: none;
 }
-footer{
-	display:none;
+
+footer {
+	display: none;
 }
-@media only screen and (orientation: portrait)
-{
-  #ecosistemasDrop {
-    width: 400px;
-	height: 720px;;
-  }
-  #endLevel {
-    width: 525px;
-    height: 720px;
-  }
-  .placeEsp1 {
-    left: 110px;
-  }
-  .placeEsp2 {
-    left: 250px
-  }
-  .placeEsp3 {
-    left: 390px;
-  }
-  .placeEsp4 {
-    left: 530px;
-  }
-  #dataRow {
-    width: 525px;
-  }
-  #endLevel {
-    width: 600px;
-    height: 720px;
-  }
-  #titoact {
-    margin: 60px auto;
-  }
-  #mensaje {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    left: 0;
-    top: 0;
-  }
+
+@media only screen and (orientation: portrait) {
+	#ecosistemasDrop {
+		width: 400px;
+		height: 720px;;
+	}
+
+	#endLevel {
+		width: 525px;
+		height: 720px;
+	}
+
+	.placeEsp1 {
+		left: 110px;
+	}
+
+	.placeEsp2 {
+		left: 250px
+	}
+
+	.placeEsp3 {
+		left: 390px;
+	}
+
+	.placeEsp4 {
+		left: 530px;
+	}
+
+	#dataRow {
+		width: 525px;
+	}
+
+	#endLevel {
+		width: 600px;
+		height: 720px;
+	}
+
+	#titoact {
+		margin: 60px auto;
+	}
+
+	#mensaje {
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		left: 0;
+		top: 0;
+	}
 }

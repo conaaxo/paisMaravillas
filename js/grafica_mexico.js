@@ -6,7 +6,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     "dataProvider": [{
 
-        "country": "1°",
+        "country": "1ï¿½",
 
         "lugar": "Rusia",
 
@@ -16,9 +16,9 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "2°",
+        "country": "2ï¿½",
 
-        "lugar": "Canadá",
+        "lugar": "Canadï¿½",
 
         "visits": 13,
 
@@ -26,7 +26,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "3°",
+        "country": "3ï¿½",
 
         "lugar": "Estados Unidos",
 
@@ -36,7 +36,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "4°",
+        "country": "4ï¿½",
 
         "lugar": "China",
 
@@ -46,7 +46,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "5°",
+        "country": "5ï¿½",
 
         "lugar": "Brasil",
 
@@ -56,7 +56,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "6°",
+        "country": "6ï¿½",
 
         "lugar": "Australia",
 
@@ -66,7 +66,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "7°",
+        "country": "7ï¿½",
 
         "lugar": "India",
 
@@ -76,7 +76,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "8°",
+        "country": "8ï¿½",
 
         "lugar": "Argentina",
 
@@ -86,9 +86,9 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "9°",
+        "country": "9ï¿½",
 
-        "lugar": "Kazajistán",
+        "lugar": "Kazajistï¿½n",
 
         "visits": 6,
 
@@ -96,7 +96,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "10°",
+        "country": "10ï¿½",
 
         "lugar": "Argelia",
 
@@ -106,9 +106,9 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "11°",
+        "country": "11ï¿½",
 
-        "lugar": "República Democrática del Congo",
+        "lugar": "Repï¿½blica Democrï¿½tica del Congo",
 
         "visits": 4,
 
@@ -116,7 +116,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "12°",
+        "country": "12ï¿½",
 
         "lugar": "Groelandia",
 
@@ -126,7 +126,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "13°",
+        "country": "13ï¿½",
 
         "lugar": "Arabia Saudita",
 
@@ -136,9 +136,9 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     }, {
 
-        "country": "14°",
+        "country": "14ï¿½",
 
-        "lugar": "México",
+        "lugar": "Mï¿½xico",
 
         "visits": 1,
 
@@ -194,8 +194,7 @@ var chart = AmCharts.makeChart("chartdiv", {
 
     },
 
-    "amExport":{}
+    "amExport": {}
 
-     
 
 });

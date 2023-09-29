@@ -1,31 +1,27 @@
 section {
 
-	overflow:hidden;
+	overflow: hidden;
 
 }
 
-.margen{
+.margen {
 
 	z-index: 2;
 
 }
 
 
-
 #e1 {
- 	background-color: #76989A;
- 	color: #193133;
- 	padding-top:50px;
- 	z-index: 3;
+	background-color: #76989A;
+	color: #193133;
+	padding-top: 50px;
+	z-index: 3;
 }
-
 
 
 .na {
 	color: #D4842D;
 }
-
-
 
 
 #ima1_e1 img {
@@ -35,13 +31,11 @@ section {
 }
 
 
-
 #ima2_e1 img {
 	position: absolute;
 	margin: -295px 0px 0px 465px;
 	z-index: -1;
 }
-
 
 
 #ima3_e1 img {
@@ -52,33 +46,33 @@ section {
 }
 
 
-
 #e2 {
- 	background-color: #5E2B3C;
- 	color: #DCBCC7;
- 	text-align: center;
- 	padding-top:81px;
- 	position:relative;
- 	z-index: 3;
- }
-
+	background-color: #5E2B3C;
+	color: #DCBCC7;
+	text-align: center;
+	padding-top: 81px;
+	position: relative;
+	z-index: 3;
+}
 
 
 #e2 h2 {
-	color: #D5A133;}
+	color: #D5A133;
+}
 
 
-.nar  {
+.nar {
 	color: #FFBC2E;
 }
 
-.nar2 {color: #A0E4AF;}
+.nar2 {
+	color: #A0E4AF;
+}
 
 
 #ima1_e2 img {
 	width: 20%;
 }
-
 
 
 #ima2_e2 img {
@@ -90,7 +84,6 @@ section {
 }
 
 
-
 #ima3_e2 img {
 	width: 30%;
 	position: absolute;
@@ -100,16 +93,13 @@ section {
 }
 
 
-
 #e3 {
- 	background-color: #204844; 
- 	color: #0B2F2B;
- 	padding-top:81px;
- 	position:relative;
- 	z-index: 3;
+	background-color: #204844;
+	color: #0B2F2B;
+	padding-top: 81px;
+	position: relative;
+	z-index: 3;
 }
-
-
 
 
 .timportante {
@@ -118,21 +108,19 @@ section {
 }
 
 
-
 #e3 #nativas {
 	background-color: #225049;
 }
 
 
-
 #e3 #nativas1 {
 	display: inline-block;
-    background-color: #367E64;
-    width: 350px;
-    height: 550px;
-    vertical-align: top;
-    margin-right: 14px;
-    padding: 20px;
+	background-color: #367E64;
+	width: 350px;
+	height: 550px;
+	vertical-align: top;
+	margin-right: 14px;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -152,12 +140,10 @@ section {
 }
 
 
-
 #e3 #exoticas {
 	background-color: #225049;
 	width: 100%;
 }
-
 
 
 #e3 #exoticas1 {
@@ -182,23 +168,28 @@ section {
 }
 
 
-.nar3 {color: #F1D862;}
-
-#e4 {
- 	background-color: #1B1D12;
- 	color: #D4D8A5;
- 	padding-top:81px;
- 	position:relative;
- 	z-index: 3;
+.nar3 {
+	color: #F1D862;
 }
 
-#e4 em {color: #FC6;}
+#e4 {
+	background-color: #1B1D12;
+	color: #D4D8A5;
+	padding-top: 81px;
+	position: relative;
+	z-index: 3;
+}
+
+#e4 em {
+	color: #FC6;
+}
 
 /*e_escarabajos.png*/
-#ima1_e4 img { 
+#ima1_e4 img {
 	position: absolute;
 	margin: -1000px 0px 0px -910px;
-	z-index: -1;}
+	z-index: -1;
+}
 
 /*e_linne.png*/
 #ima2_e4 img {

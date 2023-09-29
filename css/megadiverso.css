@@ -1,4 +1,4 @@
-body{
+body {
 
 	background-color: #52786D;
 
@@ -6,506 +6,484 @@ body{
 
 .fondos img {
 
-    border: none;
+	border: none;
 
-    height: auto;
+	height: auto;
 
-    max-width: 100%;
+	max-width: 100%;
 
-    width: auto;
+	width: auto;
 
-    position: absolute;
+	position: absolute;
 
 }
-
 
 
 .hidden {
 
-  display: none;
+	display: none;
 
 }
-
 
 
 area {
 
-  cursor: pointer;
+	cursor: pointer;
 
 }
-
 
 
 .mask {
 
-  display: none;
+	display: none;
 
-  position: fixed;
+	position: fixed;
 
-  width: 100%;
+	width: 100%;
 
-  height: 100%;
+	height: 100%;
 
-  background-color: rgba(0,0,0,.8);
+	background-color: rgba(0, 0, 0, .8);
 
-  z-index: 20000;
+	z-index: 20000;
 
 }
-
 
 
 #modalViaje, #modalVideo {
 
-  display: none;
+	display: none;
 
-  position: fixed;
+	position: fixed;
 
-  width: 660px;
+	width: 660px;
 
-  height: 380px;
+	height: 380px;
 
-  top: 50%;
+	top: 50%;
 
-  left: 50%;
+	left: 50%;
 
-  margin-top: -190px;
+	margin-top: -190px;
 
-  margin-left: -330px;
+	margin-left: -330px;
 
-  background-color: #fff;
+	background-color: #fff;
 
-  border-radius: 5px;
+	border-radius: 5px;
 
 }
 
 
-
 #modalViaje iframe, #modalVideo iframe {
 
-  margin-left: 10px;
+	margin-left: 10px;
 
-  margin-top: 10px;
+	margin-top: 10px;
 
 }
 
 .fullTrip {
 
-  position: absolute;
+	position: absolute;
 
-  z-index: 8888;
+	z-index: 8888;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  width: 280px;
+	width: 280px;
 
-  height: 81px;
+	height: 81px;
 
-  left: 0;
+	left: 0;
 
-  top: 200px;
+	top: 200px;
 
-  background-position: -14px;
+	background-position: -14px;
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/viajecompleto.png');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/viajecompleto.png');
 
 }
 
 .titoNada {
 
-  position: absolute;
+	position: absolute;
 
-  width: 140px;
+	width: 140px;
 
-  height: 150px;
+	height: 150px;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_tito.png');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_tito.png');
 
-  background-size: 260px auto;
+	background-size: 260px auto;
 
-  bottom: 40%;
+	bottom: 40%;
 
-  left: 10%;
+	left: 10%;
 
-  cursor: pointer;
-
-}
-
-
-
-.titoDVD{
-
-  position: absolute;
-
-  width: 240px;
-
-  height: 250px;
-
-  background-repeat: no-repeat;
-
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_titoDVD.png');
-
-  background-size: 200px auto;
-
-  bottom: 60%;
-
-  left: 80%;
-
-  cursor: pointer;
+	cursor: pointer;
 
 }
 
+
+.titoDVD {
+
+	position: absolute;
+
+	width: 240px;
+
+	height: 250px;
+
+	background-repeat: no-repeat;
+
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_titoDVD.png');
+
+	background-size: 200px auto;
+
+	bottom: 60%;
+
+	left: 80%;
+
+	cursor: pointer;
+
+}
 
 
 .modalImg {
 
-  display: none;
+	display: none;
 
-  position: absolute;
+	position: absolute;
 
-  width: 1024px;
+	width: 1024px;
 
-  height: 670px;
+	height: 670px;
 
-  left: 50%;
+	left: 50%;
 
-  top: 50%;
+	top: 50%;
 
-  margin-top: -335px;
+	margin-top: -335px;
 
-  margin-left: -512px;
+	margin-left: -512px;
 
-  background-size: 100% auto;
+	background-size: 100% auto;
 
 }
 
 #modalBosque, #modalBosque .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_bosquecancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_bosquecancion.jpg');
 
 }
 
 #modalCampo, #modalCampo .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_campocancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_campocancion.jpg');
 
 }
 
 #modalCiudad, #modalCiudad .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_ciudadcancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_ciudadcancion.jpg');
 
 }
 
 #modalGolfo, #modalGolfo .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_golfocancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_golfocancion.jpg');
 
 }
 
 #modalMatorral, #modalMatorral .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_martorralcancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_martorralcancion.jpg');
 
 }
 
 #modalPacifico, #modalPacifico .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_pacificocancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_pacificocancion.jpg');
 
 }
 
 #modalPastizal, #modalPastizal .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_pastizalcancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_pastizalcancion.jpg');
 
 }
 
 #modalRios, #modalRios .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_rioscancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_rioscancion.jpg');
 
 }
 
 #modalSelvahumeda, #modalSelvahumeda .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_selvahumedacancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_selvahumedacancion.jpg');
 
 }
 
 #modalSelvaseca, #modalSelvaseca .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_selvasecacancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_selvasecacancion.jpg');
 
 }
 
 #modalTito, #modalTito .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_titocuriosocancion.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_titocuriosocancion.jpg');
 
 }
 
 #modalCreditos, #modalCreditos .justHalf {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/mm_creditoscanciones.jpg');
+	background-image: url('../assets/img/actividades/mexicomegadiverso/mm_creditoscanciones.jpg');
 
 }
 
 .closeModal {
 
-  position: absolute;
+	position: absolute;
 
-  width: 35px;
+	width: 35px;
 
-  height: 35px;
+	height: 35px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  background-image: url('../assets/img/iconoscerrar.png');
+	background-image: url('../assets/img/iconoscerrar.png');
 
-  background-size: auto 100%;
+	background-size: auto 100%;
 
-  right: -17px;
+	right: -17px;
 
-  top: -18px;
+	top: -18px;
 
 }
-
 
 
 .nextModal {
 
-  position: absolute;
+	position: absolute;
 
-  width: 35px;
+	width: 35px;
 
-  height: 35px;
+	height: 35px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  background-image: url('../assets/img/iconosavanzar.png');
+	background-image: url('../assets/img/iconosavanzar.png');
 
-  background-size: auto 100%;
+	background-size: auto 100%;
 
-  right: -17px;
+	right: -17px;
 
-  top: 48px;
+	top: 48px;
 
-  background-position: -52px 0px;
+	background-position: -52px 0px;
 
 }
-
 
 
 .lastModal {
 
-  position: absolute;
+	position: absolute;
 
-  width: 35px;
+	width: 35px;
 
-  height: 35px;
+	height: 35px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  background-image: url('../assets/img/iconosregresar.png');
+	background-image: url('../assets/img/iconosregresar.png');
 
-  background-size: auto 100%;
+	background-size: auto 100%;
 
-  left: -17px;
+	left: -17px;
 
-  top: 48px;
+	top: 48px;
 
-  background-position: 0px 0px;
+	background-position: 0px 0px;
 
 }
-
 
 
 .barraExtra {
 
-  display: block;
+	display: block;
 
-  background-color: #19663d;
+	background-color: #19663d;
 
 }
-
 
 
 .btnBar {
 
-  background-image: url('../assets/img/actividades/mexicomegadiverso/iconos_menu.png')
+	background-image: url('../assets/img/actividades/mexicomegadiverso/iconos_menu.png')
 
 }
-
 
 
 .btnA {
 
-  background-position: 3px -7px;
+	background-position: 3px -7px;
 
 }
-
 
 
 .btnAudio {
 
-  background-position: -39px -7px;
+	background-position: -39px -7px;
 
 }
-
 
 
 .btnLeaf {
 
-  background-position: -128px -7px;
+	background-position: -128px -7px;
 
 }
-
 
 
 .btnLeaf {
 
-  background-position: -128px -7px;
+	background-position: -128px -7px;
 
 }
-
 
 
 .audioPlay {
 
-  width: 4%;
+	width: 4%;
 
-  height: 7%;
+	height: 7%;
 
-  background-image: url('../assets/img/iconovoz_1.png');
+	background-image: url('../assets/img/iconovoz_1.png');
 
-  position: absolute;
+	position: absolute;
 
-  top: 25%;
+	top: 25%;
 
-  background-size: 200%;
+	background-size: 200%;
 
-  cursor: pointer;
+	cursor: pointer;
 
 }
-
 
 
 .audioLeft {
 
-  left: 2%;
+	left: 2%;
 
 }
 
 
-
 .audioRight {
 
-  right: 44%;
+	right: 44%;
 
 }
 
 #maestro {
 
-  display: none;
+	display: none;
 
 }
-
 
 
 footer {
 
-  position: fixed;
+	position: fixed;
 
 }
 
 
-
 /*@media only screen and (orientation: portrait)*/
 
-@media only screen and (max-width: 718px)
+@media only screen and (max-width: 718px) {
 
-{
+	.modalImg {
 
-  .modalImg {
+		width: 512px;
 
-    width: 512px;
+		height: 670px;
 
-    height: 670px;
+		left: 50%;
 
-    left: 50%;
+		top: 50%;
 
-    top: 50%;
+		margin-top: -335px;
 
-    margin-top: -335px;
+		margin-left: -256px;
 
-    margin-left: -256px;
+		background-size: 200% auto;
 
-    background-size: 200% auto;
+		overflow-y: scroll;
 
-    overflow-y: scroll;
+		overflow-x: hidden;
 
-    overflow-x: hidden;
+		background: none;
 
-    background: none;
+	}
 
-  }
+	.closeModal {
 
-  .closeModal {
+		top: 0;
 
-    top: 0;
+		right: 0;
 
-    right: 0;
+	}
 
-  }
+	.nextModal {
 
-  .nextModal {
+		right: 0;
 
-    right: 0;
+	}
 
-  }
+	.lastModal {
 
-  .lastModal {
+		left: 0;
 
-    left: 0;
+	}
 
-  }
+	.justHalf {
 
-  .justHalf {
+		background-size: auto 100%;
 
-    background-size: auto 100%;
+	}
 
-  }
+	.halfLeft  {
 
-  .halfLeft {
+		background-position: 0 0;
 
-    background-position: 0 0;
+	}
 
-  }
+	.halfRight {
 
-  .halfRight {
+		background-position: 101% 0;
 
-    background-position: 101% 0;
+	}
 
-  }
+	.audioPlay {
 
-  .audioPlay {
+		width: 8%;
 
-    width: 8%;
+	}
 
-  }
+	.audioRight {
 
-  .audioRight {
+		top: 55%;
 
-    top: 55%;
+		left: 3%;
 
-    left: 3%;
+		top: 115%;
 
-    top: 115%;
-
-  }
+	}
 
 }

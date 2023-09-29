@@ -1,6 +1,5 @@
 
-
-body{
+body {
 
 	color: #321450;
 
@@ -9,16 +8,14 @@ body{
 }
 
 
-
-section{
+section {
 
 	overflow: hidden;
 
 }
 
 
-
-#audioconservar2{
+#audioconservar2 {
 
 	position: absolute;
 
@@ -33,31 +30,39 @@ section{
 }
 
 
-
-.nbig {font-size: 100px;}
+.nbig {
+	font-size: 100px;
+}
 
 
 .card-conserva {
 	color: a16468;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fde5e7;
-    background-clip: border-box;
-    border: 8px solid rgba(0, 0, 0, 0.125);
-    border-radius: 1.25rem;}
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fde5e7;
+	background-clip: border-box;
+	border: 8px solid rgba(0, 0, 0, 0.125);
+	border-radius: 1.25rem;
+}
 
 
-#fondoconserva{
-	background-color: #777e9a;}
+#fondoconserva {
+	background-color: #777e9a;
+}
 
-#fondoconserva2{
+#fondoconserva2 {
 	background-color: #5b6385;
-color: #321450;}
+	color: #321450;
+}
 
-.card-body {background-color: #dfdbec;}
+.card-body {
+	background-color: #dfdbec;
+}
 
-.card {background-color: #e2edf7;}
+.card {
+	background-color: #e2edf7;
+}
 

@@ -4,82 +4,83 @@
 
 /*  */
 .view-login {
-    /*background-color: #fff;*/
-    /*padding: 8px;*/
-    box-sizing: border-box;
-    border-radius: 4px;
+	/*background-color: #fff;*/
+	/*padding: 8px;*/
+	box-sizing: border-box;
+	border-radius: 4px;
 }
 
 .login-board {
-    position: relative;
-    /*background-color: #fff;*/
-    width: 757px;
-    height: 350px;
-    margin: 0 auto;
-    /*padding: 20px;*/
-    text-align: center;
-    border-radius: 8px;
-    background-image: url(../../_imgs/views-imgs/view-login/Luna-1-blank.png);
+	position: relative;
+	/*background-color: #fff;*/
+	width: 757px;
+	height: 350px;
+	margin: 0 auto;
+	/*padding: 20px;*/
+	text-align: center;
+	border-radius: 8px;
+	background-image: url(../../_imgs/views-imgs/view-login/Luna-1-blank.png);
 }
 
 .login-board img {
-    width: 320px;
-    height: 320px;
-    margin: 4px auto;
-    border: 16px solid #8e8;
-    border-radius: 100%;
-    background-color: #fff;
-    display: block;
-    /*box-shadow: 0 8px 6px #787878;*/
+	width: 320px;
+	height: 320px;
+	margin: 4px auto;
+	border: 16px solid #8e8;
+	border-radius: 100%;
+	background-color: #fff;
+	display: block;
+	/*box-shadow: 0 8px 6px #787878;*/
 }
 
 .login-board .input {
-    position: absolute;
-    box-sizing: border-box;
-    padding: 8px;
-    background-color: transparent;
-    padding: 8px;
-    margin: 4px auto;
-    display: block;
-    border: 1px solid #BCA495;
-    width: 320px;
-    text-align: center;
-    left: 209px;
-    bottom: 65px;
-    font-size: 1.1em;
-    border-radius: 24px;
-    color: #BCA495;
-    transition: background-color 0.35s ease-in-out;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 8px;
+	background-color: transparent;
+	padding: 8px;
+	margin: 4px auto;
+	display: block;
+	border: 1px solid #BCA495;
+	width: 320px;
+	text-align: center;
+	left: 209px;
+	bottom: 65px;
+	font-size: 1.1em;
+	border-radius: 24px;
+	color: #BCA495;
+	transition: background-color 0.35s ease-in-out;
 }
+
 .login-board .input:focus {
-    outline: none;
-    background-color: #EBE4E0;
+	outline: none;
+	background-color: #EBE4E0;
 }
 
 .login-board .btn-next {
-    position: absolute;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 8px;
-    border: 1px solid #BCA495;
-    border-radius: 4px;
-    background-color: #BCA495;
-    color: #fff;
-    display: block;
-    cursor: pointer;
-    bottom: 16px;
-    left: 210px;
-    width: 300px;
-    border-radius: 24px;
-    font-size: 1.1em;
-    transition: background-color 0.35s ease-in-out;
+	position: absolute;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 8px;
+	border: 1px solid #BCA495;
+	border-radius: 4px;
+	background-color: #BCA495;
+	color: #fff;
+	display: block;
+	cursor: pointer;
+	bottom: 16px;
+	left: 210px;
+	width: 300px;
+	border-radius: 24px;
+	font-size: 1.1em;
+	transition: background-color 0.35s ease-in-out;
 }
 
 .login-board .btn-next:hover {
-    background-color: #fc6;
-    background-color: #66f;
-    background-color: #F0D9A5;
-    color: white;
+	background-color: #fc6;
+	background-color: #66f;
+	background-color: #F0D9A5;
+	color: white;
 }
 
 

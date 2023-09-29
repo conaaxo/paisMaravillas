@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-  iniciales("dow");
+    iniciales("dow");
 
-  $("section").stick_in_parent({offset_top: 0});
+    $("section").stick_in_parent({offset_top: 0});
 
 })

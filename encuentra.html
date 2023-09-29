@@ -1,107 +1,102 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <meta name="description" content="México, país de las maravillas. Sitio web interactivo cuyo objetivo es el acercamiento de los niños al conocimiento de la riqueza natural del país a través de caricaturas, fotografías, videos, juegos y sonidos." />
-    <meta name="author" content="Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CONABIO." />
-    <title>Encuentra su casa | El país de las maravillas</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="description" content="México, país de las maravillas. Sitio web interactivo cuyo objetivo es el acercamiento de los niños al conocimiento de la riqueza natural del país a través de caricaturas, fotografías, videos, juegos y sonidos."/>
+	<meta name="author" content="Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CONABIO."/>
+	<title>Encuentra su casa | El país de las maravillas</title>
 
-    <script src="js/jquery-2.2.4.min.js"></script>
+	<!-- jquery del CDN de google -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Work+Sans:ital,wght@0,300;0,400;0,800;1,400&display=swap"
-          rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Work+Sans:ital,wght@0,300;0,400;0,800;1,400&display=swap" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
-    <link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
-    <link href="css/style_tablet.css" media="only screen and (max-width:1169px)" rel="stylesheet" type="text/css">
-  
-    <link href="css/styles.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
-  
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
+	<link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
+	<link href="css/style_tablet.css" media="only screen and (max-width:1169px)" rel="stylesheet" type="text/css">
 
-    <link href="css/encuentra.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet"/>
 
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
 
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
-    <script src="js/jquery.timer.js"></script>
 
-    <script src="js/encuentra.js"></script>
+	<link href="css/encuentra.css" rel="stylesheet" type="text/css">
 
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/all.js"></script>
+
+	<script src="js/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/jquery.timer.js"></script>
+
+	<script src="js/encuentra.js"></script>
+
+	<link rel="shortcut icon" href="assets/img/favicon.png" type="image/png"/>
 
 </head>
 
 <body class="nav-is-fixed">
 <header class="cd-main-header"></header>
 
-<main class="cd-main-content"> 
+<main class="cd-main-content">
 
-<!-- InstanceBeginEditable name="content" -->
-<section id="titlecard">
-    <div class="margen">
-        <div id="title"></div>
-        <div id="tito"></div>
-        <p>
-            Ayuda a las especies a encontrar su casa
-            <br/>
-            <span>Arrastra las 15 especies a su ecosistema</span>
-            <br/>
-            Si terminas en menos de 2 minutos obtendr&aacute;s 15 puntos
-        <div id="btnEmpezar"></div>
-        </p>
-    </div>
-</section>
-<section id="dragndrop">
-    <div class="margen">
-        <div id="dataRow">
-            <div id="showTime">
-                <span>Tiempo</span>
-                <span id="numbers">00:00</span>
-            </div>
-            <div id="showPoints">
-                <span>Puntos</span>
-                <span id="points">0</span>
-            </div>
-            <div id="nivel"></div>
-        </div>
-        <div id="ecosistemasDrop"></div>
-        <div id="endLevel">
-            <div id="titoact"></div>
-            <div id="mensaje"></div>
-            <a href="assets/pdf/certificado_1.pdf" target="_blank"><div id="certificadonumero"></div></a>
-        </div>
-    </div>
-    <div id="especiesDrag">
-        <div class="margen">
-            <div class="placeEsp1"></div>
-            <div class="placeEsp2"></div>
-            <div class="placeEsp3"></div>
-            <div class="placeEsp4"></div>
-            <div id="next"></div>
-        </div>
-    </div>
-</section>
+	<!-- InstanceBeginEditable name="content" -->
+	<section id="titlecard">
+		<div class="margen">
+			<div id="title"></div>
+			<div id="tito"></div>
+			<p>
+				Ayuda a las especies a encontrar su casa <br/> <span>Arrastra las 15 especies a su ecosistema</span>
+				<br/> Si terminas en menos de 2 minutos obtendr&aacute;s 15 puntos
+			<div id="btnEmpezar"></div>
+			</p>
+		</div>
+	</section>
+	<section id="dragndrop">
+		<div class="margen">
+			<div id="dataRow">
+				<div id="showTime">
+					<span>Tiempo</span> <span id="numbers">00:00</span>
+				</div>
+				<div id="showPoints">
+					<span>Puntos</span> <span id="points">0</span>
+				</div>
+				<div id="nivel"></div>
+			</div>
+			<div id="ecosistemasDrop"></div>
+			<div id="endLevel">
+				<div id="titoact"></div>
+				<div id="mensaje"></div>
+				<a href="assets/pdf/certificado_1.pdf" target="_blank">
+					<div id="certificadonumero"></div>
+				</a>
+			</div>
+		</div>
+		<div id="especiesDrag">
+			<div class="margen">
+				<div class="placeEsp1"></div>
+				<div class="placeEsp2"></div>
+				<div class="placeEsp3"></div>
+				<div class="placeEsp4"></div>
+				<div id="next"></div>
+			</div>
+		</div>
+	</section>
 
 
-
-
-</main>  
+</main>
 
 <!-- Usar load para cargar contenido de menu y footer-->
 <script>
     $(document).ready(function () {
-        $('header').load('./includes/header.html',function(){
+        $('header').load('./includes/header.html', function () {
             $.getScript('./assets/mega-site-navigation/js/main.js');
             $.getScript('./assets/mega-site-navigation/js/jquery.mobile.custom.min.js');
         });
@@ -125,11 +120,15 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-295WCBSQXS"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-295WCBSQXS');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-295WCBSQXS');
 </script>
 <!-- End Google tag (Google analytics 4) -->
 </body>

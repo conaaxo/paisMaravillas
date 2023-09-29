@@ -1,21 +1,21 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-  iniciales("pub");
+    iniciales("pub");
 
-  $("section").stick_in_parent({offset_top: 81});
+    $("section").stick_in_parent({offset_top: 81});
 
-  $("a[href^=#]").click(function(event) {
+    $("a[href^=#]").click(function (event) {
 
-    event.preventDefault();
+        event.preventDefault();
 
-    elemento = this.hash;
+        elemento = this.hash;
 
-    $("html, body").animate({
+        $("html, body").animate({
 
-      'scrollTop': $(elemento).data('posicion')
+            'scrollTop': $(elemento).data('posicion')
 
-    }, 600, 'swing');
+        }, 600, 'swing');
 
-  });
+    });
 
 })

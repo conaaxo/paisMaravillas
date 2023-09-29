@@ -1,25 +1,36 @@
 #herbivoros {
 	color: #9dc63c;
 	z-index: 5000;
-	background-color: #12562F;}
+	background-color: #12562F;
+}
 
 #plantas {
 	color: #9dc63c;
 	z-index: 5000;
-	background-color: #12562F;}
+	background-color: #12562F;
+}
 
 #carnivoros {
 	color: #9dc63c;
 	z-index: 5000;
-	background-color: #12562F;}
+	background-color: #12562F;
+}
 
-.resaltetxt {color: #FFC;}
+.resaltetxt {
+	color: #FFC;
+}
 
-.carousel-item {transition: transform 3s ease, opacity .5s ease;} 
+.carousel-item {
+	transition: transform 3s ease, opacity .5s ease;
+}
 
-.carousel-control-prev-icon, .carousel-control-next-icon {width: 3rem; height: 3rem;}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	width: 3rem;
+	height: 3rem;
+}
 
 .carousel-control-prev, .carousel-control-next {
-     opacity: 1; 
-    transition: opacity 0.15s ease;}
+	opacity: 1;
+	transition: opacity 0.15s ease;
+}
 

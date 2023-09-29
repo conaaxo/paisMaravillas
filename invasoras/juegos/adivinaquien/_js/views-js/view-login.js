@@ -9,27 +9,27 @@ window.GuessApp.ViewLogin = (function ViewLogin() {
 
 
     function setViewUI() {
-        appHolder = $( '#appHolder' );
+        appHolder = $('#appHolder');
         apploadedViews = window.GuessApp.loadedViews;
 
-        playerNameUI = $( '#playerName' );
-        nextBtnUI = $( '#loginBtnNext' );
+        playerNameUI = $('#playerName');
+        nextBtnUI = $('#loginBtnNext');
 
-        playerNameUI.on( 'keyup', function( e ) {
+        playerNameUI.on('keyup', function (e) {
             // playerName = playerNameUI.val();
-            window.GuessApp.setPlayerName( playerNameUI.val() );
-            console.log( window.GuessApp.getPlayerName() );
+            window.GuessApp.setPlayerName(playerNameUI.val());
+            console.log(window.GuessApp.getPlayerName());
         });
 
-        nextBtnUI.on( 'click', function( e ) {
-            appHolder.html( apploadedViews[ 'viewSetup' ].viewContent );
+        nextBtnUI.on('click', function (e) {
+            appHolder.html(apploadedViews['viewSetup'].viewContent);
             window.GuessApp.ViewSetup.setViewUI();
         });
-        console.log( `%c SETTING ${ this.name } UI ELEMENTS`, 'background: gold; color: purple;');
+        console.log(`%c SETTING ${this.name} UI ELEMENTS`, 'background: gold; color: purple;');
     };
 
 
-    console.log( `%c LOADING ${ this.name } `, 'background: #09f; color: #fff;');
+    console.log(`%c LOADING ${this.name} `, 'background: #09f; color: #fff;');
     return {
         // Returns the ViewLogin function itself
         // name: ViewLogin,

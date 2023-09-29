@@ -1,31 +1,32 @@
 var player = null;
 
-$(document).ready(function(){
+$(document).ready(function () {
 
-  player = new MediaElementPlayer('#videoPlayer', {
+    player = new MediaElementPlayer('#videoPlayer', {
 
-    defaultVideoWidth: 960,
+        defaultVideoWidth: 960,
 
-    defaultVideoHeight: 410,
+        defaultVideoHeight: 410,
 
-    features: ['playpause', 'progress', 'current', 'duration', 'volume', 'fullscreen'],
+        features: ['playpause', 'progress', 'current', 'duration', 'volume', 'fullscreen'],
 
-    success: function (mediaElement, domObject) {}
+        success: function (mediaElement, domObject) {
+        }
 
-  });
+    });
 
-  $('a').click(function(event){
+    $('a').click(function (event) {
 
-    event.preventDefault();
+        event.preventDefault();
 
-    player.pause();
+        player.pause();
 
-    newSrc = 'assets/video/00_seccionvideos/' + $(this).data('video') + '.mp4';
+        newSrc = 'assets/video/00_seccionvideos/' + $(this).data('video') + '.mp4';
 
-    player.setSrc(newSrc);
+        player.setSrc(newSrc);
 
-    player.load();
+        player.load();
 
-  });
+    });
 
 });

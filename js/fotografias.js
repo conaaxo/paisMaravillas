@@ -4,312 +4,303 @@ var galeria = [];
 
 var bosquet = [
 
-                ["bosquetemplado/Aquila-chrysaetos.jpg", "Águila real"],
+    ["bosquetemplado/Aquila-chrysaetos.jpg", "ï¿½guila real"],
 
-                ["bosquetemplado/Archilochus-colubris.jpg", "Colibrí garganta rubí"],
+    ["bosquetemplado/Archilochus-colubris.jpg", "Colibrï¿½ garganta rubï¿½"],
 
-                ["bosquetemplado/Cacomixtle.jpg", "Cacomixtle norteño"],
+    ["bosquetemplado/Cacomixtle.jpg", "Cacomixtle norteï¿½o"],
 
-                ["bosquetemplado/Lynx-rufus.jpg", "Lince americano"],
+    ["bosquetemplado/Lynx-rufus.jpg", "Lince americano"],
 
-                ["bosquetemplado/Melanerpes-formicivorus.jpg", "Carpintero bellotero"],
+    ["bosquetemplado/Melanerpes-formicivorus.jpg", "Carpintero bellotero"],
 
-                ["bosquetemplado/San-nicolas-Totolapan-Distrito-Federal.jpg", "San Nicolás Totolapan, Distrito Federal"],
+    ["bosquetemplado/San-nicolas-Totolapan-Distrito-Federal.jpg", "San Nicolï¿½s Totolapan, Distrito Federal"],
 
-        				["bosquetemplado/cardo.jpg", "Cardo común"],
+    ["bosquetemplado/cardo.jpg", "Cardo comï¿½n"],
 
-        				["bosquetemplado/lagartijacornuda.jpg", "Lagartija cornuda de montaña"],
+    ["bosquetemplado/lagartijacornuda.jpg", "Lagartija cornuda de montaï¿½a"],
 
-        				["bosquetemplado/tlacuache.jpg", "Tlacuache"],
+    ["bosquetemplado/tlacuache.jpg", "Tlacuache"],
 
-        				["bosquetemplado/oyamel.jpg", "Oyamel"],
+    ["bosquetemplado/oyamel.jpg", "Oyamel"],
 
-        				["bosquetemplado/garbancillo.jpg", "Garbancillo"],
+    ["bosquetemplado/garbancillo.jpg", "Garbancillo"],
 
-                ["bosquetemplado/San-Pedro-Martir-Baja-California.jpg", "San Pedro Mártir, Baja California"]
+    ["bosquetemplado/San-Pedro-Martir-Baja-California.jpg", "San Pedro Mï¿½rtir, Baja California"]
 
-              ];
-
+];
 
 
 var selvah = [
 
-              ["selvahumeda/Agalychnis-moreletii.jpg", "Rana de árbol de ojos rojos"],
+    ["selvahumeda/Agalychnis-moreletii.jpg", "Rana de ï¿½rbol de ojos rojos"],
 
-              ["selvahumeda/Aulacorhynchus-prasinus.jpg", "Tucaneta verde"],
+    ["selvahumeda/Aulacorhynchus-prasinus.jpg", "Tucaneta verde"],
 
-              ["selvahumeda/Crocodylus-acutus.jpg", "Cocodrilo americano"],
+    ["selvahumeda/Crocodylus-acutus.jpg", "Cocodrilo americano"],
 
-              ["selvahumeda/MChiapas0021-La-Concepcion-Chiapas.jpg", "La Concepción, Chiapas"],
+    ["selvahumeda/MChiapas0021-La-Concepcion-Chiapas.jpg", "La Concepciï¿½n, Chiapas"],
 
-              ["selvahumeda/Megaceryle-torquata.jpg", "Martín pescador de collar"],
+    ["selvahumeda/Megaceryle-torquata.jpg", "Martï¿½n pescador de collar"],
 
-              ["selvahumeda/Panthera-onca.jpg", "Jaguar"],
+    ["selvahumeda/Panthera-onca.jpg", "Jaguar"],
 
-              ["selvahumeda/Penelope-purpurascens.jpg", "Pava cojolita"],
+    ["selvahumeda/Penelope-purpurascens.jpg", "Pava cojolita"],
 
-              ["selvahumeda/Pteroglossus-torquatus.jpg", "Arasari de collar"],
+    ["selvahumeda/Pteroglossus-torquatus.jpg", "Arasari de collar"],
 
-              ["selvahumeda/Santa-Maria-Chimalapa-Oaxaca.jpg", "Santa María Chimalapa, Oaxaca"],
+    ["selvahumeda/Santa-Maria-Chimalapa-Oaxaca.jpg", "Santa Marï¿½a Chimalapa, Oaxaca"],
 
-      			  ["selvahumeda/serete.jpg", "Serete"],
+    ["selvahumeda/serete.jpg", "Serete"],
 
-      			  ["selvahumeda/ocelote.jpg", "Ocelote"],
+    ["selvahumeda/ocelote.jpg", "Ocelote"],
 
-      			  ["selvahumeda/tucan.jpg", "Tucán"]
+    ["selvahumeda/tucan.jpg", "Tucï¿½n"]
 
-             ];
-
+];
 
 
 var pastizal = [
 
-                ["pastizal/Bison-bison.jpg", "Bisonte americano"],
+    ["pastizal/Bison-bison.jpg", "Bisonte americano"],
 
-                ["pastizal/Falco-sparverius.jpg", "Cernícalo americano"],
+    ["pastizal/Falco-sparverius.jpg", "Cernï¿½calo americano"],
 
-                ["pastizal/pastizalalpino.jpg", "Zacatonales, pastizal alpino"],
+    ["pastizal/pastizalalpino.jpg", "Zacatonales, pastizal alpino"],
 
-                ["pastizal/Janos-Chihuahua (2).jpg", "Janos, Chihuahua"],
+    ["pastizal/Janos-Chihuahua (2).jpg", "Janos, Chihuahua"],
 
-        				["pastizal/canutillo.jpg", "Canutillo"],
+    ["pastizal/canutillo.jpg", "Canutillo"],
 
-        				["pastizal/gorrionalablanca.jpg", "Gorrión ala blanca"],
+    ["pastizal/gorrionalablanca.jpg", "Gorriï¿½n ala blanca"],
 
-        				["pastizal/huizache.jpg", "Huizache"],
+    ["pastizal/huizache.jpg", "Huizache"],
 
-        				["pastizal/wapiti.jpg", "Wapiti"],
+    ["pastizal/wapiti.jpg", "Wapiti"],
 
-        				["pastizal/tortugaadornada.jpg", "Tortuga adornada"],
+    ["pastizal/tortugaadornada.jpg", "Tortuga adornada"],
 
-        				["pastizal/lince.jpg", "Lince"],
+    ["pastizal/lince.jpg", "Lince"],
 
-        				["pastizal/venadobura.jpg", "Venado bura"],
+    ["pastizal/venadobura.jpg", "Venado bura"],
 
-                ["pastizal/Taxidea-taxus.jpg", "Tlalcoyote"]
+    ["pastizal/Taxidea-taxus.jpg", "Tlalcoyote"]
 
-               ];
-
+];
 
 
 var campo = [
 
-              ["campo/Agave-angustifolia_.jpg", "Maguey de Mezcal"],
+    ["campo/Agave-angustifolia_.jpg", "Maguey de Mezcal"],
 
-              ["campo/Amaranthus-cruentus_AdalbertoRiosSzalay.jpg", "Amaranto"],
+    ["campo/Amaranthus-cruentus_AdalbertoRiosSzalay.jpg", "Amaranto"],
 
-              ["campo/Axochiapan,Morelos_.jpg", "Axochiapan,Morelos"],
+    ["campo/Axochiapan,Morelos_.jpg", "Axochiapan,Morelos"],
 
-              ["campo/Olinala_Gro-(402-of-442).jpg", "Olinala, Guerreo"],
+    ["campo/Olinala_Gro-(402-of-442).jpg", "Olinala, Guerreo"],
 
-              ["campo/Opuntia-ficus-indica_1946.jpg", ""],
+    ["campo/Opuntia-ficus-indica_1946.jpg", ""],
 
-              ["campo/Theobroma-cacao-005.jpg", "Cacao"],
+    ["campo/Theobroma-cacao-005.jpg", "Cacao"],
 
-      			  ["campo/quelite.jpg", "Quelite"],
+    ["campo/quelite.jpg", "Quelite"],
 
-      			  ["campo/guajolote.jpg", "Guajolote"],
+    ["campo/guajolote.jpg", "Guajolote"],
 
-      			  ["campo/nancheamarillo.jpg", "Nanche amarillo"],
+    ["campo/nancheamarillo.jpg", "Nanche amarillo"],
 
-      			  ["campo/chile.jpg", "Chile"],
+    ["campo/chile.jpg", "Chile"],
 
-      			  ["campo/cempasuchitl.jpg", "Cempasúchitl"],
+    ["campo/cempasuchitl.jpg", "Cempasï¿½chitl"],
 
-              ["campo/Vanilla-planifolia-028.jpg", "Vainilla"]
+    ["campo/Vanilla-planifolia-028.jpg", "Vainilla"]
 
-            ];
-
+];
 
 
 var ciudad = [
 
-              ["ciudad/DSC03099CGL.jpg", "Jacaranda "],
+    ["ciudad/DSC03099CGL.jpg", "Jacaranda "],
 
-              ["ciudad/DSC08682CGL.jpg", "Zanate"],
+    ["ciudad/DSC08682CGL.jpg", "Zanate"],
 
-              ["ciudad/Eupherusa-cyanophrys-(3)Grosselet.jpg", "Colibrí Oaxaqueño"],
+    ["ciudad/Eupherusa-cyanophrys-(3)Grosselet.jpg", "Colibrï¿½ Oaxaqueï¿½o"],
 
-              ["ciudad/Papilio-multicaudatus-40CGL.jpg", "Xochiquetzal papaloth"],
+    ["ciudad/Papilio-multicaudatus-40CGL.jpg", "Xochiquetzal papaloth"],
 
-              ["ciudad/Taraxacum-officinale-infrutescenciaPedro-Tenorio-Lezama.jpg", "Diente de león"],
+    ["ciudad/Taraxacum-officinale-infrutescenciaPedro-Tenorio-Lezama.jpg", "Diente de leï¿½n"],
 
-      			  ["ciudad/coladegolondrina.jpg", "Cola de golondrina magnífica"],
+    ["ciudad/coladegolondrina.jpg", "Cola de golondrina magnï¿½fica"],
 
-      			  ["ciudad/colibripicoancho.jpg", "Colibrí pico ancho"],
+    ["ciudad/colibripicoancho.jpg", "Colibrï¿½ pico ancho"],
 
-      			  ["ciudad/coquita.jpg", "Coquita"],
+    ["ciudad/coquita.jpg", "Coquita"],
 
-      			  ["ciudad/palmacanaria.jpg", "Palma canaria"],
+    ["ciudad/palmacanaria.jpg", "Palma canaria"],
 
-      			  ["ciudad/polillaratonviejo.jpg", "Polilla ratón viejo"],
+    ["ciudad/polillaratonviejo.jpg", "Polilla ratï¿½n viejo"],
 
-      			  ["ciudad/viuda.jpg", "Viuda negra"],
+    ["ciudad/viuda.jpg", "Viuda negra"],
 
-              ["ciudad/Turdus-migratorius-3738Grosselet.jpg", "Mirlo Primavera"]
+    ["ciudad/Turdus-migratorius-3738Grosselet.jpg", "Mirlo Primavera"]
 
-             ];
-
+];
 
 
 var golfo = [
 
-              ["golfo/Corytophanes-cristatus.jpg", "Turipache cabeza lisa"],
+    ["golfo/Corytophanes-cristatus.jpg", "Turipache cabeza lisa"],
 
-              ["golfo/Fregata-magnificens.jpg", "Fragata magnífica"],
+    ["golfo/Fregata-magnificens.jpg", "Fragata magnï¿½fica"],
 
-              ["golfo/Phoenicopterus-ruber.jpg", "Flamenco americano"],
+    ["golfo/Phoenicopterus-ruber.jpg", "Flamenco americano"],
 
-              ["golfo/Rizophora-mangle.jpg", "Mangle rojo - La Encrucijada, Chiapas"],
+    ["golfo/Rizophora-mangle.jpg", "Mangle rojo - La Encrucijada, Chiapas"],
 
-              ["golfo/Trichechus-manatus.jpg", "Manatí del Caribe"],
+    ["golfo/Trichechus-manatus.jpg", "Manatï¿½ del Caribe"],
 
-      			  ["golfo/algasombrilla.jpg", "Alga sombrilla"],
+    ["golfo/algasombrilla.jpg", "Alga sombrilla"],
 
-      			  ["golfo/delfinnariz.jpg", "Delfín nariz de botella"],
+    ["golfo/delfinnariz.jpg", "Delfï¿½n nariz de botella"],
 
-      			  ["golfo/garzacucharon.jpg", "Garza cucharón"],
+    ["golfo/garzacucharon.jpg", "Garza cucharï¿½n"],
 
-      			  ["golfo/jeniguano.jpg", "Jeniguano Bocón"],
+    ["golfo/jeniguano.jpg", "Jeniguano Bocï¿½n"],
 
-      			  ["golfo/langosta.jpg", "Langosta espinosa"],
+    ["golfo/langosta.jpg", "Langosta espinosa"],
 
-      			  ["golfo/tiburonballena.jpg", "Tiburón ballena"],
+    ["golfo/tiburonballena.jpg", "Tiburï¿½n ballena"],
 
-              ["golfo/Sian-Kaan-Quintana-Roo.jpg", "Sian Ka'an, Quintana Roo"]
+    ["golfo/Sian-Kaan-Quintana-Roo.jpg", "Sian Ka'an, Quintana Roo"]
 
-            ];
-
+];
 
 
 var matorral = [
 
-                ["matorral/Gopherus-flavomarginatus.jpg", "Tortuga llanera"],
+    ["matorral/Gopherus-flavomarginatus.jpg", "Tortuga llanera"],
 
-                ["matorral/Heloderma-suspectum.jpg", "Lagarto de Gila"],
+    ["matorral/Heloderma-suspectum.jpg", "Lagarto de Gila"],
 
-                ["matorral/Ovis-canadensis.jpg", "Borrego cimarrón"],
+    ["matorral/Ovis-canadensis.jpg", "Borrego cimarrï¿½n"],
 
-                ["matorral/Uma-exsul.jpg", "Lagartija perrilla de arena"],
+    ["matorral/Uma-exsul.jpg", "Lagartija perrilla de arena"],
 
-                ["matorral/Zapotitlan-Puebla.jpg", "Zapotitlán Salinas, Puebla"],
+    ["matorral/Zapotitlan-Puebla.jpg", "Zapotitlï¿½n Salinas, Puebla"],
 
-        				["matorral/puma.jpg", "Puma"],
+    ["matorral/puma.jpg", "Puma"],
 
-        				["matorral/cardenalrojo.jpg", "Cardenal rojo, Puebla"],
+    ["matorral/cardenalrojo.jpg", "Cardenal rojo, Puebla"],
 
-        				["matorral/copal.jpg", "Copal"],
+    ["matorral/copal.jpg", "Copal"],
 
-        				["matorral/nopalviolaceo.jpg", "Nopal violáceo"],
+    ["matorral/nopalviolaceo.jpg", "Nopal violï¿½ceo"],
 
-        				["matorral/cactodebarril.jpg", "Cacto de barril"],
+    ["matorral/cactodebarril.jpg", "Cacto de barril"],
 
-        				["matorral/chuckwalla.jpg", "Chuckwalla de San Esteban"],
+    ["matorral/chuckwalla.jpg", "Chuckwalla de San Esteban"],
 
-                ["matorral/Zapotitlan-Salinas-Puebla.jpg", "Zapotitlán Salinas, Puebla"]
+    ["matorral/Zapotitlan-Salinas-Puebla.jpg", "Zapotitlï¿½n Salinas, Puebla"]
 
-               ];
-
+];
 
 
 var pacifico = [
 
-                ["pacifico/Cacaluta-Oaxaca.jpg", "Cacaluta, Oaxaca"],
+    ["pacifico/Cacaluta-Oaxaca.jpg", "Cacaluta, Oaxaca"],
 
-                ["pacifico/Orcinus-orca.jpg", "Orca común"],
+    ["pacifico/Orcinus-orca.jpg", "Orca comï¿½n"],
 
-                ["pacifico/Paguroidea.jpg", "Cangrejo ermitaño"],
+    ["pacifico/Paguroidea.jpg", "Cangrejo ermitaï¿½o"],
 
-                ["pacifico/Pelecanus-occidentalis.jpg", "Pellícano pardo"],
+    ["pacifico/Pelecanus-occidentalis.jpg", "Pellï¿½cano pardo"],
 
-                ["pacifico/Platalea-ajaja.jpg", "Platalea ajaja"],
+    ["pacifico/Platalea-ajaja.jpg", "Platalea ajaja"],
 
-                ["pacifico/Pseudorca-crassidens.jpg", "Falsa orca"],
+    ["pacifico/Pseudorca-crassidens.jpg", "Falsa orca"],
 
-                ["pacifico/Sula-leucogaster.jpg", "Bobo café"],
+    ["pacifico/Sula-leucogaster.jpg", "Bobo cafï¿½"],
 
-        				["pacifico/baya.jpg", "Baya o mero"],
+    ["pacifico/baya.jpg", "Baya o mero"],
 
-        				["pacifico/charran.jpg", "Charrán elegante"],
+    ["pacifico/charran.jpg", "Charrï¿½n elegante"],
 
-        				["pacifico/lobomarino.jpg", "Lobo marino de California"],
+    ["pacifico/lobomarino.jpg", "Lobo marino de California"],
 
-        				["pacifico/tiburonblanco.jpg", "Tiburón blanco"],
+    ["pacifico/tiburonblanco.jpg", "Tiburï¿½n blanco"],
 
-                ["pacifico/Tursiops-truncatus.jpg", "Delfín tonina"]
+    ["pacifico/Tursiops-truncatus.jpg", "Delfï¿½n tonina"]
 
-               ];
+];
 
 
+$(document).ready(function () {
 
-$(document).ready(function(){
+    if ($("#fotos_bosque_templado").length)
 
-  if ($("#fotos_bosque_templado").length)
+        sources = bosquet;
 
-    sources = bosquet;
+    if ($("#fotos_selva").length)
 
-  if ($("#fotos_selva").length)
+        sources = selvah;
 
-    sources = selvah;
+    if ($("#fotos_pastizal").length)
 
-  if ($("#fotos_pastizal").length)
+        sources = pastizal;
 
-    sources = pastizal;
+    if ($("#fotos_campo").length)
 
-  if ($("#fotos_campo").length)
+        sources = campo;
 
-    sources = campo;
+    if ($("#fotos_ciudad").length)
 
-  if ($("#fotos_ciudad").length)
+        sources = ciudad;
 
-    sources = ciudad;
+    if ($("#fotos_golfo").length)
 
-  if ($("#fotos_golfo").length)
+        sources = golfo;
 
-    sources = golfo;
+    if ($("#fotos_matorral").length)
 
-  if ($("#fotos_matorral").length)
+        sources = matorral;
 
-    sources = matorral;
+    if ($("#fotos_pacifico").length)
 
-  if ($("#fotos_pacifico").length)
+        sources = pacifico;
 
-    sources = pacifico;
+    crearGaleria(sources);
 
-  crearGaleria(sources);
+    positions = ["-3px", "-59px", "-114px", "-170px", "-225px", "-280px", "-335px", "-391px"];
 
-  positions = ["-3px", "-59px", "-114px", "-170px", "-225px", "-280px", "-335px", "-391px"];
-
-  $('#menuCirculo .selected a').css("background-position", positions[$('#menuCirculo li.selected').index()] +" -112px");
+    $('#menuCirculo .selected a').css("background-position", positions[$('#menuCirculo li.selected').index()] + " -112px");
 
 });
 
 
-
 function crearGaleria(ecosistema) {
 
-  for(var i = 0; i < ecosistema.length; i++) {
+    for (var i = 0; i < ecosistema.length; i++) {
 
-    image = $('<img src="assets/img/conoce/fotografias/thumbs/'+ ecosistema[i][0] +'" />');
+        image = $('<img src="assets/img/conoce/fotografias/thumbs/' + ecosistema[i][0] + '" />');
 
-    if(image.attr('width') > 0)
+        if (image.attr('width') > 0)
 
-      thumb = "thumbs/" + ecosistema[i][0];
+            thumb = "thumbs/" + ecosistema[i][0];
 
-    else
+        else
 
-      thumb = ecosistema[i][0];
+            thumb = ecosistema[i][0];
 
-    minit = 'url("assets/img/conoce/fotografias/'+ thumb +'")';
+        minit = 'url("assets/img/conoce/fotografias/' + thumb + '")';
 
-    galeria[i] = $('<a class="fancybox" title="' + ecosistema[i][1] + '" rel="grupo" href="assets/img/conoce/fotografias/'+ ecosistema[i][0] +'"><div></div></a>');
+        galeria[i] = $('<a class="fancybox" title="' + ecosistema[i][1] + '" rel="grupo" href="assets/img/conoce/fotografias/' + ecosistema[i][0] + '"><div></div></a>');
 
-    galeria[i].find('div').css('background-image', minit);
+        galeria[i].find('div').css('background-image', minit);
 
-  }
+    }
 
-  $('#galeria').html(galeria);
+    $('#galeria').html(galeria);
 
-  $(".fancybox").fancybox();
+    $(".fancybox").fancybox();
 
 }

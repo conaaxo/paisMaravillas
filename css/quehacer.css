@@ -1,21 +1,21 @@
 
-
-body{
+body {
 	color: #0A4D43;
 	background-color: #bce2dd;
 	margin-top: 50px;
-	
+
 }
-p{
+
+p {
 	color: #03412F !important;
 }
 
 
 section {
-	overflow:hidden;
+	overflow: hidden;
 }
 
-.nbig{
+.nbig {
 	width: 15%;
 	color: #E4A929;
 	font-size: 90px;
@@ -35,12 +35,12 @@ section {
 }
 
 
-.fondoimg{
+.fondoimg {
 	width: 100%;
 	margin: 0;
 }
 
-.fondoimg img{
+.fondoimg img {
 	width: 100%;
 	height: auto;
 }
@@ -50,35 +50,37 @@ section p {
 	margin-top: -25px;
 }
 
-#quehacer{ 
+#quehacer {
 	height: 1550px;
 	position: relative;
-	z-index:2000;
+	z-index: 2000;
 	margin-left: 80px;
 	margin-top: 100px;
 	padding-top: 10px;
- background-color: #8ED1C9;
+	background-color: #8ED1C9;
 }
 
 .cd-main-content {
-    background: #8ED1C9 !important;}
+	background: #8ED1C9 !important;
+}
 
-#1{
+#1 {
 	position: absolute;
 	z-index: 3000;
 }
 
-#1 span{
+#1 span {
 	position: absolute;
 	display: inline-block;
 }
 
-.list-number{
+.list-number {
 	width: 80%;
 	display: block;
 	float: left;
 }
-.list-number h2{
+
+.list-number h2 {
 	font-family: Pangolin, sans-serif !important;
 	font-style: normal !important;
 	text-align: left;
@@ -86,38 +88,38 @@ section p {
 
 }
 
-#2{
+#2 {
 	position: absolute;
 }
 
-#2 span{
-	position: absolute;
-	display: inline-block;
-}
-
-#participa{
-	display: inline-block;
-}
-
-#3{
-	position: absolute;
-}
-
-#3 span{
+#2 span {
 	position: absolute;
 	display: inline-block;
 }
 
-#produce{
+#participa {
 	display: inline-block;
 }
 
-#4{
+#3 {
+	position: absolute;
+}
+
+#3 span {
+	position: absolute;
+	display: inline-block;
+}
+
+#produce {
+	display: inline-block;
+}
+
+#4 {
 	position: absolute;
 	margin-bottom: 5px;
 }
 
-#4 span{
+#4 span {
 	position: absolute;
 	display: inline-block;
 	height: auto;
@@ -126,34 +128,34 @@ section p {
 	top: 0px;
 }
 
-#6{
+#6 {
 	position: absolute;
 	margin-bottom: 5px;
 }
 
-#6 span{
+#6 span {
 	position: absolute;
 	display: inline-block;
 }
 
-#denuncia{
+#denuncia {
 	display: inline-block;
 }
 
-#comparte{
+#comparte {
 	display: inline-block;
 }
 
-#elige{
+#elige {
 	display: inline-block;
 }
 
-object{
+object {
 	position: absolute;
 	display: inline-block;
-} 
+}
 
-#titohacer{
+#titohacer {
 	position: absolute;
 	right: 20%;
 	bottom: 160px;
@@ -165,17 +167,17 @@ object{
 
 #tianguis {
 	color: #FFEFCE;
-    font-size: 16px;
-    text-decoration-line: unset;
+	font-size: 16px;
+	text-decoration-line: unset;
 }
-	
+
 #lunaprevencion {
 	position: absolute;
-    margin-top: 702px;
-    left: 617px;
-/*    width: 150px;*/
-    height: auto;
-    z-index: 200;
+	margin-top: 702px;
+	left: 617px;
+	/*    width: 150px;*/
+	height: auto;
+	z-index: 200;
 }
 
 #fondo {
@@ -185,7 +187,7 @@ object{
 }
 
 #circulo2 {
-	
+
 	circle: 90px;
 	display: inline-block;
 	position: absolute;
@@ -193,105 +195,104 @@ object{
 	top: 190px;
 	left: 190px;
 
-	
+
 }
 
-#img1 img{
+#img1 img {
 	position: absolute;
-    margin-top: -168px;
-    right: 10%;
-    width: 186px;
-    height: auto;
-    z-index: 200;
+	margin-top: -168px;
+	right: 10%;
+	width: 186px;
+	height: auto;
+	z-index: 200;
 }
 
-#img2 img{
+#img2 img {
 	position: absolute;
-    margin-top: -139px;
-    right: 10%;
-    width: 140px;
-    height: auto;
-    z-index: 200;
+	margin-top: -139px;
+	right: 10%;
+	width: 140px;
+	height: auto;
+	z-index: 200;
 }
 
-#img3 img{
-    position: absolute;
-    margin-top: -120px;
-    right: 10%;
-    width: 136px;
-    height: auto;
-    z-index: 200;
-}
-
-#img4 img{
+#img3 img {
 	position: absolute;
-    margin-top: -130px;
-    right: 10%;
-    width: 132px;
-    height: auto;
-    z-index: 200;
+	margin-top: -120px;
+	right: 10%;
+	width: 136px;
+	height: auto;
+	z-index: 200;
 }
 
-#img5 img{
+#img4 img {
 	position: absolute;
-    margin-top: -118px;
-    right: 10%;
-    width: 110px;
-    height: auto;
-    z-index: 200;
+	margin-top: -130px;
+	right: 10%;
+	width: 132px;
+	height: auto;
+	z-index: 200;
+}
+
+#img5 img {
+	position: absolute;
+	margin-top: -118px;
+	right: 10%;
+	width: 110px;
+	height: auto;
+	z-index: 200;
 }
 
 /*@media only screen and (orientation: portrait)*/
 
-@media only screen and (max-width: 800px)
-	{
-		
-		
-		#img1 img{
+@media only screen and (max-width: 800px) {
+
+
+	#img1 img {
 		display: none;
-		}	
-		
-		
-		#img2 img{
+	}
+
+
+	#img2 img {
 		display: none;
-		}
-		
-		#img3 img{
+	}
+
+	#img3 img {
 		display: none;
-		}
-		
-		#img4 img{
+	}
+
+	#img4 img {
 		display: none;
-		}
-		
-		#img5 img{
+	}
+
+	#img5 img {
 		display: none;
-		}
-		
-		
+	}
+
+
 }
 
 #titulo {
-	
-    margin-top: -60px;
-    margin-left: 170px;
-}	
-	
-#titulo img {
-	
-	width: 720px;
-    height: auto;
-    margin: 39px -6px 61px -180px;
+
+	margin-top: -60px;
+	margin-left: 170px;
 }
 
-.row80{
+#titulo img {
+
+	width: 720px;
+	height: auto;
+	margin: 39px -6px 61px -180px;
+}
+
+.row80 {
 	display: block;
 	max-width: 1200px;
 	margin: auto !important;
 	width: 85% !important;
 }
 
-.title-que-hacer{
+.title-que-hacer {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 30px;
@@ -305,7 +306,7 @@ object{
 	background-position: 50% 80%;
 }
 
-.list-nino-piensa-compra{
+.list-nino-piensa-compra {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -319,7 +320,7 @@ object{
 	background-position: 50% 50%;
 }
 
-.list-lena-barrenador{
+.list-lena-barrenador {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -333,7 +334,7 @@ object{
 	background-position: 50% 50%;
 }
 
-.list-nino-veterinario{
+.list-nino-veterinario {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -347,7 +348,7 @@ object{
 	background-position: 50% 50%;
 }
 
-.list-nino-veterinario{
+.list-nino-veterinario {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -362,7 +363,7 @@ object{
 }
 
 
-.list-senior-bote{
+.list-senior-bote {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -376,7 +377,7 @@ object{
 	background-position: 50% 50%;
 }
 
-.list-celular{
+.list-celular {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -390,7 +391,7 @@ object{
 	background-position: 50% 50%;
 }
 
-.list-luna-maiz{
+.list-luna-maiz {
 	width: 100%;
 	height: 180px;
 	margin: 0px auto 0px;
@@ -405,11 +406,8 @@ object{
 }
 
 
-
-
-
 @media (max-width: 575px) {
-	.indicadores-img{
+	.indicadores-img {
 		width: 100%;
 		height: 120px;
 		margin-top: 0px;
@@ -419,25 +417,26 @@ object{
 		background-position: 50% 50%;
 		position: relative;
 	}
-  
-	.title-como-llegan-al-pais{
+
+	.title-como-llegan-al-pais {
 		height: 80px;
 		background-size: 80%;
 		background-position: 50% 50%;
-	  }
+	}
 
-	  .margin-left{
-		  text-align: left !important;
-	  }
+	.margin-left {
+		text-align: left !important;
+	}
 
 
-  	/* modal */
-	  #modal{
+	/* modal */
+	#modal {
 		width: 300px;
 		height: 180px;
 		top: 15%;
 		left: 15%;
 	}
+
 	.back {
 		width: 30px;
 		height: 30px;
@@ -449,18 +448,21 @@ object{
 		top: -9px;
 		cursor: pointer;
 	}
-	.modalfoto img{
+
+	.modalfoto img {
 		width: 300px;
 		height: 180px;
 		margin-right: 20px;
 	}
-	.modalNombre{
-		color:#FFF;
-		margin-top:18px;
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
 		font-size: .9em;
 		display: inline-block;
 	}
-	.modalTexto{
+
+	.modalTexto {
 		margin-top: 0px;
 		margin-left: 20px;
 		width: 260px;
@@ -477,25 +479,23 @@ object{
 		bottom: 0px;
 		background-color: #15774e;
 		left: 0px;
-	  }
+	}
+
 	/* modal */
 
 }
 
 
-
-
-
-  @media (max-width: 575px) {
+@media (max-width: 575px) {
 	.title-que-hacer {
 		width: 100%;
 		height: 120px;
 		margin: 0px auto 30px;
 		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
-		  background-position-x: 0%;
-		  background-position-y: 0%;
-		  background-repeat: repeat;
-		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
 		background-position-x: 0%;
 		background-position-y: 0%;
 		background-repeat: repeat;
@@ -503,18 +503,19 @@ object{
 		background-repeat: no-repeat;
 		background-size: 80%;
 		background-position: 50% 80%;
-	  }
-  }
-  @media (min-width: 576px) {
+	}
+}
+
+@media (min-width: 576px) {
 	.title-que-hacer {
 		width: 100%;
 		height: 140px;
 		margin: 0px auto 30px;
 		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
-		  background-position-x: 0%;
-		  background-position-y: 0%;
-		  background-repeat: repeat;
-		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
 		background-position-x: 0%;
 		background-position-y: 0%;
 		background-repeat: repeat;
@@ -522,18 +523,19 @@ object{
 		background-repeat: no-repeat;
 		background-size: 80%;
 		background-position: 50% 80%;
-	  }
-  }
-  @media (min-width: 768px) {
+	}
+}
+
+@media (min-width: 768px) {
 	.title-que-hacer {
 		width: 100%;
 		height: 180px;
 		margin: 0px auto 30px;
 		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
-		  background-position-x: 0%;
-		  background-position-y: 0%;
-		  background-repeat: repeat;
-		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
 		background-position-x: 0%;
 		background-position-y: 0%;
 		background-repeat: repeat;
@@ -541,18 +543,19 @@ object{
 		background-repeat: no-repeat;
 		background-size: 50%;
 		background-position: 50% 90%;
-	  }
-  }
-  @media (min-width: 992px) {
+	}
+}
+
+@media (min-width: 992px) {
 	.title-que-hacer {
 		width: 100%;
 		height: 180px;
 		margin: 0px auto 30px;
 		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
-		  background-position-x: 0%;
-		  background-position-y: 0%;
-		  background-repeat: repeat;
-		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
 		background-position-x: 0%;
 		background-position-y: 0%;
 		background-repeat: repeat;
@@ -560,18 +563,19 @@ object{
 		background-repeat: no-repeat;
 		background-size: 50%;
 		background-position: 50% 90%;
-	  }
-  }
-  @media (min-width: 1200px) {
+	}
+}
+
+@media (min-width: 1200px) {
 	.title-que-hacer {
 		width: 100%;
 		height: 250px;
 		margin: 0px auto 30px;
 		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
-		  background-position-x: 0%;
-		  background-position-y: 0%;
-		  background-repeat: repeat;
-		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
 		background-position-x: 0%;
 		background-position-y: 0%;
 		background-repeat: repeat;
@@ -579,18 +583,19 @@ object{
 		background-repeat: no-repeat;
 		background-size: 50%;
 		background-position: 50% 80%;
-	  }
-  }
-  @media (min-width: 1400px) {
+	}
+}
+
+@media (min-width: 1400px) {
 	.title-que-hacer {
 		width: 100%;
 		height: 250px;
 		margin: 0px auto 30px;
 		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
-		  background-position-x: 0%;
-		  background-position-y: 0%;
-		  background-repeat: repeat;
-		  background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
 		background-position-x: 0%;
 		background-position-y: 0%;
 		background-repeat: repeat;
@@ -598,5 +603,5 @@ object{
 		background-repeat: no-repeat;
 		background-size: 50%;
 		background-position: 50% 80%;
-	  }
-  }
+	}
+}

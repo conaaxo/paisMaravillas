@@ -1,9 +1,9 @@
 section {
-	overflow:hidden;
+	overflow: hidden;
 }
 
 p {
-	
+
 }
 
 .margen {
@@ -24,12 +24,12 @@ p {
 
 
 .videoyt {
-    width: 80%;
-    height: 300px;
-    display: inline-block;
-    position: absolute;
-    margin-top: 20px;
-    border-radius: 20px;
+	width: 80%;
+	height: 300px;
+	display: inline-block;
+	position: absolute;
+	margin-top: 20px;
+	border-radius: 20px;
 }
 
 #circulo {
@@ -41,43 +41,43 @@ p {
 }
 
 #titulo {
-    margin-left: 170px;
-}	
-	
+	margin-left: 170px;
+}
+
 #titulo img {
 	width: 420px;
 	height: auto;
-    margin: 31px 51px -29px 61px;
+	margin: 31px 51px -29px 61px;
 }
 
 #titulo2 {
-   margin: -1px -229px -29px 0px;
+	margin: -1px -229px -29px 0px;
 }
 
 #titulo2 img {
 	width: 500px;
-}	
-	
+}
+
 #titulo2 img2 {
 	width: 420px;
 	height: auto;
-    margin: 31px 391px -9px 0px;
+	margin: 31px 391px -9px 0px;
 }
 
 #titulo3 {
 	text-align: center;
-}	
+}
 
 #titulo3 img {
 	width: 700px;
-}	
+}
 
-	
+
 #titulo2 img3 {
-	
+
 	width: 420px;
 	height: auto;
-    margin: 31px 391px -9px 0px;
+	margin: 31px 391px -9px 0px;
 
 }
 
@@ -100,13 +100,11 @@ p {
 }*/
 
 
-
 /*#audio_e4 {
 
 	margin: -61px 0px 0px 632px;
 
 }*/
-
 
 
 /*#audio_e1:hover, #audio_e4:hover {
@@ -118,18 +116,16 @@ p {
 */
 
 
-
 #e1 {
 
- 	background-color: #8ED1C9;
- 	color: #0A4D43;
- 	position:relative;
- 	padding-top:31px;
+	background-color: #8ED1C9;
+	color: #0A4D43;
+	position: relative;
+	padding-top: 31px;
 	padding-bottom: 31px;
- 	z-index: 3;
+	z-index: 3;
 
 }
-
 
 
 .na {
@@ -137,7 +133,6 @@ p {
 	color: #D4842D;
 
 }
-
 
 
 /*SECCIONES*/
@@ -154,10 +149,10 @@ p {
 
 
 #ima1_e1 img {
-    width: 30%;
-    position: absolute;
-    margin: -200px 0px 0px -190px;
-    z-index: 1;
+	width: 30%;
+	position: absolute;
+	margin: -200px 0px 0px -190px;
+	z-index: 1;
 }
 
 
@@ -177,26 +172,22 @@ p {
 }
 
 
-
-
 #e2 {
- 	background-color: #ffcfae;
- 	color: #f5f7aa;
- 	text-align: center;
- 	padding-top:81px;
- 	position:relative;
- 	z-index: 3;
- 	height: 1300px;
- }
-
+	background-color: #ffcfae;
+	color: #f5f7aa;
+	text-align: center;
+	padding-top: 81px;
+	position: relative;
+	z-index: 3;
+	height: 1300px;
+}
 
 
 #e2 h2 {
 	color: #134B45;
-   /*	 margin: 0% 143px 4% 70px;*/
-   font-size: 1.5em !important;
+	/*	 margin: 0% 143px 4% 70px;*/
+	font-size: 1.5em !important;
 }
-
 
 
 #e2 p {
@@ -209,20 +200,17 @@ p {
 }
 
 
-
 .nar {
 	color: #0a5033;
 }
 
 
-
 #ima1_e2 img {
-    width: 35%;
-    position: absolute;
-    margin: -32px 0px 0px -614px;
-    baseline-shift: baseline;
+	width: 35%;
+	position: absolute;
+	margin: -32px 0px 0px -614px;
+	baseline-shift: baseline;
 }
-
 
 
 #ima2_e2 img {
@@ -240,7 +228,6 @@ p {
 }
 
 
-
 #ima3_e2 img {
 
 	width: 29%;
@@ -256,31 +243,25 @@ p {
 }
 
 
-
-
-
-
-
 #e3 {
 
- 	background-color:#a5d8d2;
- 	background-image: url();
- 	background-size: cover;
- 	-o-background-size: cover;
- 	-moz-background-size: cover;
- 	-webkit-background-size: cover;
- 	background-position: top;
- 	-o-background-position: top;
- 	-moz-background-position: top;
- 	-webkit-background-position: top;
- 	background-repeat: no-repeat;
- 	color: #175C55;
- 	padding-top: 33px;
- 	position:relative;
- 	z-index: 3;
- 	height: 730px;
+	background-color: #a5d8d2;
+	background-image: url();
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: top;
+	-o-background-position: top;
+	-moz-background-position: top;
+	-webkit-background-position: top;
+	background-repeat: no-repeat;
+	color: #175C55;
+	padding-top: 33px;
+	position: relative;
+	z-index: 3;
+	height: 730px;
 }
-
 
 
 #e3 h2 {
@@ -288,22 +269,19 @@ p {
 	margin: 3% 0px 2% 102px;
 
 
-
 }
 
 
-
 #e3 p {
-	
+
 	margin: 0px 20px;
 	margin-bottom: 20px;
 }
 
-#e3 a{
+#e3 a {
 	text-decoration: none !important;
 	color: #266044;
 }
-
 
 
 .timportante {
@@ -312,7 +290,6 @@ p {
 	display: inherit;
 
 }
-
 
 
 #e3 #nativas {
@@ -325,10 +302,9 @@ p {
 
 #e3 #nativas p {
 
-	font-size: 1.5 rem !important;
+	font-size: 1.5rem !important;
 
 }
-
 
 
 #e3 #nativas1 {
@@ -354,13 +330,11 @@ p {
 }
 
 
-
 #e3 #nativas1 img {
 
 	width: 80%;
 
 }
-
 
 
 #e3 #nativas1 .timportante {
@@ -372,7 +346,6 @@ p {
 }
 
 
-
 #e3 #nativas1 p {
 
 	text-align: left;
@@ -380,7 +353,6 @@ p {
 	width: 300px;
 
 }
-
 
 
 #e3 #nativas2 {
@@ -400,7 +372,6 @@ p {
 }
 
 
-
 #e3 #nativas2 .timportante {
 
 	text-align: left;
@@ -410,11 +381,9 @@ p {
 }
 
 
-
 #e3 #nativas2 img {
 	width: 100%;
 }
-
 
 
 #e3 #nativas2 p {
@@ -441,18 +410,15 @@ p {
 }
 
 
-
 #e3 #nativas3 img {
 	width: 80%;
 }
-
 
 
 #e3 #nativas3 .timportante {
 	text-align: left;
 	width: 300px;
 }
-
 
 
 #e3 #nativas3 p {
@@ -465,7 +431,6 @@ p {
 	background-color: #A5D8D2;
 	width: 100%;
 }
-
 
 
 #e3 #exoticas1 {
@@ -510,11 +475,9 @@ p {
 }
 
 
-
 #e3 #exoticas2 img {
 	width: 80%;
 }
-
 
 
 #e3 #exoticas2 p {
@@ -523,16 +486,15 @@ p {
 }
 
 #e4 {
- 	background-color: #1B1D12;
- 	color: #D4D8A5;
- 	padding-top:81px;
- 	position:relative;
- 	z-index: 3;
- 	min-height: 1000px;
+	background-color: #1B1D12;
+	color: #D4D8A5;
+	padding-top: 81px;
+	position: relative;
+	z-index: 3;
+	min-height: 1000px;
 	max-height: 2000px;
 
 }
-
 
 
 #e4 h2 {
@@ -542,13 +504,11 @@ p {
 }
 
 
-
 #e4 p {
 	width: 400px;
 	margin-left: 360px;
 
 }
-
 
 
 #e4 #pa2 {
@@ -558,23 +518,20 @@ p {
 }
 
 
-
 #e4 img {
 	width: 70%;
 
 }
 
 
-
 /*e_escarabajos.png*/
 
-#ima1_e4 img { 
+#ima1_e4 img {
 	width: 57%;
 	position: absolute;
 	margin: -1038px 0px 0px -200px;
 	z-index: -1;
 }
-
 
 
 /*e_linne.png*/
@@ -587,7 +544,6 @@ p {
 }
 
 
-
 /*e_seleccion.png*/
 
 #ima3_e4 img {
@@ -598,15 +554,15 @@ p {
 	opacity: 0.3;
 }
 
-.cd-main-content{
- background-color: #8ED1C9;
+.cd-main-content {
+	background-color: #8ED1C9;
 }
 
-.centrar .p1{
+.centrar .p1 {
 	font-size: 1em !important;
 }
 
-.title-que-es-una-invasion{
+.title-que-es-una-invasion {
 	width: 70%;
 	height: 200px;
 	margin-top: 0px;
@@ -617,7 +573,7 @@ p {
 }
 
 
-.title-como-invaden{
+.title-como-invaden {
 	max-width: 800px;
 	width: 100%;
 	height: 100px;
@@ -627,7 +583,8 @@ p {
 	background-size: 50%;
 	background-position: 50% 50%;
 }
-.title-como-se-atiende{
+
+.title-como-se-atiende {
 	max-width: 800px;
 	width: 100%;
 	height: 100px;
@@ -638,79 +595,78 @@ p {
 	background-position: 50% 50%;
 }
 
-.invasion-palomilla-del-nopal{
-		display: block;
-		position: relative;
-		width: 300px;
-		left: -185px;
-		height: 100%;
-		margin: auto;
-		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position:0% 102%;
-}
-
-.invasion-tortuga{
-	display: block;
-		position: relative;
-		width: 300px;
-		right: 0px;
-		height: 100%;
-		margin: auto;
-		background: url(../invasoras/assets/img/invasion/tortuga.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: 0% 102%;
-}
-
-.diagrama-invasion{
-		width: 100%;
-		height: 600px;
-		margin: auto;
-		background: url(../invasoras/assets/img/invasion/diagrama.png);
-		background-repeat: no-repeat;
-		background-size: 100%;
-		background-position: 50% 50%;
-}
-
-.invasion-luna-sola{
+.invasion-palomilla-del-nopal {
 	display: block;
 	position: relative;
-		width: 400px;
-		height: 100%;
-		margin: auto;
-		background: url(../invasoras/assets/img/invasion/luna-sola.png);
-		background-repeat: no-repeat;
-		background-size: 70%;
-		background-position:50% 50%;
+	width: 300px;
+	left: -185px;
+	height: 100%;
+	margin: auto;
+	background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 102%;
 }
 
-  .p2 {
+.invasion-tortuga {
+	display: block;
+	position: relative;
+	width: 300px;
+	right: 0px;
+	height: 100%;
+	margin: auto;
+	background: url(../invasoras/assets/img/invasion/tortuga.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 102%;
+}
+
+.diagrama-invasion {
+	width: 100%;
+	height: 600px;
+	margin: auto;
+	background: url(../invasoras/assets/img/invasion/diagrama.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+}
+
+.invasion-luna-sola {
+	display: block;
+	position: relative;
+	width: 400px;
+	height: 100%;
+	margin: auto;
+	background: url(../invasoras/assets/img/invasion/luna-sola.png);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 50% 50%;
+}
+
+.p2 {
 	color: #03412F;
 	font-size: 1.1em;
 	font-weight: bold;
 	margin-bottom: 0px;
-  }
+}
 
-  .p1 {
+.p1 {
 	font-family: mclaren-regular;
 	line-height: 24px;
 	color: #0C1915;
 	font-size: 1em;
 	text-align: justify;
-  }
+}
 
 
-
-  .color-verde{
+.color-verde {
 	color: #03412F;
-  }
+}
 
 
-  @media (max-width: 575px) {
-	
-	.title-que-es-una-invasion{
+@media (max-width: 575px) {
+
+	.title-que-es-una-invasion {
 		width: 100%;
 		height: 140px;
 		margin: 0px auto 20px;
@@ -720,7 +676,7 @@ p {
 		background-position: 50% 90%;
 	}
 
-	.title-como-invaden{
+	.title-como-invaden {
 		max-width: 800px;
 		width: 100%;
 		height: 60px;
@@ -731,7 +687,7 @@ p {
 		background-position: 50% 50%;
 	}
 
-	.diagrama-invasion{
+	.diagrama-invasion {
 		width: 100%;
 		max-width: 1100px;
 		max-height: 360px;
@@ -741,21 +697,23 @@ p {
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-	#e1{
+
+	#e1 {
 		height: 130rem;
 	}
-	#e2{
+
+	#e2 {
 		height: 125rem;
 	}
-	
-	#e3{
+
+	#e3 {
 		height: 155rem;
 	}
-  }
+}
 
-  @media (min-width: 576px) {
+@media (min-width: 576px) {
 
-	.title-que-es-una-invasion{
+	.title-que-es-una-invasion {
 		width: 100%;
 		height: 160px;
 		margin: 40px auto 20px;
@@ -765,7 +723,7 @@ p {
 		background-position: 50% 90%;
 	}
 
-	.diagrama-invasion{
+	.diagrama-invasion {
 		width: 100%;
 		max-width: 1100px;
 		max-height: 430px;
@@ -775,18 +733,22 @@ p {
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-	#e1{
+
+	#e1 {
 		height: 110rem;
 	}
-	#e2{
+
+	#e2 {
 		height: 110rem;
 	}
-	#e3{
+
+	#e3 {
 		height: 130rem;
 	}
-  }
-  @media (min-width: 768px) {
-	.title-que-es-una-invasion{
+}
+
+@media (min-width: 768px) {
+	.title-que-es-una-invasion {
 		width: 100%;
 		height: 160px;
 		margin: 40px auto 20px;
@@ -796,7 +758,7 @@ p {
 		background-position: 50% 90%;
 	}
 
-	.diagrama-invasion{
+	.diagrama-invasion {
 		width: 100%;
 		max-width: 1100px;
 		max-height: 550px;
@@ -806,7 +768,8 @@ p {
 		background-size: 100%;
 		background-position: 50% 50%;
 	}
-	.invasion-palomilla-del-nopal{
+
+	.invasion-palomilla-del-nopal {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -816,21 +779,24 @@ p {
 		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:0% 102%;
+		background-position: 0% 102%;
 	}
 
-	#e1{
+	#e1 {
 		height: 115rem;
 	}
-	#e2{
+
+	#e2 {
 		height: 100rem;
 	}
-	#e3{
+
+	#e3 {
 		height: 100rem;
 	}
-  }
-  @media (min-width: 992px) {
-	.title-que-es-una-invasion{
+}
+
+@media (min-width: 992px) {
+	.title-que-es-una-invasion {
 		width: 100%;
 		height: 180px;
 		margin: 60px auto 20px;
@@ -840,7 +806,7 @@ p {
 		background-position: 50% 90%;
 	}
 
-	.diagrama-invasion{
+	.diagrama-invasion {
 		width: 100%;
 		max-width: 1100px;
 		max-height: 600px;
@@ -852,7 +818,7 @@ p {
 	}
 
 
-	.invasion-palomilla-del-nopal{
+	.invasion-palomilla-del-nopal {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -862,10 +828,10 @@ p {
 		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:0% 102%;
+		background-position: 0% 102%;
 	}
 
-	.invasion-luna-sola{
+	.invasion-luna-sola {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -875,21 +841,25 @@ p {
 		background: url(../invasoras/assets/img/invasion/luna-sola.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:50% 50%;
+		background-position: 50% 50%;
 	}
-	#e1{
+
+	#e1 {
 		height: 95rem;
 	}
-	#e2{
+
+	#e2 {
 		height: 110rem;
 	}
-	#e3{
+
+	#e3 {
 		height: 80rem;
 	}
 
-  }
-  @media (min-width: 1200px) {
-	.title-que-es-una-invasion{
+}
+
+@media (min-width: 1200px) {
+	.title-que-es-una-invasion {
 		width: 100%;
 		height: 150px;
 		margin: 100px auto 30px;
@@ -898,7 +868,8 @@ p {
 		background-size: 50%;
 		background-position: 50% 80%;
 	}
-	.diagrama-invasion{
+
+	.diagrama-invasion {
 		width: 100%;
 		max-width: 1100px;
 		max-height: 600px;
@@ -909,7 +880,7 @@ p {
 		background-position: 50% 50%;
 	}
 
-	.invasion-luna-sola{
+	.invasion-luna-sola {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -919,10 +890,10 @@ p {
 		background: url(../invasoras/assets/img/invasion/luna-sola.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:50% 50%;
+		background-position: 50% 50%;
 	}
 
-	.invasion-palomilla-del-nopal{
+	.invasion-palomilla-del-nopal {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -932,22 +903,26 @@ p {
 		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:0% 102%;
+		background-position: 0% 102%;
 	}
-	#e1{
+
+	#e1 {
 		height: 85rem;
 	}
-	#e2{
+
+	#e2 {
 		height: 95rem;
 	}
-	#e3{
+
+	#e3 {
 		height: 70rem;
 	}
 
-  }
-  @media (min-width: 1400px) {
-	.title-que-es-una-invasion{
-		
+}
+
+@media (min-width: 1400px) {
+	.title-que-es-una-invasion {
+
 		width: 100%;
 		height: 180px;
 		margin: 100px auto 30px;
@@ -958,7 +933,7 @@ p {
 	}
 
 
-	.title-como-invaden{
+	.title-como-invaden {
 		max-width: 800px;
 		width: 100%;
 		height: 100px;
@@ -969,11 +944,11 @@ p {
 		background-position: 50% 50%;
 	}
 
-	.diagrama-invasion{
+	.diagrama-invasion {
 		width: 100%;
 		max-width: 1100px;
 		max-height: 800px;
-		
+
 		margin: auto;
 		background: url(../invasoras/assets/img/invasion/diagrama.png);
 		background-repeat: no-repeat;
@@ -981,7 +956,7 @@ p {
 		background-position: 50% 50%;
 	}
 
-	.invasion-luna-sola{
+	.invasion-luna-sola {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -991,10 +966,10 @@ p {
 		background: url(../invasoras/assets/img/invasion/luna-sola.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:50% 50%;
+		background-position: 50% 50%;
 	}
 
-	.invasion-palomilla-del-nopal{
+	.invasion-palomilla-del-nopal {
 		display: block;
 		position: relative;
 		width: 300px;
@@ -1004,26 +979,28 @@ p {
 		background: url(../invasoras/assets/img/invasion/palomilla-del-nopal.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		background-position:0% 102%;
+		background-position: 0% 102%;
 	}
-	#e1{
+
+	#e1 {
 		height: 85rem;
 	}
-	#e2{
+
+	#e2 {
 		height: 95rem;
 	}
-	#e3{
+
+	#e3 {
 		height: 70rem;
 	}
-  }
+}
 
-.row80{
+.row80 {
 	display: block;
 	max-width: 1200px;
 	margin: auto !important;
 	width: 80%;
 }
-
 
 
 /* MEDIA */

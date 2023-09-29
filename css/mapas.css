@@ -1,176 +1,176 @@
 body {
 
-  overflow-x: hidden;
+	overflow-x: hidden;
 
 }
 
 #download {
 
-  width: 100%;
+	width: 100%;
 
-  height: 60px;
+	height: 60px;
 
-  background-color: #e2b830;
+	background-color: #e2b830;
 
-  z-index: 50;
+	z-index: 50;
 
-  margin-top: 81px;
+	margin-top: 81px;
 
-  position: relative;
+	position: relative;
 
 }
 
 #download h2 {
 
-  font-family: gregh;
+	font-family: gregh;
 
-  font-size: 42px;
+	font-size: 42px;
 
-  display: inline;
+	display: inline;
 
-  position: absolute;
+	position: absolute;
 
-  right: 44%;
+	right: 44%;
 
-  margin: 4px auto;
+	margin: 4px auto;
 
-  color: #502914;
+	color: #502914;
 
 }
 
 #download a {
 
-  display: none;
+	display: none;
 
-  width: 40px;
+	width: 40px;
 
-  height: 40px;
+	height: 40px;
 
-  background-image: url(../assets/img/imprimir_ico.png);
+	background-image: url(../assets/img/imprimir_ico.png);
 
-  background-size: auto 40px;
+	background-size: auto 40px;
 
-  position: absolute;
+	position: absolute;
 
-  right: 40%;
+	right: 40%;
 
-  margin-top: 10px;
+	margin-top: 10px;
 
 }
 
 #contenedor {
 
-  position: relative;
+	position: relative;
 
-  margin: 0px auto;
+	margin: 0px auto;
 
 }
 
-.mapas{
+.mapas {
 
-  width: 100%;
+	width: 100%;
 
-  top: 141px;
+	top: 141px;
 
-  left: 0px;
+	left: 0px;
 
-  z-index: 1;
+	z-index: 1;
 
 }
 
 .mapa {
 
-  position: absolute;
+	position: absolute;
 
-  top: 0px;
+	top: 0px;
 
-  left: 50%;
+	left: 50%;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  background-position: 50% 50%;
+	background-position: 50% 50%;
 
-  width: 100%;
+	width: 100%;
 
-  height: 100%;
+	height: 100%;
 
-  background-size: 100% auto;
+	background-size: 100% auto;
 
-  background-position: 50% 0;
+	background-position: 50% 0;
 
-  transform: translateX(-50%);
+	transform: translateX(-50%);
 
 }
 
 .oculto {
 
-  display: none;
+	display: none;
 
 }
 
 #mapaFondo {
 
-  /*background-image: url(../assets/img/conoce/mapas/mapabase.jpg);*/
+	/*background-image: url(../assets/img/conoce/mapas/mapabase.jpg);*/
 
 }
 
 #mapaFondo img {
 
-  width: 100%;
+	width: 100%;
 
-  height: auto;
+	height: auto;
 
-  max-height: 885px;
+	max-height: 885px;
 
-  max-width: 1360px;
+	max-width: 1360px;
 
 }
 
 #mapaSelvaHumeda {
 
-  background-image: url(../assets/img/conoce/mapas/selvahumeda.png);
+	background-image: url(../assets/img/conoce/mapas/selvahumeda.png);
 
 }
 
 #mapaBosqueTemplado {
 
-  background-image: url(../assets/img/conoce/mapas/bosquetemplado.png);
+	background-image: url(../assets/img/conoce/mapas/bosquetemplado.png);
 
 }
 
 #mapaPastizal {
 
-  background-image: url(../assets/img/conoce/mapas/pastizales.png);
+	background-image: url(../assets/img/conoce/mapas/pastizales.png);
 
 }
 
 #mapaMatorral {
 
-  background-image: url(../assets/img/conoce/mapas/matorrales.png);
+	background-image: url(../assets/img/conoce/mapas/matorrales.png);
 
 }
 
 #mapaGolfo {
 
-  background-image: url(../assets/img/conoce/mapas/golfoycaribe.png);
+	background-image: url(../assets/img/conoce/mapas/golfoycaribe.png);
 
 }
 
 #mapaPacifico {
 
-  background-image: url(../assets/img/conoce/mapas/oceanopacifico.png);
+	background-image: url(../assets/img/conoce/mapas/oceanopacifico.png);
 
 }
 
 #mapaCiudades {
 
-  background-image: url(../assets/img/conoce/mapas/zonasurbanas.png);
+	background-image: url(../assets/img/conoce/mapas/zonasurbanas.png);
 
 }
 
 #mapaCampo {
 
-  background-image: url(../assets/img/conoce/mapas/agriculturaganaderia.png);
+	background-image: url(../assets/img/conoce/mapas/agriculturaganaderia.png);
 
 }
 
@@ -180,204 +180,204 @@ body {
 
 #rosa {
 
-  background-image: url(../assets/img/conoce/mapas/rosadelviento.png);
+	background-image: url(../assets/img/conoce/mapas/rosadelviento.png);
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  background-position: 50% 50%;
+	background-position: 50% 50%;
 
-  width: 8%;
+	width: 8%;
 
-  height: 30%;
+	height: 30%;
 
-  top: 540px;
+	top: 540px;
 
-  left: 27%;
+	left: 27%;
 
-  position: fixed;
+	position: fixed;
 
-  background-size: 100% auto;
+	background-size: 100% auto;
 
 }
 
 .listaEcosistemas {
 
-  position: absolute;
+	position: absolute;
 
-  width: 200px;
+	width: 200px;
 
-  background-color: #1f232f;
+	background-color: #1f232f;
 
-  color: #FFF;
+	color: #FFF;
 
-  z-index: 40;
+	z-index: 40;
 
-  top: -257px;
+	top: -257px;
 
-  right: 90px;
+	right: 90px;
 
-  font-size: 13px;
+	font-size: 13px;
 
-  line-height: 26px;
+	line-height: 26px;
 
 }
 
 .listaEcosistemas ul li {
 
-  cursor: pointer;
+	cursor: pointer;
 
 }
 
-.listaEcosistemas ul li div{
+.listaEcosistemas ul li div {
 
-  position: absolute;
+	position: absolute;
 
-  width: 20px;
+	width: 20px;
 
-  height: 20px;
+	height: 20px;
 
-  border-radius: 50%;
+	border-radius: 50%;
 
-  left: 10px;
+	left: 10px;
 
-  margin-top: 5px;
+	margin-top: 5px;
 
-  background-size: 20px;
+	background-size: 20px;
 
 }
 
 #upside {
 
-  background-color: #1f232f;
+	background-color: #1f232f;
 
-  color: #fff;
+	color: #fff;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 26px;
+	font-size: 26px;
 
-  font-family: gregh;
+	font-family: gregh;
 
-  height: 33px;
+	height: 33px;
 
-  position: absolute;
+	position: absolute;
 
-  width: 200px;
+	width: 200px;
 
-  z-index: 60;
+	z-index: 60;
 
-  right: 90px;
+	right: 90px;
 
 }
 
 #downside {
 
-  position: absolute;
+	position: absolute;
 
-  width: 200px;
+	width: 200px;
 
-  height: 30px;
+	height: 30px;
 
-  background-image: url(../assets/img/conoce/mapas/bandera1.png);
+	background-image: url(../assets/img/conoce/mapas/bandera1.png);
 
-  background-size: 242px 39px;
+	background-size: 242px 39px;
 
-  background-position: -18px 0px;
+	background-position: -18px 0px;
 
-  z-index: 40;
+	z-index: 40;
 
-  top: 273px;
+	top: 273px;
 
-  right: 0;
+	right: 0;
 
 }
 
 .icoSelvah {
 
-  background-image: url(../assets/img/conoce/mapas/selva_ico.png);
+	background-image: url(../assets/img/conoce/mapas/selva_ico.png);
 
 }
 
 .icoBosquet {
 
-  background-image: url(../assets/img/conoce/mapas/bosquet_ico.png);
+	background-image: url(../assets/img/conoce/mapas/bosquet_ico.png);
 
 }
 
 .icoPastizal {
 
-  background-image: url(../assets/img/conoce/mapas/pastizal_ico.png);
+	background-image: url(../assets/img/conoce/mapas/pastizal_ico.png);
 
 }
 
 .icoMatorral {
 
-  background-image: url(../assets/img/conoce/mapas/matorral_ico.png);
+	background-image: url(../assets/img/conoce/mapas/matorral_ico.png);
 
 }
 
 .icoGolfo {
 
-  background-image: url(../assets/img/conoce/mapas/golfo_ico.png);
+	background-image: url(../assets/img/conoce/mapas/golfo_ico.png);
 
 }
 
 .icoPacifico {
 
-  background-image: url(../assets/img/conoce/mapas/pacifico_ico.png);
+	background-image: url(../assets/img/conoce/mapas/pacifico_ico.png);
 
 }
 
 .icoCiudad {
 
-  background-image: url(../assets/img/conoce/mapas/ciudad_ico.png);
+	background-image: url(../assets/img/conoce/mapas/ciudad_ico.png);
 
 }
 
 .icoCampo {
 
-  background-image: url(../assets/img/conoce/mapas/campo_ico.png);
+	background-image: url(../assets/img/conoce/mapas/campo_ico.png);
 
 }
 
 .icoTodos {
 
-  background-image: url(../assets/img/conoce/mapas/todos_ico.png);
+	background-image: url(../assets/img/conoce/mapas/todos_ico.png);
 
 }
 
 .listaEcosistemas ul {
 
-  list-style: none;
+	list-style: none;
 
 }
 
 #puntos {
 
-  display: none;
+	display: none;
 
 }
 
 footer {
 
-  position: fixed;
+	position: fixed;
 
 }
 
 #mapaEstados img {
 
-    border: none;
+	border: none;
 
-    height: auto;
+	height: auto;
 
-    width: 100%;
+	width: 100%;
 
-    position: absolute;
+	position: absolute;
 
 }
 
 #maestro {
 
-  display: none;
+	display: none;
 
 }

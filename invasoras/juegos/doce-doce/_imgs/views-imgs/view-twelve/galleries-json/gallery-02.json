@@ -1,106 +1,118 @@
 {
-    "gametype": 2,
-    "gamedescription": "¡Te reto a encontrar las especies exóticas invasoras que son iguales!",
-    "gamedisplaymatch": "image",
-    "gamedroptype": "buildDroptype2",
-    "directory": "gallery-02",
-    "completed": false,
-    "gallery": [
-        {
-            "qn": "",
-            "awr": "",
-            "id": "013",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "1-Myocastor-coypu.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "014",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "2-Charybdis-hellerii.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "015",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "3-Cyprinus-rubrofuscus.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "016",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "4-Ricinus-communis.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "017",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "5-Pterois-volitans.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "018",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "6-Casuarina-equisetifolia.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "019",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "7-Streptopelia-decaocto.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "020",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "8-Kalanchoe-delagoensis.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "021",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "9-Ficopomatus-enigmaticus.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "022",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "10-Pueraria-montana.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "023",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "11-Python-bivittatus.png" },
-        {
-            "qn": "",
-            "awr": "",
-            "id": "024",
-            "matched": false,
-            "description": "",
-            "title": "",
-            "image": "12-Vespula-germanica.png" }
-    ]
+  "gametype": 2,
+  "gamedescription": "¡Te reto a encontrar las especies exóticas invasoras que son iguales!",
+  "gamedisplaymatch": "image",
+  "gamedroptype": "buildDroptype2",
+  "directory": "gallery-02",
+  "completed": false,
+  "gallery": [
+    {
+      "qn": "",
+      "awr": "",
+      "id": "013",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "1-Myocastor-coypu.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "014",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "2-Charybdis-hellerii.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "015",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "3-Cyprinus-rubrofuscus.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "016",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "4-Ricinus-communis.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "017",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "5-Pterois-volitans.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "018",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "6-Casuarina-equisetifolia.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "019",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "7-Streptopelia-decaocto.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "020",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "8-Kalanchoe-delagoensis.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "021",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "9-Ficopomatus-enigmaticus.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "022",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "10-Pueraria-montana.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "023",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "11-Python-bivittatus.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "024",
+      "matched": false,
+      "description": "",
+      "title": "",
+      "image": "12-Vespula-germanica.png"
+    }
+  ]
 }
