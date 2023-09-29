@@ -7,7 +7,6 @@
 	<meta name="author" content="Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CONABIO."/>
 	<title>Cápsulas | El país de las maravillas</title>
 	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png"/>
-
 	<!-- jquery del CDN de google -->
 	<script src="js/jquery-2.2.4.min.js"></script>
 
@@ -23,7 +22,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<!--css fuera del template base-->
 	<link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
-<link href="css/capsulas.css" rel="stylesheet" type="text/css"> <!-- estilos del sitio pais de las maravillas versión anterior -->
+	<link href="css/capsulas.css" rel="stylesheet" type="text/css"> <!-- estilos del sitio pais de las maravillas versión anterior -->
 
 </head>
 <body class="nav-is-fixed">
@@ -199,13 +198,13 @@
 
 <!-- Usar load para cargar contenido de menu y footer-->
 <script>
-    $(document).ready(function () {
-        $('header').load('./includes/header.html', function () {
-            $.getScript('./assets/mega-site-navigation/js/main.js');
-            $.getScript('./assets/mega-site-navigation/js/jquery.mobile.custom.min.js');
-        });
-        $('footer').load('./includes/footer.html');
-    });
+	$(document).ready(function () {
+		$('header').load('./includes/header.html', function () {
+			$.getScript('./assets/mega-site-navigation/js/main.js');
+			$.getScript('./assets/mega-site-navigation/js/jquery.mobile.custom.min.js');
+		});
+		$('footer').load('./includes/footer.html');
+	});
 </script>
 
 <!-- Bootstrap core JS-->
@@ -219,14 +218,14 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-295WCBSQXS"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
+	window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+	function gtag() {
+		dataLayer.push(arguments);
+	}
 
-    gtag('js', new Date());
-    gtag('config', 'G-295WCBSQXS');
+	gtag('js', new Date());
+	gtag('config', 'G-295WCBSQXS');
 </script>
 <!-- End Google tag (Google analytics 4) -->
 </body>

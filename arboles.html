@@ -136,13 +136,13 @@
 <footer class="footer bg-verdeselva small text-center text-white-50" id="footer"></footer>
 <!-- Usar load para cargar contenido de menu y footer-->
 <script>
-    $(document).ready(function () {
-        $('header').load('./includes/header.html', function () {
-            $.getScript('./assets/mega-site-navigation/js/main.js');
-            $.getScript('./assets/mega-site-navigation/js/jquery.mobile.custom.min.js');
-        });
-        $('footer').load('./includes/footer.html');
-    });
+	$(document).ready(function () {
+		$('header').load('./includes/header.html', function () {
+			$.getScript('./assets/mega-site-navigation/js/main.js');
+			$.getScript('./assets/mega-site-navigation/js/jquery.mobile.custom.min.js');
+		});
+		$('footer').load('./includes/footer.html');
+	});
 </script>
 
 <!-- Bootstrap core JS-->
@@ -158,14 +158,14 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-295WCBSQXS"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
+	window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
+	function gtag() {
+		dataLayer.push(arguments);
+	}
 
-    gtag('js', new Date());
-    gtag('config', 'G-295WCBSQXS');
+	gtag('js', new Date());
+	gtag('config', 'G-295WCBSQXS');
 </script>
 <!-- End Google tag (Google analytics 4) -->
 </body>
