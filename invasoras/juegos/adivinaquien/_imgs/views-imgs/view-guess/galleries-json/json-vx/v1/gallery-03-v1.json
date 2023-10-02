@@ -1,26 +1,223 @@
 {
-    "description": "Some description",
-    "directory": "gallery-03",
-    "completed": false,
-    "gallery": [
-        { "matched": false, "description": "", "name": "Antonio",   "image": "boy-3.png",   "properties": { "hair": "blonde", "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Miguel",    "image": "boy-8.png",   "properties": { "hair": "blonde", "student": true, "accessories": [ "gap" ] } },
-        { "matched": false, "description": "", "name": "Saúl",      "image": "boy-18.png",  "properties": { "hair": "brown",  "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Xavier",    "image": "boy-19.png",  "properties": { "hair": "brown",  "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Ángel",     "image": "boy-20.png",  "properties": { "hair": "brown",  "student": true, "accessories": [ "eyeglasses" ] } },
-        { "matched": false, "description": "", "name": "César",     "image": "boy-21.png",  "properties": { "hair": "blonde", "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Julio",     "image": "boy-22.png",  "properties": { "hair": "brown",  "student": true, "accessories": [] } },
-
-        { "matched": false, "description": "", "name": "María",     "image": "girl.png",    "properties": { "hair": "brown",  "student": true, "accessories": [ "hairlace" ] } },
-        { "matched": false, "description": "", "name": "Claudia",   "image": "girl-8.png",  "properties": { "hair": "brown",  "student": true, "accessories": [ "hairlace" ] } },
-        { "matched": false, "description": "", "name": "Marina",    "image": "girl-18.png", "properties": { "hair": "brown",  "student": true, "accessories": [ "hairlace" ] } },
-        { "matched": false, "description": "", "name": "Marisela",  "image": "girl-19.png", "properties": { "hair": "blonde", "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Mayra",     "image": "girl-20.png", "properties": { "hair": "brown",  "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Miriam",    "image": "girl-21.png", "properties": { "hair": "brown",  "student": true, "accessories": [ "pin" ] } },
-        { "matched": false, "description": "", "name": "Nancy",     "image": "girl-22.png", "properties": { "hair": "blonde", "student": true, "accessories": [ "hairlace" ] } },
-        { "matched": false, "description": "", "name": "Rocío",     "image": "girl-23.png", "properties": { "hair": "brown",  "student": true, "accessories": [ "hairlace" ] } },
-        { "matched": false, "description": "", "name": "Romina",    "image": "girl-24.png", "properties": { "hair": "brown",  "student": true, "accessories": [ "hairlace" ] } },
-        { "matched": false, "description": "", "name": "Ruth",      "image": "girl-25.png", "properties": { "hair": "brown",  "student": true, "accessories": [] } },
-        { "matched": false, "description": "", "name": "Ángela",    "image": "girl-26.png", "properties": { "hair": "brown",  "student": true, "accessories": [] } }
-    ]
+  "description": "Some description",
+  "directory": "gallery-03",
+  "completed": false,
+  "gallery": [
+    {
+      "matched": false,
+      "description": "",
+      "name": "Antonio",
+      "image": "boy-3.png",
+      "properties": {
+        "hair": "blonde",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Miguel",
+      "image": "boy-8.png",
+      "properties": {
+        "hair": "blonde",
+        "student": true,
+        "accessories": [
+          "gap"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Saúl",
+      "image": "boy-18.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Xavier",
+      "image": "boy-19.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Ángel",
+      "image": "boy-20.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "eyeglasses"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "César",
+      "image": "boy-21.png",
+      "properties": {
+        "hair": "blonde",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Julio",
+      "image": "boy-22.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "María",
+      "image": "girl.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Claudia",
+      "image": "girl-8.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Marina",
+      "image": "girl-18.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Marisela",
+      "image": "girl-19.png",
+      "properties": {
+        "hair": "blonde",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Mayra",
+      "image": "girl-20.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Miriam",
+      "image": "girl-21.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "pin"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Nancy",
+      "image": "girl-22.png",
+      "properties": {
+        "hair": "blonde",
+        "student": true,
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Rocío",
+      "image": "girl-23.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Romina",
+      "image": "girl-24.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Ruth",
+      "image": "girl-25.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": []
+      }
+    },
+    {
+      "matched": false,
+      "description": "",
+      "name": "Ángela",
+      "image": "girl-26.png",
+      "properties": {
+        "hair": "brown",
+        "student": true,
+        "accessories": []
+      }
+    }
+  ]
 }

@@ -1,15 +1,79 @@
 {
-    "description": "Some description",
-    "directory": "gallery-03",
-    "completed": false,
-    "gallery": [
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Ratas",                            "image": "15-rattus-rattus.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Perico argentino",                 "image": "1-myopsitta-monachus.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Invasoras varias en lodo en bota", "image": "46-closeup-a-botas-con-lodo-01.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Pangasio",                         "image": "24-pangasionodon-hypophthalmus.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Tamarix",                          "image": "7-tamarix-ramosissima.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Bambú",                            "image": "15-bambusa-sp-01.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Kudzu",                            "image": "33-pueraria-lobata.png" },
-        { "qn": "", "awr": "", "id": "", "matched": false, "description": "", "title": "Kalanchoe",                        "image": "43-kalanchoe-delagoensis.png" }
-    ]
+  "description": "Some description",
+  "directory": "gallery-03",
+  "completed": false,
+  "gallery": [
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Ratas",
+      "image": "15-rattus-rattus.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Perico argentino",
+      "image": "1-myopsitta-monachus.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Invasoras varias en lodo en bota",
+      "image": "46-closeup-a-botas-con-lodo-01.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Pangasio",
+      "image": "24-pangasionodon-hypophthalmus.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Tamarix",
+      "image": "7-tamarix-ramosissima.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Bambú",
+      "image": "15-bambusa-sp-01.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Kudzu",
+      "image": "33-pueraria-lobata.png"
+    },
+    {
+      "qn": "",
+      "awr": "",
+      "id": "",
+      "matched": false,
+      "description": "",
+      "title": "Kalanchoe",
+      "image": "43-kalanchoe-delagoensis.png"
+    }
+  ]
 }

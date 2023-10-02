@@ -3,20 +3,17 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
-        aud='media/',
-        vid='media/',
-        js='js/',
-        fonts = {
-        },
+    var im = 'images/',
+        aud = 'media/',
+        vid = 'media/',
+        js = 'js/',
+        fonts = {},
         opts = {
             'gAudioPreloadPreference': 'auto',
             'gVideoPreloadPreference': 'auto'
         },
-        resources = [
-        ],
-        scripts = [
-        ],
+        resources = [],
+        scripts = [],
         symbols = {
             "stage": {
                 version: "6.0.0",
@@ -31,21 +28,21 @@
                             id: 'personajes',
                             type: 'image',
                             rect: ['119px', '50px', '37.1%', '87.7%', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"personajes.png",'50%','50%','100%','auto', 'no-repeat']
+                            fill: ["rgba(0,0,0,0)", im + "personajes.png", '50%', '50%', '100%', 'auto', 'no-repeat']
                         },
                         {
                             id: 'libeula2_symbol_1',
                             symbolName: 'libeula2_symbol_1',
                             type: 'rect',
                             rect: ['576px', '82px', '304px', '197px', 'auto', 'auto'],
-                            transform: [[],[],[],['0.55273','0.55273']]
+                            transform: [[], [], [], ['0.55273', '0.55273']]
                         },
                         {
                             id: 'libeula_symbol_1',
                             symbolName: 'libeula_symbol_1',
                             type: 'rect',
                             rect: ['625px', '123px', '307px', '194px', 'auto', 'auto'],
-                            transform: [[],[],[],['0.56128','0.56128']]
+                            transform: [[], [], [], ['0.56128', '0.56128']]
                         }
                     ],
                     style: {
@@ -278,8 +275,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [0,0],
-                            [-0,-0],
+                            [0, 0],
+                            [-0, -0],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -289,8 +286,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-0,-0],
-                            [-271,-0],
+                            [-0, -0],
+                            [-271, -0],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -300,8 +297,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-271,-0],
-                            [-540,-0],
+                            [-271, -0],
+                            [-540, -0],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -311,8 +308,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-540,-0],
-                            [-0,-163],
+                            [-540, -0],
+                            [-0, -163],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -322,8 +319,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-0,-163],
-                            [-288,-163],
+                            [-0, -163],
+                            [-288, -163],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -333,8 +330,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-288,-163],
-                            [-586,-163],
+                            [-288, -163],
+                            [-586, -163],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -344,8 +341,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-586,-163],
-                            [-0,-353],
+                            [-586, -163],
+                            [-0, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -355,8 +352,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-0,-353],
-                            [-274,-353],
+                            [-0, -353],
+                            [-274, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -366,8 +363,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-274,-353],
-                            [-509,-353],
+                            [-274, -353],
+                            [-509, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -377,8 +374,8 @@
                             0,
                             "linear",
                             "${libeula}",
-                            [-509,-353],
-                            [-750,-353],
+                            [-509, -353],
+                            [-750, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -818,8 +815,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [0,0],
-                            [-0,-0],
+                            [0, 0],
+                            [-0, -0],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -829,8 +826,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-0,-0],
-                            [-268,-0],
+                            [-0, -0],
+                            [-268, -0],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -840,8 +837,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-268,-0],
-                            [-531,-0],
+                            [-268, -0],
+                            [-531, -0],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -851,8 +848,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-531,-0],
-                            [-0,-162],
+                            [-531, -0],
+                            [-0, -162],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -862,8 +859,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-0,-162],
-                            [-288,-162],
+                            [-0, -162],
+                            [-288, -162],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -873,8 +870,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-288,-162],
-                            [-586,-162],
+                            [-288, -162],
+                            [-586, -162],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -884,8 +881,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-586,-162],
-                            [-0,-353],
+                            [-586, -162],
+                            [-0, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -895,8 +892,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-0,-353],
-                            [-271,-353],
+                            [-0, -353],
+                            [-271, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -906,8 +903,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-271,-353],
-                            [-503,-353],
+                            [-271, -353],
+                            [-503, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [
@@ -917,8 +914,8 @@
                             0,
                             "linear",
                             "${libeula2}",
-                            [-503,-353],
-                            [-741,-353],
+                            [-503, -353],
+                            [-741, -353],
                             {valueTemplate: '@@0@@px @@1@@px'}
                         ],
                         [

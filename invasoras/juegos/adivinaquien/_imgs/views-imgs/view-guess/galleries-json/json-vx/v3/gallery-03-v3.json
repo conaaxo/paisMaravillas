@@ -1,26 +1,223 @@
 {
-    "description": "Some description",
-    "directory": "gallery-03",
-    "completed": false,
-    "gallery": [
-        { "id":  4, "matched": false, "image": "boy-3.png",   "props": { "name": "Antonio",   "hair": "blonde", "student": "L2", "accessories": [] } },
-        { "id": 14, "matched": false, "image": "boy-13.png",  "props": { "name": "René",      "hair": "brown",  "student": "L1", "accessories": [ "earphones" ] } },
-        { "id": 19, "matched": false, "image": "boy-18.png",  "props": { "name": "Saúl",      "hair": "brown",  "student": "L3", "accessories": [] } },
-        { "id": 20, "matched": false, "image": "boy-19.png",  "props": { "name": "Xavier",    "hair": "brown",  "student": "L3", "accessories": [] } },
-        { "id": 21, "matched": false, "image": "boy-20.png",  "props": { "name": "Ángel",     "hair": "brown",  "student": "L1", "accessories": [ "eyeglasses" ] } },
-        { "id": 22, "matched": false, "image": "boy-21.png",  "props": { "name": "César",     "hair": "blonde", "student": "L2", "accessories": [] } },
-        { "id": 23, "matched": false, "image": "boy-22.png",  "props": { "name": "Julio",     "hair": "brown",  "student": "L3", "accessories": [] } },
-
-        { "id": 24, "matched": false, "image": "girl.png",    "props": { "name": "María",     "hair": "brown",  "student": "L1", "accessories": [ "hairlace" ] } },
-        { "id": 26, "matched": false, "image": "girl-2.png",  "props": { "name": "Renee",     "hair": "brown",  "student": "L3", "accessories": [ "pin" ] } },
-        { "id": 42, "matched": false, "image": "girl-18.png", "props": { "name": "Marina",    "hair": "brown",  "student": "L3", "accessories": [ "hairlace" ] } },
-        { "id": 43, "matched": false, "image": "girl-19.png", "props": { "name": "Marisela",  "hair": "blonde", "student": "L1", "accessories": [] } },
-        { "id": 44, "matched": false, "image": "girl-20.png", "props": { "name": "Mayra",     "hair": "brown",  "student": "L2", "accessories": [] } },
-        { "id": 45, "matched": false, "image": "girl-21.png", "props": { "name": "Miriam",    "hair": "brown",  "student": "L3", "accessories": [ "pin" ] } },
-        { "id": 46, "matched": false, "image": "girl-22.png", "props": { "name": "Nancy",     "hair": "blonde", "student": "L1", "accessories": [ "hairlace" ] } },
-        { "id": 47, "matched": false, "image": "girl-23.png", "props": { "name": "Rocío",     "hair": "brown",  "student": "L2", "accessories": [ "hairlace" ] } },
-        { "id": 48, "matched": false, "image": "girl-24.png", "props": { "name": "Romina",    "hair": "brown",  "student": "L2", "accessories": [ "hairlace" ] } },
-        { "id": 49, "matched": false, "image": "girl-25.png", "props": { "name": "Ruth",      "hair": "brown",  "student": "L3", "accessories": [] } },
-        { "id": 50, "matched": false, "image": "girl-26.png", "props": { "name": "Ángela",    "hair": "brown",  "student": "L1", "accessories": [] } }
-    ]
+  "description": "Some description",
+  "directory": "gallery-03",
+  "completed": false,
+  "gallery": [
+    {
+      "id": 4,
+      "matched": false,
+      "image": "boy-3.png",
+      "props": {
+        "name": "Antonio",
+        "hair": "blonde",
+        "student": "L2",
+        "accessories": []
+      }
+    },
+    {
+      "id": 14,
+      "matched": false,
+      "image": "boy-13.png",
+      "props": {
+        "name": "René",
+        "hair": "brown",
+        "student": "L1",
+        "accessories": [
+          "earphones"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "matched": false,
+      "image": "boy-18.png",
+      "props": {
+        "name": "Saúl",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": []
+      }
+    },
+    {
+      "id": 20,
+      "matched": false,
+      "image": "boy-19.png",
+      "props": {
+        "name": "Xavier",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": []
+      }
+    },
+    {
+      "id": 21,
+      "matched": false,
+      "image": "boy-20.png",
+      "props": {
+        "name": "Ángel",
+        "hair": "brown",
+        "student": "L1",
+        "accessories": [
+          "eyeglasses"
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "matched": false,
+      "image": "boy-21.png",
+      "props": {
+        "name": "César",
+        "hair": "blonde",
+        "student": "L2",
+        "accessories": []
+      }
+    },
+    {
+      "id": 23,
+      "matched": false,
+      "image": "boy-22.png",
+      "props": {
+        "name": "Julio",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": []
+      }
+    },
+    {
+      "id": 24,
+      "matched": false,
+      "image": "girl.png",
+      "props": {
+        "name": "María",
+        "hair": "brown",
+        "student": "L1",
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "matched": false,
+      "image": "girl-2.png",
+      "props": {
+        "name": "Renee",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": [
+          "pin"
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "matched": false,
+      "image": "girl-18.png",
+      "props": {
+        "name": "Marina",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "matched": false,
+      "image": "girl-19.png",
+      "props": {
+        "name": "Marisela",
+        "hair": "blonde",
+        "student": "L1",
+        "accessories": []
+      }
+    },
+    {
+      "id": 44,
+      "matched": false,
+      "image": "girl-20.png",
+      "props": {
+        "name": "Mayra",
+        "hair": "brown",
+        "student": "L2",
+        "accessories": []
+      }
+    },
+    {
+      "id": 45,
+      "matched": false,
+      "image": "girl-21.png",
+      "props": {
+        "name": "Miriam",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": [
+          "pin"
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "matched": false,
+      "image": "girl-22.png",
+      "props": {
+        "name": "Nancy",
+        "hair": "blonde",
+        "student": "L1",
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "matched": false,
+      "image": "girl-23.png",
+      "props": {
+        "name": "Rocío",
+        "hair": "brown",
+        "student": "L2",
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "matched": false,
+      "image": "girl-24.png",
+      "props": {
+        "name": "Romina",
+        "hair": "brown",
+        "student": "L2",
+        "accessories": [
+          "hairlace"
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "matched": false,
+      "image": "girl-25.png",
+      "props": {
+        "name": "Ruth",
+        "hair": "brown",
+        "student": "L3",
+        "accessories": []
+      }
+    },
+    {
+      "id": 50,
+      "matched": false,
+      "image": "girl-26.png",
+      "props": {
+        "name": "Ángela",
+        "hair": "brown",
+        "student": "L1",
+        "accessories": []
+      }
+    }
+  ]
 }

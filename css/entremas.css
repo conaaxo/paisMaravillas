@@ -1,34 +1,39 @@
-body{
+body {
 
 	background-color: rgb(146, 174, 162);
 
 }
 
-.entremas {background-color: #92aea2;}  
+.entremas {
+	background-color: #92aea2;
+}
 
 
-.entremas2 {background-color: #bfd8cd;}
+.entremas2 {
+	background-color: #bfd8cd;
+}
 
 .cd-main-content {
-    background-color: none;
-    min-height: 100vh;
-    z-index: 2;
+	background-color: none;
+	min-height: 100vh;
+	z-index: 2;
 }
 
 .card-entremas {
 	color: a16468;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #ADCCBF;
-    background-clip: border-box;
-    border: 10px solid rgba(133, 165, 153, 0.125);
-    border-radius: 1.25rem;}
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #ADCCBF;
+	background-clip: border-box;
+	border: 10px solid rgba(133, 165, 153, 0.125);
+	border-radius: 1.25rem;
+}
 
 
-.contenedor{
+.contenedor {
 
 	padding-top: 20px;
 
@@ -40,7 +45,7 @@ body{
 
 }
 
-.iconos{
+.iconos {
 
 	background-color: #ADCCBF;
 
@@ -52,7 +57,7 @@ body{
 
 }
 
-.iconos2{
+.iconos2 {
 
 	margin-top: 14px;
 
@@ -64,7 +69,7 @@ body{
 
 }
 
-.iconos img{
+.iconos img {
 
 	width: auto;
 
@@ -74,37 +79,36 @@ body{
 
 }
 
-.artGrand{
+.artGrand {
 
 	vertical-align: top;
 
 }
 
 
+#barraUp1 {
 
-#barraUp1{
-
-	background-color:#924809;
-
-	height: 90px;
-
-}
-
-#barraUp{
+	background-color: #924809;
 
 	height: 90px;
 
 }
 
-.mapa{
+#barraUp {
+
+	height: 90px;
+
+}
+
+.mapa {
 
 	height: 45%;
 
 	width: auto;
 
-  margin: 0 auto;
+	margin: 0 auto;
 
-  margin-top: 0px;
+	margin-top: 0px;
 
 	position: relative;
 
@@ -120,7 +124,7 @@ body{
 
 }
 
-#mapaFondo{
+#mapaFondo {
 
 	z-index: 100;
 
@@ -132,7 +136,7 @@ body{
 
 }
 
-#mapa2 mapa3 mapa4 mapa5 mapa6{
+#mapa2 mapa3 mapa4 mapa5 mapa6 {
 
 	z-index: 1000;
 
@@ -151,13 +155,11 @@ body{
 }*/
 
 
-
 .hideSect {
 
 	visibility: hidden;
 
 }
-
 
 
 .showSect {
@@ -166,17 +168,17 @@ body{
 
 }
 
-#mapa1{
+#mapa1 {
 
 	margin-top: 15%;
 
-	z-index: 5000!important;
+	z-index: 5000 !important;
 
 }
 
-#p1{
+#p1 {
 
-	width: 560px!important;
+	width: 560px !important;
 
 	font-size: 20px;
 
@@ -194,8 +196,8 @@ body{
 
 	right: 0;
 
-  margin-right: auto;
+	margin-right: auto;
 
-  margin-left: auto;
+	margin-left: auto;
 
 }

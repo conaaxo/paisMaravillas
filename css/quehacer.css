@@ -1,0 +1,607 @@
+
+body {
+	color: #0A4D43;
+	background-color: #bce2dd;
+	margin-top: 50px;
+
+}
+
+p {
+	color: #03412F !important;
+}
+
+
+section {
+	overflow: hidden;
+}
+
+.nbig {
+	width: 15%;
+	color: #E4A929;
+	font-size: 90px;
+	display: block;
+	float: left;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 600;
+
+}
+
+
+#circulo {
+	background-color: #5D592B;
+	top: -500px;
+	left: 280pX;
+	position: absolute;
+}
+
+
+.fondoimg {
+	width: 100%;
+	margin: 0;
+}
+
+.fondoimg img {
+	width: 100%;
+	height: auto;
+}
+
+section p {
+	width: 600px;
+	margin-top: -25px;
+}
+
+#quehacer {
+	height: 1550px;
+	position: relative;
+	z-index: 2000;
+	margin-left: 80px;
+	margin-top: 100px;
+	padding-top: 10px;
+	background-color: #8ED1C9;
+}
+
+.cd-main-content {
+	background: #8ED1C9 !important;
+}
+
+#1 {
+	position: absolute;
+	z-index: 3000;
+}
+
+#1 span {
+	position: absolute;
+	display: inline-block;
+}
+
+.list-number {
+	width: 80%;
+	display: block;
+	float: left;
+}
+
+.list-number h2 {
+	font-family: Pangolin, sans-serif !important;
+	font-style: normal !important;
+	text-align: left;
+	color: #0A4D43;
+
+}
+
+#2 {
+	position: absolute;
+}
+
+#2 span {
+	position: absolute;
+	display: inline-block;
+}
+
+#participa {
+	display: inline-block;
+}
+
+#3 {
+	position: absolute;
+}
+
+#3 span {
+	position: absolute;
+	display: inline-block;
+}
+
+#produce {
+	display: inline-block;
+}
+
+#4 {
+	position: absolute;
+	margin-bottom: 5px;
+}
+
+#4 span {
+	position: absolute;
+	display: inline-block;
+	height: auto;
+	width: 560px;
+	left: 0px;
+	top: 0px;
+}
+
+#6 {
+	position: absolute;
+	margin-bottom: 5px;
+}
+
+#6 span {
+	position: absolute;
+	display: inline-block;
+}
+
+#denuncia {
+	display: inline-block;
+}
+
+#comparte {
+	display: inline-block;
+}
+
+#elige {
+	display: inline-block;
+}
+
+object {
+	position: absolute;
+	display: inline-block;
+}
+
+#titohacer {
+	position: absolute;
+	right: 20%;
+	bottom: 160px;
+	width: 200px;
+	height: auto;
+	z-index: 3000;
+	display: none;
+}
+
+#tianguis {
+	color: #FFEFCE;
+	font-size: 16px;
+	text-decoration-line: unset;
+}
+
+#lunaprevencion {
+	position: absolute;
+	margin-top: 702px;
+	left: 617px;
+	/*    width: 150px;*/
+	height: auto;
+	z-index: 200;
+}
+
+#fondo {
+	position: absolute;
+	display: inline-block;
+	height: auto;
+}
+
+#circulo2 {
+
+	circle: 90px;
+	display: inline-block;
+	position: absolute;
+	color: #683793;
+	top: 190px;
+	left: 190px;
+
+
+}
+
+#img1 img {
+	position: absolute;
+	margin-top: -168px;
+	right: 10%;
+	width: 186px;
+	height: auto;
+	z-index: 200;
+}
+
+#img2 img {
+	position: absolute;
+	margin-top: -139px;
+	right: 10%;
+	width: 140px;
+	height: auto;
+	z-index: 200;
+}
+
+#img3 img {
+	position: absolute;
+	margin-top: -120px;
+	right: 10%;
+	width: 136px;
+	height: auto;
+	z-index: 200;
+}
+
+#img4 img {
+	position: absolute;
+	margin-top: -130px;
+	right: 10%;
+	width: 132px;
+	height: auto;
+	z-index: 200;
+}
+
+#img5 img {
+	position: absolute;
+	margin-top: -118px;
+	right: 10%;
+	width: 110px;
+	height: auto;
+	z-index: 200;
+}
+
+/*@media only screen and (orientation: portrait)*/
+
+@media only screen and (max-width: 800px) {
+
+
+	#img1 img {
+		display: none;
+	}
+
+
+	#img2 img {
+		display: none;
+	}
+
+	#img3 img {
+		display: none;
+	}
+
+	#img4 img {
+		display: none;
+	}
+
+	#img5 img {
+		display: none;
+	}
+
+
+}
+
+#titulo {
+
+	margin-top: -60px;
+	margin-left: 170px;
+}
+
+#titulo img {
+
+	width: 720px;
+	height: auto;
+	margin: 39px -6px 61px -180px;
+}
+
+.row80 {
+	display: block;
+	max-width: 1200px;
+	margin: auto !important;
+	width: 85% !important;
+}
+
+.title-que-hacer {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 30px;
+	background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 80%;
+}
+
+.list-nino-piensa-compra {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/nino-piensa-compra.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 50% 50%;
+}
+
+.list-lena-barrenador {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/lena-barrenador.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+.list-nino-veterinario {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/nino-veterinario.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+.list-nino-veterinario {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/nino-veterinario.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+
+.list-senior-bote {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/senior-bote.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 50% 50%;
+}
+
+.list-celular {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/celular.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+.list-luna-maiz {
+	width: 100%;
+	height: 180px;
+	margin: 0px auto 0px;
+	background: url(../invasoras/assets/img/quehacer/luna-maiz.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: 50% 50%;
+}
+
+
+@media (max-width: 575px) {
+	.indicadores-img {
+		width: 100%;
+		height: 120px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	.title-como-llegan-al-pais {
+		height: 80px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+	.margin-left {
+		text-align: left !important;
+	}
+
+
+	/* modal */
+	#modal {
+		width: 300px;
+		height: 180px;
+		top: 15%;
+		left: 15%;
+	}
+
+	.back {
+		width: 30px;
+		height: 30px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 300px;
+		height: 180px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: .9em;
+		display: inline-block;
+	}
+
+	.modalTexto {
+		margin-top: 0px;
+		margin-left: 20px;
+		width: 260px;
+		font-size: .6em;
+		line-height: 1.5em;
+	}
+
+	.modalbtn {
+		width: 300px;
+		position: absolute;
+		display: block;
+		margin: -38px auto;
+		height: 38px;
+		bottom: 0px;
+		background-color: #15774e;
+		left: 0px;
+	}
+
+	/* modal */
+
+}
+
+
+@media (max-width: 575px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 120px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 80%;
+	}
+}
+
+@media (min-width: 576px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 140px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 50% 80%;
+	}
+}
+
+@media (min-width: 768px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 180px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 90%;
+	}
+}
+
+@media (min-width: 992px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 180px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 90%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 250px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 80%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.title-que-hacer {
+		width: 100%;
+		height: 250px;
+		margin: 0px auto 30px;
+		background: url(../invasoras/assets/img/quehacer/que-hacer.png);
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-repeat: repeat;
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-size: 50%;
+		background-position: 50% 80%;
+	}
+}

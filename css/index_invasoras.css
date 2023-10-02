@@ -1,0 +1,968 @@
+/*C*/
+@charset "UTF-8";
+
+
+:root {
+	--bs-blue: #0d6efd;
+	--bs-indigo: #6610f2;
+	--bs-purple: #7464a1;
+	--bs-pink: #d63384;
+	--bs-red: #af1923;
+	--bs-orange: #D95D41;
+	--bs-yellow: #e4c662;
+	--bs-green: #67c29c;
+	--bs-teal: #64a19d;
+	--bs-cyan: #1cabc4;
+	--bs-white: #fff;
+	--bs-gray: #6c757d;
+	--bs-gray-dark: #343a40;
+	--bs-gray-100: #f8f9fa;
+	--bs-gray-200: #e9ecef;
+	--bs-gray-300: #dee2e6;
+	--bs-gray-400: #ced4da;
+	--bs-gray-500: #adb5bd;
+	--bs-gray-600: #6c757d;
+	--bs-gray-700: #495057;
+	--bs-gray-800: #343a40;
+	--bs-gray-900: #212529;
+	--bs-primary: #64a19d;
+	--bs-secondary: #7464a1;
+	--bs-success: #67c29c;
+	--bs-info: #1cabc4;
+	--bs-warning: #e4c662;
+	--bs-danger: #a16468;
+	--bs-light: #f8f9fa;
+	--bs-dark: #212529;
+	--bs-black: #000;
+	--bs-white: #fff;
+	--bs-primary-rgb: 100, 161, 157;
+	--bs-secondary-rgb: 116, 100, 161;
+	--bs-success-rgb: 103, 194, 156;
+	--bs-info-rgb: 28, 171, 196;
+	--bs-warning-rgb: 228, 198, 98;
+	--bs-danger-rgb: 161, 100, 104;
+	--bs-light-rgb: 248, 249, 250;
+	--bs-dark-rgb: 33, 37, 41;
+	--bs-black-rgb: 0, 0, 0;
+	--bs-white-rgb: 255, 255, 255;
+	--bs-white-rgb: 255, 255, 255;
+	--bs-black-rgb: 0, 0, 0;
+	--bs-body-color-rgb: 33, 37, 41;
+	--bs-body-bg-rgb: 255, 255, 255;
+	--bs-font-sans-serif: system-ui, -apple-system, Work Sans, sans-serif;
+	--bs-font-cursive: system-ui, -apple-system, Pangolin, sans-serif;
+	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+	--bs-body-font-family: Work Sans, sans-serif;
+	--bs-body-font-size: 1.45rem;
+	--bs-body-font-weight: 400;
+	--bs-body-line-height: 1.6;
+	--bs-body-color: #212529;
+	--bs-body-bg: #fff;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.5rem;
+
+
+	font-family: var(--bs-body-font-family);
+	font-size: var(--bs-body-font-size);
+	font-weight: var(--bs-body-font-weight);
+	line-height: var(--bs-body-line-height);
+	color: var(--bs-body-color);
+	text-align: var(--bs-body-text-align);
+	-webkit-text-size-adjust: 100%;
+
+
+}
+
+p {
+	font-family: Work Sans, sans-serif;
+	color: #03412F !important;
+}
+
+h2 {
+	font-family: Pangolin, sans-serif !important;
+	font-style: normal;
+	font-size: 2.75rem !important;
+}
+
+article {
+	overflow: hidden;
+}
+
+.fondoimg {
+	width: 100%;
+	margin: 0;
+}
+
+.fondoimg img {
+	width: 100%;
+	height: auto;
+}
+
+.timportante {
+	color: #FC6;
+	width: 400px;
+}
+
+
+#titulo {
+	font-family: mclaren-regular;
+	margin-top: 50px;
+	margin-left: -60px;
+}
+
+h3 {
+	font-family: mclaren-regular;
+}
+
+#titulo img {
+	width: 420px;
+	height: auto;
+}
+
+
+section {
+	overflow: hidden;
+}
+
+
+/*----------------------sección 1------------------------*/
+
+#logo {
+	position: relative;
+	width: 820px;
+	height: auto;
+	/*	margin: 0 auto;	*/
+	margin-top: -5%;
+}
+
+#e1 {
+	margin: 0;
+	padding: 0;
+	height: 1300px;
+	background-color: #8ED1C9;
+	margin-top: 48px;
+	width: 100%;
+	position: relative;
+}
+
+#e1articulo1 {
+	padding-top: 108px;
+	padding-left: 80px;
+}
+
+#e1 h2 {
+	font-family: Pangolin, sans-serif;
+	width: 700px;
+	color: #03412F;
+}
+
+#e1articulo1 p strong {
+	color: #FC6;
+}
+
+#e1img1 {
+	width: 20px;
+	height: auto;
+	position: absolute;
+	bottom: 35%;
+	right: 349px;
+}
+
+
+/*----------------------sección 2------------------------*/
+
+
+#e2 {
+	margin: 0;
+	margin-left: -60px;
+	padding-top: 50px;
+	height: 1200px;
+	background-color: #8ed1c9;
+	background-image: url("../assets/img/home/agua.png");
+	position: relative;
+	background-size: 100% auto;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#e2 article p {
+
+}
+
+#fondoe2 {
+	right: 0px;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#e2 h2 {
+	color: #03412F;
+}
+
+#e2 h3 {
+	color: #03412F;
+}
+
+#e2 .margen {
+	margin-top: -900px;
+	padding-left: 200px;
+	color: #FC6;
+}
+
+#e2img1 {
+	bottom: -310px;
+	position: relative;
+	width: 50px;
+	left: -50px !important;
+}
+
+#e2img2 {
+	position: absolute;
+	right: -50px;
+	top: 250px;
+}
+
+#e2img2 img {
+	right: 0px;
+	width: 470px;
+}
+
+#e2img3 {
+	position: relative;
+	right: -860px;
+	bottom: 750px;
+}
+
+#e2img3 img {
+	width: 250px;
+	align-content: center;
+}
+
+#e2imgburbuja {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 10px;
+}
+
+#e2img4 {
+	bottom: -20px;
+	position: relative;
+	width: 50px;
+	right: -910px !important;
+}
+
+
+#main-especies-invasoras {
+	background-color: #8ED1C9;
+}
+
+.title-especies-invasoras {
+	width: 70%;
+	height: 200px;
+	margin-top: 150px;
+	background: url(../invasoras/assets/img/home/especies-invasoras.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+}
+
+
+.luna-especies-invasoras {
+	width: 90%;
+	height: 90%;
+	min-height: 450px;
+	margin: auto;
+	background: url(../invasoras/assets/img/home/Luna-camara.gif);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+
+.luna-pez-leon {
+	position: relative;
+	z-index: 2;
+	width: 80%;
+
+	min-height: ;
+	margin: auto;
+	background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: ;
+	transform: scaleX(-1);
+
+}
+
+.pez-leon {
+	position: relative;
+	z-index: 3;
+	top: -280px;
+	width: 100%;
+	height: 210px;
+	min-height: ;
+	margin: auto;
+	background: url(../invasoras/assets/img/home/pezleon.png);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: ;
+	animation: pez-leon 12s ease-in-out infinite;
+}
+
+@keyframes pez-leon {
+	0% {
+
+		left: 30px;
+		opacity: 1;
+		transform: scaleX(-1);
+	}
+
+	50% {
+		left: -25px;
+		opacity: 1;
+		transform: scaleX(-1);
+	}
+	100% {
+		left: 30px;
+		opacity: 1;
+		transform: scaleX(-1);
+	}
+}
+
+.peces-muertos {
+	position: relative;
+	z-index: 4;
+	width: 100%;
+	height: 350px;
+
+	min-height: ;
+	margin: auto;
+	background: url(../invasoras/assets/img/home/peces-muertos_02.png);
+	background-repeat: no-repeat;
+	background-size: 30%;
+	background-position: 50% 50%;
+	animation: peces-muertos 7s linear infinite;
+}
+
+@keyframes peces-muertos {
+	0% {
+		top: -380px;
+		left: 30px;
+		opacity: 0;
+	}
+
+	50% {
+		top: -180px;
+		left: 30px;
+		opacity: 1;
+	}
+	100% {
+		top: 0px;
+		left: 30px;
+		opacity: 0;
+	}
+}
+
+
+.tittle-luna-al-rescate {
+	width: 100%;
+	height: 150px;
+	background: url(../invasoras/assets/img/home/t-luna-rescate.png);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: 50% 50%;
+}
+
+
+.section-invasoras h2 {
+	color: #03412F;
+}
+
+
+/* RESPONSIVE */
+
+
+@media (max-width: 575px) {
+
+	.section-invasoras h2 {
+		font-size: 1.8rem !important;
+	}
+
+	.title-especies-invasoras {
+		height: 130px;
+		background-size: 80%;
+		background-position: 50% 90%;
+	}
+
+	.luna-pez-leon {
+		position: relative;
+		z-index: 2;
+		width: 80%;
+		height: 300px;
+		min-height: ;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position: 100% 50%;
+		transform: scaleX(-1);
+	}
+
+	.pez-leon {
+		position: relative;
+		z-index: 3;
+		top: -110px;
+		width: 100%;
+		height: 150px;
+		min-height: ;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/pezleon.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 50% 100%;
+		animation: pez-leon 12s ease-in-out infinite;
+	}
+
+	@keyframes pez-leon {
+		0% {
+
+			left: 80px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+
+		50% {
+			left: 15px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 60px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
+		display: none;
+	}
+}
+
+@media (min-width: 576px) {
+
+	.section-invasoras h2 {
+		font-size: 2rem !important;
+	}
+
+	.title-especies-invasoras {
+		height: 140px;
+		background-size: 80%;
+		background-position: 50% 90%;
+	}
+
+	.luna-pez-leon {
+		position: relative;
+		z-index: 2;
+		width: 80%;
+		height: 300px;
+		min-height: ;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 70%;
+		background-position: 100% 50%;
+		transform: scaleX(-1);
+	}
+
+	.pez-leon {
+		position: relative;
+		z-index: 3;
+		top: -110px;
+		width: 100%;
+		height: 150px;
+		min-height: ;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/pezleon.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 50% 100%;
+		animation: pez-leon 12s ease-in-out infinite;
+	}
+
+	@keyframes pez-leon {
+		0% {
+
+			left: 80px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+
+		50% {
+			left: 15px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 60px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) {
+	.section-invasoras h2 {
+		font-size: 2.5rem !important;
+	}
+
+	.title-especies-invasoras {
+		height: 170px;
+		background-size: 80%;
+		background-position: 50% 90%;
+	}
+
+	.luna-especies-invasoras {
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	.luna-pez-leon {
+		position: relative;
+		z-index: 2;
+		width: 80%;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 90%;
+		transform: scaleX(-1);
+	}
+
+	.pez-leon {
+		position: relative;
+		z-index: 3;
+		top: -100px;
+		width: 100%;
+		height: 210px;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/pezleon.png);
+		background-repeat: no-repeat;
+		background-size: 40%;
+		animation: pez-leon 12s ease-in-out infinite;
+	}
+
+	@keyframes pez-leon {
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
+		position: relative;
+		z-index: 4;
+		width: 100%;
+		height: 350px;
+		display: block;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 50% 50%;
+		animation: peces-muertos 7s linear infinite;
+	}
+
+	@keyframes peces-muertos {
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
+
+
+@media (min-width: 992px) {
+	.section-invasoras h2 {
+		font-size: 2.5rem !important;
+	}
+
+	.title-especies-invasoras {
+		height: 200px;
+		background-size: 80%;
+		background-position: 50% 90%;
+	}
+
+	.luna-especies-invasoras {
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	.luna-pez-leon {
+		position: relative;
+		z-index: 2;
+		width: 80%;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 90%;
+		transform: scaleX(-1);
+	}
+
+	.pez-leon {
+		position: relative;
+		z-index: 3;
+		top: -100px;
+		width: 100%;
+		height: 210px;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/pezleon.png);
+		background-repeat: no-repeat;
+		background-size: 40%;
+		animation: pez-leon 12s ease-in-out infinite;
+	}
+
+	@keyframes pez-leon {
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
+		position: relative;
+		z-index: 4;
+		width: 100%;
+		height: 350px;
+		display: block;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 50% 50%;
+		animation: peces-muertos 7s linear infinite;
+	}
+
+	@keyframes peces-muertos {
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
+
+
+@media (min-width: 1169px) {
+	.section-invasoras h2 {
+		font-size: 2.5rem !important;
+	}
+
+	.title-especies-invasoras {
+		height: 240px;
+		background-size: 70%;
+		background-position: 50% 90%;
+	}
+
+	.luna-especies-invasoras {
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+
+	.luna-pez-leon {
+		width: 80%;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.section-invasoras h2 {
+		font-size: 2.5rem !important;
+	}
+
+	.title-especies-invasoras {
+		background-size: 70%;
+		height: 220px;
+		background-position: 50% 80%;
+	}
+
+	.container {
+		width: 60% !important;
+		max-width: 1000px !important;
+	}
+
+	.luna-especies-invasoras {
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: 90%;
+		background-position: 50% 50%;
+	}
+
+
+	.luna-pez-leon {
+		position: relative;
+		z-index: 2;
+		width: 80%;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 90%;
+		transform: scaleX(-1);
+	}
+
+	.pez-leon {
+		position: relative;
+		z-index: 3;
+		top: -100px;
+		width: 100%;
+		height: 210px;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/pezleon.png);
+		background-repeat: no-repeat;
+		background-size: 40%;
+		animation: pez-leon 12s ease-in-out infinite;
+	}
+
+	@keyframes pez-leon {
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
+		position: relative;
+		z-index: 4;
+		width: 100%;
+		height: 350px;
+		display: block;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 50% 50%;
+		animation: peces-muertos 7s linear infinite;
+	}
+
+	@keyframes peces-muertos {
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	.section-invasoras h2 {
+		font-size: 2.5rem !important;
+	}
+
+	.title-especies-invasoras {
+		background-size: 70%;
+		height: 250px;
+		background-position: 50% 80%;
+	}
+
+	.container {
+		width: 60% !important;
+		max-width: 1000px !important;
+	}
+
+
+	.luna-pez-leon {
+		position: relative;
+		z-index: 2;
+		width: 80%;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/lunapiedras-02.png);
+		background-repeat: no-repeat;
+		background-size: 90%;
+		transform: scaleX(-1);
+	}
+
+	.pez-leon {
+		position: relative;
+		z-index: 3;
+		top: -100px;
+		width: 100%;
+		height: 210px;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/pezleon.png);
+		background-repeat: no-repeat;
+		background-size: 40%;
+		animation: pez-leon 12s ease-in-out infinite;
+	}
+
+	@keyframes pez-leon {
+		0% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		50% {
+			left: -25px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+		100% {
+			left: 30px;
+			opacity: 1;
+			transform: scaleX(-1);
+		}
+	}
+
+	.peces-muertos {
+		position: relative;
+		z-index: 4;
+		width: 100%;
+		height: 350px;
+		display: block;
+		margin: auto;
+		background: url(../invasoras/assets/img/home/peces-muertos_02.png);
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: 50% 50%;
+		animation: peces-muertos 7s linear infinite;
+	}
+
+	@keyframes peces-muertos {
+		0% {
+			top: -180px;
+			left: 30px;
+			opacity: 0;
+		}
+		50% {
+			top: 0px;
+			left: 30px;
+			opacity: 1;
+		}
+		100% {
+			top: 180px;
+			left: 30px;
+			opacity: 0;
+		}
+	}
+}
+
+
+}
+
+
+/* MEDIA */
+/*
+  @media (min-width: 576px) {
+	.container-sm, .container {
+	  max-width: 540px;
+	}
+  }
+  @media (min-width: 768px) {
+	.container-md, .container-sm, .container {
+	  max-width: 720px;
+	}
+  }
+  @media (min-width: 992px) {
+	.container-lg, .container-md, .container-sm, .container {
+	  max-width: 960px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.container-xl, .container-lg, .container-md, .container-sm, .container {
+	  max-width: 1140px;
+	}
+  }
+  @media (min-width: 1400px) {
+	.container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+	  max-width: 1320px;
+	}
+  }
+  */

@@ -1,30 +1,31 @@
-
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body {
+	position: relative;
+
+}
+
+.margen {
 	position: relative;
 }
 
-.margen{
-	position: relative;
-}
-
-.fondoimg{
+.fondoimg {
 	width: 100%;
 	margin: 0;
 }
 
-.fondoimg img{
+.fondoimg img {
 	width: 100%;
 	height: auto;
 }
-.timportante{
+
+.timportante {
 	color: #0b253e;
 	width: 400px;
 }
 
-.animales{
+.animales {
 	/*background: rgba(0,0,0,0.5);*//*como pq necesita un cuadro?*/
 	cursor: pointer;
 }
@@ -35,31 +36,34 @@ body{
 	position: relative;
 }
 
-p{
+p {
 	color: #FFF;
 	font-size: 18px;
 	width: 400px;
-	display: inline-block;
+	/*display: inline-block;*/
 }
-.textoecosistemas{
+
+.textoecosistemas {
 	width: 500px;
 }
-section{
+
+section {
 	overflow: hidden;
 }
 
 /*MODAL*/
-#modal{
+#modal {
 	display: none;
 	width: 900px;
 	height: 430px;
 	top: 20%;
 	left: 15%;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 9999;
 	position: fixed;
 
 }
+
 .back {
 	width: 40px;
 	height: 40px;
@@ -71,46 +75,42 @@ section{
 	top: -9px;
 	cursor: pointer;
 }
-.modalfoto img{
+
+.modalfoto img {
 	width: 900px;
 	height: 527px;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: left;
 	margin-right: 20px;
 }
-.modalNombre{
-	color:#FFF;
-	position:relative;
+
+.modalNombre {
+	color: #FFF;
+	position: relative;
 	top: -446px;
 
 }
-.modalTexto{
+
+.modalTexto {
 	color: #FFF;
 	position: relative;
 	top: -14px;
 	width: 880px !important;
-	
-	}
-.modalVideo{
+
+}
+
+.modalVideo {
 	width: 320px;
 	height: 240px;
 	margin: -363px auto;
-	background-color: rgba(0,0,0,0.0);
+	background-color: rgba(0, 0, 0, 0.0);
 	border: 0px solid #000;
 	position: relative;
 	display: none;
 }
 
 
-/*.modalVideo video{
-	position: absolute;
-	width: 320px;
-	height: 240px;
-	margin: 0px auto;
-	cursor: move;
-}*/
-
-.modalbtn{
+.modalbtn {
 	width: 900px;
 	position: absolute;
 	display: block;
@@ -120,11 +120,13 @@ section{
 	background-color: #15774e;
 	left: 0px;
 }
+
 .modalbtn ul {
 	float: none;
 	list-style-image: none;
 	list-style-type: none;
 }
+
 .modalbtn ul li {
 	background-image: url('../assets/img/mexico/lagranfamilia/iconosnaen.png');
 	background-repeat: no-repeat;
@@ -136,348 +138,442 @@ section{
 	height: 39px;
 	left: 10px;
 }
-.modalbtn ul li a{
- 	 width: 100%;
- 	 height: 100%;
- 	 display: block;
+
+.modalbtn ul li a {
+	width: 100%;
+	height: 100%;
+	display: block;
 }
+
 .modalbtn ul li#men {
- 	 background-position: -46px 0px;
+	background-position: -46px 0px;
 }
+
 .modalbtn ul li#mna {
- 	background-position: -82px -60px;
+	background-position: -82px -60px;
 	width: 57px;
 	left: 52px;
 }
+
 .modalbtn ul li#msonido {
- 	background-position: -37px -59px;
+	background-position: -37px -59px;
 	width: 50px;
 	left: 105px;
 }
 
 .modalbtn ul li#mlibro {
-	background-image:url(../assets/img/libros.png);
+	background-image: url(../assets/img/libros.png);
 	width: 57px;
 	left: 112px;
 }
 
 
 .modalbtn ul li#men:hover {
- 	 background-position: 0px 0px;
+	background-position: 0px 0px;
 }
+
 .modalbtn ul li#mna:hover {
- 	background-position: -82px 2px;
+	background-position: -82px 2px;
 	width: 57px;
 	left: 52px;
 }
 
 .modalbtn ul li#mlibro:hover {
-	background-image:url(../assets/img/libros_over.png);
+	background-image: url(../assets/img/libros_over.png);
 	width: 57px;
 	left: 112px;
 }
 
 
 .modalbtn ul li#msonido:hover {
- 	background-position: 10px -59px;
+	background-position: 10px -59px;
 	width: 57px;
 	left: 105px;
 }
 
 
-
-#overlay{
+#overlay {
 	position: fixed;
 	display: none;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	z-index: 9000;
 }
 
 /*MODAL*/
 
-#ciudad{
-	margin:0;
-	padding-top:420px;
-	background-color:#ffd57f;
-	position:relative;
+#ciudad {
+	margin: 0;
+	padding-top: 420px;
+	background-color: #ffd57f;
+	position: relative;
 }
 
-#ciudad img{
-	width:100%;
-}
-
-#ciudad .margen article{
-	margin:0 auto;
-	width:600px;
-	position:relative;
-}
-#ciudad h2{
-	color:#42413f;
-	margin:0;
-}
-
-#ciudad p{
-	color:#42413f;
-}
-
-#ciudad .margen article img{
-	display:inline-block;
-	position:absolute;
-	z-index:650;
-	width:200px;
-	padding:20px;
-}
-#animalesciudad{
-	margin-top:500px;
-	bottom:0;
-	position:absolute;
-	z-index:3000;
+#ciudad img {
 	width: 100%;
 }
-#mamiferos{
-	position: absolute;
-    top: 5%;
-    right: 54%;
-    height: 7%;
-    width: 7%;
+
+#ciudad .margen article {
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
 }
-#mmarinos{
-	position:absolute;
+
+#ciudad h2 {
+	color: #42413f;
+	margin: 0;
+}
+
+#ciudad p {
+	color: #42413f;
+}
+
+#ciudad .margen article img {
+	display: inline-block;
+	position: absolute;
+	z-index: 650;
+	width: 200px;
+	padding: 20px;
+}
+
+#animalesciudad {
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+
+#mamiferos {
+	position: absolute;
+	top: 5%;
+	right: 54%;
+	height: 7%;
+	width: 7%;
+}
+
+#mmarinos {
+	position: absolute;
 	top: 12%;
 	right: 69%;
 	width: 7%;
 	height: 7%;
 }
-#aves{
-	position:absolute;
-    top: 19%;
-    right: 55%;
-    width: 7%;
-    height: 8%;
+
+#aves {
+	position: absolute;
+	top: 19%;
+	right: 55%;
+	width: 7%;
+	height: 8%;
 }
-#reptiles{
-	position:absolute;
-    top: 24%;
-    right: 72%;
-    width: 7%;
-    height: 8%;
+
+#reptiles {
+	position: absolute;
+	top: 24%;
+	right: 72%;
+	width: 7%;
+	height: 8%;
 }
-#anfibios{
-	position:absolute;
+
+#anfibios {
+	position: absolute;
 	top: 30%;
 	right: 58%;
 	width: 8%;
 	height: 8%;
 }
-#pdulce{
-	position:absolute;
+
+#pdulce {
+	position: absolute;
 	top: 37%;
 	right: 69%;
 	width: 8%;
 	height: 7%;
 }
-#peces{
-	position:absolute;
+
+#peces {
+	position: absolute;
 	top: 44%;
 	right: 59%;
 	width: 6%;
 	height: 8%;
 }
-#tiburones{
-	position:absolute;
+
+#tiburones {
+	position: absolute;
 	top: 49%;
 	right: 72%;
 	width: 8%;
 	height: 9%;
 }
-#medusas{
-	position:absolute;
+
+#medusas {
+	position: absolute;
 	top: 61%;
 	right: 53%;
 	width: 6%;
 	height: 7%;
 }
-#estrellas{
-	position:absolute;
+
+#estrellas {
+	position: absolute;
 	top: 58%;
 	right: 40%;
 	width: 8%;
 	height: 9%;
 }
-#pulpos{
-	position:absolute;
+
+#pulpos {
+	position: absolute;
 	top: 50%;
-    right: 48%;
-    width: 7%;
-    height: 7%;
+	right: 48%;
+	width: 7%;
+	height: 7%;
 }
-#camarones{
-	position:absolute;
+
+#camarones {
+	position: absolute;
 	top: 39%;
-    right: 47%;
-    width: 7%;
-    height: 6%;
+	right: 47%;
+	width: 7%;
+	height: 6%;
 }
-#aranas{
-	position:absolute;
+
+#aranas {
+	position: absolute;
 	top: 31%;
-    right: 48%;
-    width: 7%;
-    height: 6%;
+	right: 48%;
+	width: 7%;
+	height: 6%;
 }
-#insectos{
-	position:absolute;
+
+#insectos {
+	position: absolute;
 	top: 20%;
 	right: 42%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#milpies{
-	position:absolute;
+
+#milpies {
+	position: absolute;
 	top: 8%;
 	right: 44%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#algas{
-	position:absolute;
+
+#algas {
+	position: absolute;
 	top: 74%;
 	right: 35%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#helechos{
-	position:absolute;
+
+#helechos {
+	position: absolute;
 	top: 65%;
 	right: 27%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#cicadas{
-	position:absolute;
+
+#cicadas {
+	position: absolute;
 	top: 54%;
 	right: 23%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#pinos{
-	position:absolute;
+
+#pinos {
+	position: absolute;
 	top: 48%;
 	right: 34%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#pastos{
-	position:absolute;
+
+#pastos {
+	position: absolute;
 	top: 14%;
 	right: 21%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#pdomesticados{
-	position:absolute;
+
+#pdomesticados {
+	position: absolute;
 	top: 7%;
 	right: 32%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#hongos{
-	position:absolute;
+
+#hongos {
+	position: absolute;
 	top: 76%;
 	right: 46%;
 	width: 7%;
 	height: 7%;
 }
-#arboles{
-	position:absolute;
+
+#arboles {
+	position: absolute;
 	top: 40%;
 	right: 23%;
 	width: 7%;
 	height: 8%;
 }
-#cactus{
-	position:absolute;
+
+#cactus {
+	position: absolute;
 	top: 36%;
 	right: 34%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
-#hierbas{
-	position:absolute;
+
+#hierbas {
+	position: absolute;
 	top: 27%;
 	right: 20%;
 	width: 8%;
 	height: 8%;
 }
-#mdomesticadas{
-	position:absolute;
+
+#mdomesticadas {
+	position: absolute;
 	top: 22%;
 	right: 32%;
-    width: 7%;
-    height: 6%;
+	width: 7%;
+	height: 6%;
 }
 
 
-
-
-
-#fondo img{
-	margin-top:-350px;
-	width:100%;
-	top:0;
+#fondo img {
+	margin-top: -370px;
+	width: 100%;
+	top: 0;
 }
-#nube13{
-	position:absolute;
+
+#nube13 {
+	position: absolute;
 	top: 280px;
 	left: 136px;
 	width: 80%;
-	display: block!important;
+	display: block !important;
 }
 
-#nube14{
-	position:absolute;
+#nube14 {
+	position: absolute;
 	top: 20px;
 	right: 20px;
 	width: 160%;
-	display: block!important;
+	display: block !important;
 }
 
-/*ciudad*/
-
-/*#puntos a title{
-	font-family:mclaren-regular;
-	font-size:18px;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	-webkit-box-shadow: 0 0 5px #aaa;
-	box-shadow: 0 0 5px #aaa;
+footer p {
+	font-family: var(--bs-font-sans-serif);
+	margin-top: 0;
+	margin-bottom: .1rem;
+	font-size: 14px;
+	line-height: .5rem;
+	color: rgba(255, 255, 255, 0.5) !important;
 }
 
-.ui-tooltip {
-	font-family:mclaren-regular;
-	font-size:18px;
-	padding: 8px;
-	position: absolute;
-	z-index: 9999;
-	max-width: 300px;
-	-webkit-box-shadow: 0 0 5px #aaa;
-	box-shadow: 0 0 5px #aaa;
+
+.colorlagranfamilia {
+	background-color: #fbfbf1;
 }
-body .ui-tooltip {
-	font-family:mclaren-regular;
-	border-width: 2px;
-	background-color:#E0DDD1;
-	color:#2D2713;
-	border-color:#2D2713;
-	box-shadow: 0 0 5px #aaa;
-	max-width: 600px;
-}*/
+
+
+/* modal*/
+@media only screen and (min-width: 1200px) {
+	#modal {
+		display: none;
+		width: 900px;
+		height: 565px;
+		top: 20%;
+		left: 15%;
+	}
+
+	.modalfoto img {
+		width: 900px;
+		height: 527px;
+		margin-right: 20px;
+	}
+
+	.modalbtn {
+		width: 900px;
+		margin: 0px auto;
+		height: 38px;
+		bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 601px) {
+	#modal {
+		display: none;
+		width: 600px;
+		height: 388px;
+		top: 20%;
+		left: 15%;
+	}
+
+
+	.modalfoto img {
+		width: 600px;
+		height: 351px;
+		margin-right: 20px;
+	}
+
+	.modalbtn {
+		width: 600px;
+		margin: 0px auto;
+		height: 38px;
+		bottom: 0px;
+	}
+}
+
+
+@media only screen and  (max-width: 600px) {
+	#modal {
+		display: none;
+		width: 350px;
+		height: 241px;
+		top: 20%;
+		left: 15%;
+	}
+
+	.modalfoto img {
+		width: 350px;
+		height: 205px;
+		margin-right: 20px;
+	}
+
+	.modalbtn {
+		width: 350px;
+		margin: 0px auto;
+		height: 38px;
+		bottom: 0px;
+
+	}
+
+	.back {
+		width: 30px;
+		height: 30px;
+		background-size: auto 100%;
+		z-index: 10;
+		right: -18px;
+		top: -19px;
+	}
+}
 
 
 

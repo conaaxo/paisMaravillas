@@ -24,118 +24,114 @@
 
 her = [
 
-  [	
+    [
 
-  	["fon_1", "d"],
+        ["fon_1", "d"],
 
-  	["her_1", "a"]
+        ["her_1", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-    ["her_1", "d"],
+        ["her_1", "d"],
 
-    ["her_2", "a"]
+        ["her_2", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-    ["her_2", "d"],
+        ["her_2", "d"],
 
-    ["her_3", "a"]
+        ["her_3", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-  	["her_3", "d"],
+        ["her_3", "d"],
 
-	["fon_1", "a"]
+        ["fon_1", "a"]
 
-  ]	
+    ]
 
 ]
-
 
 
 car = [
 
-  [	
+    [
 
-  	["fon_1", "d"],
+        ["fon_1", "d"],
 
-  	["car_1", "a"]
+        ["car_1", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-    ["car_1", "d"],
+        ["car_1", "d"],
 
-    ["car_2", "a"]
+        ["car_2", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-    ["car_2", "d"],
+        ["car_2", "d"],
 
-    ["car_3", "a"]
+        ["car_3", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-    ["car_3", "d"],
+        ["car_3", "d"],
 
-    ["car_4", "a"]
+        ["car_4", "a"]
 
-  ],
+    ],
 
-  [
+    [
 
-  	["car_4", "d"],
+        ["car_4", "d"],
 
-	["fon_1", "a"]
+        ["fon_1", "a"]
 
-  ]	
+    ]
 
 ]
-
 
 
 pla = [
 
-  [	
+    [
 
-  	["fon_1", "d"],
+        ["fon_1", "d"],
 
-  	["pla_1", "a"]
+        ["pla_1", "a"]
 
-  ],
+    ],
 
 
+    [
 
-  [
+        ["pla_1", "d"],
 
-    ["pla_1", "d"],
+        ["pla_2", "a"]
 
-    ["pla_2", "a"]
+    ],
 
-  ],
+    [
 
-  [
+        ["pla_2", "d"],
 
-  	["pla_2", "d"],
+        ["fon_1", "a"]
 
-	["fon_1", "a"]
-
-  ]
+    ]
 
 ]
-
 
 
 /*noplantas =[
@@ -155,159 +151,137 @@ nocarnivoros =[
 ]*/
 
 
+$(document).ready(function () {
 
-$(document).ready(function() {
+    noResfooter();
 
-  noResfooter();
+    $("#planta").on('click', function () {
 
-  $("#planta").on('click', function(){
+        $(".modal").fadeOut("slow");
 
-    $(".modal").fadeOut("slow");
+        $("#plantas").fadeIn("slow");
 
-    $("#plantas").fadeIn("slow");
+        $(".animar").off('click');
 
-    $(".animar").off('click');
+        $(".animar").on('click', function () {
 
-    $(".animar").on('click', function(){
+            $(this).parent().fadeOut("slow");
 
-      $(this).parent().fadeOut("slow");
+            avante(pla, 3);
 
-      avante(pla, 3);
-
-    });
-
-  });
-
-  $("#tapir").on('click', function(){
-
-    $(".modal").fadeOut("slow");
-
-    $("#herbivoros").fadeIn("slow");
-
-    $(".animar").off('click');
-
-    $(".animar").on('click', function(){
-
-      $(this).parent().fadeOut("slow");
-
-      avante(her, 3);
-
-      // avante(noherviboros, 3);
+        });
 
     });
 
-  });
+    $("#tapir").on('click', function () {
 
-  $("#jaguar").on('click', function(){
+        $(".modal").fadeOut("slow");
 
-    $(".modal").fadeOut("slow");
+        $("#herbivoros").fadeIn("slow");
 
-    $("#carnivoros").fadeIn("slow");
+        $(".animar").off('click');
 
-    $(".animar").off('click');
+        $(".animar").on('click', function () {
 
-    $(".animar").on('click', function(){
+            $(this).parent().fadeOut("slow");
 
-      $(this).parent().fadeOut("slow");
+            avante(her, 3);
 
-      avante(car, 3);
+            // avante(noherviboros, 3);
+
+        });
 
     });
 
-  });
+    $("#jaguar").on('click', function () {
 
-  $(".back").on('click', function(){
+        $(".modal").fadeOut("slow");
 
-    $(this).parent().fadeOut("slow");
+        $("#carnivoros").fadeIn("slow");
 
-  });
+        $(".animar").off('click');
 
-  $(".modal").css("left", ($(window).width() - $(".modal").width())/2)
+        $(".animar").on('click', function () {
 
-  $(window).on('resize', function(){
+            $(this).parent().fadeOut("slow");
 
-    $(".modal").css("left", ($(window).width() - $(".modal").width())/2);
+            avante(car, 3);
 
-  });
+        });
+
+    });
+
+    $(".back").on('click', function () {
+
+        $(this).parent().fadeOut("slow");
+
+    });
+
+    $(".modal").css("left", ($(window).width() - $(".modal").width()) / 2)
+
+    $(window).on('resize', function () {
+
+        $(".modal").css("left", ($(window).width() - $(".modal").width()) / 2);
+
+    });
 
 })
 
 
+function avante(steps, duration) {
 
-function avante(steps, duration)
+    duration = duration * 1000;
 
-{
+    $.each(steps, function (index, step) {
 
-  duration = duration * 1000;
+        executeIn = duration * (index + 1);
 
-  $.each(steps, function(index, step){
+        if ($.isArray(step[0])) {
 
-    executeIn = duration * (index + 1);
+            $.each(step, function (subindex, substep) {
 
-    if ($.isArray(step[0]))
+                if (substep[1] == "d") {
 
-    {
+                    setTimeout(function () {
 
-      $.each(step, function(subindex, substep){
+                        $("#" + substep[0]).fadeOut("slow");
 
-        if (substep[1] == "d")
+                    }, executeIn);
 
-        {
+                } else {
 
-          setTimeout(function(){
+                    setTimeout(function () {
 
-            $("#" + substep[0]).fadeOut("slow");
+                        $("#" + substep[0]).fadeIn("slow");
 
-          }, executeIn);
+                    }, executeIn);
+
+                }
+
+            });
+
+        } else {
+
+            if (step[1] == "d") {
+
+                setTimeout(function () {
+
+                    $("#" + step[0]).fadeOut("slow");
+
+                }, executeIn);
+
+            } else {
+
+                setTimeout(function () {
+
+                    $("#" + step[0]).fadeIn("slow");
+
+                }, executeIn);
+
+            }
 
         }
 
-        else
-
-        {
-
-          setTimeout(function() {
-
-            $("#" + substep[0]).fadeIn("slow");
-
-          }, executeIn);
-
-        }
-
-      });
-
-    }
-
-    else
-
-    {
-
-      if (step[1] == "d")
-
-      {
-
-        setTimeout(function() {
-
-          $("#" + step[0]).fadeOut("slow");
-
-        }, executeIn);
-
-      }
-
-      else
-
-      {
-
-        setTimeout(function() {
-
-          $("#" + step[0]).fadeIn("slow");
-
-        }, executeIn);
-
-      }
-
-    }
-
-  });
+    });
 
 }

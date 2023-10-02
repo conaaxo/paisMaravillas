@@ -1,351 +1,347 @@
 section {
-  overflow:hidden;
-  width: 100%;
-  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 100%;
+	box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-
-.margen{
-  z-index: 2;
+.margen {
+	z-index: 2;
 }
 
-#texheader{
+#texheader {
 	text-decoration: none;
 	color: #ffdf76;
 }
 
 
 #cap1 {
-  background-color: #952828;
-  color: #FFF;
-  position:relative;
-  padding-top:20px;
-  z-index: 3;
+	background-color: #952828;
+	color: #FFF;
+	position: relative;
+	padding-top: 20px;
+	z-index: 3;
 }
 
 
 #cap1 #titoLibro {
-  height: 100%;
-  width: 392px;
-  background-image: url("../assets/img/materiales/capsulas/titochango.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 14px;
-  right: -80px;
+	height: 100%;
+	width: 392px;
+	background-image: url("../assets/img/materiales/capsulas/titochango.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 14px;
+	right: -80px;
 }
 
 #cap2 {
-  background-color: #b3d49d;
-  background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
-  color: #fff;
-  text-align: center;
-  position:relative;
-  z-index: 3;
+	background-color: #b3d49d;
+	background-image: url("../assets/img/materiales/capsulas/patron_capsulas.png");
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 3;
 }
 
 #cap2 h3 {
-  color: #28851b;
-  text-align: center;
+	color: #28851b;
+	text-align: center;
 }
 
 #cap2 p {
-  color: #28851b;
-  text-align: center;
+	color: #28851b;
+	text-align: center;
 }
 
 #cap2 #group1 {
-  background-color: #a2a81d;
+	background-color: #a2a81d;
 }
 
 #group1 .logodesc {
-  background-position: -23px 0px;
-  width: 92px;
+	background-position: -23px 0px;
+	width: 92px;
 }
 
 #cap2 #group2 {
 
-  background-color: #719544;
+	background-color: #719544;
 
 }
 
 #group2 .logodesc {
 
-  background-position: -133px 0px;
+	background-position: -133px 0px;
 
-  width: 93px;
+	width: 93px;
 
 }
 
 #cap2 #group3 {
 
-  background-color: #d09c14;
+	background-color: #d09c14;
 
 }
 
 #group3 .logodesc {
 
-  background-position: -255px 0px;
+	background-position: -255px 0px;
 
-  width: 132px;
+	width: 132px;
 
 }
 
 #cap2 #group4 {
 
-  background-color: #cd7f12;
+	background-color: #cd7f12;
 
 }
 
 #group4 .logodesc {
 
-  background-position: -416px 0px;
+	background-position: -416px 0px;
 
-  width: 74px;
+	width: 74px;
 
 }
 
 #cap2 #group5 {
 
-  background-color: #34748d;
+	background-color: #34748d;
 
 }
 
 #group5 .logodesc {
 
-  background-position: -10px -176px;
+	background-position: -10px -176px;
 
-  width: 116px;
+	width: 116px;
 
 }
 
 #cap2 #group6 {
 
-  background-color: #4eb287;
+	background-color: #4eb287;
 
 }
 
 #group6 .logodesc {
 
-  background-position: -166px -176px;
+	background-position: -166px -176px;
 
-  width: 125px;
+	width: 125px;
 
 }
 
 #cap2 #group7 {
 
-  background-color: #7d5e34;
+	background-color: #7d5e34;
 
 }
 
 #group7 .logodesc {
 
-  background-position: -331px -176px;
+	background-position: -331px -176px;
 
-  width: 103px;
+	width: 103px;
 
 }
 
 #cap2 #group8 {
 
-  background-color: #85827a;
+	background-color: #85827a;
 
 }
 
 #group8 .logodesc {
 
-  background-position: -475px -176px;
+	background-position: -475px -176px;
 
-  width: 40px;
+	width: 40px;
 
 }
 
 
+#cap2 .squarecolor {
 
-#cap2 .squarecolor{
+	display: inline-block;
 
-  display: inline-block;
+	width: 235px;
 
-  width: 235px;
+	font-size: 16px;
 
-  font-size: 16px;
+	margin-bottom: 20px;
 
-  margin-bottom: 20px;
-
-  vertical-align: top;
+	vertical-align: top;
 
 }
 
 #cap2 .squarecolor .logodesc {
 
-  height: 170px;
+	height: 170px;
 
-  background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
+	background-image: url("../assets/img/materiales/descargables/descargables_ecosistemas.png");
 
-  margin: 10px auto 0px;
+	margin: 10px auto 0px;
 
-  background-size: auto 360px;
+	background-size: auto 360px;
 
 }
 
-#cap2 ul{
+#cap2 ul {
 
-  text-align: left;
+	text-align: left;
 
-  list-style: none;
+	list-style: none;
 
-  margin: 0px;
+	margin: 0px;
 
-  padding: 0;
+	padding: 0;
 
 }
 
 #cap2 ul li {
 
-  padding-left: 25px;
+	padding-left: 25px;
 
 }
 
 #cap2 ul li:hover {
 
-  background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 
 }
 
-#cap2 ul li a{
+#cap2 ul li a {
 
-  background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
+	background: url('../assets/img/materiales/capsulas/audiocapsulas.png') no-repeat left 50%;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: inherit;
+	color: inherit;
 
-  display: block;
+	display: block;
 
-  padding-left: 33px;
+	padding-left: 33px;
 
-  background-size: 20px;
+	background-size: 20px;
 
 }
 
 
 .mask {
 
-  display: none;
+	display: none;
 
-  position: fixed;
+	position: fixed;
 
-  width: 100%;
+	width: 100%;
 
-  height: 100%;
+	height: 100%;
 
-  background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.8);
 
-  z-index: 20000;
+	z-index: 20000;
 
-  display: block;
+	display: block;
 
-  left: 0;
+	left: 0;
 
-  top: 0;
+	top: 0;
 
 }
 
 
-
 #modalAudio {
 
-  display: none;
+	display: none;
 
-  position: fixed;
+	position: fixed;
 
-  width: 350px;
+	width: 350px;
 
-  height: 200px;
+	height: 200px;
 
-  top: 50%;
+	top: 50%;
 
-  left: 50%;
+	left: 50%;
 
-  margin-top: -100px;
+	margin-top: -100px;
 
-  margin-left: -175px;
+	margin-left: -175px;
 
-  background-color: #b3d49d;
+	background-color: #b3d49d;
 
-  border-radius: 5px;
+	border-radius: 5px;
 
 }
 
 .titulo {
 
-  margin-top: 20px;
+	margin-top: 20px;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 24px;
+	font-size: 24px;
 
-  color:#033;
+	color: #033;
 
 }
 
 .iconote {
 
-  height: 100px;
+	height: 100px;
 
-  width: 100px;
+	width: 100px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  display: inline-block;
+	display: inline-block;
 
-  margin: 25px 35px;
+	margin: 25px 35px;
 
 }
 
 #audioChange {
 
-    background-image: url("../assets/img/iconovoz_cap.png");
+	background-image: url("../assets/img/iconovoz_cap.png");
 
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 
-    background-size: 100px auto;
+	background-size: 100px auto;
 
-    background-position: 0px -5px;
+	background-position: 0px -5px;
 
 }
 
 #downloadChange {
 
-  background-image: url("../assets/img/imprimir_ico_cap.png");
+	background-image: url("../assets/img/imprimir_ico_cap.png");
 
-  background-repeat:no-repeat;
+	background-repeat: no-repeat;
 
-  background-size: 95px auto;
+	background-size: 95px auto;
 
-  background-position: 0 4px;
+	background-position: 0 4px;
 
 }
 
 .closeModal {
 
-  position: absolute;
+	position: absolute;
 
-  width: 35px;
+	width: 35px;
 
-  height: 35px;
+	height: 35px;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  background-image: url('../assets/img/iconoscerrar.png');
+	background-image: url('../assets/img/iconoscerrar.png');
 
-  background-size: auto 100%;
+	background-size: auto 100%;
 
-  right: -17px;
+	right: -17px;
 
-  top: -18px;
+	top: -18px;
 
 }
 
@@ -354,48 +350,55 @@ section {
 
 /*----  Main Style  ----*/
 
-#cards_landscape_wrap-2 .container{
-  padding-bottom: 200px;
-  text-align: center;
+#cards_landscape_wrap-2 .container {
+	padding-bottom: 200px;
+	text-align: center;
 }
-#cards_landscape_wrap-2 a{
-  text-decoration: none;
-  outline: none;
+
+#cards_landscape_wrap-2 a {
+	text-decoration: none;
+	outline: none;
 }
+
 #cards_landscape_wrap-2 .card-flyer {
-  border-radius: 5px;
+	border-radius: 5px;
 }
+
 #cards_landscape_wrap-2 .card-flyer .image-box {
- /* background: #ffffff; */
-  overflow: hidden;
-  /* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50); */
-  border-radius: 5px;
+	/* background: #ffffff; */
+	overflow: hidden;
+	/* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50); */
+	border-radius: 5px;
 }
+
 #cards_landscape_wrap-2 .card-flyer .text-box {
-  text-align: center;
+	text-align: center;
 }
+
 #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
-  padding: 10px 10px;
+	padding: 10px 10px;
 }
+
 #cards_landscape_wrap-2 .card-flyer {
-  /*background: #fff3e2; */
-  margin-top: 50px;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+	/*background: #fff3e2; */
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
 }
+
 #cards_landscape_wrap-2 .card-flyer:hover {
-  background: #fff;
-  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  margin-top: 50px;
+	background: #fff;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
 }
 
 

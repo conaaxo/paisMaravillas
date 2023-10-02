@@ -1,15 +1,9 @@
 
-
-
-
-header{
+header {
 
 	/*background-color:#C63;*/
 
 }
-
-
-
 
 
 /*#audio_m1 {
@@ -27,13 +21,11 @@ header{
 }
 
 
-
 #m1 h2 {
 
 	margin: 9% 0px 2% 151px;
 
 }
-
 
 
 #ima1_m1 img {
@@ -45,13 +37,11 @@ header{
 }
 
 
-
 #ima1_m1 img {
 
 	margin: 43px 0px 0px 0px;
 
 }
-
 
 
 #ima2_m1 img {
@@ -61,11 +51,6 @@ header{
 	margin: 66px 0px 0px 168px;
 
 }
-
-
-
-
-
 
 
 /*#audio_m2 {
@@ -83,13 +68,11 @@ header{
 }*/
 
 
-
 #m2 h2 {
 
 	text-align: center;
 
 }
-
 
 
 #m2 p {
@@ -103,13 +86,11 @@ header{
 }
 
 
-
 #m2 p.timportante {
 
 	width: 60%;
 
 }
-
 
 
 #m2 img {
@@ -119,29 +100,25 @@ header{
 }
 
 
-
-
-
 #m3 {
 
 	background-size: 120% auto;
 
- 	-o-background-size: 120% auto;
+	-o-background-size: 120% auto;
 
- 	-moz-background-size: 120% auto;
+	-moz-background-size: 120% auto;
 
- 	-webkit-background-size: 120% auto;
+	-webkit-background-size: 120% auto;
 
- 	background-position: bottom;
+	background-position: bottom;
 
- 	-o-background-position: bottom;
+	-o-background-position: bottom;
 
- 	-moz-background-position: bottom;
+	-moz-background-position: bottom;
 
- 	-webkit-background-position: bottom;
+	-webkit-background-position: bottom;
 
 }
-
 
 
 /*#audio_m3 {
@@ -161,13 +138,11 @@ header{
 }
 
 
-
 #m3 p {
 
 	width: 550px;
 
 }
-
 
 
 #ima1_m3 img {
@@ -187,13 +162,11 @@ header{
 }*/
 
 
-
 #m4 .nbig {
 
 	margin-left: 66px;
 
 }
-
 
 
 #m4 p {
@@ -205,7 +178,6 @@ header{
 	margin-top: 10px;
 
 }
-
 
 
 /*#audio_m5 {
@@ -223,7 +195,6 @@ header{
 }
 
 
-
 #m5 p {
 
 	width: 550px;
@@ -231,7 +202,6 @@ header{
 	margin-right: 107px;
 
 }
-
 
 
 #ima1_m5 img {
@@ -243,19 +213,13 @@ header{
 }
 
 
-
-
-
-
-
 #m6 {
 
- 	background-size: 42%;
+	background-size: 42%;
 
- 	background-position: 47% 56%;
+	background-position: 47% 56%;
 
 }
-
 
 
 /*#audio_m6 {
@@ -265,7 +229,6 @@ header{
 }*/
 
 
-
 #m6 .nbig {
 
 	margin-left: 66px;
@@ -273,7 +236,6 @@ header{
 	margin-top: 47px;
 
 }
-
 
 
 #m6 p {
@@ -287,7 +249,6 @@ header{
 }
 
 
-
 #ima1_m6 img {
 
 	width: 45%;
@@ -295,7 +256,6 @@ header{
 	margin: 516px 0px 0px -165px;
 
 }
-
 
 
 #ima2_m6 img {
@@ -307,17 +267,11 @@ header{
 }
 
 
-
 #ima3_m6 img {
 
 	margin: 282px 0px 0px 49px;
 
 }
-
-
-
-
-
 
 
 /*#audio_m7 {
@@ -327,7 +281,6 @@ header{
 }*/
 
 
-
 #m7 .nbig {
 
 	margin-left: 66px;
@@ -335,7 +288,6 @@ header{
 	margin-top: 47px;
 
 }
-
 
 
 #m7 p {
@@ -349,17 +301,11 @@ header{
 }
 
 
-
 #m7 img {
 
 	margin-bottom: 100px;
 
 }
-
-
-
-
-
 
 
 /*#audio_m8 {
@@ -369,7 +315,6 @@ header{
 }*/
 
 
-
 #m8 .nbig {
 
 	margin-left: 66px;
@@ -377,7 +322,6 @@ header{
 	margin-top: 47px;
 
 }
-
 
 
 #m8 p {

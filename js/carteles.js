@@ -1,41 +1,41 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
-  iniciales("car");
+    iniciales("car");
 
-  $("section").stick_in_parent({offset_top: 0});
+    $("section").stick_in_parent({offset_top: 0});
 
-  $("a[href^=#]").click(function(event) {
+    $("a[href^=#]").click(function (event) {
 
-    event.preventDefault();
+        event.preventDefault();
 
-    elemento = this.hash;
+        elemento = this.hash;
 
-    $("html, body").animate({
+        $("html, body").animate({
 
-      'scrollTop': $(elemento).data('posicion')
+            'scrollTop': $(elemento).data('posicion')
 
-    }, 600, 'swing');
+        }, 600, 'swing');
 
-  });
+    });
 
-  $(".fancybox").fancybox({
+    $(".fancybox").fancybox({
 
-    topRatio: .5,
+        topRatio: .5,
 
-    helpers : {
+        helpers: {
 
-      overlay : {
+            overlay: {
 
-        css : {
+                css: {
 
-          'background' : 'rgba(0,0,0,0.7)'
+                    'background': 'rgba(0,0,0,0.7)'
+
+                }
+
+            }
 
         }
 
-      }
-
-    }
-
-  });
+    });
 
 })

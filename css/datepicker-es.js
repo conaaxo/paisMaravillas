@@ -1,50 +1,50 @@
 // JavaScript Document
 
 
-
-/* Inicialización en español para la extensión 'UI date picker' para jQuery. */
+/* Inicializaciï¿½n en espaï¿½ol para la extensiï¿½n 'UI date picker' para jQuery. */
 
 /* Traducido por Vester (xvester@gmail.com). */
 
-jQuery(function($){
+jQuery(function ($) {
 
-        $.datepicker.regional['es'] = {
+    $.datepicker.regional['es'] = {
 
-                closeText: 'Cerrar',
+        closeText: 'Cerrar',
 
-                prevText: '&#x3c;Ant',
+        prevText: '&#x3c;Ant',
 
-                nextText: 'Sig&#x3e;',
+        nextText: 'Sig&#x3e;',
 
-                currentText: 'Hoy',
+        currentText: 'Hoy',
 
-                monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio',
+        monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
 
-                'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
 
-                monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun',
+        monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun',
 
-                'Jul','Ago','Sep','Oct','Nov','Dic'],
+            'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
 
-                dayNames: ['Domingo','Lunes','Martes','Mi&eacute;rcoles','Jueves','Viernes','S&aacute;bado'],
+        dayNames: ['Domingo', 'Lunes', 'Martes', 'Mi&eacute;rcoles', 'Jueves', 'Viernes', 'S&aacute;bado'],
 
-                dayNamesShort: ['Dom','Lun','Mar','Mi&eacute;','Juv','Vie','S&aacute;b'],
+        dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mi&eacute;', 'Juv', 'Vie', 'S&aacute;b'],
 
-                dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','S&aacute;'],
+        dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'S&aacute;'],
 
-                weekHeader: 'Sm',
+        weekHeader: 'Sm',
 
-                dateFormat: 'dd-mm-yy',
+        dateFormat: 'dd-mm-yy',
 
-                firstDay: 1,
+        firstDay: 1,
 
-                isRTL: false,
+        isRTL: false,
 
-                showMonthAfterYear: false,
+        showMonthAfterYear: false,
 
-                yearSuffix: ''};
+        yearSuffix: ''
+    };
 
-        $.datepicker.setDefaults($.datepicker.regional['es']);
+    $.datepicker.setDefaults($.datepicker.regional['es']);
 
 });
 

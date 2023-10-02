@@ -1,325 +1,322 @@
 section {
 
-  overflow:hidden;
+	overflow: hidden;
 
-  width: 100%;
+	width: 100%;
 
-  box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px -11px 10px rgba(0, 0, 0, 0.3);
 
 }
 
 
+.margen {
 
-.margen{
-
-  z-index: 2;
+	z-index: 2;
 
 }
 
 #selecciona {
 
-  color: #982728;
+	color: #982728;
 
-  font-size: 22px;
+	font-size: 22px;
 
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 
 }
 
 #tsh1 {
 
-  background-color: #191f25;
+	background-color: #191f25;
 
-  color: #FFF;
+	color: #FFF;
 
-  position: relative;
+	position: relative;
 
-  padding-top: 81px;
+	padding-top: 81px;
 
-  z-index: 3;
+	z-index: 3;
 
-  height: 325px;
+	height: 325px;
 
 }
 
 #tsh1 .margen {
 
-  height: 100%;
+	height: 100%;
 
 }
 
 #tsh1 h2 {
 
-  width: 420px;
+	width: 420px;
 
-  text-align: center;
+	text-align: center;
 
-  top: 63px;
+	top: 63px;
 
-  left: 160px;
+	left: 160px;
 
-  position: relative;
+	position: relative;
 
 }
 
 #tsh1 p {
 
-  width: 420px;
+	width: 420px;
 
-  text-align: center;
+	text-align: center;
 
-  top: 103px;
+	top: 103px;
 
-  left: 160px;
+	left: 160px;
 
-  position: absolute;
+	position: absolute;
 
-  color: #6e9ab9
+	color: #6e9ab9
 
 }
 
 #tsh1 #titoLibro {
 
-  height: 100%;
+	height: 100%;
 
-  width: 220px;
+	width: 220px;
 
-  background-image: url("../assets/img/materiales/playeras/titoplayera.png");
+	background-image: url("../assets/img/materiales/playeras/titoplayera.png");
 
-  background-size: 100% auto;
+	background-size: 100% auto;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  position: absolute;
+	position: absolute;
 
-  bottom: 8px;
+	bottom: 8px;
 
-  right: 100px;
+	right: 100px;
 
 }
 
 #tsh2 {
 
-  background-color: #2b4252;
+	background-color: #2b4252;
 
-  background-image: url("../assets/img/materiales/playeras/patron_playeras.png");
+	background-image: url("../assets/img/materiales/playeras/patron_playeras.png");
 
-  color: #fff;
+	color: #fff;
 
-  text-align: center;
+	text-align: center;
 
-  position:relative;
+	position: relative;
 
-  z-index: 3;
+	z-index: 3;
 
 }
 
 #lastlink {
 
-  display: block;
+	display: block;
 
-  text-align: left;
+	text-align: left;
 
-  text-decoration: none;
+	text-decoration: none;
 
-  color: #081611;
+	color: #081611;
 
 }
 
 .squareplayera {
 
-  height: 300px;
+	height: 300px;
 
-  display: inline-block;
+	display: inline-block;
 
 }
 
 #imgplayeras {
 
-  width: 408px;
+	width: 408px;
 
-  background-image: url("../assets/img/materiales/playeras/playeras.png");
+	background-image: url("../assets/img/materiales/playeras/playeras.png");
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  background-size: 100%;
+	background-size: 100%;
 
 }
 
 #playeraschange {
 
-  width: 354px;
+	width: 354px;
 
-  background-image: url("../assets/img/materiales/playeras/playera_pacifico.png");
+	background-image: url("../assets/img/materiales/playeras/playera_pacifico.png");
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  background-size: 100%;
-
-}
-
-#colores ul li{
-
-  background-color: #fff;
-
-  height: 30px;
-
-  width: 30px;
-
-  display: inline-block;
-
-  cursor: pointer;
+	background-size: 100%;
 
 }
 
+#colores ul li {
+
+	background-color: #fff;
+
+	height: 30px;
+
+	width: 30px;
+
+	display: inline-block;
+
+	cursor: pointer;
+
+}
 
 
 #colores #over_color_1 {
 
-  background-color: #191722;
+	background-color: #191722;
 
 }
 
 #colores #over_color_2 {
 
-  background-color: #1367da;
+	background-color: #1367da;
 
 }
 
 #colores #over_color_3 {
 
-  background-color: #2fc9d6;
+	background-color: #2fc9d6;
 
 }
 
 #colores #over_color_4 {
 
-  background-color: #1e7a60;
+	background-color: #1e7a60;
 
 }
 
 #colores #over_color_5 {
 
-  background-color: #81d26a;
+	background-color: #81d26a;
 
 }
 
 #colores #over_color_6 {
 
-  background-color: #fdd722;
+	background-color: #fdd722;
 
 }
 
 #colores #over_color_7 {
 
-  background-color: #9c000c;
+	background-color: #9c000c;
 
 }
 
 #colores #over_color_8 {
 
-  background-color: #6b0f21;
+	background-color: #6b0f21;
 
 }
 
 #colores #over_color_9 {
 
-  background-color: #341112;
+	background-color: #341112;
 
 }
 
 #colores #over_color_10 {
 
-  background-color: #bfbfbf;
+	background-color: #bfbfbf;
 
 }
 
 
-
 .bigtext {
 
-  width: 480px;
+	width: 480px;
 
-  font-size: 22px;
+	font-size: 22px;
 
-  display: inline-block;
+	display: inline-block;
 
-  color: #ff;
+	color: #ff;
 
 }
 
 .smalltext {
 
-  width: 480px;
+	width: 480px;
 
-  font-size: 18px;
+	font-size: 18px;
 
-  display: inline-block;
+	display: inline-block;
 
-  color: #acc1c6;
+	color: #acc1c6;
 
-  margin-bottom: 50px;
+	margin-bottom: 50px;
 
 }
 
 .smalltext span {
 
-  color: #2fc8d0;
+	color: #2fc8d0;
 
 }
 
 .smalltext a {
 
-  color: inherit;
+	color: inherit;
 
-  text-decoration: none;
+	text-decoration: none;
 
 }
 
 .largetext {
 
-  width: 480px;
+	width: 480px;
 
-  font-size: 18px;
+	font-size: 18px;
 
-  display: inline-block;
+	display: inline-block;
 
-  color: #132800;
+	color: #132800;
 
 }
 
 .bandTitle {
 
-  width: 300px;
+	width: 300px;
 
-  height: 76px;
+	height: 76px;
 
-  background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
+	background-image: url("../assets/img/materiales/publicaciones/banderatitulo.png");
 
-  background-size: 300px auto;
+	background-size: 300px auto;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  margin: 0 auto;
+	margin: 0 auto;
 
 }
 
 .bandTitle p {
 
-  margin: 0 auto;
+	margin: 0 auto;
 
-  width: 210px;
+	width: 210px;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 15px;
+	font-size: 15px;
 
-  padding-top: 15px;
+	padding-top: 15px;
 
 }
 
 .colecciones {
 
-  background-image: url("../assets/img/materiales/playeras/bandera_playeras.png");
+	background-image: url("../assets/img/materiales/playeras/bandera_playeras.png");
 
 }

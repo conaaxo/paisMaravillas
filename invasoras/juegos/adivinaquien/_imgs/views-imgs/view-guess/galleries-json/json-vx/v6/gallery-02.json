@@ -1,31 +1,237 @@
 {
-    "description": "Some description",
-    "directory": "gallery-02",
-    "completed": false,
-    "questions" : [
-        { "Tu cabello es ": "café; rubio; azul" },
-        { "Estudias ": "el Kinder; la Primaria; la Secundaria" },
-        { "Usas ": "accesorio cabello; audífonos; collar; gorra; lentes; pin" }
-    ],
-    "gallery": [
-        { "id": 10, "matched": false, "image": "boy-9.png",   "props": { "name": "Omar",      "hair": "café",  "student": "la Primaria",   "accessories": [ "pin" ] } },
-        { "id": 11, "matched": false, "image": "boy-10.png",  "props": { "name": "Osvaldo",   "hair": "café",  "student": "el Kinder",     "accessories": [] } },
-        { "id": 12, "matched": false, "image": "boy-11.png",  "props": { "name": "Pablo",     "hair": "azul",  "student": "el Kinder",     "accessories": [] } },
-        { "id": 13, "matched": false, "image": "boy-12.png",  "props": { "name": "Pedro",     "hair": "café",  "student": "la Secundaria", "accessories": [] } },
-        { "id": 14, "matched": false, "image": "boy-13.png",  "props": { "name": "René",      "hair": "café",  "student": "el Kinder",     "accessories": [ "audífonos" ] } },
-        { "id": 15, "matched": false, "image": "boy-14.png",  "props": { "name": "Ricardo",   "hair": "café",  "student": "la Primaria",   "accessories": [] } },
-        { "id": 16, "matched": false, "image": "boy-15.png",  "props": { "name": "Roberto",   "hair": "rubio", "student": "la Primaria",   "accessories": [] } },
-        { "id": 17, "matched": false, "image": "boy-16.png",  "props": { "name": "Rodrigo",   "hair": "café",  "student": "el Kinder",     "accessories": [ "lentes" ] } },
-        { "id": 18, "matched": false, "image": "boy-17.png",  "props": { "name": "Samuel",    "hair": "rubio", "student": "el Kinder",     "accessories": [] } },
-
-        { "id": 33, "matched": false, "image": "girl-9.png",  "props": { "name": "Diana",     "hair": "rubio", "student": "la Primaria",   "accessories": [ "accesorio cabello", "lentes" ] } },
-        { "id": 34, "matched": false, "image": "girl-10.png", "props": { "name": "Eliza",     "hair": "café",  "student": "la Primaria",   "accessories": [ "accesorio cabello", "collar" ] } },
-        { "id": 35, "matched": false, "image": "girl-11.png", "props": { "name": "Elizabeth", "hair": "café",  "student": "el Kinder",     "accessories": [ "accesorio cabello" ] } },
-        { "id": 36, "matched": false, "image": "girl-12.png", "props": { "name": "Elsa",      "hair": "café",  "student": "el Kinder",     "accessories": [ "lentes" ] } },
-        { "id": 37, "matched": false, "image": "girl-13.png", "props": { "name": "Flor",      "hair": "café",  "student": "el Kinder",     "accessories": [ "accesorio cabello" ] } },
-        { "id": 38, "matched": false, "image": "girl-14.png", "props": { "name": "Griselda",  "hair": "café",  "student": "la Secundaria", "accessories": [] } },
-        { "id": 39, "matched": false, "image": "girl-15.png", "props": { "name": "Iliana",    "hair": "rubio", "student": "la Secundaria", "accessories": [] } },
-        { "id": 40, "matched": false, "image": "girl-16.png", "props": { "name": "Isabella",  "hair": "café",  "student": "el Kinder",     "accessories": [] } },
-        { "id": 41, "matched": false, "image": "girl-17.png", "props": { "name": "Karen",     "hair": "café",  "student": "la Primaria",   "accessories": [ "accesorio cabello", "collar" ] } }
-    ]
+  "description": "Some description",
+  "directory": "gallery-02",
+  "completed": false,
+  "questions": [
+    {
+      "Tu cabello es ": "café; rubio; azul"
+    },
+    {
+      "Estudias ": "el Kinder; la Primaria; la Secundaria"
+    },
+    {
+      "Usas ": "accesorio cabello; audífonos; collar; gorra; lentes; pin"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 10,
+      "matched": false,
+      "image": "boy-9.png",
+      "props": {
+        "name": "Omar",
+        "hair": "café",
+        "student": "la Primaria",
+        "accessories": [
+          "pin"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "matched": false,
+      "image": "boy-10.png",
+      "props": {
+        "name": "Osvaldo",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": []
+      }
+    },
+    {
+      "id": 12,
+      "matched": false,
+      "image": "boy-11.png",
+      "props": {
+        "name": "Pablo",
+        "hair": "azul",
+        "student": "el Kinder",
+        "accessories": []
+      }
+    },
+    {
+      "id": 13,
+      "matched": false,
+      "image": "boy-12.png",
+      "props": {
+        "name": "Pedro",
+        "hair": "café",
+        "student": "la Secundaria",
+        "accessories": []
+      }
+    },
+    {
+      "id": 14,
+      "matched": false,
+      "image": "boy-13.png",
+      "props": {
+        "name": "René",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": [
+          "audífonos"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "matched": false,
+      "image": "boy-14.png",
+      "props": {
+        "name": "Ricardo",
+        "hair": "café",
+        "student": "la Primaria",
+        "accessories": []
+      }
+    },
+    {
+      "id": 16,
+      "matched": false,
+      "image": "boy-15.png",
+      "props": {
+        "name": "Roberto",
+        "hair": "rubio",
+        "student": "la Primaria",
+        "accessories": []
+      }
+    },
+    {
+      "id": 17,
+      "matched": false,
+      "image": "boy-16.png",
+      "props": {
+        "name": "Rodrigo",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": [
+          "lentes"
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "matched": false,
+      "image": "boy-17.png",
+      "props": {
+        "name": "Samuel",
+        "hair": "rubio",
+        "student": "el Kinder",
+        "accessories": []
+      }
+    },
+    {
+      "id": 33,
+      "matched": false,
+      "image": "girl-9.png",
+      "props": {
+        "name": "Diana",
+        "hair": "rubio",
+        "student": "la Primaria",
+        "accessories": [
+          "accesorio cabello",
+          "lentes"
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "matched": false,
+      "image": "girl-10.png",
+      "props": {
+        "name": "Eliza",
+        "hair": "café",
+        "student": "la Primaria",
+        "accessories": [
+          "accesorio cabello",
+          "collar"
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "matched": false,
+      "image": "girl-11.png",
+      "props": {
+        "name": "Elizabeth",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": [
+          "accesorio cabello"
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "matched": false,
+      "image": "girl-12.png",
+      "props": {
+        "name": "Elsa",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": [
+          "lentes"
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "matched": false,
+      "image": "girl-13.png",
+      "props": {
+        "name": "Flor",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": [
+          "accesorio cabello"
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "matched": false,
+      "image": "girl-14.png",
+      "props": {
+        "name": "Griselda",
+        "hair": "café",
+        "student": "la Secundaria",
+        "accessories": []
+      }
+    },
+    {
+      "id": 39,
+      "matched": false,
+      "image": "girl-15.png",
+      "props": {
+        "name": "Iliana",
+        "hair": "rubio",
+        "student": "la Secundaria",
+        "accessories": []
+      }
+    },
+    {
+      "id": 40,
+      "matched": false,
+      "image": "girl-16.png",
+      "props": {
+        "name": "Isabella",
+        "hair": "café",
+        "student": "el Kinder",
+        "accessories": []
+      }
+    },
+    {
+      "id": 41,
+      "matched": false,
+      "image": "girl-17.png",
+      "props": {
+        "name": "Karen",
+        "hair": "café",
+        "student": "la Primaria",
+        "accessories": [
+          "accesorio cabello",
+          "collar"
+        ]
+      }
+    }
+  ]
 }

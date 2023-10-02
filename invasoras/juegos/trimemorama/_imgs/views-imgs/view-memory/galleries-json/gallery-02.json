@@ -1,110 +1,183 @@
 {
-    "description": "Some description",
-    "directory": "gallery-02",
-    "completed": false,
-    "gallery": [
-        {   "id": 1,
-            "title": "Melinis Repens",
-            "matched": false,
-            "description": "Es muy fácil transportar semillas de pastos de manera accidental, cuando regreses del campo limpia bien tus botas para evitar accidentes.",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "melinis-repens.png",
-            "imagena": "melinis-repens-n.png",
-            "imagepa": "melinis-repens-p.png"  },
-
-        {   "id": 2,
-            "title": "Perro",
-            "matched": false,
-            "description": "Cuando adoptes un perrito piensa bien si lo puedes cuidar toda su vida, esterilizalo y no lo abandones.",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "perro.png",
-            "imagena": "perro-n.png",
-            "imagepa": "perro-p.png"  },
-
-        {   "id": 3,
-            "title": "Ratones",
-            "matched": false,
-            "description": "Los ratones pueden esconderse muy bien en espacios pequeños, por lo que es importante implementar revisiones estrictas de equipo y material para evitar transportarlos a sitios nuevos.",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "ratones.png",
-            "imagena": "ratones-n.png",
-            "imagepa": "ratones-p.png"  },
-
-        {   "id": 4,
-            "title": "Palomilla",
-            "matched": false,
-            "description": "La palomilla de nopal puede causar muchos daños a las cactáceas mexicanas, por lo que los inspectores mexicanos han establecido medidas de vigilancia para evitar que llegue a nuestro país.",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "palomilla.png",
-            "imagena": "palomilla-n.png",
-            "imagepa": "palomilla-p.png"  },
-
-        {   "id": 5,
-            "title": "Hidrila",
-            "matched": false,
-            "description": "Las plantas acuáticas pueden causar un grave problema en lagos y ríos, es importante no vacíar los contenidos de peceras en ecosistemas naturales.",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "hidrila.png",
-            "imagena": "hidrila-n.png",
-            "imagepa": "hidrila-p.png"  },
-
-        {   "id": 6,
-            "title": "Abrus",
-            "matched": false,
-            "description": "Las semillas de abrus se utilizan mucho en la elaboración de artesanías, sin embargo estas son tóxicas por lo que debes de tener cuidado de no meterlas a la boca y disponer de ellas de tal modo que no se propaguen",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "abrus.png",
-            "imagena": "abrus-n.png",
-            "imagepa": "abrus-p.png"  },
-
-        {   "id": 7,
-            "title": "Aguas de Lastre",
-            "matched": false,
-            "description": "Las aguas de lastre son una ruta imprtante de dispersión de especies invasoras en los mares, es importante que los barcos cuenten con medidas de tratamiento de aguas, para evitar este problema",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "aguas-lastre.png",
-            "imagena": "aguas-lastre-n.png",
-            "imagepa": "aguas-lastre-p.png"  },
-
-        {   "id": 8,
-            "title": "Mejillon Cebra",
-            "matched": false,
-            "description": "El mejillon cebra es una especie de agua dulcve que se dispersa en las embarcaciones de pesca o recreación, y tiene la capacidad de tapar tuberías y desagues",
-            "imagesStage2": [ "image", "imagena", "imagena" ],
-            "imagesStage3": [ "image", "imagena", "imagepa" ],
-            "imageplaced": false,
-            "imagenaplaced": false,
-            "imagepaplaced": false,
-            "image": "mejillon-cebra.png",
-            "imagena": "mejillon-cebra-n.png",
-            "imagepa": "mejillon-cebra-p.png"  }
-    ]
+  "description": "Some description",
+  "directory": "gallery-02",
+  "completed": false,
+  "gallery": [
+    {
+      "id": 1,
+      "title": "Melinis Repens",
+      "matched": false,
+      "description": "Es muy fácil transportar semillas de pastos de manera accidental, cuando regreses del campo limpia bien tus botas para evitar accidentes.",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "melinis-repens.png",
+      "imagena": "melinis-repens-n.png",
+      "imagepa": "melinis-repens-p.png"
+    },
+    {
+      "id": 2,
+      "title": "Perro",
+      "matched": false,
+      "description": "Cuando adoptes un perrito piensa bien si lo puedes cuidar toda su vida, esterilizalo y no lo abandones.",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "perro.png",
+      "imagena": "perro-n.png",
+      "imagepa": "perro-p.png"
+    },
+    {
+      "id": 3,
+      "title": "Ratones",
+      "matched": false,
+      "description": "Los ratones pueden esconderse muy bien en espacios pequeños, por lo que es importante implementar revisiones estrictas de equipo y material para evitar transportarlos a sitios nuevos.",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "ratones.png",
+      "imagena": "ratones-n.png",
+      "imagepa": "ratones-p.png"
+    },
+    {
+      "id": 4,
+      "title": "Palomilla",
+      "matched": false,
+      "description": "La palomilla de nopal puede causar muchos daños a las cactáceas mexicanas, por lo que los inspectores mexicanos han establecido medidas de vigilancia para evitar que llegue a nuestro país.",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "palomilla.png",
+      "imagena": "palomilla-n.png",
+      "imagepa": "palomilla-p.png"
+    },
+    {
+      "id": 5,
+      "title": "Hidrila",
+      "matched": false,
+      "description": "Las plantas acuáticas pueden causar un grave problema en lagos y ríos, es importante no vacíar los contenidos de peceras en ecosistemas naturales.",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "hidrila.png",
+      "imagena": "hidrila-n.png",
+      "imagepa": "hidrila-p.png"
+    },
+    {
+      "id": 6,
+      "title": "Abrus",
+      "matched": false,
+      "description": "Las semillas de abrus se utilizan mucho en la elaboración de artesanías, sin embargo estas son tóxicas por lo que debes de tener cuidado de no meterlas a la boca y disponer de ellas de tal modo que no se propaguen",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "abrus.png",
+      "imagena": "abrus-n.png",
+      "imagepa": "abrus-p.png"
+    },
+    {
+      "id": 7,
+      "title": "Aguas de Lastre",
+      "matched": false,
+      "description": "Las aguas de lastre son una ruta imprtante de dispersión de especies invasoras en los mares, es importante que los barcos cuenten con medidas de tratamiento de aguas, para evitar este problema",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "aguas-lastre.png",
+      "imagena": "aguas-lastre-n.png",
+      "imagepa": "aguas-lastre-p.png"
+    },
+    {
+      "id": 8,
+      "title": "Mejillon Cebra",
+      "matched": false,
+      "description": "El mejillon cebra es una especie de agua dulcve que se dispersa en las embarcaciones de pesca o recreación, y tiene la capacidad de tapar tuberías y desagues",
+      "imagesStage2": [
+        "image",
+        "imagena",
+        "imagena"
+      ],
+      "imagesStage3": [
+        "image",
+        "imagena",
+        "imagepa"
+      ],
+      "imageplaced": false,
+      "imagenaplaced": false,
+      "imagepaplaced": false,
+      "image": "mejillon-cebra.png",
+      "imagena": "mejillon-cebra-n.png",
+      "imagepa": "mejillon-cebra-p.png"
+    }
+  ]
 }

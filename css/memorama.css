@@ -1,226 +1,222 @@
 body {
-
-  background-color: #c1b791;
-
-  background-image: url(../assets/img/actividades/memoramas/patronM.png);
-
+	background-image: repeating-linear-gradient(
+					-45deg,
+					#cbc1a4 0px,
+					#cbc1a4 3px,
+					#c2ba9a 3px,
+					#c2ba9a 6px
+	);
 }
 
 #dataRow {
-
-  width: 700px;
-
-  margin: 130px auto 0px;
-
-  text-align: right;
-
+	width: 700px;
+	margin-top: 160px !important;
+	margin: auto;
+	text-align: right;
 }
 
 #dataRow > div {
 
-  display: inline-block;
+	display: inline-block;
 
 }
 
 #ecosistema {
 
-  clear: both;
+	clear: both;
 
 }
 
 #espacioTarjetas {
 
-  width: 700px;
+	width: 675px;
 
-  height: 500px;
+	height: 500px;
 
-  background-color: #cec4a4;
+	background-color: #cec4a4;
 
-  border-radius: 8px;
+	border-radius: 8px;
 
-  margin: 0 auto;
+	margin: 0 auto;
 
-  margin-top: 20px;
+	margin-top: 20px;
 
 }
 
 #ecoName {
 
-  background-image: url(../assets/img/actividades/memoramas/ecoback.png);
+	background-image: url(../assets/img/actividades/memoramas/ecoback.png);
 
-  background-size: auto 40px;
+	background-size: auto 40px;
 
-  height: 40px;
+	height: 40px;
 
-  width: 113px;
+	width: 113px;
 
-  line-height: 35px;
+	line-height: 35px;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 14px;
+	font-size: 14px;
 
-  color: #f5fcf6;
+	color: #f5fcf6;
 
 }
 
 #showTime {
 
-  background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
+	background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
 
-  background-color: #942824;
+	background-color: #942824;
 
-  background-size: auto 40px;
+	background-size: auto 40px;
 
-  height: 40px;
+	height: 40px;
 
-  width: 113px;
+	width: 113px;
 
-  line-height: 35px;
+	line-height: 35px;
 
-  text-align: center;
+	text-align: center;
 
-  font-size: 14px;
+	font-size: 14px;
 
-  color: #f5fcf6;
+	color: #f5fcf6;
 
 }
 
-#numbers{
+#numbers {
 
-  background-color: #fcf1c8;
+	background-color: #fcf1c8;
 
-  color: #404e5b;
+	color: #404e5b;
 
-  padding: 3px;
+	padding: 3px;
 
-  line-height: 39px;
+	line-height: 39px;
 
 }
 
 .tarjeton {
 
-  background-image: url(../assets/img/actividades/memoramas/vuelta.jpg);
+	background-image: url(../assets/img/actividades/memoramas/vuelta.jpg);
 
-  border: 2px solid #3F4F59;
+	border: 2px solid #3F4F59;
 
-  border-radius: 8px;
+	border-radius: 8px;
 
-  width: 101px;
+	width: 101px;
 
-  height: 131px;
+	height: 131px;
 
-  float: left;
+	float: left;
 
-  cursor: pointer;
+	cursor: pointer;
 
-  background-size: cover;
+	background-size: cover;
 
-  margin-left: 10px;
+	margin-left: 10px;
 
-  margin-top: 10px;
+	margin-top: 10px;
 
 }
 
 #lid {
 
-  position: fixed;
+	position: fixed;
 
-  left: 0;
+	left: 0;
 
-  top: 0;
+	top: 0;
 
-  width: 100%;
+	width: 100%;
 
-  height: 100%;
+	height: 100%;
 
-  background-color: transparent;
+	background-color: transparent;
 
-  display: none;
+	display: none;
 
 }
 
 #menuCirculo {
 
-  margin-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 180px; /* AXO */
 
 }
 
 #menuCirculo ul {
 
-  padding: 0;
+	padding: 0;
 
-  margin: 0 auto;
+	margin: 0 auto;
 
-  width: 600px;
+	width: 640px;
 
 }
-
 
 
 #menuCirculo ul li {
 
-  display: inline-block;
+	display: inline-block;
 
-  vertical-align: top;
+	vertical-align: top;
 
-  width: 60px;
+	width: 60px;
 
-  margin: 0px 5px;
-
-}
-
-
-
-#menuCirculo ul li p{
-
-  text-align: center;
-
-  color: #404e5b;
-
-  font-size: 14px;
+	margin: 0px 5px;
 
 }
 
+
+#menuCirculo ul li p {
+
+	text-align: center;
+
+	color: #404e5b;
+
+	font-size: 14px;
+
+}
 
 
 #menuCirculo .circulo {
 
-    display: block;
+	display: block;
 
-    width: 50px;
+	width: 50px;
 
-    height: 50px;
+	height: 50px;
 
-    border: medium none;
+	border: medium none;
 
-    background-image: url("../assets/img/botonescosistemas.png");
+	background-image: url("../assets/img/botonescosistemas.png");
 
-    background-color: #404E5B;
+	background-color: #404E5B;
 
-    border-radius: 50%;
+	border-radius: 50%;
 
-    line-height: 50px;
+	line-height: 50px;
 
-    text-align: center;
+	text-align: center;
 
-    font-size: 30px;
+	font-size: 30px;
 
-    margin: 0px auto;
+	margin: 0px auto;
 
-    text-decoration: none;
+	text-decoration: none;
 
-    color: #CEC4A4;
+	color: #CEC4A4;
 
-    background-size: auto 330%;
+	background-size: auto 330%;
 
 }
 
 
-
 #felicidades {
 
-  display: none;
+	display: none;
 
 }
 
@@ -232,7 +228,7 @@ body {
 
 	height: 305px;
 
-	margin: 90px;
+	margin: 50px; /*antes 90*/
 
 	background-image: url("../assets/img/actividades/memoramas/titofeliz.png");
 
@@ -243,61 +239,67 @@ body {
 }
 
 #datosDer {
+	float: right;
+	width: 370px;
 
-  padding-top: 100px;
+	padding-top: 100px; /*100*/
 
-  text-align: center;
+	text-align: center;
 
-  color: #fff;
+	color: #fff;
 
-  text-shadow: 2px 2px rgba(0,0,0,0.2);
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 
-  margin-right: 90px;
+	margin-right: 0px; /*90*/
 
 }
 
 #titomemoramas {
 
-  width: 200px;
+	width: 200px;
 
-  height: 390px;
+	height: 390px;
 
-  background-position: 50% 50%;
+	background-position: 50% 50%;
 
-  margin: 0 auto;
+	margin: 0 auto;
 
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
 
-  background-image: url(../assets/img/actividades/memoramas/titomemorama.png);
+	background-image: url(../assets/img/actividades/memoramas/titomemorama.png);
 
 }
 
 #puntos {
 
-  display: none;
+	display: none;
 
 }
 
 
+.selected a {
 
-.selected a{
+	background-color: #942829 !important;
 
-  background-color: #942829!important;
-
-  color: #CEC4A4!important;
+	color: #CEC4A4 !important;
 
 }
 
 
+.selected p {
 
-.selected p{
-
-  color: #942829!important;
+	color: #942829 !important;
 
 }
 
 #maestro {
 
-  display: none;
+	display: none;
 
+}
+
+
+footer {
+	position: fixed !important; /* AXO */
+	bottom: 0;
 }

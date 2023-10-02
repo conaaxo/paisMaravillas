@@ -1,0 +1,1129 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	position: relative;
+	background-color: #a8dbd6;
+
+}
+
+.margen {
+	position: relative;
+}
+
+.fondoimg {
+	width: 100%;
+	margin: 0;
+}
+
+.fondoimg img {
+	width: 100%;
+	height: auto;
+}
+
+.timportante {
+	color: #0b253e;
+	width: 400px;
+}
+
+.animales {
+	font-family: Pangolin, sans-serif !important;
+	background: rgba(0, 0, 0, 0);
+	cursor: pointer;
+}
+
+.textoecosistemas {
+	margin-top: 180px;
+	width: 700px;
+	color: #33866C;
+}
+
+section {
+	overflow: hidden;
+}
+
+/*MODAL*/
+#modal {
+	display: none;
+	width: 900px;
+	height: 430px;
+	top: 30%;
+	left: 15%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 9999;
+	position: fixed;
+
+}
+
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url(../assets/img/iconoscerrar.png);
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
+
+
+.modalfoto img {
+	width: 400px;
+	height: 392px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+.modalicon img {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+
+.modalNombre {
+	color: #FFF;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-top: 18px;
+	font-size: 22px;
+}
+
+.modalTexto {
+	color: #FFF;
+	position: relative;
+	display: inline-block;
+	margin-top: -10px;
+	width: 450px;
+}
+
+.modalVideo {
+	width: 320px;
+	height: 240px;
+	margin: -363px auto;
+	background-color: rgba(0, 0, 0, 0.0);
+	border: 0px solid #000;
+	position: relative;
+	display: none;
+}
+
+.modalVideo video {
+	position: absolute;
+	width: 320px;
+	height: 240px;
+	margin: 0px auto;
+	cursor: move;
+}
+
+.modalbtn {
+	display: none;
+
+}
+
+.modalbtn ul {
+	float: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.modalbtn ul li {
+	background-image: url('../assets/img/iconosmultimedia.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0px;
+	position: absolute;
+	bottom: 2px;
+	width: 40px;
+	height: 39px;
+	left: 10px;
+}
+
+.modalbtn ul li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.modalbtn ul li#maudio {
+	background-position: -46px 0px;
+}
+
+.modalbtn ul li#mvideo {
+	background-position: -82px -60px;
+	width: 57px;
+	left: 52px;
+}
+
+.modalbtn ul li#msonido {
+	background-position: -37px -59px;
+	width: 50px;
+	left: 105px;
+}
+
+.modalbtn ul li#mlibro {
+	background-image: url(../assets/img/libros.png);
+	width: 57px;
+	left: 112px;
+}
+
+.modalbtn ul li#maudio:hover {
+	background-position: 0px 0px;
+}
+
+.modalbtn ul li#mvideo:hover {
+	background-position: -82px 2px;
+	width: 57px;
+	left: 52px;
+}
+
+.modalbtn ul li#mlibro:hover {
+	background-image: url(../assets/img/libros_over.png);
+	width: 57px;
+	left: 112px;
+}
+
+.modalbtn ul li#msonido:hover {
+	background-position: 10px -59px;
+	width: 57px;
+	left: 105px;
+}
+
+.ri {
+	color: #F47F31;
+}
+
+.rni {
+	color: #60B1BA !important;
+}
+
+.rfn {
+	color: #63B74F;
+}
+
+.im {
+	color: #EF4B3A;
+}
+
+#overlay {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9000;
+}
+
+/*MODAL*/
+
+.verdesText {
+	position: relative;
+	text-align: center;
+	line-height: 23px;
+	font-size: 20px;
+	padding-top: 10%;
+	color: #0B4647;
+	width: 700px;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+	background-image: url("assets/img/logoinvasoras.png");
+	margin-top: -17%;
+	position: relative;
+	background-size: 100%;
+	left: 12%;
+}
+
+
+/*invasoras*/
+#invasoras {
+	margin: 0;
+	padding-top: 80px;
+	background-color: #8ED1C9;
+	position: relative;
+}
+
+#invasoras img {
+	width: 100%;
+}
+
+#invasoras .margen article {
+	margin: 0 auto;
+	width: 700px;
+	height: auto;
+	position: relative;
+}
+
+#invasoras article p {
+	width: 700px;
+	margin-top: -10px;
+}
+
+#invasoras h2 {
+	text-align: center;
+}
+
+/*#invasoras .margen article img{
+	display: inline-block;
+	position: absolute;
+	z-index: 650;
+	width: 600px;
+}*/
+
+#rutas {
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+
+
+/*RUTAS*/
+
+#intencional {
+	position: absolute;
+	top: 40%;
+	right: 85%;
+	width: 11%;
+	height: 61%;
+}
+
+#nintencional {
+	position: absolute;
+	top: 40%;
+	right: 67%;
+	width: 11%;
+	height: 61%;
+}
+
+#fnaturales {
+	position: absolute;
+	top: 40%;
+	right: 50%;
+	width: 11%;
+	height: 61%;
+}
+
+/*IMPACTO*/
+
+#impacto {
+	position: absolute;
+	top: 40%;
+	right: 13%;
+	width: 11%;
+	height: 61%;
+}
+
+
+#polizon {
+	position: absolute;
+	top: 18%;
+	right: 31%;
+	width: 7%;
+	height: 5%;
+}
+
+#contaminantes {
+	position: absolute;
+	top: 14.5%;
+	right: 61%;
+	width: 7%;
+	height: 5%;
+}
+
+#corredores {
+	position: absolute;
+	top: 29%;
+	right: 76%;
+	width: 8%;
+	height: 5%;
+}
+
+#dispersion {
+	position: absolute;
+	top: 88%;
+	right: 21.5%;
+	width: 7%;
+	height: 5%;
+}
+
+#economia {
+	position: absolute;
+	top: 43%;
+	right: 33%;
+	width: 8%;
+	height: 5%;
+}
+
+#ornamento {
+	position: absolute;
+	top: 37%;
+	right: 10%;
+	width: 8%;
+	height: 5%;
+}
+
+#ecosistema {
+	position: absolute;
+	top: 50%;
+	right: 78%;
+	width: 9%;
+	height: 7%;
+}
+
+#usos {
+	position: absolute;
+	top: 61%;
+	right: 78%;
+	width: 9%;
+	height: 5%;
+}
+
+#social {
+	position: absolute;
+	top: 56%;
+	right: 31%;
+	width: 6%;
+	height: 5%;
+}
+
+#mascotas {
+	position: absolute;
+	top: 57%;
+	right: 52%;
+	width: 7%;
+	height: 5%;
+}
+
+#liberacion {
+	position: absolute;
+	top: 79%;
+	right: 22.5%;
+	width: 7%;
+	height: 5%;
+}
+
+#plagas {
+	position: absolute;
+	top: 80%;
+	right: 77.5%;
+	width: 7%;
+	height: 5%;
+}
+
+#biodiversidad {
+	position: absolute;
+	top: 85.5%;
+	right: 49%;
+	width: 7%;
+	height: 5%;
+}
+
+#escape {
+	position: absolute;
+	top: 70%;
+	right: 28.5%;
+	width: 7%;
+	height: 5%;
+}
+
+#salud {
+	position: absolute;
+	top: 29%;
+	right: 51.5%;
+	width: 7%;
+	height: 5%;
+}
+
+#fondoinvasoras img {
+	margin-top: 1px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: relative;
+}
+
+#layer0invasoras {
+	position: absolute;
+	margin-top: -500px;
+	z-index: 500;
+	width: 100%;
+}
+
+#layer2selva {
+	position: absolute;
+	z-index: 660;
+	width: 80%
+}
+
+#layer2selva img {
+	bottom: 0;
+	transform: translateX(-20%);
+	-webkit-transform: translateX(-20%);
+	-o-transform: translateX(-20%);
+	-moz-transform: translateX(-20%);
+	-ms-transform: translateX(-20%);
+	position: absolute;
+	width: 50%;
+}
+
+#layer2_2selva {
+	position: absolute;
+	z-index: 660;
+	width: 80%
+}
+
+#layer2_2selva img {
+	bottom: 0;
+	transform: translateX(160%);
+	-webkit-transform: translateX(160%);
+	-o-transform: translateX(160%);
+	-moz-transform: translateX(160%);
+	-ms-transform: translateX(160%);
+	position: absolute;
+	width: 50%;
+}
+
+/*bosquenublado*/
+#bosquenublado {
+	margin: 0;
+	padding-top: 400px;
+	background-color: #C29484;
+	position: relative;
+}
+
+#bosquenublado p {
+	color: #FFF;
+}
+
+/*#bosquenublado img{
+	width: 100%;
+}
+*/
+#bosquenublado .margen article {
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+
+#bosquenublado h2 {
+	color: #FFF;
+	margin: 0;
+}
+
+#bosquenublado .margen article img {
+	display: inline-block;
+	position: absolute;
+	z-index: 100;
+	width: 300px;
+}
+
+#animalesbosquenublado {
+	margin-top: 500px;
+	bottom: 0;
+	position: absolute;
+	z-index: 3000;
+	width: 100%;
+}
+
+#fondobosquenublado img {
+	margin-top: 500px;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: relative;
+	z-index: 2000;
+}
+
+#nube22 {
+	position: absolute;
+	top: 47px;
+	right: 10%;
+	width: 80%;
+	display: block !important;
+	z-index: 5000;
+}
+
+#nube2 {
+	position: absolute;
+	top: 547px;
+	right: -3%;
+	width: 80%;
+	display: block !important;
+	z-index: 5500;
+}
+
+#nube3 {
+	position: absolute;
+	top: 4099px;
+	right: 50px;
+	width: 80%;
+	display: block !important;
+	z-index: 6500;
+}
+
+#quetzal {
+	position: absolute;
+	top: 38%;
+	right: 50%;
+	width: 6%;
+	height: 21%;
+}
+
+#osohormiguero {
+	position: absolute;
+	top: 69%;
+	right: 36%;
+	width: 10%;
+	height: 9%;
+}
+
+#pavon {
+	position: absolute;
+	top: 21%;
+	right: 26%;
+	width: 12%;
+	height: 22%;
+}
+
+#aracari {
+	position: absolute;
+	top: 23%;
+	right: 41%;
+	width: 5%;
+	height: 10%;
+}
+
+#cometa {
+	position: absolute;
+	top: 39%;
+	right: 39%;
+	width: 5%;
+	height: 9%;
+}
+
+#tigrillo {
+	position: absolute;
+	top: 69%;
+	right: 22%;
+	width: 10%;
+	height: 21%;
+}
+
+#magnolia {
+	position: absolute;
+	top: 58%;
+	right: 39%;
+	width: 10%;
+	height: 11%;
+}
+
+#viejo {
+	position: absolute;
+	top: 85%;
+	right: 41%;
+	width: 11%;
+	height: 9%;
+}
+
+#tlaconete {
+	position: absolute;
+	top: 77%;
+	right: 61%;
+	width: 11%;
+	height: 8%;
+}
+
+#nauyaca {
+	position: absolute;
+	top: 60%;
+	right: 55%;
+	width: 11%;
+	height: 10%;
+}
+
+#bromelian {
+	position: absolute;
+	top: 36%;
+	right: 64%;
+	width: 9%;
+	height: 22%;
+}
+
+#helecho {
+	position: absolute;
+	top: 47%;
+	right: 13%;
+	width: 12%;
+	height: 24%;
+}
+
+#titulo {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#titulo img {
+
+	width: 630px;
+	height: auto;
+}
+
+
+.title-como-llegan-al-pais {
+	max-width: 800px;
+	width: 100%;
+	height: 200px;
+	margin: auto;
+	background: url(../invasoras/assets/img/comollegan/como-llegan-al-pais.png);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: 50% 50%;
+}
+
+
+.indicadores-img {
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+	background: url(../invasoras/assets/img/comollegan/indicadores.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 50% 50%;
+	position: relative;
+
+	font-family: Pangolin, sans-serif !important;
+}
+
+
+.row80 {
+	display: block;
+	max-width: 1200px;
+	margin: auto !important;
+	width: 80% !important;
+}
+
+.cd-main-content a {
+	color: #266044 !important;
+	text-decoration: none;
+}
+
+
+/* modal */
+#modal {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 9999;
+	position: fixed;
+}
+
+.back {
+	width: 40px;
+	height: 40px;
+	background-image: url(../assets/img/iconoscerrar.png);
+	background-size: auto 100%;
+	z-index: 10;
+	right: -8px;
+	position: absolute;
+	top: -9px;
+	cursor: pointer;
+}
+
+
+.modalfoto img {
+	display: inline-block;
+	float: left;
+}
+
+.modalNombre {
+	color: #FFF;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+
+.modalTexto {
+	color: #FFF;
+	position: relative;
+	display: inline-block;
+}
+
+
+@media (max-width: 575px) {
+	.indicadores-img {
+		width: 100%;
+		height: 120px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	.title-como-llegan-al-pais {
+		height: 80px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+
+	/* modal */
+	#modal {
+		width: 300px;
+		height: 555px;
+		top: 15%;
+		left: 15%;
+	}
+
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 300px;
+		height: 292px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: .9em;
+		display: inline-block;
+	}
+
+	.modalTexto {
+		margin-top: 0px;
+		margin-left: 20px;
+		width: 260px;
+		font-size: .6em;
+		line-height: 1.5em;
+	}
+
+	/* modal */
+
+}
+
+
+@media (min-width: 576px) {
+	.indicadores-img {
+		width: 100%;
+		height: 180px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal {
+		width: 550px;
+		height: 380px;
+		top: 30%;
+		left: 15%;
+	}
+
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 200px;
+		height: 192px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: .9em;
+		display: inline-block;
+	}
+
+	.modalTexto {
+		margin-top: 0px;
+		width: 260px;
+		font-size: .7em;
+		line-height: 1.5em;
+	}
+
+	/* modal */
+	.title-como-llegan-al-pais {
+		height: 120px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+}
+
+@media (min-width: 768px) {
+	.indicadores-img {
+		width: 100%;
+		height: 250px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal {
+		width: 750px;
+		height: 430px;
+		top: 30%;
+		left: 15%;
+	}
+
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 300px;
+		height: 292px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: 22px;
+		display: inline-block;
+	}
+
+	.modalTexto {
+		margin-top: 0px;
+		width: 350px;
+		font-size: .85em;
+	}
+
+	/* modal */
+	.title-como-llegan-al-pais {
+		height: 180px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.indicadores-img {
+		width: 100%;
+		height: 300px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal {
+		width: 900px;
+		height: 430px;
+		top: 30%;
+		left: 15%;
+	}
+
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 400px;
+		height: 392px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: 22px;
+	}
+
+	.modalTexto {
+		margin-top: -10px;
+		width: 450px;
+		font-size: 1em;
+	}
+
+	/* modal */
+	.title-como-llegan-al-pais {
+		height: 220px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+
+}
+
+@media (min-width: 1200px) {
+	.indicadores-img {
+		width: 100%;
+		height: 400px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+
+	/* modal */
+	#modal {
+		width: 900px;
+		height: 430px;
+		top: 30%;
+		left: 15%;
+	}
+
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 400px;
+		height: 392px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: 22px;
+	}
+
+	.modalTexto {
+		margin-top: -10px;
+		width: 450px;
+		font-size: 1em;
+	}
+
+	/* modal */
+	.title-como-llegan-al-pais {
+		height: 240px;
+		background-size: 80%;
+		background-position: 50% 50%;
+	}
+
+
+}
+
+@media (min-width: 1400px) {
+	.indicadores-img {
+		width: 100%;
+		height: 400px;
+		margin-top: 0px;
+		background: url(../invasoras/assets/img/comollegan/indicadores.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 50% 50%;
+		position: relative;
+	}
+
+	/* modal */
+	#modal {
+		width: 900px;
+		height: 430px;
+		top: 30%;
+		left: 15%;
+	}
+
+	.back {
+		width: 40px;
+		height: 40px;
+		background-image: url(../assets/img/iconoscerrar.png);
+		background-size: auto 100%;
+		z-index: 10;
+		right: -8px;
+		position: absolute;
+		top: -9px;
+		cursor: pointer;
+	}
+
+	.modalfoto img {
+		width: 400px;
+		height: 392px;
+		margin-right: 20px;
+	}
+
+	.modalNombre {
+		color: #FFF;
+		margin-top: 18px;
+		font-size: 22px;
+	}
+
+	.modalTexto {
+		margin-top: -10px;
+		width: 450px;
+		font-size: 1em;
+	}
+
+	/* modal */
+	.title-como-llegan-al-pais {
+		height: 210px;
+		background-size: 80%;
+		background-position: 50% 70%;
+	}
+
+
+}

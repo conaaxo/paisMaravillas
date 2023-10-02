@@ -1,9 +1,9 @@
 {
-    "description": "Some description",
-    "directory": "gallery-04",
-    "completed": false,
-    "questions" : [
-    ],
-    "gallery": [
-    ]
+  "description": "Some description",
+  "directory": "gallery-04",
+  "completed": false,
+  "questions": [
+  ],
+  "gallery": [
+  ]
 }
