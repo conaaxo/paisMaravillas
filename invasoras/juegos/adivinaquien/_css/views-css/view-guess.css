@@ -342,7 +342,7 @@
 
 .guess-lists-holder .guess-notifications-list.show {
 	display: block;
-	font-size: .85em !important;
+	font-size: .75em !important;
 }
 
 .guess-lists-holder .guess-notifications-list * {
@@ -367,7 +367,6 @@
 .guess-lists-holder .guess-notifications-list .title {
 	display: block;
 	text-align: center;
-	font-size: 1.4em;
 }
 
 .guess-lists-holder .guess-notifications-list p {
