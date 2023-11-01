@@ -148,7 +148,7 @@ function unalign() {
 
 function endActivity() {
     timer.stop();
-    $('#espacioTarjetas').html('<div id="felicidades"><div class="titoFeliz"></div><div id="datosDer"><h2>�Felicidades!</h2><p>Tu tiempo con ' + placeholderCount + ' piezas fue de</p><p id="resulTiempo">00:00</p><button id="nextlvl" class="btn" type="button">Siguiente nivel</button></div></div>');
+    $('#espacioTarjetas').html('<div id="felicidades"><div class="titoFeliz"></div><div id="datosDer"><h2>¡Felicidades!</h2><p>Tu tiempo con ' + placeholderCount + ' piezas fue de</p><p id="resulTiempo">00:00</p><button id="nextlvl" class="btn" type="button">Siguiente nivel</button></div></div>');
     $('#resulTiempo').html($('#numbers').html());
     $('#felicidades').show();
     $('#nextlvl').off('click');

@@ -163,11 +163,14 @@ body {
 
 #datosDer {
 	padding-top: 100px;
-	text-align: center;
-	color: #fff;
-	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-	margin-right: 90px;
-}
+	padding-top: 100px;
+	  text-align: center;
+	  color: #fff;
+	  text-shadow: 2px 2px rgba(0,0,0,0.2);
+	  margin-right: 0px;
+	  width: 200px;
+	  float: left;
+		}
 
 #titomemoramas {
 	width: 200px;
@@ -249,3 +252,104 @@ footer {
 	position: fixed !important; /*  */
 	bottom: 0;
 }
+
+
+@media only screen and (max-width: 754px) {
+  
+	#espacioTarjetas {
+  
+	  width: 360px;
+	  height: 450px;
+	  background-color: #aecd7d;
+	  border-radius: 8px;
+	  margin: 0 auto;
+	  margin-top: 20px;
+	  clear: both;
+	  
+	}
+  
+	
+	.crop {
+	  overflow: hidden;
+	  width: 345px;
+	  height: 210px;
+	  -webkit-border-radius: 8px;
+	  border-radius: 8px;
+	  margin: 0 auto 30px;
+	}
+  
+  
+	#menuCirculo ul {
+	  padding: 0;
+	  margin: 0 auto;
+	  width: 360px;
+	}
+  
+	#menuCirculo ul li{
+	  margin-left: 12px;
+	  margin-right: 12px;
+	}
+  
+	#dataRow {
+	  width: 355px;
+	  margin: 60px auto 0px;
+	  text-align: right;
+	
+	}
+  
+	#datosDer {
+		width: 355px !important;
+		text-align: center;
+		color: #fff;
+		text-shadow: 2px 2px rgba(0,0,0,0.2);
+		margin-right: 90px;
+		padding-top: 50px !important;
+	}
+
+	#nextlvl{
+		width: 235px;
+		margin: auto !important;
+	}	
+
+	#espacioTarjetas .board {
+	  width: 360px;  
+	}
+
+	#espacioTarjetas .board .placeholder{
+	  width: 345px;
+	  height: 265px;  
+	}
+  
+	.titoFeliz {
+	  display: block;
+	  width: 100%;
+	  height: 150px;
+	  margin: 10px auto;
+	  background-image: url("../assets/img/actividades/memoramas/titofeliz.png");
+	  background-position: center; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: contain;
+	  clear: both;
+	}
+
+
+	#espacioTarjetas #titocolorear {
+		width: 130px;
+		height: 190px;
+		background-position: 50% 50%;
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		background-image: url(../assets/img/actividades/colorear/titocolorear.png);
+		background-size: cover;
+	}
+
+
+	#jugar {
+		margin: 200px 116px;
+  
+  }
+}
+
+#datosDer h2 {
+	font-size: 2em;
+  }

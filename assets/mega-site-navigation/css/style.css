@@ -33,19 +33,19 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @media only screen and (max-width: 1169px) {
 	.cd-main-content.nav-is-visible, .cd-main-header.nav-is-visible {
-		-webkit-transform: translateX(-260px);
-		-moz-transform: translateX(-260px);
-		-ms-transform: translateX(-260px);
-		-o-transform: translateX(-260px);
-		transform: translateX(-260px);
+		-webkit-transform: translateX(-300px);
+		-moz-transform: translateX(-300px);
+		-ms-transform: translateX(-300px);
+		-o-transform: translateX(-300px);
+		transform: translateX(-300px);
 	}
 
 	.nav-on-left .cd-main-content.nav-is-visible, .nav-on-left .cd-main-header.nav-is-visible {
-		-webkit-transform: translateX(260px);
-		-moz-transform: translateX(260px);
-		-ms-transform: translateX(260px);
-		-o-transform: translateX(260px);
-		transform: translateX(260px);
+		-webkit-transform: translateX(300px);
+		-moz-transform: translateX(300px);
+		-ms-transform: translateX(300px);
+		-o-transform: translateX(300px);
+		transform: translateX(300px);
 	}
 }
 
@@ -116,7 +116,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	position: absolute;
 	display: inline-block;
 	top: 3px;
-	right: 5%;
+	right: 2%;
 }
 
 .cd-header-buttons li {
@@ -143,6 +143,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .cd-search-trigger, .cd-nav-trigger {
 	position: relative;
+	float: right;
 	display: block;
 	width: 44px;
 	height: 44px;
@@ -359,10 +360,10 @@ input[type="search"]::-webkit-search-results-decoration {
 	position: fixed;
 	top: 0;
 	right: 0;
-	height: 295px;
-	width: 260px;
+	height: 100%;
+	width: 300px;
 	background: #2e3233;
-	overflow: auto;
+	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
 	z-index: 99;
 	/* Force Hardware Acceleration in WebKit */
@@ -405,6 +406,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
+	text-decoration-line: none;
 }
 
 .cd-primary-nav.is-hidden, .cd-primary-nav ul.is-hidden {
@@ -1202,4 +1204,36 @@ support for no js
 .cd-primary-nav .cd-secondary-nav #hr-top-menu {
 	border: 1px solid rgb(196, 196, 196);
 	margin: 7px 0 7px 0;
+}
+
+
+
+
+@media only screen and (max-width: 1169px) {
+	.submenu-small{
+		font-size: .88em;
+	}
+}
+
+@media only screen and (min-width: 1170px) {
+	.logo-inicio{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1169px) {
+	.container-leaf{
+		float: left;
+		width: 100%;
+	}
+	
+	.container-leaf .logo-inicio{
+		display: block;
+		background-image: url("../../img/home/small_logo.png"); 
+		background-size: 90%;
+		background-repeat: no-repeat;
+		width: 35px;
+		height: 35px;
+		position: relative !important;
+		margin: 10px auto !important;
+	}
 }

@@ -1,505 +1,665 @@
 body {
 
-	background-image: repeating-linear-gradient(
-					-45deg,
-					#eacb72 0px,
-					#eacb72 3px,
-					#e6c66a 3px,
-					#e6c66a 6px
-	);
-}
-
-#dataRow {
-
+	background-image: 
+	  repeating-linear-gradient(
+		-45deg,
+		#eacb72 0px,
+		#eacb72 3px,
+		#e6c66a 3px,
+		#e6c66a 6px
+	  )
+	;
+	}
+  
+  #dataRow {
+  
 	width: 700px;
-
+  
 	margin: 130px auto 0px;
-
+  
 	text-align: right;
-
-}
-
-#dataRow > div {
-
+  
+  }
+  
+  #dataRow > div {
+  
 	display: inline-block;
-
-}
-
-#ecosistema {
-
+  
+  }
+  
+  #ecosistema {
+  
 	clear: both;
-
-}
-
-#espacioTarjetas {
-
+  
+  }
+  
+  #espacioTarjetas {
+  
 	width: 700px;
-
+  
 	height: 500px;
-
+  
 	background-color: #efc342;
-
+  
 	border-radius: 8px;
-
+  
 	margin: 0 auto;
-
+  
 	margin-top: 20px;
-
+  
 	position: relative;
-
+  
 	overflow: hidden;
-
-}
-
-
-.swiffy {
-
+  
+  }
+  
+  
+  
+  .swiffy {
+  
 	position: relative;
-
+  
 	margin: 0px;
-
+  
 	width: 760px;
-
+  
 	height: 600px;
-
+  
 	left: -36px;
-
+  
 	top: -63px;
-
-}
-
-
-/*.swiffy div {
-
-  position: absolute;
-
-  left: -35px;
-
-  top: -33px;
-
-}
-
-*/
-
-.crop {
-
-	overflow: hidden;
-
-	width: 700px;
-
-	height: 416px;
-
-	border-radius: 8px;
-
-	margin: 0 auto;
-
-}
-
-
-.hidereset {
-
-	width: 80px;
-
-	height: 105px;
-
-	background-color: #FFC751;
-
+  
+  }
+  
+  
+  
+  /*.swiffy div {
+  
 	position: absolute;
-
-	z-index: 999999;
-
-	right: 0;
-
-	bottom: 43px;
-
-}
-
-#ecoName {
-
-	background-image: url(../assets/img/actividades/memoramas/ecoback.png);
-
-	background-size: auto 40px;
-
-	height: 40px;
-
-	width: 154px;
-
-	line-height: 35px;
-
-	text-align: center;
-
-	font-size: 14px;
-
-	color: #f5fcf6;
-
-}
-
-.niveles {
-
-	float: left;
-
-}
-
-.niveles > div {
-
-	background-image: url(../assets/img/actividades/memoramas/ecoback.png);
-
-	background-size: auto 40px;
-
-	height: 40px;
-
-	width: 113px;
-
-	line-height: 35px;
-
-	text-align: center;
-
-	font-size: 14px;
-
-	color: #f5fcf6;
-
-	display: inline-block;
-
-	padding-left: 9px;
-
-	cursor: pointer;
-
-}
-
-#showTime {
-
-	background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
-
-	background-color: #942824;
-
-	background-size: auto 40px;
-
-	height: 40px;
-
-	width: 113px;
-
-	line-height: 35px;
-
-	text-align: center;
-
-	font-size: 14px;
-
-	color: #f5fcf6;
-
-}
-
-#numbers {
-
-	background-color: #fcf1c8;
-
-	color: #404e5b;
-
-	padding: 3px;
-
-	line-height: 39px;
-
-}
-
-.tarjeton {
-
-	background-image: url(../assets/img/actividades/memoramas/vuelta.jpg);
-
-	border: 2px solid #3F4F59;
-
+  
+	left: -35px;
+  
+	top: -33px;
+  
+  }
+  
+  */
+  
+  .crop {
+  
+	overflow: hidden;
+  
+	width: 700px;
+  
+	height: 416px;
+  
 	border-radius: 8px;
-
-	width: 101px;
-
-	height: 131px;
-
-	float: left;
-
-	cursor: pointer;
-
-	background-size: cover;
-
-	margin-left: 10px;
-
-	margin-top: 10px;
-
-}
-
-#lid {
-
-	position: fixed;
-
-	left: 0;
-
-	top: 0;
-
-	width: 100%;
-
-	height: 100%;
-
-	background-color: transparent;
-
-	display: none;
-
-}
-
-#menuCirculo {
-
-	margin-top: 10px;
-	margin-bottom: 180px;
-
-}
-
-#menuCirculo ul {
-
-	padding: 0;
-
+  
 	margin: 0 auto;
-
-	width: 480px;
-
-}
-
-
-#menuCirculo ul li {
-
+  
+  }
+  
+  
+  
+  .hidereset {
+  
+	width: 80px;
+  
+	height: 105px;
+  
+	background-color: #FFC751;
+  
+	position: absolute;
+  
+	z-index: 999999;
+  
+	right: 0;
+  
+	bottom: 43px;
+  
+  }
+  
+  #ecoName {
+  
+	background-image: url(../assets/img/actividades/memoramas/ecoback.png);
+  
+	background-size: auto 40px;
+  
+	height: 40px;
+  
+	width: 154px;
+  
+	line-height: 35px;
+  
+	text-align: center;
+  
+	font-size: 14px;
+  
+	color: #f5fcf6;
+  
+  }
+  
+  .niveles {
+  
+	float: left;
+  
+  }
+  
+  .niveles > div {
+  
+	background-image: url(../assets/img/actividades/memoramas/ecoback.png);
+  
+	background-size: auto 40px;
+  
+	height: 40px;
+  
+	width: 113px;
+  
+	line-height: 35px;
+  
+	text-align: center;
+  
+	font-size: 14px;
+  
+	color: #f5fcf6;
+  
 	display: inline-block;
-
+  
+	padding-left: 9px;
+  
+	cursor: pointer;
+  
+  }
+  
+  #showTime {
+  
+	background-image: url(../assets/img/actividades/memoramas/lineastiempo.png);
+  
+	background-color: #942824;
+  
+	background-size: auto 40px;
+  
+	height: 40px;
+  
+	width: 113px;
+  
+	line-height: 35px;
+  
+	text-align: center;
+  
+	font-size: 14px;
+  
+	color: #f5fcf6;
+  
+  }
+  
+  #numbers{
+  
+	background-color: #fcf1c8;
+  
+	color: #404e5b;
+  
+	padding: 3px;
+  
+	line-height: 39px;
+  
+  }
+  
+  .tarjeton {
+  
+	background-image: url(../assets/img/actividades/memoramas/vuelta.jpg);
+  
+	border: 2px solid #3F4F59;
+  
+	border-radius: 8px;
+  
+	width: 101px;
+  
+	height: 131px;
+  
+	float: left;
+  
+	cursor: pointer;
+  
+	background-size: cover;
+  
+	margin-left: 10px;
+  
+	margin-top: 10px;
+  
+  }
+  
+  #lid {
+  
+	position: fixed;
+  
+	left: 0;
+  
+	top: 0;
+  
+	width: 100%;
+  
+	height: 100%;
+  
+	background-color: transparent;
+  
+	display: none;
+  
+  }
+  
+  #menuCirculo {
+  
+	margin-top: 10px;
+	margin-bottom: 180px; 
+  
+  }
+  
+  #menuCirculo ul {
+  
+	padding: 0;
+  
+	margin: 0 auto;
+  
+	width: 480px;
+  
+  }
+  
+  
+  
+  #menuCirculo ul li {
+  
+	display: inline-block;
+  
 	vertical-align: top;
-
+  
 	width: 60px;
-
+  
 	margin: 0px 5px;
-
-}
-
-
-#menuCirculo ul li p {
+  
+  }
+  
+  
+  
+  #menuCirculo ul li p{
 	text-align: center;
 	color: #404e5b;
 	font-size: 14px;
 	line-height: 1.5rem;
-
-}
-
-
-#menuCirculo .circulo {
-
+  
+  }
+  
+  
+  
+  #menuCirculo .circulo {
+  
 	display: block;
-
+  
 	width: 50px;
-
+  
 	height: 50px;
-
+  
 	border: none;
-
+  
 	background-image: url(../assets/img/botonescosistemas.png);
-
+  
 	background-color: #404e5b;
-
+  
 	border-radius: 50%;
-
+  
 	line-height: 50px;
-
+  
 	text-align: center;
-
+  
 	font-size: 30px;
-
+  
 	margin: 0 auto;
-
+  
 	text-decoration: none;
-
+  
 	color: #cec4a4;
-
+  
 	background-size: auto 330%;
-
-}
-
-
-#felicidades {
-
+  
+  }
+  
+  
+  
+  #felicidades {
+  
 	display: none;
-
-}
-
-.titoFeliz {
-
+  
+  }
+  
+  .titoFeliz {
+  
 	float: left;
-
+  
 	width: 225px;
-
+  
 	height: 305px;
-
+  
 	margin: 90px;
-
+  
 	background-image: url("../assets/img/actividades/memoramas/titofeliz.png");
-
+  
 	background-size: 90%;
-
+  
 	background-repeat: no-repeat;
-
-}
-
-#datosDer {
-
+  
+  }
+  
+  #datosDer {
+  
 	padding-top: 100px;
-
+  
 	text-align: center;
-
+  
 	color: #fff;
-
-	text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
-
+  
+	text-shadow: 2px 2px rgba(0,0,0,0.2);
+  
 	margin-right: 90px;
-
-}
-
-#titomemoramas {
-
+  
+  }
+  
+  #titomemoramas {
+  
 	width: 200px;
-
+  
 	height: 390px;
-
+  
 	background-position: 50% 50%;
-
+  
 	margin: 0 auto;
-
+  
 	background-repeat: no-repeat;
-
+  
 	background-image: url(../assets/img/actividades/rompecabezas/titorompecabezas.png);
-
-}
-
-.selected a {
-
-	background-color: #942829 !important;
-
-	color: #CEC4A4 !important;
-
-}
-
-.selected p {
-
-	color: #942829 !important;
-
-}
-
-.board {
-
+  
+  }
+  
+  .selected a{
+  
+	background-color: #942829!important;
+  
+	color: #CEC4A4!important;
+  
+  }
+  
+  .selected p{
+  
+	color: #942829!important;
+  
+  }
+  
+  .board {
+  
 	position: absolute;
-
+  
 	left: 0;
-
+  
 	right: 0;
-
+  
 	width: 700px;
-
+  
 	height: 445px;
-
+  
 	background-color: transparent;
-
-}
-
-.placeholder {
-
+  
+  }
+  
+  .placeholder {
+  
 	position: relative;
-
+  
 	width: 390px;
-
+  
 	height: 300px;
-
+  
 	background-size: 100%;
-
+  
 	margin: 100px auto;
-
-}
-
-
-.placePiece {
-
+  
+  }
+  
+  
+  
+  .placePiece {
+  
 	display: inline-block;
-
+  
 	box-sizing: border-box;
-
+  
 	float: left;
-
-	border: 1px solid rgba(0, 0, 0, 0.2);
-
-}
-
-
-.piece {
-
+  
+	border: 1px solid rgba(0,0,0, 0.2);
+  
+  }
+  
+  
+  
+  .piece {
+  
 	position: absolute;
-
-}
-
-
-.imagepuzzle {
-
+  
+  }
+  
+  
+  
+  .imagepuzzle {
+  
 	display: none;
-
-}
-
-
-.btn {
-
+  
+  }
+  
+  
+  
+  .btn {
+  
 	color: #FFF;
-
+  
 	background-color: #C44343;
-
+  
 	border-color: #C44343;
-
+  
 	display: inline-block;
-
+  
 	padding: 10px 20px;
-
+  
 	font-size: 20px;
-
+  
 	font-weight: 400;
-
+  
 	line-height: 1.42857;
-
+  
 	text-align: center;
-
+  
 	white-space: nowrap;
-
+  
 	vertical-align: middle;
-
+  
 	cursor: pointer;
-
+  
 	display: block;
-
+  
 	border: 1px solid transparent;
-
+  
 	border-radius: 4px;
-
-}
-
-
-#jugar {
-
+  
+  }
+  
+  
+  
+  #jugar {
+  
 	margin: 210px 300px;
-
-}
-
-#maestro {
-
+  
+  }
+  
+  #maestro {
+  
 	display: none;
-
-}
-
-#espacioTarjetas #titocolorear {
+  
+  }
+  
+  #espacioTarjetas #titocolorear {
 	width: 200px;
 	height: 390px;
 	background-position: 50% 50%;
 	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-image: url(../assets/img/actividades/colorear/titocolorear.png);
-}
-
-footer {
-	position: fixed !important;
+  }
+  
+  footer{
+	position: fixed !important; 
 	bottom: 0;
-}
+  }
 
 
+  @media only screen and (min-width: 755px) {
+	#espacioTarjetas {
+	  width: 760px;
+	  height: 600px;
+	  border-radius: 8px;
+	  margin: 0 auto;
+	  margin-top: 20px;
+	}
+  
+  /*
+	.swiffy {
+	  position: relative;
+	  margin: 0px;
+	  width: 760px;
+	  height: 600px;
+	  left: -36px;
+	  top: -63px;
+	}
+	*/
+	
+	#menuCirculo ul {
+		padding: 0;
+		margin: 40px auto;
+		width: 480px;
+	  }
+  
+	.titoFeliz {
+	  display: block;
+	  width: 100%;
+	  height: 150px;
+	  margin: 10px auto;
+	  background-image: url("../assets/img/actividades/memoramas/titofeliz.png");
+	  background-position: center; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: contain;
+	  clear: both;
+  
+  
+	}
+	
+  }
+  
+  @media only screen and (max-width: 754px) {
+  
+	#espacioTarjetas {
+  
+	  width: 360px;
+	 
+	  background-color: #efc342;
+	  border-radius: 8px;
+	  margin: 0 auto;
+	  margin-top: 20px;
+	  clear: both;
+	  
+	}
+  
+	.swiffycontainer {
+	  
+	}
+  
+	.swiffy {
+	  position: relative;
+	  margin: 0px;
+	  width: 377px;
+	  height: 460px;
+	  left: -15px;
+	  top: -115px;
+	  
+	}
+	
+	.crop {
+	  overflow: hidden;
+	  width: 345px;
+	  height: 210px;
+	  -webkit-border-radius: 8px;
+	  border-radius: 8px;
+	  margin: 0 auto 30px;
+	}
+  
+  
+	#menuCirculo ul {
+	  padding: 0;
+	  margin: 0 auto;
+	  width: 280px;
+	}
+  
+	#menuCirculo ul li{
+	  margin-left: 12px;
+	  margin-right: 12px;
+	}
+  
+	#dataRow {
+	  width: 355px;
+	  margin: 60px auto 0px;
+	  text-align: right;
+	
+	}
+  
+	#datosDer {
+	  width: 100% !important;
+	
+	  text-align: center;
+	
+	  color: #fff;
+	
+	  text-shadow: 2px 2px rgba(0,0,0,0.2);
+	
+	  margin-right:0px;
+	
+	}
+	#espacioTarjetas .board {
+	  width: 345px;
+	  
+	  
+	}
+	#espacioTarjetas .board .placeholder{
+	  width: 345px;
+	  height: 265px;
+	  
+	  
+	}
+  
+	.titoFeliz {
+	  display: block;
+	  width: 100%;
+	  height: 150px;
+	  margin: 10px auto;
+	  background-image: url("../assets/img/actividades/memoramas/titofeliz.png");
+	  background-position: center; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: contain;
+	  clear: both;
+	}
+
+
+	#espacioTarjetas #titocolorear {
+		width: 130px;
+		height: 190px;
+		background-position: 50% 50%;
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		background-image: url(../assets/img/actividades/colorear/titocolorear.png);
+		background-size: cover;
+	}
+  
+  }
