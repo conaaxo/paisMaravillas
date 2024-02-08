@@ -12470,3 +12470,21 @@ body {
 	}
 }
 
+
+
+
+@media (max-width: 1080px) {
+	.hidden-small{
+		display: none !important;
+	}
+	
+}
+
+@media (max-width: 680px) {
+	.hidden-medium{
+		display: none !important;
+	}
+	
+}
+
+

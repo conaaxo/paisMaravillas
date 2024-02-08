@@ -2,10 +2,10 @@
 <html lang="es-MX">
 <head>
 	<meta charset="utf-8"/>
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<meta name="description" content="México, país de las maravillas. Sitio web interactivo cuyo objetivo es el acercamiento de los niños al conocimiento de la riqueza natural del país a través de caricaturas, fotografías, videos, juegos y sonidos."/>
 	<meta name="author" content="Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, CONABIO."/>
-	<title>Ciudad | Memorama</title>
+	<title>Selva húmeda | Memorama</title>
 	<!-- jquery del CDN de google -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<!-- Google fonts-->
@@ -17,9 +17,10 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css">
 	<link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
-
-	<link href="css/styles.css" rel="stylesheet"/>
+	<link href="css/style_tablet.css" media="only screen and (max-width:980px)" rel="stylesheet" type="text/css">
+	
 	<!-- animate-->
+	<link href="css/styles.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="assets/mega-site-navigation/css/style.css"> <!-- menu  -->
 	<link href="css/memorama.css" rel="stylesheet" type="text/css">
@@ -34,20 +35,22 @@
 <main class="cd-main-content">
 	<div id="dataRow">
 		<div id="showTime">
-			<span>Tiempo</span>
-			<span id="numbers">00:00</span>
+			<span>Tiempo</span> <span id="numbers">00:00</span>
 		</div>
-		<div id="ecoName">Ciudad</div>
+		<div id="ecoName">Selva</div>
 	</div>
-	<div id="ecosistema" data-name="ciudad"></div>
+	<div id="ecosistema" data-name="selvahumeda"></div>
+	
+
 	<div class="seccion-juegos">
 		<article id="espacioTarjetas">
 		</article>
 	
 		<br>
+	
 		<nav id="menuCirculo">
 			<ul>
-				<li>
+				<li class="selected">
 					<a href="mem_selvah.html" class="circulo">S</a>
 					<p>Selva húmeda</p>
 				</li>
@@ -75,17 +78,22 @@
 					<a href="mem_campo.html" class="circulo">C</a>
 					<p>Campo</p>
 				</li>
-				<li class="selected">
+				<li>
 					<a href="mem_ciudad.html" class="circulo">C</a>
 					<p>Ciudad</p>
 				</li>
 			</ul>
 		</nav>
 	</div>
+
+
+
+	
 	<div id="lid"></div>
 	<div class="bottom-spacer-2"></div>
-</main>
+
 <footer class="footer bg-verdeselva small text-center text-white-50" id="footer"></footer>
+</main>
 <script>
 	$(document).ready(function () {
 		$('header').load('./includes/header.html', function () {

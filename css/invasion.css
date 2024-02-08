@@ -699,16 +699,17 @@ p {
 	}
 
 	#e1 {
-		height: 130rem;
+		height: 165rem;
 	}
 
 	#e2 {
-		height: 125rem;
+		height: 145rem;
 	}
 
 	#e3 {
-		height: 155rem;
+		height: 195rem;
 	}
+	
 }
 
 @media (min-width: 576px) {
